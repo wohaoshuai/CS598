@@ -91,9 +91,9 @@ If you find MedMod useful for your research and applications, please cite using 
 }
 ```
 
-Related Projects
+<!-- Related Projects
 ============
 
 - MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images
   - [Paper](https://arxiv.org/pdf/2207.07027)
-  - [Code](https://github.com/nyuad-cai/MedFuse)
+  - [Code](https://github.com/nyuad-cai/MedFuse) -->
