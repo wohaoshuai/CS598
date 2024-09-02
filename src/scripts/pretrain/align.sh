@@ -5,8 +5,8 @@
 #SBATCH --gres=gpu:a100:1
 
 #SBATCH --job-name align_train_phenotyping
-#SBATCH --output /scratch/se1525/MedMod/src/checkpoints/phenotyping/align/align_train_%j.log
-#SBATCH -e /scratch/se1525/MedMod/src/checkpoints/phenotyping/align/align_train_%j.err
+#SBATCH --output /scratch/se1525/MedMod/src/checkpoints/pretrain/align/align_train_%j.log
+#SBATCH -e /scratch/se1525/MedMod/src/checkpoints/pretrain/align/align_train_%j.err
 
 source activate mml-ssl
 
@@ -21,7 +21,7 @@ python /scratch/se1525/MedMod/src/models/selfsupervised/trainers/align_trainer.p
 --pretrain_type simclr \
 --mode train \
 --fusion_type None \
---save_dir /scratch/se1525/MedMod/src/checkpoints/phenotyping/models \
+--save_dir /scratch/se1525/MedMod/src/checkpoints/pretrain/models \
 --tag align_train_phenotyping \
 # lr = # 0.00006026
 # lr =  0.6026

@@ -1,0 +1,455 @@
+# Import Pytorch 
+import pytorch_lightning as pl
+from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint, Callback, TQDMProgressBar
+from pytorch_lightning.callbacks.early_stopping import EarlyStopping
+from pytorch_lightning import loggers as pl_loggers
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.utils.data as data
+import torch.optim as optim
+import torchvision
+
+# Import other useful libraries
+from sklearn.linear_model import LogisticRegression as LR
+from sklearn.neural_network import MLPClassifier
+from flash.core.optimizers import LARS
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn import metrics
+from sklearn.metrics import roc_auc_score, average_precision_score
+import pickle
+import os
+import numpy as np
+from copy import deepcopy
+from tqdm import tqdm
+import pandas as pd
+import math
+
+# Import custom libraries/functions
+from src.models.encoders import EHRModel, CXRModel
+from src.models.model_utils import load_labels, get_model_performance, get_bin_custom, CustomBins, mean_absolute_percentage_error
+from src.models.fusion_models import Fusion
+
+
+gpu_num=os.environ['CUDA_VISIBLE_DEVICES']
+
+# Set cuda device
+if gpu_num=='0':
+    gpu=[0]
+elif gpu_num=='1':
+    gpu=[1]
+elif gpu_num=='2':
+    gpu=[2]
+elif gpu_num=='3':
+    gpu=[3]
+elif gpu_num=='4':
+    gpu=[4]
+elif gpu_num=='5':
+    gpu=[5]
+elif gpu_num=='6':
+    gpu=[6]
+elif gpu_num=='7':
+    gpu=[7]
+elif gpu_num=='8':
+    gpu=[8]
+else:
+    gpu=['None']
+print('Using {} device...'.format(gpu)) 
+
+       
+class FineTune(pl.LightningModule):
+
+    def __init__(self, args, train_dl):
+                 
+        super().__init__()
+        assert args.temperature > 0.0, 'The temperature must be a positive float!'
+        self.warmup_epochs= 10 #int(0.05*max_epochs) (10 as in SimCLR)
+        self.automatic_optimization = False
+        
+        self.num_train_batches=len(train_dl)
+        self.batch_size=args.batch_size
+        hidden_dim=args.hidden_dim
+        self.args=args
+        self.LABEL_COLUMNS = load_labels(args.task, args.labels_set)
+        self.task = args.task
+        
+        # Load the architecture based on args
+        self.model = Fusion(args)
+        self.load_weights()
+        self.freeze_weights()
+
+    def load_weights(self):
+        # load checkpoint     
+        if self.args.tag == 'eval_epoch':
+            checkpoint = torch.load(self.args.load_state, map_location="cpu")
+        else:
+            checkpoint = torch.load(self.args.load_state)    
+    
+        own_state = self.model.state_dict()
+        own_keys = list(own_state.keys())
+        checkpoint_keys = list(checkpoint['state_dict'].keys())
+        
+        print('Total number of checkpoint params = {}'.format(len(checkpoint_keys)))
+        print('Total number of current model params = {}'.format(len(own_keys)))
+
+        count = 0
+        changed = []
+        for name in own_keys:
+            if name not in checkpoint_keys:
+                # double check if name exists in a different format
+                for x in checkpoint_keys:
+                    if name in x:
+                        param=checkpoint['state_dict'][x]
+                        if isinstance(param, torch.nn.Parameter):
+                            param=param.data
+                        own_state[name].copy_(param)
+                        count+=1
+            else:
+                param=checkpoint['state_dict'][name]
+                if isinstance(param, torch.nn.Parameter):
+                    param=param.data
+                own_state[name].copy_(param)
+                count+=1
+        print('Total number params loaded for model weights = {}'.format(count))
+        
+    def freeze_weights(self):
+        # freeze encoder and projection head for linear eval
+        if 'ehr' not in self.args.fusion_type:
+            print("freezing cxr projection head")
+            self.freeze(self.model.cxr_model_g)
+        if 'cxr' not in self.args.fusion_type: 
+            print("freezing ehr projection head")   
+            self.freeze(self.model.ehr_model_g)
+
+    def freeze(self, model):
+        for p in model.parameters():
+            p.requires_grad = False  
+  
+    
+    def configure_optimizers(self):
+        # optimizer for LE
+        optimizer_adam = optim.AdamW(self.parameters(), lr=self.args.lr) 
+        lr_scheduler_adam = optim.lr_scheduler.MultiStepLR(optimizer_adam,milestones=[int(self.args.epochs*0.6),
+                                                       int(self.args.epochs*0.8)],gamma=0.1)
+        return [optimizer_adam], [lr_scheduler_adam]
+                
+    def logging_status(self, mode):
+        if mode == 'train':
+            on_step=True
+            on_epoch=True
+        else:
+            on_step=False # Report for the sake of naming but it's not useful
+            on_epoch=True
+        return on_step, on_epoch
+    
+    def bce_loss(self, preds, y, mode='train'):
+        
+        if self.args.task=="length-of-stay":
+            loss = nn.CrossEntropyLoss()(preds,y)
+        else:
+            loss = nn.BCELoss()(preds, y)
+        
+        if torch.is_tensor(y):
+            y = y.detach().cpu().numpy()
+            
+        on_step=False
+        on_epoch=True
+        
+        return loss 
+
+    def training_step(self, batch, batch_idx):
+        mode = 'train'
+        opt = self.optimizers()
+        opt.zero_grad()
+        
+        ehr, imgs, y_ehr, y_cxr, seq_lengths, pairs = batch
+        ehr = torch.from_numpy(ehr).float()
+        ehr = ehr.to(self.device)
+        imgs = imgs.to(self.device)
+        output = self.model(x=ehr, seq_lengths=seq_lengths, img=imgs)
+        y_ehr = torch.from_numpy(y_ehr)
+        
+
+        if self.args.labels_set=='radiology':
+            y = y_cxr.float()
+            y = y.to(self.device)
+        else:
+            y = y_ehr.float()
+            y = y.to(self.device)
+
+        preds = output[self.args.fusion_type].squeeze()
+
+        # Compute and log BCE loss
+        if self.args.task == "length-of-stay":
+            # Assuming the loss function is CrossEntropyLoss 
+            y_true_bins = torch.tensor([get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()], dtype=torch.long).to(self.device)
+            loss = self.bce_loss(preds, y_true_bins)
+        else:
+            loss = self.bce_loss(preds, y, mode)
+        self.log(mode+'_loss', loss, on_step=True, on_epoch=True) 
+    
+        # Backpropagate
+        self.manual_backward(loss)
+
+        # Optimizer step
+        opt.step()          
+        
+        return {'loss': loss, 'preds': preds, 'y': y}
+      
+
+    
+    def validation_step(self, batch, batch_idx):
+        mode='val'
+        
+        ehr, imgs, y_ehr, y_cxr, seq_lengths, pairs = batch
+        ehr = torch.from_numpy(ehr).float()
+        ehr = ehr.to(self.device)
+        imgs = imgs.to(self.device)
+        output = self.model(x=ehr, seq_lengths=seq_lengths, img=imgs)
+        y_ehr = torch.from_numpy(y_ehr)
+
+        if self.args.labels_set=='radiology':
+            y = y_cxr.float()
+            y = y.to(self.device)
+        else:
+            y = y_ehr.float()
+            y = y.to(self.device)
+
+        preds = output[self.args.fusion_type].squeeze()
+
+        # Compute and log BCE loss
+        if self.args.task == "length-of-stay":
+            # Assuming the loss function is CrossEntropyLoss 
+            y_true_bins = torch.tensor([get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()], dtype=torch.long).to(self.device)
+            loss = self.bce_loss(preds, y_true_bins)
+        else:
+            loss = self.bce_loss(preds, y, mode)
+        self.log(mode+'_loss', loss, on_step=True, on_epoch=True) 
+        
+        return {'loss': loss, 'preds': preds, 'y': y}    
+        
+    def test_step(self, batch, batch_idx):
+        mode='test'
+        
+        ehr, imgs, y_ehr, y_cxr, seq_lengths, pairs = batch
+        ehr = torch.from_numpy(ehr).float()
+        ehr = ehr.to(self.device)
+        imgs = imgs.to(self.device)
+        output = self.model(x=ehr, seq_lengths=seq_lengths, img=imgs)
+        y_ehr = torch.from_numpy(y_ehr)
+
+        if self.args.labels_set=='radiology':
+            y = y_cxr.float()
+            y = y.to(self.device)
+        else:
+            y = y_ehr.float()
+            y = y.to(self.device)
+
+        preds = output[self.args.fusion_type].squeeze()
+        
+        # Compute and log BCE loss
+        if self.args.task == "length-of-stay":
+            # Assuming the loss function is CrossEntropyLoss 
+            y_true_bins = torch.tensor([get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()], dtype=torch.long).to(self.device)
+            loss = self.bce_loss(preds, y_true_bins)
+        else:
+            loss = self.bce_loss(preds, y, mode)
+        self.log(mode+'_loss', loss, on_step=False, on_epoch=True) 
+
+        return {'loss': loss, 'preds': preds, 'y': y}
+
+    def process_features(self, outputs, mode):
+        y = []
+        if self.args.mode=='eval':
+            feats_ehr_0=[]
+            feats_ehr_3=[]
+            feats_img_0=[]
+            feats_img_3=[]
+        elif self.args.fusion_type!='None':
+            preds = []
+        else:
+            feats_ehr = []
+            feats_img = []
+        # Iterate through batches and append
+        i=0
+        for output in outputs:
+            if i ==0:
+                if self.args.fusion_type!='None':
+                    preds = output['preds'].detach().cpu()
+                elif self.args.mode == 'eval':
+                    feats_ehr_0 = output['feats_ehr_0'].detach().cpu()
+                    feats_ehr_3 = output['feats_ehr_3'].detach().cpu()
+                    feats_img_0 = output['feats_img_0'].detach().cpu()
+                    feats_img_3 = output['feats_img_3'].detach().cpu()
+                else: 
+                    feats_ehr = output['feats_ehr'].detach().cpu()
+                    feats_img = output['feats_img'].detach().cpu()
+                y = output['y'].tolist()
+                
+            else:
+                if self.args.fusion_type!='None':
+                    preds = torch.cat((preds, output['preds'].detach().cpu()))
+                elif self.args.mode == 'eval':
+                    feats_ehr_0 = torch.cat((feats_ehr_0, output['feats_ehr_0'].detach().cpu()))
+                    feats_ehr_3 = torch.cat((feats_ehr_3, output['feats_ehr_3'].detach().cpu()))
+                    feats_img_0 = torch.cat((feats_img_0, output['feats_img_0'].detach().cpu()))
+                    feats_img_3 = torch.cat((feats_img_3, output['feats_img_3'].detach().cpu()))
+                else:
+                    feats_ehr = torch.cat((feats_ehr, output['feats_ehr'].detach().cpu()))
+                    feats_img = torch.cat((feats_img, output['feats_img'].detach().cpu()))
+                y.extend(output['y'].tolist())
+            i+=1
+        if self.args.fusion_type!='None':
+            return y, preds
+        elif self.args.mode=='eval':
+            return feats_ehr_0, feats_ehr_3, feats_img_0, feats_img_3, y
+        else:
+            return feats_ehr, feats_img, y
+    
+    
+    def training_epoch_end(self, outputs):
+        mode='train'
+     
+        y, preds = self.process_features(outputs, mode)
+
+        if self.task=='length-of-stay':
+            with torch.no_grad():
+                y = torch.tensor(y)
+                y_true_bins = [get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()]
+                pred_labels = torch.max(preds, 1)[1].cpu().numpy()  # Convert logits to predicted labels
+                cf = metrics.confusion_matrix(y_true_bins, pred_labels)
+                kappa = metrics.cohen_kappa_score(y_true_bins, pred_labels, weights='linear')
+                mad = metrics.mean_absolute_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mse = metrics.mean_squared_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mape = mean_absolute_percentage_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+
+                self.log(mode + '_kappa_epoch', kappa, on_step=False, on_epoch=True)
+                self.log(mode + '_mad_epoch', mad,  on_step=False, on_epoch=True)
+                self.log(mode + '_mse_epoch', mse,  on_step=False, on_epoch=True)
+                self.log(mode + '_mape_epoch', mape,  on_step=False, on_epoch=True) 
+
+        else:
+            auroc = np.round(roc_auc_score(y, preds), 4)
+            auprc = np.round(average_precision_score(y, preds), 4)
+            self.log(mode + '_auroc_epoch', auroc)
+            self.log(mode + '_auprc_epoch', auprc)
+
+    
+        
+    def validation_epoch_end(self, outputs):
+        mode='val'
+    
+        y, preds = self.process_features(outputs, mode)
+
+        if self.task=='length-of-stay':
+            with torch.no_grad():
+                y = torch.tensor(y)
+                y_true_bins = [get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()]
+                pred_labels = torch.max(preds, 1)[1].cpu().numpy()  # Convert logits to predicted labels
+                cf = metrics.confusion_matrix(y_true_bins, pred_labels)
+                kappa = metrics.cohen_kappa_score(y_true_bins, pred_labels, weights='linear')
+                mad = metrics.mean_absolute_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mse = metrics.mean_squared_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mape = mean_absolute_percentage_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+
+                self.log(mode + '_kappa_epoch', kappa, on_step=False, on_epoch=True)
+                self.log(mode + '_mad_epoch', mad,  on_step=False, on_epoch=True)
+                self.log(mode + '_mse_epoch', mse,  on_step=False, on_epoch=True)
+                self.log(mode + '_mape_epoch', mape,  on_step=False, on_epoch=True) 
+
+        else:
+            auroc = np.round(roc_auc_score(y, preds), 4)
+            auprc = np.round(average_precision_score(y, preds), 4)
+            self.log(mode + '_auroc_epoch', auroc)
+            self.log(mode + '_auprc_epoch', auprc)
+            
+
+    def test_epoch_end(self, outputs):
+   
+        mode = 'test'
+        y, preds = self.process_features(outputs, mode)
+
+        if self.task=='length-of-stay':
+            with torch.no_grad():
+                y = torch.tensor(y)
+                y_true_bins = [get_bin_custom(y_item, CustomBins.nbins) for y_item in y.cpu().numpy()]
+                pred_labels = torch.max(preds, 1)[1].cpu().numpy()  # Convert logits to predicted labels
+                cf = metrics.confusion_matrix(y_true_bins, pred_labels)
+                kappa = metrics.cohen_kappa_score(y_true_bins, pred_labels, weights='linear')
+                mad = metrics.mean_absolute_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mse = metrics.mean_squared_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+                mape = mean_absolute_percentage_error(y.cpu().numpy(), preds.max(1)[0].cpu().numpy())
+
+                self.log(mode + '_kappa_epoch', kappa, on_step=False, on_epoch=True)
+                self.log(mode + '_mad_epoch', mad,  on_step=False, on_epoch=True)
+                self.log(mode + '_mse_epoch', mse,  on_step=False, on_epoch=True)
+                self.log(mode + '_mape_epoch', mape,  on_step=False, on_epoch=True) 
+
+        else:
+            auroc = np.round(roc_auc_score(y, preds), 4)
+            auprc = np.round(average_precision_score(y, preds), 4)
+            self.log(mode + '_auroc_epoch', auroc)
+            self.log(mode + '_auprc_epoch', auprc)
+
+        if self.task =='phenotyping':    
+            auroc_per_label = np.round(roc_auc_score(y, preds, average=None), 4)
+            auprc_per_label = np.round(average_precision_score(y, preds, average=None), 4)
+            auroc_label={}
+            auprc_label={}
+            for i, name in enumerate(self.LABEL_COLUMNS):
+                auroc_label[name]=auroc_per_label[i].item()
+                auprc_label[name]=auprc_per_label[i].item()
+            self.log('auroc_label', auroc_label)
+            self.log('auprc_label', auprc_label)
+
+def count_parameters(model:nn.Module) -> int:
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
+    
+def train(model, args, train_loader, val_loader, **kwargs): 
+    filename = args.file_name+'_epoch_{epoch:02d}'
+    model_path = args.save_dir+'/'+args.file_name
+    if not os.path.exists(model_path):
+        os.makedirs(model_path)
+    
+    print("Training")
+    logger = kwargs['logger']
+    checkpoints = ModelCheckpoint(#monitor="val_auroc_epoch", mode='max',
+                                dirpath=model_path,
+                                filename=filename,
+                                save_weights_only=True, 
+                                save_top_k=1,
+                                auto_insert_metric_name=False, 
+                                every_n_epochs=1,             
+                                save_on_train_epoch_end=True)
+    
+    strategy = None
+    if args.task== 'length-of-stay':    
+            early_stop_callback = EarlyStopping(monitor="val_kappa_epoch", min_delta=0.001, mode="max", patience=30)
+    else:
+        early_stop_callback = EarlyStopping(monitor="val_auroc_epoch", min_delta=0.001, mode="max", patience=30)
+    trainer = pl.Trainer(default_root_dir=os.path.join(model_path),
+                            max_epochs=args.epochs, #gpus=gpu,
+                            callbacks=[checkpoints, LearningRateMonitor('epoch'), early_stop_callback],
+                            logger=logger,  
+                            log_every_n_steps=5,  enable_progress_bar=True,
+                            num_sanity_val_steps=0,
+                        accelerator='gpu', devices=args.num_gpu, strategy=strategy)
+
+    model_parameters = count_parameters(model)
+    print("Model parameters: ", model_parameters)
+    trainer.fit(model, train_loader, val_loader)
+        
+    return trainer
+
+
+# Call this function if doing test without training
+def test(model, args, test_loader, **kwargs):
+    if 'logger' not in kwargs:
+        trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir))
+    else:
+        logger = kwargs['logger']
+        trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir), logger=logger)
+    
+    trainer.test(model, test_loader)
+    
+    return trainer

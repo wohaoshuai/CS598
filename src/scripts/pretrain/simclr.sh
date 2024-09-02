@@ -5,8 +5,8 @@
 #SBATCH --gres=gpu:a100:1
 
 #SBATCH --job-name simclr_train_phenotyping
-#SBATCH --output /scratch/se1525/MedMod/src/checkpoints/phenotyping/simclr/simclr_train_%j.log
-#SBATCH -e /scratch/se1525/MedMod/src/checkpoints/phenotyping/simclr/simclr_train_%j.err
+#SBATCH --output /scratch/se1525/MedMod/src/checkpoints/pretrain/simclr/simclr_train_%j.log
+#SBATCH -e /scratch/se1525/MedMod/src/checkpoints/pretrain/simclr/simclr_train_%j.err
 
 source activate mml-ssl
 
@@ -21,5 +21,5 @@ python /scratch/se1525/MedMod/src/models/selfsupervised/trainers/simclr_trainer.
 --pretrain_type simclr \
 --mode train \
 --fusion_type None \
---save_dir /scratch/se1525/MedMod/src/checkpoints/phenotyping/models \
+--save_dir /scratch/se1525/MedMod/src/checkpoints/pretrain/models \
 --tag simclr_train_phenotyping \

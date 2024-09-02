@@ -17,7 +17,7 @@ import sys; sys.path.append(".")
 import src.parser as par
 from src.data.utils import get_datasets, get_cxr_datasets, load_cxr_ehr
 from src.data.preprocessing import ehr_funcs
-from src.models.selfsupervised.models.linear_eval import LinearEval, prepare_data_features, train, test
+from src.models.selfsupervised.models.finetune import FineTune, train, test
 
 
 import warnings
@@ -96,15 +96,6 @@ if __name__ == '__main__':
     # Load the model, weights (if any), and freeze layers (if any)
     print("Loading model...")
     model = LinearEval(args, train_dl)
-
-    # For efficiency, change data loaders for lineareval (not finetune)
-    print("Processing features for linear evaluation...")
-    train_dl = prepare_data_features(device, model, train_dl, args.batch_size, args.fusion_layer, args.fusion_type) 
-    print("Length of training dataset: " , len(train_dl.dataset))
-    val_dl = prepare_data_features(device, model, val_dl, args.batch_size, args.fusion_layer, args.fusion_type)
-    print("Length of validatiom dataset:" , len(val_dl.dataset))
-    test_dl = prepare_data_features(device, model, test_dl, args.batch_size, args.fusion_layer, args.fusion_type)
-    print("Length of test dataset: " , len(test_dl.dataset))
 
     if args.mode == 'train':
         print('==> training')        
