@@ -1,13 +1,4 @@
-# 🩻 MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Images
-
-**Submitted as paper at NeurIPS 2024 Datasets and Benchmarks Track**  <br>
-
-### Release
-
-- [06/05] 🩻 **MedMod** (Initial) models and clinical tasks are released
-<!-- , [[Code](https://github.com/proximacentauri2024/Multimodal-BenchMark/)]  -->
-
-- [2024/06/05] **MedMod** is submitted to NeurIPS 2024 Datasets and Benchmarks Track.
+# 🩻 MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Scans
 
 Table of contents
 =================
@@ -64,10 +55,10 @@ Citation
 If you find MedMod useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @misc{author2024medmod,
-    title={MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Images},
-    url={https://github.com/proximacentauri2024/Multimodal-BenchMark},
+    title={MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Scans},
+    url={https://anonymous.4open.science/r/MedMod-9061/},
     author={Authors},
-    month={June},
-    year={2024}
+    month={February},
+    year={2025}
 }
 ```
