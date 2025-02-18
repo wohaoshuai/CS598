@@ -1,16 +1,8 @@
-#!/bin/bash
-#SBATCH -c 16
-#SBATCH -t 4-00:00:00
-#SBATCH -p nvidia
-#SBATCH --gres=gpu:a100:1
 
-#SBATCH --job-name vicreg_train_phenotyping
-#SBATCH --output /scratch/se1525/MedMod/src/checkpoints/pretrain/vicreg/vicreg_train_%j.log
-#SBATCH -e /scratch/se1525/MedMod/src/checkpoints/pretrain/vicreg/vicreg_train_%j.err
 
-source activate mml-ssl
+source activate MedMod
 
-python /scratch/se1525/MedMod/src/models/selfsupervised/trainers/vicreg_trainer.py \
+python MedMod/src/models/selfsupervised/trainers/vicreg_trainer.py \
 --device $CUDA_VISIBLE_DEVICES \
 --vision-backbone resnet34 \
 --job_number ${SLURM_JOBID} \
@@ -22,5 +14,5 @@ python /scratch/se1525/MedMod/src/models/selfsupervised/trainers/vicreg_trainer.
 --pretrain_type simclr \
 --mode train \
 --fusion_type None \
---save_dir /scratch/se1525/MedMod/src/checkpoints/pretrain/models  \
+--save_dir MedMod/src/checkpoints/pretrain/models  \
 --tag vicreg_train_phenotyping \

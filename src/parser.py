@@ -8,7 +8,7 @@ def initiate_parsing():
     parser.add_argument('--num_gpu', type=int, help='number of gpus for training', default=1)
     parser.add_argument('--epochs', type=int, default=100, help='number of epochs to train for')
     parser.add_argument('--lr', type=float, default=0.0001, help='base learning rate simclr pretraining')
-    parser.add_argument('--save_dir', type=str, help='Directory where all output files are stored', default='/scratch/se1525/mml-ssl/results')
+    parser.add_argument('--save_dir', type=str, help='Directory where all output files are stored', default='mml-ssl/results')
     parser.add_argument('--labels_set', type=str, default='pheno', help='pheno, radiology')
     parser.add_argument('--task', type=str, default='phenotyping', help='train or eval for in-hospital-mortality or phenotyping')
     parser.add_argument('--data_pairs', type=str, default='paired', help='paired, ehr_only, radiology, joint_ehr')
@@ -29,14 +29,14 @@ def initiate_parsing():
     parser.add_argument('--rec_dropout', type=float, default=0.0, help="dropout rate for recurrent connections")
     parser.add_argument('--timestep', type=float, default=1.0, help="fixed timestep used in the dataset")
     parser.add_argument('--imputation', type=str, default='previous')
-    parser.add_argument('--ehr_data_root', type=str, help='Path to the ehr data', default='/scratch/fs999/shamoutlab/data/mimic-iv-extracted')
+    parser.add_argument('--ehr_data_root', type=str, help='Path to the ehr data', default='/data/mimic-iv-extracted')
     parser.add_argument('--layers', default=1, type=int, help='number of lstm stacked layers')
     parser.add_argument('--dim', type=int, default=256,
                         help='number of hidden units for uni ehr lstm model')
 
     # CXR setup
     parser.add_argument('--load_state_cxr', type=str, default=None, help='state dir path for uni cxr model')
-    parser.add_argument('--cxr_data_root', type=str, help='Path to the cxr data', default='/scratch/fs999/shamoutlab/data/physionet.org/files/mimic-cxr-jpg/2.0.0')
+    parser.add_argument('--cxr_data_root', type=str, help='Path to the cxr data', default='/data/physionet.org/files/mimic-cxr-jpg/2.0.0')
     parser.add_argument('--vision-backbone', default='densenet121', type=str, help='[densenet121, densenet169, densenet201, resnet34]')
     parser.add_argument('--pretrained', dest='pretrained', action='store_true',  help='load imagenet pretrained model for cxr')
     parser.add_argument('--layer_after', default=4, type=int, help='apply mmtm/daft module after fourth layer[-1, 0,1,2,3,4] -1 indicates mmtm after every layer')

@@ -249,7 +249,7 @@ def ehr_funcs(args):
                           store_masks=True,
                           impute_strategy='previous',
                           start_time='zero',
-                          config_path=f'/scratch/se1525/MedMod/src/data/resources/discretizer_config.json')
+                          config_path=f'MedMod/src/data/resources/discretizer_config.json')
     discretizer_header = discretizer.transform(read_timeseries(args))[1].split(',')
     cont_channels = [i for (i, x) in enumerate(discretizer_header) if x.find("->") == -1]
 
@@ -264,7 +264,7 @@ def ehr_funcs(args):
             normalizer_state = 'los_ts{}.input_str:previous.start_time:zero.n5e4.normalizer'.format(args.timestep)
         else:
             normalizer_state = 'ph_ts{}.input_str:previous.start_time:zero.normalizer'.format(args.timestep)
-        normalizer_state = os.path.join('/scratch/se1525/mml-ssl/', normalizer_state)
+        normalizer_state = os.path.join('/MedMod/src/data/resources', normalizer_state)
     normalizer.load_params(normalizer_state)
     
     return discretizer, normalizer

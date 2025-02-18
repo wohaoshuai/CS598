@@ -223,9 +223,9 @@ def get_all_cxr(cxr_merged_icustays_AP):
 def load_decompensation_meta(args):
     
     cxr_merged_icustays = get_all_metadata(args)
-    train_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/train_listfile.csv')
-    val_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/val_listfile.csv')
-    test_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/test_listfile.csv')
+    train_listfile = pd.read_csv(f'mml-ssl/{args.task}/train_listfile.csv')
+    val_listfile = pd.read_csv(f'mml-ssl/{args.task}/val_listfile.csv')
+    test_listfile = pd.read_csv(f'mml-ssl/{args.task}/test_listfile.csv')
     
     # double check that this line does not cause issues
     listfile = train_listfile.append([val_listfile, test_listfile])
@@ -246,9 +246,9 @@ def load_decompensation_meta(args):
 def load_los_meta(args):
 
     cxr_merged_icustays = get_all_metadata(args)
-    train_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/train_listfile.csv')
-    val_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/val_listfile.csv')
-    test_listfile = pd.read_csv(f'/scratch/se1525/mml-ssl/{args.task}/test_listfile.csv')
+    train_listfile = pd.read_csv(f'mml-ssl/{args.task}/train_listfile.csv')
+    val_listfile = pd.read_csv(f'mml-ssl/{args.task}/val_listfile.csv')
+    test_listfile = pd.read_csv(f'mml-ssl/{args.task}/test_listfile.csv')
     
     # double check that this line does not cause issues
     listfile = train_listfile.append([val_listfile, test_listfile])

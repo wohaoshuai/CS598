@@ -61,9 +61,9 @@ def args_parser():
                                 'use one of the provided ones.')
 
     parser.add_argument('--ehr_data_dir', type=str, help='Path to the data of phenotyping fusion_type',
-                        default='/scratch/fs999/shamoutlab/data/mimic-iv-extracted')
+                        default='/data/mimic-iv-extracted')
     parser.add_argument('--cxr_data_dir', type=str, help='Path to the data of phenotyping fusion_type',
-                        default='/scratch/fs999/shamoutlab/data/physionet.org/files/mimic-cxr-jpg/2.0.0')
+                        default='/data/physionet.org/files/mimic-cxr-jpg/2.0.0')
     parser.add_argument('--save_dir', type=str, help='Directory relative which all output files are stored',
                     default='checkpoints')
 
