@@ -1,0 +1,10 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10039997,24294180,1,4373,9,"Cerebral aneurysm, nonruptured",36893762,Other and ill-defined cerebrovascular disease,0.0
+10039997,24294180,2,43889,9,Other late effects of cerebrovascular disease,36893762,Late effects of cerebrovascular disease,0.0
+10039997,24294180,3,2724,9,Other and unspecified hyperlipidemia,36893762,Disorders of lipid metabolism,1.0
+10039997,24294180,4,3051,9,Tobacco use disorder,36893762,Screening and history of mental health and substance abuse codes,0.0
+10039997,24294180,5,32723,9,Obstructive sleep apnea (adult)(pediatric),36893762,Residual codes; unclassified,0.0
+10039997,24294180,6,27800,9,"Obesity, unspecified",36893762,Other nutritional; endocrine; and metabolic disorders,0.0
+10039997,24294180,7,72989,9,Other musculoskeletal symptoms referable to limbs,36893762,Other connective tissue disease,0.0
+10039997,24294180,8,4019,9,Unspecified essential hypertension,36893762,Essential hypertension,1.0
+10039997,24294180,9,V8532,9,"Body Mass Index 32.0-32.9, adult",36893762,Other nutritional; endocrine; and metabolic disorders,0.0

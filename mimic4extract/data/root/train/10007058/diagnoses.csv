@@ -1,0 +1,7 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10007058,22954658,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32506122,Acute myocardial infarction,1.0
+10007058,22954658,2,I7102,10,Dissection of abdominal aorta,32506122,,
+10007058,22954658,3,K219,10,Gastro-esophageal reflux disease without esophagitis,32506122,,
+10007058,22954658,4,Z23,10,Encounter for immunization,32506122,,
+10007058,22954658,5,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,32506122,,
+10007058,22954658,6,Z7982,10,Long term (current) use of aspirin,32506122,,

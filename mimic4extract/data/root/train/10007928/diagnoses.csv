@@ -1,0 +1,21 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10007928,20338077,1,53140,9,"Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction",35128235,Gastrointestinal hemorrhage,1.0
+10007928,20338077,2,0088,9,"Intestinal infection due to other organism, not elsewhere classified",35128235,Intestinal infection,0.0
+10007928,20338077,3,5070,9,Pneumonitis due to inhalation of food or vomitus,35128235,Aspiration pneumonitis; food/vomitus,0.0
+10007928,20338077,4,51881,9,Acute respiratory failure,35128235,Respiratory failure; insufficiency; arrest (adult),1.0
+10007928,20338077,5,0389,9,Unspecified septicemia,35128235,Septicemia (except in labor),1.0
+10007928,20338077,6,99592,9,Severe sepsis,35128235,Septicemia (except in labor),1.0
+10007928,20338077,7,5990,9,"Urinary tract infection, site not specified",35128235,Urinary tract infections,0.0
+10007928,20338077,8,2761,9,Hyposmolality and/or hyponatremia,35128235,Fluid and electrolyte disorders,1.0
+10007928,20338077,9,2764,9,Mixed acid-base balance disorder,35128235,Fluid and electrolyte disorders,1.0
+10007928,20338077,10,53240,9,"Chronic or unspecified duodenal ulcer with hemorrhage, without mention of obstruction",35128235,Gastrointestinal hemorrhage,1.0
+10007928,20338077,11,53010,9,"Esophagitis, unspecified",35128235,Esophageal disorders,0.0
+10007928,20338077,12,79902,9,Hypoxemia,35128235,Other injuries and conditions due to external causes,0.0
+10007928,20338077,13,04149,9,Other and unspecified Escherichia coli [E. coli],35128235,Bacterial infection; unspecified site,0.0
+10007928,20338077,14,5533,9,Diaphragmatic hernia without mention of obstruction or gangrene,35128235,Abdominal hernia,0.0
+10007928,20338077,15,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],35128235,Other liver diseases,1.0
+10007928,20338077,16,2769,9,Electrolyte and fluid disorders not elsewhere classified,35128235,Fluid and electrolyte disorders,1.0
+10007928,20338077,17,28860,9,"Leukocytosis, unspecified",35128235,Diseases of white blood cells,0.0
+10007928,20338077,18,30500,9,"Alcohol abuse, unspecified",35128235,Alcohol-related disorders,0.0
+10007928,20338077,19,3051,9,Tobacco use disorder,35128235,Screening and history of mental health and substance abuse codes,0.0
+10007928,20338077,20,E9353,9,Salicylates causing adverse effects in therapeutic use,35128235,Adverse effects of medical drugs,0.0

@@ -1,0 +1,16 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10031404,21606243,1,I308,10,Other forms of acute pericarditis,35544374,,
+10031404,21606243,2,J90,10,"Pleural effusion, not elsewhere classified",35544374,,
+10031404,21606243,3,N179,10,"Acute kidney failure, unspecified",35544374,Acute and unspecified renal failure,1.0
+10031404,21606243,4,E871,10,Hypo-osmolality and hyponatremia,35544374,Fluid and electrolyte disorders,1.0
+10031404,21606243,5,E860,10,Dehydration,35544374,Fluid and electrolyte disorders,1.0
+10031404,21606243,6,I9589,10,Other hypotension,35544374,,
+10031404,21606243,7,J9811,10,Atelectasis,35544374,,
+10031404,21606243,8,R000,10,"Tachycardia, unspecified",35544374,Cardiac dysrhythmias,1.0
+10031404,21606243,9,I10,10,Essential (primary) hypertension,35544374,Essential hypertension,1.0
+10031404,21606243,10,E785,10,"Hyperlipidemia, unspecified",35544374,Disorders of lipid metabolism,1.0
+10031404,21606243,11,Z8781,10,Personal history of (healed) traumatic fracture,35544374,,
+10031404,21606243,12,L930,10,Discoid lupus erythematosus,35544374,,
+10031404,21606243,13,R002,10,Palpitations,35544374,Cardiac dysrhythmias,1.0
+10031404,21606243,14,Z8639,10,"Personal history of other endocrine, nutritional and metabolic disease",35544374,,
+10031404,21606243,15,Z87891,10,Personal history of nicotine dependence,35544374,,

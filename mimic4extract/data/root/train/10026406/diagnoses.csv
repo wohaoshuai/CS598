@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10026406,25260176,1,29181,9,Alcohol withdrawal,30864406,Alcohol-related disorders,0.0
+10026406,25260176,2,78039,9,Other convulsions,30864406,Epilepsy; convulsions,0.0
+10026406,25260176,3,30301,9,"Acute alcoholic intoxication in alcoholism, continuous",30864406,Alcohol-related disorders,0.0
+10026406,25260176,4,8020,9,Closed fracture of nasal bones,30864406,Skull and face fractures,0.0
+10026406,25260176,5,E9600,9,Unarmed fight or brawl,30864406,Struck by; against,0.0
+10026406,25260176,6,E8499,9,Accidents occurring in unspecified place,30864406,Place of occurrence,0.0
+10026406,25260176,7,53081,9,Esophageal reflux,30864406,Esophageal disorders,0.0
+10026406,25260176,8,3051,9,Tobacco use disorder,30864406,Screening and history of mental health and substance abuse codes,0.0

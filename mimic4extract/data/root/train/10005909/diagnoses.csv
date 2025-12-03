@@ -1,0 +1,6 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10005909,20199380,1,I82422,10,Acute embolism and thrombosis of left iliac vein,36496303,,
+10005909,20199380,2,I871,10,Compression of vein,36496303,,
+10005909,20199380,3,I9751,10,Accidental puncture and laceration of a circulatory system organ or structure during a circulatory system procedure,36496303,,
+10005909,20199380,4,Y838,10,"Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36496303,,
+10005909,20199380,5,Y92234,10,Operating room of hospital as the place of occurrence of the external cause,36496303,,

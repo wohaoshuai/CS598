@@ -1,0 +1,23 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10021938,27154822,1,2767,9,Hyperpotassemia,33083787,Fluid and electrolyte disorders,1.0
+10021938,27154822,2,5856,9,End stage renal disease,33083787,Chronic kidney disease,1.0
+10021938,27154822,3,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",33083787,Hypertension with complications and secondary hypertension,1.0
+10021938,27154822,4,42822,9,Chronic systolic heart failure,33083787,Congestive heart failure; nonhypertensive,1.0
+10021938,27154822,5,4280,9,"Congestive heart failure, unspecified",33083787,Congestive heart failure; nonhypertensive,1.0
+10021938,27154822,6,5781,9,Blood in stool,33083787,Gastrointestinal hemorrhage,1.0
+10021938,27154822,7,587,9,"Renal sclerosis, unspecified",33083787,Nephritis; nephrosis; renal sclerosis,0.0
+10021938,27154822,8,V4511,9,Renal dialysis status,33083787,Chronic kidney disease,1.0
+10021938,27154822,9,V4512,9,Noncompliance with renal dialysis,33083787,Chronic kidney disease,1.0
+10021938,27154822,10,78900,9,"Abdominal pain, unspecified site",33083787,Abdominal pain,0.0
+10021938,27154822,11,2724,9,Other and unspecified hyperlipidemia,33083787,Disorders of lipid metabolism,1.0
+10021938,27154822,12,30393,9,"Other and unspecified alcohol dependence, in remission",33083787,Alcohol-related disorders,0.0
+10021938,27154822,13,28521,9,Anemia in chronic kidney disease,33083787,Deficiency and other anemia,0.0
+10021938,23112364,1,34839,9,Other encephalopathy,39492446,Other nervous system disorders,0.0
+10021938,23112364,2,5856,9,End stage renal disease,39492446,Chronic kidney disease,1.0
+10021938,23112364,3,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",39492446,Hypertension with complications and secondary hypertension,1.0
+10021938,23112364,4,2767,9,Hyperpotassemia,39492446,Fluid and electrolyte disorders,1.0
+10021938,23112364,5,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",39492446,Residual codes; unclassified,0.0
+10021938,23112364,6,2724,9,Other and unspecified hyperlipidemia,39492446,Disorders of lipid metabolism,1.0
+10021938,23112364,7,30500,9,"Alcohol abuse, unspecified",39492446,Alcohol-related disorders,0.0
+10021938,23112364,8,V1582,9,Personal history of tobacco use,39492446,Screening and history of mental health and substance abuse codes,0.0
+10021938,23112364,9,79319,9,Other nonspecific abnormal finding of lung field,39492446,Other lower respiratory disease,1.0

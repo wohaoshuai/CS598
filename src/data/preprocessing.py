@@ -6,11 +6,12 @@ import platform
 import pickle
 import json
 import os
-
+import glob
+import random
 
 class Discretizer:
     def __init__(self, timestep=0.8, store_masks=True, impute_strategy='zero', start_time='zero',
-                 config_path= './ehr_utils/resources/discretizer_config.json'):
+                 config_path='./ehr_utils/resources/discretizer_config.json'):
 
         with open(config_path) as f:
             config = json.load(f)
@@ -77,15 +78,21 @@ class Discretizer:
         def write(data, bin_id, channel, value, begin_pos):
             channel_id = self._channel_to_id[channel]
             if self._is_categorical_channel[channel]:
-                # print("list: ", self._possible_values[channel], "val: ", value, "channel:", channel)
-                category_id = self._possible_values[channel].index(value)
+                try:
+                    category_id = self._possible_values[channel].index(value)
+                except ValueError:
+                    # if unseen category, skip writing
+                    return
                 N_values = len(self._possible_values[channel])
                 one_hot = np.zeros((N_values,))
                 one_hot[category_id] = 1
                 for pos in range(N_values):
                     data[bin_id, begin_pos[channel_id] + pos] = one_hot[pos]
             else:
-                data[bin_id, begin_pos[channel_id]] = float(value)
+                try:
+                    data[bin_id, begin_pos[channel_id]] = float(value)
+                except:
+                    data[bin_id, begin_pos[channel_id]] = 0.0
 
         for row in X:
             t = float(row[0]) - first_time
@@ -109,7 +116,6 @@ class Discretizer:
                 original_value[bin_id][channel_id] = row[j]
 
         # impute missing values
-
         if self._impute_strategy not in ['zero', 'normal_value', 'previous', 'next']:
             raise ValueError("impute strategy is invalid")
 
@@ -231,40 +237,62 @@ class Normalizer:
             ret[:, col] = (X[:, col] - self._means[col]) / self._stds[col]
         return ret
 
-# data preprocessor
+
+# ==========================================
+# Read timeseries with nested patient folders
+# ==========================================
 def read_timeseries(args):
-    path = f'{args.ehr_data_root}/{args.task}/train/14991576_episode3_timeseries.csv'
+    train_folder = os.path.join(args.ehr_data_root, 'root', 'train')
+    all_files = glob.glob(os.path.join(train_folder, "**/*_timeseries.csv"), recursive=True)
+
+    if len(all_files) == 0:
+        raise FileNotFoundError(f"No timeseries CSV files found in {train_folder}")
+
+    path = random.choice(all_files)
+
     ret = []
     with open(path, "r") as tsfile:
         header = tsfile.readline().strip().split(',')
         assert header[0] == "Hours"
         for line in tsfile:
-            mas = line.strip().split(',')
-            ret.append(np.array(mas))
+            values = line.strip().split(',')
+            for i, x in enumerate(values):
+                if x == '':
+                    values[i] = 0.0
+                else:
+                    try:
+                        values[i] = float(x)
+                    except:
+                        values[i] = x
+            ret.append(np.array(values))
     return np.stack(ret)
-    
-# ADDED: function to initialize normalizer and discretizer 
+
+
+# =====================================================
+# Initialize Discretizer and Normalizer (function kept)
+# =====================================================
 def ehr_funcs(args):
     discretizer = Discretizer(timestep=float(args.timestep),
-                          store_masks=True,
-                          impute_strategy='previous',
-                          start_time='zero',
-                          config_path=f'MedMod/src/data/resources/discretizer_config.json')
+                              store_masks=True,
+                              impute_strategy='previous',
+                              start_time='zero',
+                              config_path=f'src/data/resources/discretizer_config.json')
+
     discretizer_header = discretizer.transform(read_timeseries(args))[1].split(',')
     cont_channels = [i for (i, x) in enumerate(discretizer_header) if x.find("->") == -1]
 
     normalizer = Normalizer(fields=cont_channels)  # choose here which columns to standardize
     normalizer_state = args.normalizer_state
     if normalizer_state is None:
-        if args.task is 'mortality':
+        if args.task == 'mortality':
             normalizer_state = 'ihm_ts{}.input_str:previous.start_time:zero.normalizer'.format(args.timestep)
-        elif args.task is 'decompensation':
+        elif args.task == 'decompensation':
             normalizer_state = 'decomp_ts{}.input_str:previous.n1e5.start_time:zero.normalizer'.format(args.timestep)
-        elif args.task is 'length-of-stay':
+        elif args.task == 'length-of-stay':
             normalizer_state = 'los_ts{}.input_str:previous.start_time:zero.n5e4.normalizer'.format(args.timestep)
         else:
             normalizer_state = 'ph_ts{}.input_str:previous.start_time:zero.normalizer'.format(args.timestep)
-        normalizer_state = os.path.join('/MedMod/src/data/resources', normalizer_state)
+        normalizer_state = os.path.join('MedMod/src/data/resources', normalizer_state)
     normalizer.load_params(normalizer_state)
-    
+
     return discretizer, normalizer

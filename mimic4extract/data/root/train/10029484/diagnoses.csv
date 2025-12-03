@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10029484,20764029,1,0088,9,"Intestinal infection due to other organism, not elsewhere classified",35396193,Intestinal infection,0.0
+10029484,20764029,2,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",35396193,Diabetes mellitus with complications,1.0
+10029484,20764029,3,5849,9,"Acute kidney failure, unspecified",35396193,Acute and unspecified renal failure,1.0
+10029484,20764029,4,27651,9,Dehydration,35396193,Fluid and electrolyte disorders,1.0
+10029484,20764029,5,7802,9,Syncope and collapse,35396193,Syncope,0.0
+10029484,20764029,6,41400,9,"Coronary atherosclerosis of unspecified type of vessel, native or graft",35396193,Coronary atherosclerosis and other heart disease,1.0
+10029484,20764029,7,V4582,9,Percutaneous transluminal coronary angioplasty status,35396193,Coronary atherosclerosis and other heart disease,1.0
+10029484,20764029,8,4019,9,Unspecified essential hypertension,35396193,Essential hypertension,1.0
+10029484,20764029,9,2724,9,Other and unspecified hyperlipidemia,35396193,Disorders of lipid metabolism,1.0
+10029484,20764029,10,7245,9,"Backache, unspecified",35396193,Spondylosis; intervertebral disc disorders; other back problems,0.0

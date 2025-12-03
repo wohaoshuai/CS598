@@ -1,0 +1,12 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10036156,28019404,1,53140,9,"Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction",38587181,Gastrointestinal hemorrhage,1.0
+10036156,28019404,2,4260,9,"Atrioventricular block, complete",38587181,Conduction disorders,1.0
+10036156,28019404,3,4588,9,Other specified hypotension,38587181,Other circulatory disease,0.0
+10036156,28019404,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38587181,Diabetes mellitus without complication,1.0
+10036156,28019404,5,2724,9,Other and unspecified hyperlipidemia,38587181,Disorders of lipid metabolism,1.0
+10036156,28019404,6,28860,9,"Leukocytosis, unspecified",38587181,Diseases of white blood cells,0.0
+10036156,28019404,7,78097,9,Altered mental status,38587181,Residual codes; unclassified,0.0
+10036156,28019404,8,V4501,9,Cardiac pacemaker in situ,38587181,Conduction disorders,1.0
+10036156,28019404,9,V4589,9,Other postprocedural status,38587181,Residual codes; unclassified,0.0
+10036156,28019404,10,4019,9,Unspecified essential hypertension,38587181,Essential hypertension,1.0
+10036156,28019404,11,79092,9,Abnormal coagulation profile,38587181,Residual codes; unclassified,0.0

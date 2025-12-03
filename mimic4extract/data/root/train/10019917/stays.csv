@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10019917,22585261,34324099,Medical Intensive Care Unit (MICU),2182-01-07 23:26:32,2182-01-09 07:09:31,1.3215162037037038,2182-01-07 23:25:00,2182-01-10 16:52:00,,OTHER,M,44,,44,0,0,0

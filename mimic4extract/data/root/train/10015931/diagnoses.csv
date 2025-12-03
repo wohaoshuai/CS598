@@ -1,0 +1,82 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10015931,22130791,1,K921,10,Melena,37093652,Gastrointestinal hemorrhage,1.0
+10015931,22130791,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,37093652,Acute myocardial infarction,1.0
+10015931,22130791,3,N170,10,Acute kidney failure with tubular necrosis,37093652,Acute and unspecified renal failure,1.0
+10015931,22130791,4,J9601,10,Acute respiratory failure with hypoxia,37093652,,
+10015931,22130791,5,R571,10,Hypovolemic shock,37093652,,
+10015931,22130791,6,N184,10,"Chronic kidney disease, stage 4 (severe)",37093652,Chronic kidney disease,1.0
+10015931,22130791,7,G9340,10,"Encephalopathy, unspecified",37093652,,
+10015931,22130791,8,D696,10,"Thrombocytopenia, unspecified",37093652,,
+10015931,22130791,9,E872,10,Acidosis,37093652,Fluid and electrolyte disorders,1.0
+10015931,22130791,10,D62,10,Acute posthemorrhagic anemia,37093652,,
+10015931,22130791,11,I5042,10,Chronic combined systolic (congestive) and diastolic (congestive) heart failure,37093652,Congestive heart failure; nonhypertensive,1.0
+10015931,22130791,12,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",37093652,Hypertension with complications and secondary hypertension,1.0
+10015931,22130791,13,Q6432,10,Congenital stricture of urethra,37093652,,
+10015931,22130791,14,I4891,10,Unspecified atrial fibrillation,37093652,Cardiac dysrhythmias,1.0
+10015931,22130791,15,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,37093652,,
+10015931,22130791,16,Z7901,10,Long term (current) use of anticoagulants,37093652,,
+10015931,22130791,17,N400,10,Benign prostatic hyperplasia without lower urinary tract symptoms,37093652,,
+10015931,22130791,18,Z66,10,Do not resuscitate,37093652,,
+10015931,22130791,19,E875,10,Hyperkalemia,37093652,Fluid and electrolyte disorders,1.0
+10015931,22130791,20,E8339,10,Fall on stairs or ladders in water transport injuring unspecified person,37093652,Transport; not MVT,0.0
+10015931,22130791,20,E8339,10,Other disorders of phosphorus metabolism,37093652,Transport; not MVT,0.0
+10015931,22130791,21,J449,10,"Chronic obstructive pulmonary disease, unspecified",37093652,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10015931,22130791,22,Z87442,10,Personal history of urinary calculi,37093652,,
+10015931,22130791,23,Z953,10,Presence of xenogenic heart valve,37093652,,
+10015931,24420677,1,I5023,10,Acute on chronic systolic (congestive) heart failure,38137964,Congestive heart failure; nonhypertensive,1.0
+10015931,24420677,2,R571,10,Hypovolemic shock,38137964,,
+10015931,24420677,3,N184,10,"Chronic kidney disease, stage 4 (severe)",38137964,Chronic kidney disease,1.0
+10015931,24420677,4,J90,10,"Pleural effusion, not elsewhere classified",38137964,,
+10015931,24420677,5,D696,10,"Thrombocytopenia, unspecified",38137964,,
+10015931,24420677,6,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,38137964,,
+10015931,24420677,7,I272,10,Other secondary pulmonary hypertension,38137964,,
+10015931,24420677,8,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,38137964,,
+10015931,24420677,9,Q6432,10,Congenital stricture of urethra,38137964,,
+10015931,24420677,10,L03116,10,Cellulitis of left lower limb,38137964,,
+10015931,24420677,11,N390,10,"Urinary tract infection, site not specified",38137964,,
+10015931,24420677,12,I4891,10,Unspecified atrial fibrillation,38137964,Cardiac dysrhythmias,1.0
+10015931,24420677,13,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",38137964,Hypertension with complications and secondary hypertension,1.0
+10015931,24420677,14,Z794,10,Long term (current) use of insulin,38137964,,
+10015931,24420677,15,J449,10,"Chronic obstructive pulmonary disease, unspecified",38137964,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10015931,24420677,16,E785,10,"Hyperlipidemia, unspecified",38137964,Disorders of lipid metabolism,1.0
+10015931,24420677,17,N400,10,Benign prostatic hyperplasia without lower urinary tract symptoms,38137964,,
+10015931,24420677,18,M7981,10,Nontraumatic hematoma of soft tissue,38137964,,
+10015931,24420677,19,T45515A,10,"Adverse effect of anticoagulants, initial encounter",38137964,,
+10015931,24420677,20,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,38137964,,
+10015931,24420677,21,H3530,10,Unspecified macular degeneration,38137964,,
+10015931,24420677,22,R5381,10,Other malaise,38137964,,
+10015931,24420677,23,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,38137964,,
+10015931,24420677,24,F4329,10,Adjustment disorder with other symptoms,38137964,,
+10015931,24420677,25,F1021,10,"Alcohol dependence, in remission",38137964,,
+10015931,24420677,26,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,38137964,,
+10015931,24420677,27,R0902,10,Hypoxemia,38137964,,
+10015931,28157142,1,I350,10,Nonrheumatic aortic (valve) stenosis,39544395,,
+10015931,28157142,2,I5023,10,Acute on chronic systolic (congestive) heart failure,39544395,Congestive heart failure; nonhypertensive,1.0
+10015931,28157142,3,R34,10,Anuria and oliguria,39544395,,
+10015931,28157142,4,N179,10,"Acute kidney failure, unspecified",39544395,Acute and unspecified renal failure,1.0
+10015931,28157142,5,E872,10,Acidosis,39544395,Fluid and electrolyte disorders,1.0
+10015931,28157142,6,N390,10,"Urinary tract infection, site not specified",39544395,,
+10015931,28157142,7,E871,10,Hypo-osmolality and hyponatremia,39544395,Fluid and electrolyte disorders,1.0
+10015931,28157142,8,T81718A,10,"Complication of other artery following a procedure, not elsewhere classified, initial encounter",39544395,,
+10015931,28157142,9,I482,10,Chronic atrial fibrillation,39544395,,
+10015931,28157142,10,Z7901,10,Long term (current) use of anticoagulants,39544395,,
+10015931,28157142,11,Y831,10,"Surgical operation with implant of artificial internal device as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",39544395,,
+10015931,28157142,12,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,39544395,,
+10015931,28157142,13,I724,10,Aneurysm of artery of lower extremity,39544395,,
+10015931,28157142,14,J449,10,"Chronic obstructive pulmonary disease, unspecified",39544395,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10015931,28157142,15,E785,10,"Hyperlipidemia, unspecified",39544395,Disorders of lipid metabolism,1.0
+10015931,28157142,16,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,39544395,,
+10015931,28157142,17,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",39544395,Hypertension with complications and secondary hypertension,1.0
+10015931,28157142,18,N183,10,"Chronic kidney disease, stage 3 (moderate)",39544395,Chronic kidney disease,1.0
+10015931,28157142,19,I272,10,Other secondary pulmonary hypertension,39544395,,
+10015931,28157142,20,Z794,10,Long term (current) use of insulin,39544395,,
+10015931,28157142,21,E875,10,Hyperkalemia,39544395,Fluid and electrolyte disorders,1.0
+10015931,28157142,22,Z006,10,Encounter for examination for normal comparison and control in clinical research program,39544395,,
+10015931,28157142,23,B964,10,Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere,39544395,,
+10015931,28157142,24,M109,10,"Gout, unspecified",39544395,,
+10015931,28157142,25,L723,10,Sebaceous cyst,39544395,,
+10015931,28157142,26,D702,10,Other drug-induced agranulocytosis,39544395,,
+10015931,28157142,27,T370X5A,10,"Adverse effect of sulfonamides, initial encounter",39544395,,
+10015931,28157142,28,N401,10,Benign prostatic hyperplasia with lower urinary tract symptoms,39544395,,
+10015931,28157142,29,R3911,10,Hesitancy of micturition,39544395,,
+10015931,28157142,30,R339,10,"Retention of urine, unspecified",39544395,,

@@ -1,0 +1,5 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10009035,28324362,1,4240,9,Mitral valve disorders,38507547,Heart valve disorders,0.0
+10009035,28324362,2,5121,9,Iatrogenic pneumothorax,38507547,Complications of surgical procedures or medical care,1.0
+10009035,28324362,3,7873,9,"Flatulence, eructation, and gas pain",38507547,Other gastrointestinal disorders,0.0
+10009035,28324362,4,V4589,9,Other postprocedural status,38507547,Residual codes; unclassified,0.0

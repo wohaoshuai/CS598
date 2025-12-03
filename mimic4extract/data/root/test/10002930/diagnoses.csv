@@ -1,0 +1,27 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10002930,25922998,1,F10239,10,"Alcohol dependence with withdrawal, unspecified",35629889,,
+10002930,25922998,2,F1110,10,"Opioid abuse, uncomplicated",35629889,,
+10002930,25922998,3,R45851,10,Suicidal ideations,35629889,,
+10002930,25922998,4,Z87820,10,Personal history of traumatic brain injury,35629889,,
+10002930,25922998,5,B1920,10,Unspecified viral hepatitis C without hepatic coma,35629889,,
+10002930,25922998,6,Z23,10,Encounter for immunization,35629889,,
+10002930,25922998,7,Z590,10,Homelessness,35629889,,
+10002930,25922998,8,F1410,10,"Cocaine abuse, uncomplicated",35629889,,
+10002930,25922998,9,R509,10,"Fever, unspecified",35629889,,
+10002930,25922998,10,F29,10,Unspecified psychosis not due to a substance or known physiological condition,35629889,,
+10002930,25922998,11,Z21,10,Asymptomatic human immunodeficiency virus [HIV] infection status,35629889,,
+10002930,25922998,12,Z9114,10,Patient's other noncompliance with medication regimen,35629889,,
+10002930,25922998,13,D72819,10,"Decreased white blood cell count, unspecified",35629889,,
+10002930,25696644,1,2511,9,Other specified hypoglycemia,37049133,Other endocrine disorders,0.0
+10002930,25696644,2,V6284,9,Suicidal ideation,37049133,Suicide and intentional self-inflicted injury,0.0
+10002930,25696644,3,2762,9,Acidosis,37049133,Fluid and electrolyte disorders,1.0
+10002930,25696644,4,V08,9,Asymptomatic human immunodeficiency virus [HIV] infection status,37049133,HIV infection,0.0
+10002930,25696644,5,33829,9,Other chronic pain,37049133,Other nervous system disorders,0.0
+10002930,25696644,6,V1552,9,Personal history of traumatic brain injury,37049133,Intracranial injury,0.0
+10002930,25696644,7,311,9,"Depressive disorder, not elsewhere classified",37049133,Mood disorders,0.0
+10002930,25696644,8,30590,9,"Other, mixed, or unspecified drug abuse, unspecified",37049133,Substance-related disorders,0.0
+10002930,25696644,9,30500,9,"Alcohol abuse, unspecified",37049133,Alcohol-related disorders,0.0
+10002930,25696644,10,V600,9,Lack of housing,37049133,Administrative/social admission,0.0
+10002930,25696644,10,V600,9,Driver of heavy transport vehicle injured in collision with pedestrian or animal in nontraffic accident,37049133,Administrative/social admission,0.0
+10002930,25696644,11,07054,9,Chronic hepatitis C without mention of hepatic coma,37049133,Hepatitis,0.0
+10002930,25696644,12,37950,9,"Nystagmus, unspecified",37049133,Other eye disorders,0.0

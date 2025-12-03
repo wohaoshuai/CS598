@@ -1,0 +1,14 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10009049,22995465,1,0388,9,Other specified septicemias,35636875,Septicemia (except in labor),1.0
+10009049,22995465,2,4829,9,"Bacterial pneumonia, unspecified",35636875,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10009049,22995465,3,5849,9,"Acute kidney failure, unspecified",35636875,Acute and unspecified renal failure,1.0
+10009049,22995465,4,5601,9,Paralytic ileus,35636875,Intestinal obstruction without hernia,0.0
+10009049,22995465,5,2875,9,"Thrombocytopenia, unspecified",35636875,Coagulation and hemorrhagic disorders,0.0
+10009049,22995465,6,5110,9,Pleurisy without mention of effusion or current tuberculosis,35636875,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10009049,22995465,7,99592,9,Severe sepsis,35636875,Septicemia (except in labor),1.0
+10009049,22995465,8,2859,9,"Anemia, unspecified",35636875,Deficiency and other anemia,0.0
+10009049,22995465,9,60001,9,Hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS),35636875,Hyperplasia of prostate,0.0
+10009049,22995465,10,78820,9,"Retention of urine, unspecified",35636875,Genitourinary symptoms and ill-defined conditions,0.0
+10009049,22995465,11,78791,9,Diarrhea,35636875,Other gastrointestinal disorders,0.0
+10009049,22995465,12,79092,9,Abnormal coagulation profile,35636875,Residual codes; unclassified,0.0
+10009049,22995465,13,2768,9,Hypopotassemia,35636875,Fluid and electrolyte disorders,1.0

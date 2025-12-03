@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10022041,28909879,1,29181,9,Alcohol withdrawal,30913302,Alcohol-related disorders,0.0
+10022041,28909879,2,3453,9,Grand mal status,30913302,Epilepsy; convulsions,0.0
+10022041,28909879,3,81201,9,Closed fracture of surgical neck of humerus,30913302,Fracture of upper limb,0.0
+10022041,28909879,4,4019,9,Unspecified essential hypertension,30913302,Essential hypertension,1.0
+10022041,28909879,5,2724,9,Other and unspecified hyperlipidemia,30913302,Disorders of lipid metabolism,1.0
+10022041,28909879,6,E8889,9,Unspecified fall,30913302,Fall,0.0
+10022041,28909879,6,E8889,9,Other specified metabolic disorders,30913302,Fall,0.0
+10022041,28909879,7,6961,9,Other psoriasis,30913302,Other inflammatory condition of skin,0.0
+10022041,28909879,8,7245,9,"Backache, unspecified",30913302,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10022041,28909879,9,30390,9,"Other and unspecified alcohol dependence, unspecified",30913302,Alcohol-related disorders,0.0

@@ -1,0 +1,18 @@
+import pandas as pd
+
+# Load the original MIMIC-CXR metadata
+cxr = pd.read_csv("data/mimic-cxr-jpg/mimic-cxr-2.0.0-metadata.csv.gz")
+
+# Filter for AP frontal view only
+cxr_ap = cxr[cxr["ViewPosition"] == "AP"]
+
+# Optional: if you only want your 70-image sample, filter by study_id
+sample_studies = [
+    "s50279568",  # add the rest of your 70 study_ids here
+]
+cxr_ap_sample = cxr_ap[cxr_ap["study_id"].isin(sample_studies)]
+
+# Save filtered CSV
+cxr_ap_sample.to_csv("cxr_metadata_ap_sample.csv", index=False)
+print("Saved cxr_metadata_ap_sample.csv")
+

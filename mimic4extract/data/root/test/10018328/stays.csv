@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10018328,23786647,31269608,Neuro Stepdown,2154-04-24 23:03:44,2154-05-02 15:55:21,7.702511574074075,2154-04-24 03:15:00,2154-05-03 14:00:00,,WHITE,F,83,,83,0,0,0

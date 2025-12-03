@@ -1,0 +1,14 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10038933,25129047,1,85186,9,"Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with loss of consciousness of unspecified duration",32166508,Intracranial injury,0.0
+10038933,25129047,2,5070,9,Pneumonitis due to inhalation of food or vomitus,32166508,Aspiration pneumonitis; food/vomitus,0.0
+10038933,25129047,3,34830,9,"Encephalopathy, unspecified",32166508,Other nervous system disorders,0.0
+10038933,25129047,4,2910,9,Alcohol withdrawal delirium,32166508,Alcohol-related disorders,0.0
+10038933,25129047,5,2761,9,Hyposmolality and/or hyponatremia,32166508,Fluid and electrolyte disorders,1.0
+10038933,25129047,6,1120,9,Candidiasis of mouth,32166508,Mycoses,0.0
+10038933,25129047,7,E8809,9,Accidental fall on or from other stairs or steps,32166508,Fall,0.0
+10038933,25129047,7,E8809,9,"Other disorders of plasma-protein metabolism, not elsewhere classified",32166508,Fall,0.0
+10038933,25129047,8,78720,9,"Dysphagia, unspecified",32166508,Other gastrointestinal disorders,0.0
+10038933,25129047,9,30390,9,"Other and unspecified alcohol dependence, unspecified",32166508,Alcohol-related disorders,0.0
+10038933,25129047,10,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32166508,Diabetes mellitus without complication,1.0
+10038933,25129047,11,4019,9,Unspecified essential hypertension,32166508,Essential hypertension,1.0
+10038933,25129047,12,78820,9,"Retention of urine, unspecified",32166508,Genitourinary symptoms and ill-defined conditions,0.0

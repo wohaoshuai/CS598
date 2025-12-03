@@ -1,0 +1,40 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10040025,27996267,1,T814XXA,10,"Infection following a procedure, initial encounter",36107367,Complications of surgical procedures or medical care,1.0
+10040025,27996267,2,I5033,10,Acute on chronic diastolic (congestive) heart failure,36107367,Congestive heart failure; nonhypertensive,1.0
+10040025,27996267,3,N179,10,"Acute kidney failure, unspecified",36107367,Acute and unspecified renal failure,1.0
+10040025,27996267,4,N184,10,"Chronic kidney disease, stage 4 (severe)",36107367,Chronic kidney disease,1.0
+10040025,27996267,5,D62,10,Acute posthemorrhagic anemia,36107367,,
+10040025,27996267,6,E1152,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene,36107367,,
+10040025,27996267,7,F05,10,Delirium due to known physiological condition,36107367,,
+10040025,27996267,8,T8119XA,10,"Other postprocedural shock, initial encounter",36107367,Complications of surgical procedures or medical care,1.0
+10040025,27996267,9,T8131XA,10,"Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter",36107367,Complications of surgical procedures or medical care,1.0
+10040025,27996267,10,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",36107367,Hypertension with complications and secondary hypertension,1.0
+10040025,27996267,11,Y832,10,"Surgical operation with anastomosis, bypass or graft as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36107367,,
+10040025,27996267,12,Y929,10,Unspecified place or not applicable,36107367,,
+10040025,27996267,13,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,36107367,,
+10040025,27996267,14,Z66,10,Do not resuscitate,36107367,,
+10040025,27996267,15,Z515,10,Encounter for palliative care,36107367,,
+10040025,27996267,16,Z781,10,Physical restraint status,36107367,,
+10040025,27996267,17,R791,10,Abnormal coagulation profile,36107367,,
+10040025,27996267,18,B952,10,Enterococcus as the cause of diseases classified elsewhere,36107367,,
+10040025,27996267,19,Z1621,10,Resistance to vancomycin,36107367,,
+10040025,27996267,20,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,36107367,,
+10040025,27996267,21,Z1623,10,Resistance to quinolones and fluoroquinolones,36107367,,
+10040025,27996267,22,B954,10,Other streptococcus as the cause of diseases classified elsewhere,36107367,,
+10040025,27996267,23,L89899,10,"Pressure ulcer of other site, unspecified stage",36107367,,
+10040025,27996267,24,E785,10,"Hyperlipidemia, unspecified",36107367,Disorders of lipid metabolism,1.0
+10040025,27996267,25,E039,10,"Hypothyroidism, unspecified",36107367,,
+10040025,27996267,26,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,36107367,Coronary atherosclerosis and other heart disease,1.0
+10040025,27996267,27,M109,10,"Gout, unspecified",36107367,,
+10040025,27996267,28,I4891,10,Unspecified atrial fibrillation,36107367,Cardiac dysrhythmias,1.0
+10040025,27996267,29,F329,10,"Major depressive disorder, single episode, unspecified",36107367,,
+10040025,27996267,30,J449,10,"Chronic obstructive pulmonary disease, unspecified",36107367,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10040025,27996267,31,K219,10,Gastro-esophageal reflux disease without esophagitis,36107367,,
+10040025,27996267,32,E11621,10,Type 2 diabetes mellitus with foot ulcer,36107367,,
+10040025,27996267,33,L97529,10,Non-pressure chronic ulcer of other part of left foot with unspecified severity,36107367,,
+10040025,27996267,34,R159,10,Full incontinence of feces,36107367,,
+10040025,27996267,35,R197,10,"Diarrhea, unspecified",36107367,,
+10040025,27996267,36,R748,10,Abnormal levels of other serum enzymes,36107367,Other liver diseases,1.0
+10040025,27996267,37,K5903,10,Drug induced constipation,36107367,,
+10040025,27996267,38,T402X5A,10,"Adverse effect of other opioids, initial encounter",36107367,,
+10040025,27996267,39,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,36107367,,

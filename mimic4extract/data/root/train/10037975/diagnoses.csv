@@ -1,0 +1,25 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10037975,27617929,1,03849,9,Other septicemia due to gram-negative organisms,39061571,Septicemia (except in labor),1.0
+10037975,27617929,2,51881,9,Acute respiratory failure,39061571,Respiratory failure; insufficiency; arrest (adult),1.0
+10037975,27617929,3,5845,9,Acute kidney failure with lesion of tubular necrosis,39061571,Acute and unspecified renal failure,1.0
+10037975,27617929,4,78552,9,Septic shock,39061571,Shock,1.0
+10037975,27617929,5,4820,9,Pneumonia due to Klebsiella pneumoniae,39061571,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10037975,27617929,6,28749,9,Other secondary thrombocytopenia,39061571,Coagulation and hemorrhagic disorders,0.0
+10037975,27617929,7,2760,9,Hyperosmolality and/or hypernatremia,39061571,Fluid and electrolyte disorders,1.0
+10037975,27617929,8,2762,9,Acidosis,39061571,Fluid and electrolyte disorders,1.0
+10037975,27617929,9,5559,9,Regional enteritis of unspecified site,39061571,Regional enteritis and ulcerative colitis,0.0
+10037975,27617929,10,99592,9,Severe sepsis,39061571,Septicemia (except in labor),1.0
+10037975,27617929,11,496,9,"Chronic airway obstruction, not elsewhere classified",39061571,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10037975,27617929,12,41401,9,Coronary atherosclerosis of native coronary artery,39061571,Coronary atherosclerosis and other heart disease,1.0
+10037975,27617929,13,5859,9,"Chronic kidney disease, unspecified",39061571,Chronic kidney disease,1.0
+10037975,27617929,14,42731,9,Atrial fibrillation,39061571,Cardiac dysrhythmias,1.0
+10037975,27617929,15,3051,9,Tobacco use disorder,39061571,Screening and history of mental health and substance abuse codes,0.0
+10037975,27617929,16,V1254,9,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",39061571,Other circulatory disease,0.0
+10037975,27617929,17,V667,9,Encounter for palliative care,39061571,Other aftercare,0.0
+10037975,27617929,17,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,39061571,Other aftercare,0.0
+10037975,27617929,18,V4986,9,Do not resuscitate status,39061571,Residual codes; unclassified,0.0
+10037975,27617929,19,7823,9,Edema,39061571,Residual codes; unclassified,0.0
+10037975,27617929,20,3569,9,Unspecified hereditary and idiopathic peripheral neuropathy,39061571,Other nervous system disorders,0.0
+10037975,27617929,21,V090,9,Infection with microorganisms resistant to penicillins,39061571,Bacterial infection; unspecified site,0.0
+10037975,27617929,21,V090,9,Pedestrian injured in nontraffic accident involving other and unspecified motor vehicles,39061571,Bacterial infection; unspecified site,0.0
+10037975,27617929,22,2859,9,"Anemia, unspecified",39061571,Deficiency and other anemia,0.0

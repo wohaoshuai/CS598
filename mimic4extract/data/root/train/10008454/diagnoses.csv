@@ -1,0 +1,12 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10008454,20291550,1,82111,9,Open fracture of shaft of femur,31959184,Fracture of lower limb,0.0
+10008454,20291550,2,9010,9,Injury to thoracic aorta,31959184,Crushing injury or internal injury,0.0
+10008454,20291550,3,5184,9,"Acute edema of lung, unspecified",31959184,Other lower respiratory disease,1.0
+10008454,20291550,4,80704,9,Closed fracture of four ribs,31959184,Other fractures,0.0
+10008454,20291550,5,5990,9,"Urinary tract infection, site not specified",31959184,Urinary tract infections,0.0
+10008454,20291550,6,E8120,9,Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle,31959184,Motor vehicle traffic (MVT),0.0
+10008454,20291550,7,04104,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",31959184,Bacterial infection; unspecified site,0.0
+10008454,20291550,8,E8495,9,Street and highway accidents,31959184,Place of occurrence,0.0
+10008454,20291550,9,3051,9,Tobacco use disorder,31959184,Screening and history of mental health and substance abuse codes,0.0
+10008454,20291550,10,27800,9,"Obesity, unspecified",31959184,Other nutritional; endocrine; and metabolic disorders,0.0
+10008454,20291550,11,V5861,9,Long-term (current) use of anticoagulants,31959184,Other aftercare,0.0

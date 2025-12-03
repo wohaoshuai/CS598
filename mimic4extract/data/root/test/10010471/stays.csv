@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10010471,29842315,32119961,Coronary Care Unit (CCU),2155-12-02 20:33:00,2155-12-07 18:19:18,4.907152777777777,2155-12-02 19:36:00,2155-12-07 15:30:00,2155-12-07 15:30:00,WHITE,F,89,2155-12-07 00:00:00,89,1,1,1

@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10006580,24159665,1,2397,9,Neoplasm of unspecified nature of endocrine glands and other parts of nervous system,38329661,Neoplasms of unspecified nature or uncertain behavior,0.0
+10006580,24159665,2,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38329661,Diabetes mellitus without complication,1.0
+10006580,24159665,3,4019,9,Unspecified essential hypertension,38329661,Essential hypertension,1.0
+10006580,24159665,4,311,9,"Depressive disorder, not elsewhere classified",38329661,Mood disorders,0.0
+10006580,24159665,5,2724,9,Other and unspecified hyperlipidemia,38329661,Disorders of lipid metabolism,1.0
+10006580,24159665,6,V4586,9,Bariatric surgery status,38329661,Residual codes; unclassified,0.0
+10006580,24159665,7,71690,9,"Arthropathy, unspecified, site unspecified",38329661,Other non-traumatic joint disorders,0.0
+10006580,24159665,8,V5866,9,Long-term (current) use of aspirin,38329661,Other aftercare,0.0
+10006580,24159665,9,2749,9,"Gout, unspecified",38329661,Gout and other crystal arthropathies,0.0
+10006580,24159665,10,V5867,9,Long-term (current) use of insulin,38329661,Other aftercare,0.0

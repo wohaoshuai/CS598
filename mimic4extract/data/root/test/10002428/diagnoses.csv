@@ -1,0 +1,16 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10002428,20321825,1,51881,9,Acute respiratory failure,34807493,Respiratory failure; insufficiency; arrest (adult),1.0
+10002428,20321825,2,2764,9,Mixed acid-base balance disorder,34807493,Fluid and electrolyte disorders,1.0
+10002428,20321825,3,00845,9,Intestinal infection due to Clostridium difficile,34807493,Intestinal infection,0.0
+10002428,20321825,4,29281,9,Drug-induced delirium,34807493,Substance-related disorders,0.0
+10002428,20321825,5,5119,9,Unspecified pleural effusion,34807493,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10002428,20321825,6,1122,9,Candidiasis of other urogenital sites,34807493,Mycoses,0.0
+10002428,20321825,7,5781,9,Blood in stool,34807493,Gastrointestinal hemorrhage,1.0
+10002428,20321825,8,27669,9,Other fluid overload,34807493,Fluid and electrolyte disorders,1.0
+10002428,20321825,9,7102,9,Sicca syndrome,34807493,Systemic lupus erythematosus and connective tissue disorders,0.0
+10002428,20321825,10,E9393,9,"Other antipsychotics, neuroleptics, and major tranquilizers causing adverse effects in therapeutic use",34807493,Adverse effects of medical drugs,0.0
+10002428,20321825,11,2859,9,"Anemia, unspecified",34807493,Deficiency and other anemia,0.0
+10002428,20321825,12,73300,9,"Osteoporosis, unspecified",34807493,Osteoporosis,0.0
+10002428,20321825,13,4019,9,Unspecified essential hypertension,34807493,Essential hypertension,1.0
+10002428,20321825,14,2449,9,Unspecified acquired hypothyroidism,34807493,Thyroid disorders,0.0
+10002428,20321825,15,4240,9,Mitral valve disorders,34807493,Heart valve disorders,0.0

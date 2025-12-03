@@ -1,0 +1,16 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10022017,22342963,1,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,39497668,Coronary atherosclerosis and other heart disease,1.0
+10022017,22342963,2,J810,10,Acute pulmonary edema,39497668,Other lower respiratory disease,1.0
+10022017,22342963,3,I959,10,"Hypotension, unspecified",39497668,,
+10022017,22342963,4,K5190,10,"Ulcerative colitis, unspecified, without complications",39497668,,
+10022017,22342963,5,I4891,10,Unspecified atrial fibrillation,39497668,Cardiac dysrhythmias,1.0
+10022017,22342963,6,D62,10,Acute posthemorrhagic anemia,39497668,,
+10022017,22342963,7,I9789,10,"Other postprocedural complications and disorders of the circulatory system, not elsewhere classified",39497668,Complications of surgical procedures or medical care,1.0
+10022017,22342963,8,I255,10,Ischemic cardiomyopathy,39497668,,
+10022017,22342963,9,Z933,10,Colostomy status,39497668,,
+10022017,22342963,10,R0902,10,Hypoxemia,39497668,,
+10022017,22342963,11,E119,10,Type 2 diabetes mellitus without complications,39497668,Diabetes mellitus without complication,1.0
+10022017,22342963,12,E785,10,"Hyperlipidemia, unspecified",39497668,Disorders of lipid metabolism,1.0
+10022017,22342963,13,G4700,10,"Insomnia, unspecified",39497668,,
+10022017,22342963,14,Y832,10,"Surgical operation with anastomosis, bypass or graft as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",39497668,,
+10022017,22342963,15,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,39497668,,

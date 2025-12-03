@@ -1,0 +1,31 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10010471,29842315,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32119961,Acute myocardial infarction,1.0
+10010471,29842315,2,N186,10,End stage renal disease,32119961,Chronic kidney disease,1.0
+10010471,29842315,3,I462,10,Cardiac arrest due to underlying cardiac condition,32119961,,
+10010471,29842315,4,J9690,10,"Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia",32119961,Respiratory failure; insufficiency; arrest (adult),1.0
+10010471,29842315,5,I5033,10,Acute on chronic diastolic (congestive) heart failure,32119961,Congestive heart failure; nonhypertensive,1.0
+10010471,29842315,6,S2243XA,10,"Multiple fractures of ribs, bilateral, initial encounter for closed fracture",32119961,,
+10010471,29842315,7,I959,10,"Hypotension, unspecified",32119961,,
+10010471,29842315,8,R7881,10,Bacteremia,32119961,Septicemia (except in labor),1.0
+10010471,29842315,9,I132,10,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",32119961,Hypertension with complications and secondary hypertension,1.0
+10010471,29842315,10,I480,10,Paroxysmal atrial fibrillation,32119961,,
+10010471,29842315,11,Z9981,10,Dependence on supplemental oxygen,32119961,Respiratory failure; insufficiency; arrest (adult),1.0
+10010471,29842315,12,J449,10,"Chronic obstructive pulmonary disease, unspecified",32119961,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10010471,29842315,13,I080,10,Rheumatic disorders of both mitral and aortic valves,32119961,,
+10010471,29842315,14,I447,10,"Left bundle-branch block, unspecified",32119961,Conduction disorders,1.0
+10010471,29842315,15,E785,10,"Hyperlipidemia, unspecified",32119961,Disorders of lipid metabolism,1.0
+10010471,29842315,16,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,32119961,Coronary atherosclerosis and other heart disease,1.0
+10010471,29842315,17,E039,10,"Hypothyroidism, unspecified",32119961,,
+10010471,29842315,18,M5489,10,Other dorsalgia,32119961,,
+10010471,29842315,19,Z87891,10,Personal history of nicotine dependence,32119961,,
+10010471,29842315,20,K219,10,Gastro-esophageal reflux disease without esophagitis,32119961,,
+10010471,29842315,21,Z45018,10,Encounter for adjustment and management of other part of cardiac pacemaker,32119961,Conduction disorders,1.0
+10010471,29842315,22,D631,10,Anemia in chronic kidney disease,32119961,,
+10010471,29842315,23,Z992,10,Dependence on renal dialysis,32119961,Chronic kidney disease,1.0
+10010471,29842315,24,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",32119961,,
+10010471,29842315,25,Y9289,10,Other specified places as the place of occurrence of the external cause,32119961,,
+10010471,29842315,26,R740,10,Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH],32119961,Other liver diseases,1.0
+10010471,29842315,27,Z515,10,Encounter for palliative care,32119961,,
+10010471,29842315,28,M7981,10,Nontraumatic hematoma of soft tissue,32119961,,
+10010471,29842315,29,T45515A,10,"Adverse effect of anticoagulants, initial encounter",32119961,,
+10010471,29842315,30,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,32119961,,

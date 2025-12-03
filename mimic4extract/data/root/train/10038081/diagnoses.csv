@@ -1,0 +1,40 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10038081,20755971,1,56723,9,Spontaneous bacterial peritonitis,38430513,Peritonitis and intestinal abscess,0.0
+10038081,20755971,2,51881,9,Acute respiratory failure,38430513,Respiratory failure; insufficiency; arrest (adult),1.0
+10038081,20755971,3,4271,9,Paroxysmal ventricular tachycardia,38430513,Cardiac dysrhythmias,1.0
+10038081,20755971,4,7885,9,Oliguria and anuria,38430513,Genitourinary symptoms and ill-defined conditions,0.0
+10038081,20755971,5,5849,9,"Acute kidney failure, unspecified",38430513,Acute and unspecified renal failure,1.0
+10038081,20755971,6,2869,9,Other and unspecified coagulation defects,38430513,Coagulation and hemorrhagic disorders,0.0
+10038081,20755971,7,7994,9,Cachexia,38430513,Nutritional deficiencies,0.0
+10038081,20755971,8,5579,9,Unspecified vascular insufficiency of intestine,38430513,Peripheral and visceral atherosclerosis,0.0
+10038081,20755971,9,4589,9,"Hypotension, unspecified",38430513,Other circulatory disease,0.0
+10038081,20755971,10,5370,9,Acquired hypertrophic pyloric stenosis,38430513,Other disorders of stomach and duodenum,0.0
+10038081,20755971,11,4561,9,Esophageal varices without mention of bleeding,38430513,Esophageal disorders,0.0
+10038081,20755971,12,5187,9,Transfusion related acute lung injury (TRALI),38430513,Complications of surgical procedures or medical care,1.0
+10038081,20755971,13,514,9,Pulmonary congestion and hypostasis,38430513,Other lower respiratory disease,1.0
+10038081,20755971,14,78959,9,Other ascites,38430513,Other liver diseases,1.0
+10038081,20755971,15,2761,9,Hyposmolality and/or hyponatremia,38430513,Fluid and electrolyte disorders,1.0
+10038081,20755971,16,7824,9,"Jaundice, unspecified, not of newborn",38430513,Other liver diseases,1.0
+10038081,20755971,17,5601,9,Paralytic ileus,38430513,Intestinal obstruction without hernia,0.0
+10038081,20755971,18,5723,9,Portal hypertension,38430513,Other liver diseases,1.0
+10038081,20755971,19,25541,9,Glucocorticoid deficiency,38430513,Other endocrine disorders,0.0
+10038081,20755971,20,5715,9,Cirrhosis of liver without mention of alcohol,38430513,Other liver diseases,1.0
+10038081,20755971,21,2767,9,Hyperpotassemia,38430513,Fluid and electrolyte disorders,1.0
+10038081,20755971,22,2859,9,"Anemia, unspecified",38430513,Deficiency and other anemia,0.0
+10038081,20755971,23,2724,9,Other and unspecified hyperlipidemia,38430513,Disorders of lipid metabolism,1.0
+10038081,20755971,24,25002,9,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",38430513,Diabetes mellitus with complications,1.0
+10038081,20755971,25,72889,9,"Other disorders of muscle, ligament, and fascia",38430513,Other connective tissue disease,0.0
+10038081,20755971,26,27669,9,Other fluid overload,38430513,Fluid and electrolyte disorders,1.0
+10038081,20755971,27,78606,9,Tachypnea,38430513,Other lower respiratory disease,1.0
+10038081,20755971,28,78097,9,Altered mental status,38430513,Residual codes; unclassified,0.0
+10038081,20755971,29,5859,9,"Chronic kidney disease, unspecified",38430513,Chronic kidney disease,1.0
+10038081,20755971,30,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",38430513,Hypertension with complications and secondary hypertension,1.0
+10038081,20755971,31,53789,9,Other specified disorders of stomach and duodenum,38430513,Other disorders of stomach and duodenum,0.0
+10038081,20755971,32,49390,9,"Asthma, unspecified type, unspecified",38430513,Asthma,0.0
+10038081,20755971,33,7847,9,Epistaxis,38430513,Other upper respiratory disease,1.0
+10038081,20755971,34,V7283,9,Other specified pre-operative examination,38430513,Medical examination/evaluation,0.0
+10038081,20755971,35,V1001,9,Personal history of malignant neoplasm of tongue,38430513,Cancer of head and neck,0.0
+10038081,20755971,36,V667,9,Encounter for palliative care,38430513,Other aftercare,0.0
+10038081,20755971,36,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,38430513,Other aftercare,0.0
+10038081,20755971,37,V4986,9,Do not resuscitate status,38430513,Residual codes; unclassified,0.0
+10038081,20755971,38,E9347,9,Natural blood and blood products causing adverse effects in therapeutic use,38430513,Adverse effects of medical drugs,0.0

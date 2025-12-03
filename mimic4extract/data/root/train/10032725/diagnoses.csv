@@ -1,0 +1,16 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10032725,20611640,1,1983,9,Secondary malignant neoplasm of brain and spinal cord,30101877,Secondary malignancies,0.0
+10032725,20611640,2,431,9,Intracerebral hemorrhage,30101877,Acute cerebrovascular disease,1.0
+10032725,20611640,3,3485,9,Cerebral edema,30101877,Other nervous system disorders,0.0
+10032725,20611640,4,43820,9,"Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",30101877,Late effects of cerebrovascular disease,0.0
+10032725,20611640,5,1970,9,Secondary malignant neoplasm of lung,30101877,Secondary malignancies,0.0
+10032725,20611640,6,1987,9,Secondary malignant neoplasm of adrenal gland,30101877,Secondary malignancies,0.0
+10032725,20611640,7,1968,9,Secondary and unspecified malignant neoplasm of lymph nodes of multiple sites,30101877,Secondary malignancies,0.0
+10032725,20611640,8,70703,9,"Pressure ulcer, lower back",30101877,Chronic ulcer of skin,0.0
+10032725,20611640,9,70722,9,"Pressure ulcer, stage II",30101877,Chronic ulcer of skin,0.0
+10032725,20611640,10,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",30101877,Diabetes mellitus without complication,1.0
+10032725,20611640,11,2720,9,Pure hypercholesterolemia,30101877,Disorders of lipid metabolism,1.0
+10032725,20611640,12,4019,9,Unspecified essential hypertension,30101877,Essential hypertension,1.0
+10032725,20611640,13,V667,9,Encounter for palliative care,30101877,Other aftercare,0.0
+10032725,20611640,13,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,30101877,Other aftercare,0.0
+10032725,20611640,14,V1042,9,Personal history of malignant neoplasm of other parts of uterus,30101877,Cancer of uterus,0.0

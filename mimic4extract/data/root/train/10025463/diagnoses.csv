@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10025463,24470193,1,431,9,Intracerebral hemorrhage,38275267,Acute cerebrovascular disease,1.0
+10025463,24470193,2,3314,9,Obstructive hydrocephalus,38275267,Other hereditary and degenerative nervous system conditions,0.0
+10025463,24470193,3,42731,9,Atrial fibrillation,38275267,Cardiac dysrhythmias,1.0
+10025463,24470193,4,V4987,9,Physical restraints status,38275267,Residual codes; unclassified,0.0
+10025463,24470193,5,4019,9,Unspecified essential hypertension,38275267,Essential hypertension,1.0
+10025463,24470193,6,2724,9,Other and unspecified hyperlipidemia,38275267,Disorders of lipid metabolism,1.0
+10025463,24470193,7,V5861,9,Long-term (current) use of anticoagulants,38275267,Other aftercare,0.0
+10025463,24470193,8,V4986,9,Do not resuscitate status,38275267,Residual codes; unclassified,0.0
+10025463,24470193,9,V1582,9,Personal history of tobacco use,38275267,Screening and history of mental health and substance abuse codes,0.0
+10025463,24470193,10,4558,9,Unspecified hemorrhoids with other complication,38275267,Hemorrhoids,0.0

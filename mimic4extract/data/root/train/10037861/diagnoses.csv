@@ -1,0 +1,40 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10037861,24540843,1,S065X7A,10,"Traumatic subdural hemorrhage with loss of consciousness of any duration with death due to brain injury before regaining consciousness, initial encounter",34531557,,
+10037861,24540843,2,G935,10,Compression of brain,34531557,,
+10037861,24540843,3,J9600,10,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",34531557,Respiratory failure; insufficiency; arrest (adult),1.0
+10037861,24540843,4,R6521,10,Severe sepsis with septic shock,34531557,Shock,1.0
+10037861,24540843,5,A419,10,"Sepsis, unspecified organism",34531557,Septicemia (except in labor),1.0
+10037861,24540843,6,I5023,10,Acute on chronic systolic (congestive) heart failure,34531557,Congestive heart failure; nonhypertensive,1.0
+10037861,24540843,7,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",34531557,Hypertension with complications and secondary hypertension,1.0
+10037861,24540843,8,N390,10,"Urinary tract infection, site not specified",34531557,,
+10037861,24540843,9,Z9911,10,Dependence on respirator [ventilator] status,34531557,Respiratory failure; insufficiency; arrest (adult),1.0
+10037861,24540843,10,N179,10,"Acute kidney failure, unspecified",34531557,Acute and unspecified renal failure,1.0
+10037861,24540843,11,J95851,10,Ventilator associated pneumonia,34531557,Complications of surgical procedures or medical care,1.0
+10037861,24540843,12,E870,10,Hyperosmolality and hypernatremia,34531557,Fluid and electrolyte disorders,1.0
+10037861,24540843,13,I82612,10,Acute embolism and thrombosis of superficial veins of left upper extremity,34531557,,
+10037861,24540843,14,W19XXXA,10,"Unspecified fall, initial encounter",34531557,,
+10037861,24540843,15,Y92009,10,Unspecified place in unspecified non-institutional (private) residence as the place of occurrence of the external cause,34531557,,
+10037861,24540843,16,Z66,10,Do not resuscitate,34531557,,
+10037861,24540843,17,Z515,10,Encounter for palliative care,34531557,,
+10037861,24540843,18,Z95810,10,Presence of automatic (implantable) cardiac defibrillator,34531557,Conduction disorders,1.0
+10037861,24540843,19,I4891,10,Unspecified atrial fibrillation,34531557,Cardiac dysrhythmias,1.0
+10037861,24540843,20,Z7901,10,Long term (current) use of anticoagulants,34531557,,
+10037861,24540843,21,E785,10,"Hyperlipidemia, unspecified",34531557,Disorders of lipid metabolism,1.0
+10037861,24540843,22,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,34531557,,
+10037861,24540843,23,N183,10,"Chronic kidney disease, stage 3 (moderate)",34531557,Chronic kidney disease,1.0
+10037861,24540843,24,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,34531557,Coronary atherosclerosis and other heart disease,1.0
+10037861,24540843,25,Z955,10,Presence of coronary angioplasty implant and graft,34531557,,
+10037861,24540843,26,I252,10,Old myocardial infarction,34531557,Coronary atherosclerosis and other heart disease,1.0
+10037861,24540843,27,I255,10,Ischemic cardiomyopathy,34531557,,
+10037861,24540843,28,Z9282,10,Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility,34531557,,
+10037861,24540843,29,Z87891,10,Personal history of nicotine dependence,34531557,,
+10037861,24540843,30,G40901,10,"Epilepsy, unspecified, not intractable, with status epilepticus",34531557,,
+10037861,24540843,31,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,34531557,,
+10037861,24540843,32,I9581,10,Postprocedural hypotension,34531557,Complications of surgical procedures or medical care,1.0
+10037861,24540843,33,R4020,10,Unspecified coma,34531557,,
+10037861,24540843,34,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,34531557,,
+10037861,24540843,35,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",34531557,,
+10037861,24540843,36,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,34531557,,
+10037861,24540843,37,S06357A,10,"Traumatic hemorrhage of left cerebrum with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness, initial encounter",34531557,,
+10037861,24540843,38,N200,10,Calculus of kidney,34531557,,
+10037861,24540843,39,I714,10,"Abdominal aortic aneurysm, without rupture",34531557,,

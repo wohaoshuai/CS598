@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10003046,26048429,35514836,Trauma SICU (TSICU),2154-01-02 15:57:15,2154-01-04 15:19:56,1.974085648148148,2154-01-02 07:15:00,2154-01-09 11:53:00,,WHITE,M,64,,64,0,0,0

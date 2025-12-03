@@ -1,0 +1,7 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019172,24997044,1,4241,9,Aortic valve disorders,32283063,Heart valve disorders,0.0
+10019172,24997044,2,4271,9,Paroxysmal ventricular tachycardia,32283063,Cardiac dysrhythmias,1.0
+10019172,24997044,3,4019,9,Unspecified essential hypertension,32283063,Essential hypertension,1.0
+10019172,24997044,4,42731,9,Atrial fibrillation,32283063,Cardiac dysrhythmias,1.0
+10019172,24997044,5,71590,9,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified",32283063,Osteoarthritis,0.0
+10019172,24997044,6,3051,9,Tobacco use disorder,32283063,Screening and history of mental health and substance abuse codes,0.0

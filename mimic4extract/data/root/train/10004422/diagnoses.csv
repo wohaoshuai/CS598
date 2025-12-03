@@ -1,0 +1,17 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10004422,21255400,1,41401,9,Coronary atherosclerosis of native coronary artery,32155744,Coronary atherosclerosis and other heart disease,1.0
+10004422,21255400,2,4111,9,Intermediate coronary syndrome,32155744,Coronary atherosclerosis and other heart disease,1.0
+10004422,21255400,3,99811,9,Hemorrhage complicating a procedure,32155744,Complications of surgical procedures or medical care,1.0
+10004422,21255400,4,9971,9,"Cardiac complications, not elsewhere classified",32155744,Complications of surgical procedures or medical care,1.0
+10004422,21255400,5,2910,9,Alcohol withdrawal delirium,32155744,Alcohol-related disorders,0.0
+10004422,21255400,6,V4582,9,Percutaneous transluminal coronary angioplasty status,32155744,Coronary atherosclerosis and other heart disease,1.0
+10004422,21255400,7,2724,9,Other and unspecified hyperlipidemia,32155744,Disorders of lipid metabolism,1.0
+10004422,21255400,8,4019,9,Unspecified essential hypertension,32155744,Essential hypertension,1.0
+10004422,21255400,9,V1582,9,Personal history of tobacco use,32155744,Screening and history of mental health and substance abuse codes,0.0
+10004422,21255400,10,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32155744,Adverse effects of medical care,0.0
+10004422,21255400,11,71941,9,"Pain in joint, shoulder region",32155744,Other non-traumatic joint disorders,0.0
+10004422,21255400,12,E8844,9,Accidental fall from bed,32155744,Fall,0.0
+10004422,21255400,13,E8497,9,Accidents occurring in residential institution,32155744,Place of occurrence,0.0
+10004422,21255400,14,42731,9,Atrial fibrillation,32155744,Cardiac dysrhythmias,1.0
+10004422,21255400,15,30390,9,"Other and unspecified alcohol dependence, unspecified",32155744,Alcohol-related disorders,0.0
+10004422,21255400,16,45182,9,Phlebitis and thrombophlebitis of superficial veins of upper extremities,32155744,Phlebitis; thrombophlebitis and thromboembolism,0.0

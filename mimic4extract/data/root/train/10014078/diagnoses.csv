@@ -1,0 +1,8 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10014078,25809882,1,3453,9,Grand mal status,38907302,Epilepsy; convulsions,0.0
+10014078,25809882,2,34830,9,"Encephalopathy, unspecified",38907302,Other nervous system disorders,0.0
+10014078,25809882,3,1369,9,Unspecified infectious and parasitic diseases,38907302,Other infections; including parasitic,0.0
+10014078,25809882,4,2252,9,Benign neoplasm of cerebral meninges,38907302,Other and unspecified benign neoplasm,0.0
+10014078,25809882,5,2724,9,Other and unspecified hyperlipidemia,38907302,Disorders of lipid metabolism,1.0
+10014078,25809882,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38907302,Diabetes mellitus without complication,1.0
+10014078,25809882,7,4019,9,Unspecified essential hypertension,38907302,Essential hypertension,1.0

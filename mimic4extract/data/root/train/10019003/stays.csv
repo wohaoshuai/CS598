@@ -1,0 +1,4 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10019003,29279905,34107647,Medical/Surgical Intensive Care Unit (MICU/SICU),2153-03-28 02:21:00,2153-03-31 16:59:04,3.609768518518518,2153-03-27 23:25:00,2153-04-07 16:20:00,,WHITE,F,65,2155-12-03 00:00:00,65,0,0,0
+10019003,27525946,35214014,Medical/Surgical Intensive Care Unit (MICU/SICU),2153-04-13 19:45:30,2153-04-16 21:15:15,3.0623263888888888,2153-04-12 19:07:00,2153-04-20 17:09:00,,WHITE,F,65,2155-12-03 00:00:00,65,0,0,0
+10019003,21457723,35727289,Medical/Surgical Intensive Care Unit (MICU/SICU),2155-07-10 17:48:57,2155-07-13 15:04:42,2.8859375000000003,2155-07-10 17:48:00,2155-07-18 16:59:00,,WHITE,F,65,2155-12-03 00:00:00,65,0,0,0

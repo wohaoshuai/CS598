@@ -1,0 +1,11 @@
+stay,period_length,stay_id,y_true
+10002428_episode1_timeseries.csv,0,34807493,0
+10003400_episode1_timeseries.csv,0,32128372,0
+10003400_episode2_timeseries.csv,0,34577403,1
+10010471_episode1_timeseries.csv,0,32119961,1
+10010867_episode1_timeseries.csv,0,39880770,0
+10014729_episode1_timeseries.csv,0,33558396,0
+10018328_episode1_timeseries.csv,0,31269608,0
+10019777_episode1_timeseries.csv,0,34578020,0
+10021487_episode1_timeseries.csv,0,38197705,0
+10038999_episode1_timeseries.csv,0,39711498,0

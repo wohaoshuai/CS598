@@ -1,0 +1,14 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10020786,23488445,1,A419,10,"Sepsis, unspecified organism",33683112,Septicemia (except in labor),1.0
+10020786,23488445,2,R6521,10,Severe sepsis with septic shock,33683112,Shock,1.0
+10020786,23488445,3,J189,10,"Pneumonia, unspecified organism",33683112,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10020786,23488445,4,I4891,10,Unspecified atrial fibrillation,33683112,Cardiac dysrhythmias,1.0
+10020786,23488445,5,J449,10,"Chronic obstructive pulmonary disease, unspecified",33683112,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10020786,23488445,6,E119,10,Type 2 diabetes mellitus without complications,33683112,Diabetes mellitus without complication,1.0
+10020786,23488445,7,Z7901,10,Long term (current) use of anticoagulants,33683112,,
+10020786,23488445,8,E785,10,"Hyperlipidemia, unspecified",33683112,Disorders of lipid metabolism,1.0
+10020786,23488445,9,E039,10,"Hypothyroidism, unspecified",33683112,,
+10020786,23488445,10,Z66,10,Do not resuscitate,33683112,,
+10020786,23488445,11,Z87891,10,Personal history of nicotine dependence,33683112,,
+10020786,23488445,12,I10,10,Essential (primary) hypertension,33683112,Essential hypertension,1.0
+10020786,23488445,13,K649,10,Unspecified hemorrhoids,33683112,,

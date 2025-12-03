@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10037861,24540843,34531557,Neuro Surgical Intensive Care Unit (Neuro SICU),2117-03-14 16:34:58,2117-03-25 02:35:08,10.416782407407407,2117-03-14 16:34:00,2117-03-24 00:01:00,2117-03-24 23:08:00,UNKNOWN,M,77,2117-03-24 00:00:00,77,1,1,1

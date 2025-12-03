@@ -30,7 +30,7 @@ torch.manual_seed(seed)
 np.random.seed(seed)
 
 
-gpu_num=os.environ['CUDA_VISIBLE_DEVICES']
+gpu_num=os.environ.get('CUDA_VISIBLE_DEVICES', '-1')
 
 # Set cuda device
 if gpu_num=='0':

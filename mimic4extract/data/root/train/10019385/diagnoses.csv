@@ -1,0 +1,10 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019385,20297618,1,I25110,10,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,39268883,,
+10019385,20297618,2,E669,10,"Obesity, unspecified",39268883,,
+10019385,20297618,3,E785,10,"Hyperlipidemia, unspecified",39268883,Disorders of lipid metabolism,1.0
+10019385,20297618,4,Z955,10,Presence of coronary angioplasty implant and graft,39268883,,
+10019385,20297618,5,F17200,10,"Nicotine dependence, unspecified, uncomplicated",39268883,,
+10019385,20297618,6,Z6832,10,"Body mass index (BMI) 32.0-32.9, adult",39268883,,
+10019385,20297618,7,F419,10,"Anxiety disorder, unspecified",39268883,,
+10019385,20297618,8,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,39268883,,
+10019385,20297618,9,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,39268883,,

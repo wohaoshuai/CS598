@@ -1,0 +1,13 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10004457,23251352,1,3968,9,Multiple involvement of mitral and aortic valves,31494479,Heart valve disorders,0.0
+10004457,23251352,2,41401,9,Coronary atherosclerosis of native coronary artery,31494479,Coronary atherosclerosis and other heart disease,1.0
+10004457,23251352,3,V4582,9,Percutaneous transluminal coronary angioplasty status,31494479,Coronary atherosclerosis and other heart disease,1.0
+10004457,23251352,4,4142,9,Chronic total occlusion of coronary artery,31494479,Coronary atherosclerosis and other heart disease,1.0
+10004457,23251352,5,V1046,9,Personal history of malignant neoplasm of prostate,31494479,Cancer of prostate,0.0
+10004457,23251352,6,V1079,9,Personal history of other lymphatic and hematopoietic neoplasms,31494479,Non-Hodgkin`s lymphoma,0.0
+10004457,23251352,7,2724,9,Other and unspecified hyperlipidemia,31494479,Disorders of lipid metabolism,1.0
+10004457,23251352,8,V8741,9,Personal history of antineoplastic chemotherapy,31494479,Residual codes; unclassified,0.0
+10004457,23251352,9,V153,9,"Personal history of irradiation, presenting hazards to health",31494479,Residual codes; unclassified,0.0
+10004457,23251352,9,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,31494479,Residual codes; unclassified,0.0
+10004457,23251352,10,V1582,9,Personal history of tobacco use,31494479,Screening and history of mental health and substance abuse codes,0.0
+10004457,23251352,11,49390,9,"Asthma, unspecified type, unspecified",31494479,Asthma,0.0

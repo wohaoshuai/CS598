@@ -1,0 +1,8 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019568,28710730,1,80707,9,Closed fracture of seven ribs,30876334,Other fractures,0.0
+10019568,28710730,2,8600,9,Traumatic pneumothorax without mention of open wound into thorax,30876334,Crushing injury or internal injury,0.0
+10019568,28710730,3,E8809,9,Accidental fall on or from other stairs or steps,30876334,Fall,0.0
+10019568,28710730,3,E8809,9,"Other disorders of plasma-protein metabolism, not elsewhere classified",30876334,Fall,0.0
+10019568,28710730,4,E8490,9,Home accidents,30876334,Place of occurrence,0.0
+10019568,28710730,5,30500,9,"Alcohol abuse, unspecified",30876334,Alcohol-related disorders,0.0
+10019568,28710730,6,4019,9,Unspecified essential hypertension,30876334,Essential hypertension,1.0

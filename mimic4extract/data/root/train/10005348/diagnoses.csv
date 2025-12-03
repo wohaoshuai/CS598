@@ -1,0 +1,32 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10005348,25239799,1,4241,9,Aortic valve disorders,34629895,Heart valve disorders,0.0
+10005348,25239799,2,42612,9,Mobitz (type) II atrioventricular block,34629895,Conduction disorders,1.0
+10005348,25239799,3,5119,9,Unspecified pleural effusion,34629895,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10005348,25239799,4,2662,9,Other B-complex deficiencies,34629895,Nutritional deficiencies,0.0
+10005348,25239799,5,42731,9,Atrial fibrillation,34629895,Cardiac dysrhythmias,1.0
+10005348,25239799,6,2875,9,"Thrombocytopenia, unspecified",34629895,Coagulation and hemorrhagic disorders,0.0
+10005348,25239799,7,5180,9,Pulmonary collapse,34629895,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10005348,25239799,8,9971,9,"Cardiac complications, not elsewhere classified",34629895,Complications of surgical procedures or medical care,1.0
+10005348,25239799,9,41401,9,Coronary atherosclerosis of native coronary artery,34629895,Coronary atherosclerosis and other heart disease,1.0
+10005348,25239799,10,4019,9,Unspecified essential hypertension,34629895,Essential hypertension,1.0
+10005348,25239799,11,71594,9,"Osteoarthrosis, unspecified whether generalized or localized, hand",34629895,Osteoarthritis,0.0
+10005348,25239799,12,311,9,"Depressive disorder, not elsewhere classified",34629895,Mood disorders,0.0
+10005348,25239799,13,2724,9,Other and unspecified hyperlipidemia,34629895,Disorders of lipid metabolism,1.0
+10005348,25239799,14,2809,9,"Iron deficiency anemia, unspecified",34629895,Deficiency and other anemia,0.0
+10005348,25239799,15,4580,9,Orthostatic hypotension,34629895,Other circulatory disease,0.0
+10005348,25239799,16,3659,9,Unspecified glaucoma,34629895,Glaucoma,0.0
+10005348,25239799,17,4400,9,Atherosclerosis of aorta,34629895,Peripheral and visceral atherosclerosis,0.0
+10005348,25239799,18,7224,9,Degeneration of cervical intervertebral disc,34629895,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10005348,25239799,19,72252,9,Degeneration of lumbar or lumbosacral intervertebral disc,34629895,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10005348,25239799,20,E8781,9,"Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",34629895,Adverse effects of medical care,0.0
+10005348,25239799,21,V707,9,Examination of participant in clinical trial,34629895,Medical examination/evaluation,0.0
+10005348,25239799,21,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,34629895,Medical examination/evaluation,0.0
+10005348,25239799,22,V1046,9,Personal history of malignant neoplasm of prostate,34629895,Cancer of prostate,0.0
+10005348,25239799,23,V1011,9,Personal history of malignant neoplasm of bronchus and lung,34629895,Cancer of bronchus; lung,0.0
+10005348,25239799,24,V1083,9,Personal history of other malignant neoplasm of skin,34629895,Other non-epithelial cancer of skin,0.0
+10005348,25239799,25,V173,9,Family history of ischemic heart disease,34629895,Residual codes; unclassified,0.0
+10005348,25239799,25,V173,9,Person boarding or alighting a pedal cycle injured in collision with fixed or stationary object,34629895,Residual codes; unclassified,0.0
+10005348,25239799,26,V1582,9,Personal history of tobacco use,34629895,Screening and history of mental health and substance abuse codes,0.0
+10005348,25239799,27,V4582,9,Percutaneous transluminal coronary angioplasty status,34629895,Coronary atherosclerosis and other heart disease,1.0
+10005348,25239799,28,V113,9,Personal history of alcoholism,34629895,Screening and history of mental health and substance abuse codes,0.0
+10005348,25239799,28,V113,9,Person boarding or alighting a pedal cycle injured in collision with other pedal cycle,34629895,Screening and history of mental health and substance abuse codes,0.0

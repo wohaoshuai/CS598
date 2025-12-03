@@ -1,0 +1,30 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10020306,23052851,1,E43,10,Unspecified severe protein-calorie malnutrition,38540883,,
+10020306,23052851,2,R570,10,Cardiogenic shock,38540883,Shock,1.0
+10020306,23052851,3,N170,10,Acute kidney failure with tubular necrosis,38540883,Acute and unspecified renal failure,1.0
+10020306,23052851,4,G92,10,Toxic encephalopathy,38540883,,
+10020306,23052851,5,I5043,10,Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,38540883,Congestive heart failure; nonhypertensive,1.0
+10020306,23052851,6,I69351,10,Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side,38540883,,
+10020306,23052851,7,I481,10,Persistent atrial fibrillation,38540883,,
+10020306,23052851,8,D689,10,"Coagulation defect, unspecified",38540883,,
+10020306,23052851,9,A0472,10,"Enterocolitis due to Clostridium difficile, not specified as recurrent",38540883,,
+10020306,23052851,10,E874,10,Mixed disorder of acid-base balance,38540883,Fluid and electrolyte disorders,1.0
+10020306,23052851,11,R64,10,Cachexia,38540883,,
+10020306,23052851,12,E870,10,Hyperosmolality and hypernatremia,38540883,Fluid and electrolyte disorders,1.0
+10020306,23052851,13,I110,10,Hypertensive heart disease with heart failure,38540883,Hypertension with complications and secondary hypertension,1.0
+10020306,23052851,14,I69322,10,Dysarthria following cerebral infarction,38540883,,
+10020306,23052851,15,I69391,10,Dysphagia following cerebral infarction,38540883,,
+10020306,23052851,16,R1310,10,"Dysphagia, unspecified",38540883,,
+10020306,23052851,17,I951,10,Orthostatic hypotension,38540883,,
+10020306,23052851,18,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,38540883,,
+10020306,23052851,19,L0591,10,Pilonidal cyst without abscess,38540883,,
+10020306,23052851,20,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,38540883,Coronary atherosclerosis and other heart disease,1.0
+10020306,23052851,21,D649,10,"Anemia, unspecified",38540883,,
+10020306,23052851,22,G4733,10,Obstructive sleep apnea (adult) (pediatric),38540883,,
+10020306,23052851,23,E039,10,"Hypothyroidism, unspecified",38540883,,
+10020306,23052851,24,K219,10,Gastro-esophageal reflux disease without esophagitis,38540883,,
+10020306,23052851,25,Z6824,10,"Body mass index (BMI) 24.0-24.9, adult",38540883,,
+10020306,23052851,26,Z853,10,Personal history of malignant neoplasm of breast,38540883,,
+10020306,23052851,27,Z781,10,Physical restraint status,38540883,,
+10020306,23052851,28,E8339,10,Fall on stairs or ladders in water transport injuring unspecified person,38540883,Transport; not MVT,0.0
+10020306,23052851,28,E8339,10,Other disorders of phosphorus metabolism,38540883,Transport; not MVT,0.0

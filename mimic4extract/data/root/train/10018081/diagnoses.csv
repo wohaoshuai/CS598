@@ -1,0 +1,49 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10018081,21027282,1,0389,9,Unspecified septicemia,37293400,Septicemia (except in labor),1.0
+10018081,21027282,2,5570,9,Acute vascular insufficiency of intestine,37293400,Peripheral and visceral atherosclerosis,0.0
+10018081,21027282,3,78552,9,Septic shock,37293400,Shock,1.0
+10018081,21027282,4,5845,9,Acute kidney failure with lesion of tubular necrosis,37293400,Acute and unspecified renal failure,1.0
+10018081,21027282,5,4271,9,Paroxysmal ventricular tachycardia,37293400,Cardiac dysrhythmias,1.0
+10018081,21027282,6,34830,9,"Encephalopathy, unspecified",37293400,Other nervous system disorders,0.0
+10018081,21027282,7,514,9,Pulmonary congestion and hypostasis,37293400,Other lower respiratory disease,1.0
+10018081,21027282,8,78959,9,Other ascites,37293400,Other liver diseases,1.0
+10018081,21027282,9,2760,9,Hyperosmolality and/or hypernatremia,37293400,Fluid and electrolyte disorders,1.0
+10018081,21027282,10,1120,9,Candidiasis of mouth,37293400,Mycoses,0.0
+10018081,21027282,11,2639,9,Unspecified protein-calorie malnutrition,37293400,Nutritional deficiencies,0.0
+10018081,21027282,12,2762,9,Acidosis,37293400,Fluid and electrolyte disorders,1.0
+10018081,21027282,13,5990,9,"Urinary tract infection, site not specified",37293400,Urinary tract infections,0.0
+10018081,21027282,14,2761,9,Hyposmolality and/or hyponatremia,37293400,Fluid and electrolyte disorders,1.0
+10018081,21027282,15,4280,9,"Congestive heart failure, unspecified",37293400,Congestive heart failure; nonhypertensive,1.0
+10018081,21027282,16,42731,9,Atrial fibrillation,37293400,Cardiac dysrhythmias,1.0
+10018081,21027282,17,4019,9,Unspecified essential hypertension,37293400,Essential hypertension,1.0
+10018081,21027282,18,2720,9,Pure hypercholesterolemia,37293400,Disorders of lipid metabolism,1.0
+10018081,21027282,19,78820,9,"Retention of urine, unspecified",37293400,Genitourinary symptoms and ill-defined conditions,0.0
+10018081,21027282,20,78838,9,Overflow incontinence,37293400,Genitourinary symptoms and ill-defined conditions,0.0
+10018081,21027282,21,2875,9,"Thrombocytopenia, unspecified",37293400,Coagulation and hemorrhagic disorders,0.0
+10018081,21027282,22,79092,9,Abnormal coagulation profile,37293400,Residual codes; unclassified,0.0
+10018081,21027282,23,2768,9,Hypopotassemia,37293400,Fluid and electrolyte disorders,1.0
+10018081,21027282,24,V5861,9,Long-term (current) use of anticoagulants,37293400,Other aftercare,0.0
+10018081,21027282,25,41401,9,Coronary atherosclerosis of native coronary artery,37293400,Coronary atherosclerosis and other heart disease,1.0
+10018081,21027282,26,2724,9,Other and unspecified hyperlipidemia,37293400,Disorders of lipid metabolism,1.0
+10018081,21027282,27,99592,9,Severe sepsis,37293400,Septicemia (except in labor),1.0
+10018081,21027282,28,55329,9,Other ventral hernia without mention of obstruction or gangrene,37293400,Abdominal hernia,0.0
+10018081,21027282,29,V4572,9,Acquired absence of intestine (large) (small),37293400,Residual codes; unclassified,0.0
+10018081,28861356,1,V552,9,Attention to ileostomy,38333427,Other gastrointestinal disorders,0.0
+10018081,28861356,1,V552,9,Person on outside of pick-up truck or van injured in collision with railway train or railway vehicle in nontraffic accident,38333427,Other gastrointestinal disorders,0.0
+10018081,28861356,2,99830,9,"Disruption of wound, unspecified",38333427,Complications of surgical procedures or medical care,1.0
+10018081,28861356,3,2930,9,Delirium due to conditions classified elsewhere,38333427,"Delirium, dementia, and amnestic and other cognitive disorders",0.0
+10018081,28861356,4,4280,9,"Congestive heart failure, unspecified",38333427,Congestive heart failure; nonhypertensive,1.0
+10018081,28861356,5,5180,9,Pulmonary collapse,38333427,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10018081,28861356,6,53012,9,Acute esophagitis,38333427,Esophageal disorders,0.0
+10018081,28861356,7,53290,9,"Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation, without mention of obstruction",38333427,Gastroduodenal ulcer (except hemorrhage),0.0
+10018081,28861356,8,V4572,9,Acquired absence of intestine (large) (small),38333427,Residual codes; unclassified,0.0
+10018081,28861356,9,V5861,9,Long-term (current) use of anticoagulants,38333427,Other aftercare,0.0
+10018081,28861356,10,4019,9,Unspecified essential hypertension,38333427,Essential hypertension,1.0
+10018081,28861356,11,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",38333427,Adverse effects of medical care,0.0
+10018081,28861356,12,E8497,9,Accidents occurring in residential institution,38333427,Place of occurrence,0.0
+10018081,28861356,13,53190,9,"Gastric ulcer, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction",38333427,Gastroduodenal ulcer (except hemorrhage),0.0
+10018081,28861356,14,2800,9,Iron deficiency anemia secondary to blood loss (chronic),38333427,Deficiency and other anemia,0.0
+10018081,28861356,15,V5866,9,Long-term (current) use of aspirin,38333427,Other aftercare,0.0
+10018081,28861356,16,7850,9,"Tachycardia, unspecified",38333427,Cardiac dysrhythmias,1.0
+10018081,28861356,17,V5832,9,Encounter for removal of sutures,38333427,Other aftercare,0.0
+10018081,28861356,18,2724,9,Other and unspecified hyperlipidemia,38333427,Disorders of lipid metabolism,1.0

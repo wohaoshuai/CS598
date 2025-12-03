@@ -1,0 +1,14 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10018845,21101111,1,85220,9,"Subdural hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness",36427705,Intracranial injury,0.0
+10018845,21101111,2,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",36427705,Hypertension with complications and secondary hypertension,1.0
+10018845,21101111,3,5855,9,"Chronic kidney disease, Stage V",36427705,Chronic kidney disease,1.0
+10018845,21101111,4,7843,9,Aphasia,36427705,Other nervous system disorders,0.0
+10018845,21101111,5,E8889,9,Unspecified fall,36427705,Fall,0.0
+10018845,21101111,5,E8889,9,Other specified metabolic disorders,36427705,Fall,0.0
+10018845,21101111,6,E8490,9,Home accidents,36427705,Place of occurrence,0.0
+10018845,21101111,7,78451,9,Dysarthria,36427705,Other nervous system disorders,0.0
+10018845,21101111,8,2724,9,Other and unspecified hyperlipidemia,36427705,Disorders of lipid metabolism,1.0
+10018845,21101111,9,78830,9,"Urinary incontinence, unspecified",36427705,Genitourinary symptoms and ill-defined conditions,0.0
+10018845,21101111,10,78194,9,Facial weakness,36427705,Other connective tissue disease,0.0
+10018845,21101111,11,V4365,9,Knee joint replacement,36427705,Other connective tissue disease,0.0
+10018845,21101111,12,41401,9,Coronary atherosclerosis of native coronary artery,36427705,Coronary atherosclerosis and other heart disease,1.0

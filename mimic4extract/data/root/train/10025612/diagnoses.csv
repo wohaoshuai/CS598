@@ -1,0 +1,20 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10025612,23403708,1,1622,9,Malignant neoplasm of main bronchus,32587226,Cancer of bronchus; lung,0.0
+10025612,23403708,2,99811,9,Hemorrhage complicating a procedure,32587226,Complications of surgical procedures or medical care,1.0
+10025612,23403708,3,51189,9,"Other specified forms of effusion, except tuberculous",32587226,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10025612,23403708,4,2851,9,Acute posthemorrhagic anemia,32587226,Acute posthemorrhagic anemia,0.0
+10025612,23403708,5,E8786,9,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32587226,Adverse effects of medical care,0.0
+10025612,23403708,6,E8497,9,Accidents occurring in residential institution,32587226,Place of occurrence,0.0
+10025612,23403708,7,V103,9,Personal history of malignant neoplasm of breast,32587226,Cancer of breast,0.0
+10025612,23403708,7,V103,9,Person boarding or alighting a pedal cycle injured in collision with pedestrian or animal,32587226,Cancer of breast,0.0
+10025612,23403708,8,V1582,9,Personal history of tobacco use,32587226,Screening and history of mental health and substance abuse codes,0.0
+10025612,23403708,9,2449,9,Unspecified acquired hypothyroidism,32587226,Thyroid disorders,0.0
+10025612,23403708,10,36250,9,"Macular degeneration (senile), unspecified",32587226,Retinal detachments; defects; vascular occlusion; and retinopathy,0.0
+10025612,23403708,11,V8741,9,Personal history of antineoplastic chemotherapy,32587226,Residual codes; unclassified,0.0
+10025612,23403708,12,V4561,9,Cataract extraction status,32587226,Other eye disorders,0.0
+10025612,23403708,13,V431,9,Lens replaced by other means,32587226,Cataract,0.0
+10025612,23403708,13,V431,9,"Car passenger injured in collision with car, pick-up truck or van in nontraffic accident",32587226,Cataract,0.0
+10025612,23403708,14,V163,9,Family history of malignant neoplasm of breast,32587226,Residual codes; unclassified,0.0
+10025612,23403708,14,V163,9,Person boarding or alighting a pedal cycle injured in collision with other nonmotor vehicle in nontraffic accident,32587226,Residual codes; unclassified,0.0
+10025612,23403708,15,V1642,9,Family history of malignant neoplasm of prostate,32587226,Residual codes; unclassified,0.0
+10025612,23403708,16,33818,9,Other acute postoperative pain,32587226,Other nervous system disorders,0.0

@@ -1,0 +1,40 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10007818,22987108,1,K7469,10,Other cirrhosis of liver,32359580,Other liver diseases,1.0
+10007818,22987108,2,K767,10,Hepatorenal syndrome,32359580,Other liver diseases,1.0
+10007818,22987108,3,J9600,10,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",32359580,Respiratory failure; insufficiency; arrest (adult),1.0
+10007818,22987108,4,A4151,10,Sepsis due to Escherichia coli [E. coli],32359580,Septicemia (except in labor),1.0
+10007818,22987108,5,N179,10,"Acute kidney failure, unspecified",32359580,Acute and unspecified renal failure,1.0
+10007818,22987108,6,K661,10,Hemoperitoneum,32359580,,
+10007818,22987108,7,R571,10,Hypovolemic shock,32359580,,
+10007818,22987108,8,R6521,10,Severe sepsis with septic shock,32359580,Shock,1.0
+10007818,22987108,9,K659,10,"Peritonitis, unspecified",32359580,,
+10007818,22987108,10,N183,10,"Chronic kidney disease, stage 3 (moderate)",32359580,Chronic kidney disease,1.0
+10007818,22987108,11,E43,10,Unspecified severe protein-calorie malnutrition,32359580,,
+10007818,22987108,12,K7201,10,Acute and subacute hepatic failure with coma,32359580,,
+10007818,22987108,13,T8119XA,10,"Other postprocedural shock, initial encounter",32359580,Complications of surgical procedures or medical care,1.0
+10007818,22987108,14,K7200,10,Acute and subacute hepatic failure without coma,32359580,,
+10007818,22987108,15,D684,10,Acquired coagulation factor deficiency,32359580,,
+10007818,22987108,16,J95851,10,Ventilator associated pneumonia,32359580,Complications of surgical procedures or medical care,1.0
+10007818,22987108,17,R188,10,Other ascites,32359580,Other liver diseases,1.0
+10007818,22987108,18,D62,10,Acute posthemorrhagic anemia,32359580,,
+10007818,22987108,19,I4892,10,Unspecified atrial flutter,32359580,Cardiac dysrhythmias,1.0
+10007818,22987108,20,K766,10,Portal hypertension,32359580,Other liver diseases,1.0
+10007818,22987108,21,E871,10,Hypo-osmolality and hyponatremia,32359580,Fluid and electrolyte disorders,1.0
+10007818,22987108,22,N390,10,"Urinary tract infection, site not specified",32359580,,
+10007818,22987108,23,K567,10,"Ileus, unspecified",32359580,,
+10007818,22987108,24,E872,10,Acidosis,32359580,Fluid and electrolyte disorders,1.0
+10007818,22987108,25,J9811,10,Atelectasis,32359580,,
+10007818,22987108,26,I97610,10,Postprocedural hemorrhage of a circulatory system organ or structure following a cardiac catheterization,32359580,,
+10007818,22987108,27,T80219A,10,"Unspecified infection due to central venous catheter, initial encounter",32359580,,
+10007818,22987108,28,K7581,10,Nonalcoholic steatohepatitis (NASH),32359580,,
+10007818,22987108,29,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",32359580,Hypertension with complications and secondary hypertension,1.0
+10007818,22987108,30,D638,10,Anemia in other chronic diseases classified elsewhere,32359580,,
+10007818,22987108,31,I25118,10,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,32359580,,
+10007818,22987108,32,Z955,10,Presence of coronary angioplasty implant and graft,32359580,,
+10007818,22987108,33,E119,10,Type 2 diabetes mellitus without complications,32359580,Diabetes mellitus without complication,1.0
+10007818,22987108,34,Z794,10,Long term (current) use of insulin,32359580,,
+10007818,22987108,35,R627,10,Adult failure to thrive,32359580,,
+10007818,22987108,36,I4891,10,Unspecified atrial fibrillation,32359580,Cardiac dysrhythmias,1.0
+10007818,22987108,37,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,32359580,,
+10007818,22987108,38,B9561,10,Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere,32359580,,
+10007818,22987108,39,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",32359580,,

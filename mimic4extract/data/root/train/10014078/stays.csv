@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10014078,25809882,38907302,Surgical Intensive Care Unit (SICU),2166-08-22 00:36:00,2166-08-24 13:12:44,2.5255092592592594,2166-08-21 23:09:00,2166-08-26 14:48:00,,UNABLE TO OBTAIN,F,60,,60,0,0,0

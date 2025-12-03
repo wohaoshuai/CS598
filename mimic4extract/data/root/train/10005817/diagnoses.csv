@@ -1,0 +1,29 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10005817,20626031,1,41071,9,"Subendocardial infarction, initial episode of care",32604416,Acute myocardial infarction,1.0
+10005817,20626031,2,4280,9,"Congestive heart failure, unspecified",32604416,Congestive heart failure; nonhypertensive,1.0
+10005817,20626031,3,42731,9,Atrial fibrillation,32604416,Cardiac dysrhythmias,1.0
+10005817,20626031,4,42732,9,Atrial flutter,32604416,Cardiac dysrhythmias,1.0
+10005817,20626031,5,5990,9,"Urinary tract infection, site not specified",32604416,Urinary tract infections,0.0
+10005817,20626031,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32604416,Diabetes mellitus without complication,1.0
+10005817,20626031,7,04110,9,"Staphylococcus infection in conditions classified elsewhere and of unspecified site, staphylococcus, unspecified",32604416,Bacterial infection; unspecified site,0.0
+10005817,20626031,8,41401,9,Coronary atherosclerosis of native coronary artery,32604416,Coronary atherosclerosis and other heart disease,1.0
+10005817,20626031,9,V707,9,Examination of participant in clinical trial,32604416,Medical examination/evaluation,0.0
+10005817,20626031,9,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,32604416,Medical examination/evaluation,0.0
+10005817,20626031,10,V5866,9,Long-term (current) use of aspirin,32604416,Other aftercare,0.0
+10005817,20626031,11,V4582,9,Percutaneous transluminal coronary angioplasty status,32604416,Coronary atherosclerosis and other heart disease,1.0
+10005817,20626031,12,496,9,"Chronic airway obstruction, not elsewhere classified",32604416,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10005817,20626031,13,V5863,9,Long-term (current) use of antiplatelet/antithrombotic,32604416,Other aftercare,0.0
+10005817,20626031,14,4019,9,Unspecified essential hypertension,32604416,Essential hypertension,1.0
+10005817,20626031,15,V1006,9,"Personal history of malignant neoplasm of rectum, rectosigmoid junction, and anus",32604416,Cancer of rectum and anus,0.0
+10005817,20626031,16,30981,9,Posttraumatic stress disorder,32604416,Anxiety disorders,0.0
+10005817,20626031,17,V153,9,"Personal history of irradiation, presenting hazards to health",32604416,Residual codes; unclassified,0.0
+10005817,20626031,17,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,32604416,Residual codes; unclassified,0.0
+10005817,20626031,18,V8741,9,Personal history of antineoplastic chemotherapy,32604416,Residual codes; unclassified,0.0
+10005817,20626031,19,7847,9,Epistaxis,32604416,Other upper respiratory disease,1.0
+10005817,20626031,20,3051,9,Tobacco use disorder,32604416,Screening and history of mental health and substance abuse codes,0.0
+10005817,20626031,21,27800,9,"Obesity, unspecified",32604416,Other nutritional; endocrine; and metabolic disorders,0.0
+10005817,20626031,22,V8531,9,"Body Mass Index 31.0-31.9, adult",32604416,Other nutritional; endocrine; and metabolic disorders,0.0
+10005817,20626031,23,4400,9,Atherosclerosis of aorta,32604416,Peripheral and visceral atherosclerosis,0.0
+10005817,20626031,24,4240,9,Mitral valve disorders,32604416,Heart valve disorders,0.0
+10005817,20626031,25,71690,9,"Arthropathy, unspecified, site unspecified",32604416,Other non-traumatic joint disorders,0.0
+10005817,20626031,26,2859,9,"Anemia, unspecified",32604416,Deficiency and other anemia,0.0

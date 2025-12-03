@@ -32,8 +32,6 @@ except:
 patients = read_patients_table(f'{args.mimic3_path}/core/patients.csv')
 
 admits = read_admissions_table(f'{args.mimic3_path}/core/admissions.csv')
-
-
 stays = read_icustays_table(f'{args.mimic3_path}/icu/icustays.csv')
 if args.verbose:
     print('START:\n\tstay_ids: {}\n\thadm_ids: {}\n\tsubject_ids: {}'.format(stays.stay_id.unique().shape[0],

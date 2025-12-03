@@ -1,0 +1,55 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10016742,27568122,1,J9621,10,Acute and chronic respiratory failure with hypoxia,30425410,,
+10016742,27568122,2,G1221,10,Amyotrophic lateral sclerosis,30425410,,
+10016742,27568122,3,Z9911,10,Dependence on respirator [ventilator] status,30425410,Respiratory failure; insufficiency; arrest (adult),1.0
+10016742,27568122,4,Z930,10,Tracheostomy status,30425410,Other upper respiratory disease,1.0
+10016742,27568122,5,I319,10,"Disease of pericardium, unspecified",30425410,,
+10016742,27568122,6,J9809,10,"Other diseases of bronchus, not elsewhere classified",30425410,Other upper respiratory disease,1.0
+10016742,27568122,7,Z434,10,Encounter for attention to other artificial openings of digestive tract,30425410,,
+10016742,27568122,8,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",30425410,,
+10016742,27568122,9,E119,10,Type 2 diabetes mellitus without complications,30425410,Diabetes mellitus without complication,1.0
+10016742,27568122,10,Z794,10,Long term (current) use of insulin,30425410,,
+10016742,27568122,11,D649,10,"Anemia, unspecified",30425410,,
+10016742,28506150,1,R4182,10,"Altered mental status, unspecified",32314488,,
+10016742,28506150,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32314488,Acute myocardial infarction,1.0
+10016742,28506150,3,G1221,10,Amyotrophic lateral sclerosis,32314488,,
+10016742,28506150,4,Z9911,10,Dependence on respirator [ventilator] status,32314488,Respiratory failure; insufficiency; arrest (adult),1.0
+10016742,28506150,5,J95851,10,Ventilator associated pneumonia,32314488,Complications of surgical procedures or medical care,1.0
+10016742,28506150,6,Z930,10,Tracheostomy status,32314488,Other upper respiratory disease,1.0
+10016742,28506150,7,I959,10,"Hypotension, unspecified",32314488,,
+10016742,28506150,8,I319,10,"Disease of pericardium, unspecified",32314488,,
+10016742,28506150,9,N390,10,"Urinary tract infection, site not specified",32314488,,
+10016742,28506150,10,E119,10,Type 2 diabetes mellitus without complications,32314488,Diabetes mellitus without complication,1.0
+10016742,28506150,11,G3109,10,Other frontotemporal dementia,32314488,,
+10016742,28506150,12,F259,10,"Schizoaffective disorder, unspecified",32314488,,
+10016742,28506150,13,T17990A,10,"Other foreign object in respiratory tract, part unspecified in causing asphyxiation, initial encounter",32314488,,
+10016742,28506150,14,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,32314488,,
+10016742,28506150,15,Z794,10,Long term (current) use of insulin,32314488,,
+10016742,28506150,16,I10,10,Essential (primary) hypertension,32314488,Essential hypertension,1.0
+10016742,28506150,17,R569,10,Unspecified convulsions,32314488,,
+10016742,28506150,18,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,32314488,Coronary atherosclerosis and other heart disease,1.0
+10016742,29281842,1,J95851,10,Ventilator associated pneumonia,37057036,Complications of surgical procedures or medical care,1.0
+10016742,29281842,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,37057036,Acute myocardial infarction,1.0
+10016742,29281842,3,G9340,10,"Encephalopathy, unspecified",37057036,,
+10016742,29281842,4,G1221,10,Amyotrophic lateral sclerosis,37057036,,
+10016742,29281842,5,N179,10,"Acute kidney failure, unspecified",37057036,Acute and unspecified renal failure,1.0
+10016742,29281842,6,N10,10,Acute pyelonephritis,37057036,,
+10016742,29281842,7,E873,10,Alkalosis,37057036,Fluid and electrolyte disorders,1.0
+10016742,29281842,8,D721,10,Eosinophilia,37057036,,
+10016742,29281842,9,J9610,10,"Chronic respiratory failure, unspecified whether with hypoxia or hypercapnia",37057036,Respiratory failure; insufficiency; arrest (adult),1.0
+10016742,29281842,10,Z9911,10,Dependence on respirator [ventilator] status,37057036,Respiratory failure; insufficiency; arrest (adult),1.0
+10016742,29281842,11,N390,10,"Urinary tract infection, site not specified",37057036,,
+10016742,29281842,12,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,37057036,,
+10016742,29281842,13,Z430,10,Encounter for attention to tracheostomy,37057036,Other upper respiratory disease,1.0
+10016742,29281842,14,Z4689,10,Encounter for fitting and adjustment of other specified devices,37057036,,
+10016742,29281842,15,Z931,10,Gastrostomy status,37057036,,
+10016742,29281842,16,E119,10,Type 2 diabetes mellitus without complications,37057036,Diabetes mellitus without complication,1.0
+10016742,29281842,17,B9620,10,Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere,37057036,,
+10016742,29281842,18,Z7982,10,Long term (current) use of aspirin,37057036,,
+10016742,29281842,19,N141,10,"Nephropathy induced by other drugs, medicaments and biological substances",37057036,,
+10016742,29281842,20,T360X5A,10,"Adverse effect of penicillins, initial encounter",37057036,,
+10016742,29281842,21,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,37057036,,
+10016742,29281842,22,F259,10,"Schizoaffective disorder, unspecified",37057036,,
+10016742,29281842,23,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",37057036,,
+10016742,29281842,24,Z781,10,Physical restraint status,37057036,,
+10016742,29281842,25,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",37057036,,

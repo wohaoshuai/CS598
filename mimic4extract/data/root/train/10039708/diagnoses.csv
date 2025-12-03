@@ -1,0 +1,85 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10039708,28258130,1,D649,10,"Anemia, unspecified",33281088,,
+10039708,28258130,2,N170,10,Acute kidney failure with tubular necrosis,33281088,Acute and unspecified renal failure,1.0
+10039708,28258130,3,J9691,10,"Respiratory failure, unspecified with hypoxia",33281088,,
+10039708,28258130,4,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,33281088,Acute myocardial infarction,1.0
+10039708,28258130,5,J690,10,Pneumonitis due to inhalation of food and vomit,33281088,,
+10039708,28258130,6,G9340,10,"Encephalopathy, unspecified",33281088,,
+10039708,28258130,7,I5021,10,Acute systolic (congestive) heart failure,33281088,Congestive heart failure; nonhypertensive,1.0
+10039708,28258130,8,J95851,10,Ventilator associated pneumonia,33281088,Complications of surgical procedures or medical care,1.0
+10039708,28258130,9,E43,10,Unspecified severe protein-calorie malnutrition,33281088,,
+10039708,28258130,10,R64,10,Cachexia,33281088,,
+10039708,28258130,11,E872,10,Acidosis,33281088,Fluid and electrolyte disorders,1.0
+10039708,28258130,12,E5112,10,Wet beriberi,33281088,,
+10039708,28258130,13,I82401,10,Acute embolism and thrombosis of unspecified deep veins of right lower extremity,33281088,,
+10039708,28258130,14,Z681,10,"Body mass index (BMI) 19.9 or less, adult",33281088,,
+10039708,28258130,15,E873,10,Alkalosis,33281088,Fluid and electrolyte disorders,1.0
+10039708,28258130,16,I5181,10,Takotsubo syndrome,33281088,,
+10039708,28258130,17,E870,10,Hyperosmolality and hypernatremia,33281088,Fluid and electrolyte disorders,1.0
+10039708,28258130,18,R34,10,Anuria and oliguria,33281088,,
+10039708,28258130,19,D61818,10,Other pancytopenia,33281088,,
+10039708,28258130,20,D696,10,"Thrombocytopenia, unspecified",33281088,,
+10039708,28258130,21,R680,10,"Hypothermia, not associated with low environmental temperature",33281088,,
+10039708,28258130,22,F1020,10,"Alcohol dependence, uncomplicated",33281088,,
+10039708,28258130,23,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",33281088,,
+10039708,28258130,24,E039,10,"Hypothyroidism, unspecified",33281088,,
+10039708,28258130,25,I10,10,Essential (primary) hypertension,33281088,Essential hypertension,1.0
+10039708,28258130,26,I340,10,Nonrheumatic mitral (valve) insufficiency,33281088,,
+10039708,28258130,27,K7030,10,Alcoholic cirrhosis of liver without ascites,33281088,,
+10039708,28258130,28,K7010,10,Alcoholic hepatitis without ascites,33281088,,
+10039708,28258130,29,E59,10,Dietary selenium deficiency,33281088,,
+10039708,28258130,30,E60,10,Dietary zinc deficiency,33281088,,
+10039708,28258130,31,D124,10,Benign neoplasm of descending colon,33281088,,
+10039708,28258130,32,K5730,10,Diverticulosis of large intestine without perforation or abscess without bleeding,33281088,,
+10039708,28258130,33,E876,10,Hypokalemia,33281088,Fluid and electrolyte disorders,1.0
+10039708,28258130,34,R197,10,"Diarrhea, unspecified",33281088,,
+10039708,28258130,35,J45909,10,"Unspecified asthma, uncomplicated",33281088,,
+10039708,28258130,36,Z9884,10,Bariatric surgery status,33281088,,
+10039708,28258130,37,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",33281088,,
+10039708,28258130,38,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,33281088,,
+10039708,24928679,1,K7031,10,Alcoholic cirrhosis of liver with ascites,37323533,,
+10039708,24928679,2,I8511,10,Secondary esophageal varices with bleeding,37323533,Gastrointestinal hemorrhage,1.0
+10039708,24928679,3,K767,10,Hepatorenal syndrome,37323533,Other liver diseases,1.0
+10039708,24928679,4,N186,10,End stage renal disease,37323533,Chronic kidney disease,1.0
+10039708,24928679,5,K284,10,Chronic or unspecified gastrojejunal ulcer with hemorrhage,37323533,Gastrointestinal hemorrhage,1.0
+10039708,24928679,6,D62,10,Acute posthemorrhagic anemia,37323533,,
+10039708,24928679,7,K861,10,Other chronic pancreatitis,37323533,,
+10039708,24928679,8,E872,10,Acidosis,37323533,Fluid and electrolyte disorders,1.0
+10039708,24928679,9,K7040,10,Alcoholic hepatic failure without coma,37323533,,
+10039708,24928679,10,R600,10,Localized edema,37323533,,
+10039708,24928679,11,D539,10,"Nutritional anemia, unspecified",37323533,,
+10039708,24928679,12,D6959,10,Other secondary thrombocytopenia,37323533,,
+10039708,24928679,13,E039,10,"Hypothyroidism, unspecified",37323533,,
+10039708,24928679,14,M109,10,"Gout, unspecified",37323533,,
+10039708,24928679,15,R300,10,Dysuria,37323533,,
+10039708,24928679,16,R7989,10,Other specified abnormal findings of blood chemistry,37323533,,
+10039708,24928679,17,E875,10,Hyperkalemia,37323533,Fluid and electrolyte disorders,1.0
+10039708,24928679,18,R2232,10,"Localized swelling, mass and lump, left upper limb",37323533,,
+10039708,24928679,19,N281,10,"Cyst of kidney, acquired",37323533,,
+10039708,24928679,20,F1010,10,"Alcohol abuse, uncomplicated",37323533,,
+10039708,24928679,21,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",37323533,,
+10039708,24928679,22,Z992,10,Dependence on renal dialysis,37323533,Chronic kidney disease,1.0
+10039708,24928679,23,Z86718,10,Personal history of other venous thrombosis and embolism,37323533,,
+10039708,24928679,24,Z9884,10,Bariatric surgery status,37323533,,
+10039708,24928679,25,Z980,10,Intestinal bypass and anastomosis status,37323533,,
+10039708,23819016,1,A4189,10,Other specified sepsis,38559363,Septicemia (except in labor),1.0
+10039708,23819016,2,K859,10,"Acute pancreatitis, unspecified",38559363,,
+10039708,23819016,3,R6521,10,Severe sepsis with septic shock,38559363,Shock,1.0
+10039708,23819016,4,N179,10,"Acute kidney failure, unspecified",38559363,Acute and unspecified renal failure,1.0
+10039708,23819016,5,R64,10,Cachexia,38559363,,
+10039708,23819016,6,E46,10,Unspecified protein-calorie malnutrition,38559363,,
+10039708,23819016,7,E872,10,Acidosis,38559363,Fluid and electrolyte disorders,1.0
+10039708,23819016,8,E5112,10,Wet beriberi,38559363,,
+10039708,23819016,9,G629,10,"Polyneuropathy, unspecified",38559363,,
+10039708,23819016,10,F1020,10,"Alcohol dependence, uncomplicated",38559363,,
+10039708,23819016,11,K7010,10,Alcoholic hepatitis without ascites,38559363,,
+10039708,23819016,12,E039,10,"Hypothyroidism, unspecified",38559363,,
+10039708,23819016,13,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",38559363,Hypertension with complications and secondary hypertension,1.0
+10039708,23819016,14,N189,10,"Chronic kidney disease, unspecified",38559363,Chronic kidney disease,1.0
+10039708,23819016,15,Z720,10,Tobacco use,38559363,,
+10039708,23819016,16,J45909,10,"Unspecified asthma, uncomplicated",38559363,,
+10039708,23819016,17,M109,10,"Gout, unspecified",38559363,,
+10039708,23819016,18,D649,10,"Anemia, unspecified",38559363,,
+10039708,23819016,19,R410,10,"Disorientation, unspecified",38559363,,
+10039708,23819016,20,Z86718,10,Personal history of other venous thrombosis and embolism,38559363,,
+10039708,23819016,21,Z9884,10,Bariatric surgery status,38559363,,

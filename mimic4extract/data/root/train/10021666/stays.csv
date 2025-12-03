@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10021666,22756440,35475449,Surgical Intensive Care Unit (SICU),2172-03-13 01:46:00,2172-03-13 16:33:34,0.6163657407407408,2172-03-12 23:47:00,2172-03-23 15:40:00,,WHITE,M,87,2172-04-19 00:00:00,87,0,0,0

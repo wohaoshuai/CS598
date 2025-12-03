@@ -1,0 +1,37 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10037928,22490490,1,25022,9,"Diabetes with hyperosmolarity, type II or unspecified type, uncontrolled",31552399,Diabetes mellitus with complications,1.0
+10037928,22490490,2,5849,9,"Acute kidney failure, unspecified",31552399,Acute and unspecified renal failure,1.0
+10037928,22490490,3,5990,9,"Urinary tract infection, site not specified",31552399,Urinary tract infections,0.0
+10037928,22490490,4,2762,9,Acidosis,31552399,Fluid and electrolyte disorders,1.0
+10037928,22490490,5,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",31552399,Gastrointestinal hemorrhage,1.0
+10037928,22490490,6,V5867,9,Long-term (current) use of insulin,31552399,Other aftercare,0.0
+10037928,22490490,7,2724,9,Other and unspecified hyperlipidemia,31552399,Disorders of lipid metabolism,1.0
+10037928,22490490,8,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",31552399,Residual codes; unclassified,0.0
+10037928,22490490,9,27652,9,Hypovolemia,31552399,Fluid and electrolyte disorders,1.0
+10037928,22490490,10,2809,9,"Iron deficiency anemia, unspecified",31552399,Deficiency and other anemia,0.0
+10037928,22490490,11,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",31552399,Hypertension with complications and secondary hypertension,1.0
+10037928,22490490,12,61650,9,"Ulceration of vulva, unspecified",31552399,Inflammatory diseases of female pelvic organs,0.0
+10037928,22490490,13,6273,9,Postmenopausal atrophic vaginitis,31552399,Menopausal disorders,0.0
+10037928,22490490,14,311,9,"Depressive disorder, not elsewhere classified",31552399,Mood disorders,0.0
+10037928,22490490,15,5853,9,"Chronic kidney disease, Stage III (moderate)",31552399,Chronic kidney disease,1.0
+10037928,22490490,16,04149,9,Other and unspecified Escherichia coli [E. coli],31552399,Bacterial infection; unspecified site,0.0
+10037928,22490490,17,1419,9,"Malignant neoplasm of tongue, unspecified",31552399,Cancer of head and neck,0.0
+10037928,24656677,1,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",39804682,Diabetes mellitus with complications,1.0
+10037928,24656677,2,5990,9,"Urinary tract infection, site not specified",39804682,Urinary tract infections,0.0
+10037928,24656677,3,5849,9,"Acute kidney failure, unspecified",39804682,Acute and unspecified renal failure,1.0
+10037928,24656677,4,V5867,9,Long-term (current) use of insulin,39804682,Other aftercare,0.0
+10037928,24656677,5,04149,9,Other and unspecified Escherichia coli [E. coli],39804682,Bacterial infection; unspecified site,0.0
+10037928,24656677,6,7813,9,Lack of coordination,39804682,Other nervous system disorders,0.0
+10037928,24656677,7,V1588,9,History of fall,39804682,Other injuries and conditions due to external causes,0.0
+10037928,24656677,8,78701,9,Nausea with vomiting,39804682,Nausea and vomiting,0.0
+10037928,24656677,9,4019,9,Unspecified essential hypertension,39804682,Essential hypertension,1.0
+10037928,24656677,10,2724,9,Other and unspecified hyperlipidemia,39804682,Disorders of lipid metabolism,1.0
+10037928,24656677,11,311,9,"Depressive disorder, not elsewhere classified",39804682,Mood disorders,0.0
+10037928,24656677,12,30000,9,"Anxiety state, unspecified",39804682,Anxiety disorders,0.0
+10037928,24656677,13,53081,9,Esophageal reflux,39804682,Esophageal disorders,0.0
+10037928,24656677,14,2809,9,"Iron deficiency anemia, unspecified",39804682,Deficiency and other anemia,0.0
+10037928,24656677,15,2989,9,Unspecified psychosis,39804682,Schizophrenia and other psychotic disorders,0.0
+10037928,24656677,16,V1001,9,Personal history of malignant neoplasm of tongue,39804682,Cancer of head and neck,0.0
+10037928,24656677,17,78052,9,"Insomnia, unspecified",39804682,Residual codes; unclassified,0.0
+10037928,24656677,18,V1271,9,Personal history of peptic ulcer disease,39804682,Gastroduodenal ulcer (except hemorrhage),0.0
+10037928,24656677,19,7260,9,Adhesive capsulitis of shoulder,39804682,Other connective tissue disease,0.0

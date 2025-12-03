@@ -1,0 +1,67 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10014354,27487226,1,J189,10,"Pneumonia, unspecified organism",34600477,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10014354,27487226,2,R570,10,Cardiogenic shock,34600477,Shock,1.0
+10014354,27487226,3,I314,10,Cardiac tamponade,34600477,,
+10014354,27487226,4,I5033,10,Acute on chronic diastolic (congestive) heart failure,34600477,Congestive heart failure; nonhypertensive,1.0
+10014354,27487226,5,N179,10,"Acute kidney failure, unspecified",34600477,Acute and unspecified renal failure,1.0
+10014354,27487226,6,I480,10,Paroxysmal atrial fibrillation,34600477,,
+10014354,27487226,7,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,34600477,,
+10014354,27487226,8,I4892,10,Unspecified atrial flutter,34600477,Cardiac dysrhythmias,1.0
+10014354,27487226,9,E871,10,Hypo-osmolality and hyponatremia,34600477,Fluid and electrolyte disorders,1.0
+10014354,27487226,10,I313,10,Pericardial effusion (noninflammatory),34600477,,
+10014354,27487226,11,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,34600477,,
+10014354,27487226,12,E1142,10,Type 2 diabetes mellitus with diabetic polyneuropathy,34600477,,
+10014354,27487226,13,G4733,10,Obstructive sleep apnea (adult) (pediatric),34600477,,
+10014354,27487226,14,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,34600477,Coronary atherosclerosis and other heart disease,1.0
+10014354,27487226,15,Z955,10,Presence of coronary angioplasty implant and graft,34600477,,
+10014354,27487226,16,F259,10,"Schizoaffective disorder, unspecified",34600477,,
+10014354,27487226,17,Z950,10,Presence of cardiac pacemaker,34600477,Conduction disorders,1.0
+10014354,27487226,18,Z8547,10,Personal history of malignant neoplasm of testis,34600477,,
+10014354,27487226,19,Z8673,10,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",34600477,,
+10014354,27487226,20,Z9884,10,Bariatric surgery status,34600477,,
+10014354,27487226,21,E785,10,"Hyperlipidemia, unspecified",34600477,Disorders of lipid metabolism,1.0
+10014354,27487226,22,E039,10,"Hypothyroidism, unspecified",34600477,,
+10014354,27487226,23,R740,10,Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH],34600477,Other liver diseases,1.0
+10014354,27487226,24,M940,10,Chondrocostal junction syndrome [Tietze],34600477,,
+10014354,22741225,1,I69354,10,Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side,37200209,,
+10014354,22741225,2,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,37200209,,
+10014354,22741225,3,G8194,10,"Hemiplegia, unspecified affecting left nondominant side",37200209,,
+10014354,22741225,4,Z9282,10,Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility,37200209,,
+10014354,22741225,5,E785,10,"Hyperlipidemia, unspecified",37200209,Disorders of lipid metabolism,1.0
+10014354,22741225,6,I10,10,Essential (primary) hypertension,37200209,Essential hypertension,1.0
+10014354,22741225,7,M25512,10,Pain in left shoulder,37200209,,
+10014354,22741225,8,E0865,10,Diabetes mellitus due to underlying condition with hyperglycemia,37200209,,
+10014354,22741225,9,J449,10,"Chronic obstructive pulmonary disease, unspecified",37200209,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10014354,22741225,10,E6601,10,Morbid (severe) obesity due to excess calories,37200209,,
+10014354,22741225,11,F329,10,"Major depressive disorder, single episode, unspecified",37200209,,
+10014354,22741225,12,E039,10,"Hypothyroidism, unspecified",37200209,,
+10014354,22741225,13,Z950,10,Presence of cardiac pacemaker,37200209,Conduction disorders,1.0
+10014354,22741225,14,Z9884,10,Bariatric surgery status,37200209,,
+10014354,22741225,15,H409,10,Unspecified glaucoma,37200209,,
+10014354,22741225,16,G629,10,"Polyneuropathy, unspecified",37200209,,
+10014354,29600294,1,J208,10,Acute bronchitis due to other specified organisms,39864867,,
+10014354,29600294,2,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,39864867,,
+10014354,29600294,3,N179,10,"Acute kidney failure, unspecified",39864867,Acute and unspecified renal failure,1.0
+10014354,29600294,4,E222,10,Syndrome of inappropriate secretion of antidiuretic hormone,39864867,,
+10014354,29600294,5,I480,10,Paroxysmal atrial fibrillation,39864867,,
+10014354,29600294,6,F259,10,"Schizoaffective disorder, unspecified",39864867,,
+10014354,29600294,7,I110,10,Hypertensive heart disease with heart failure,39864867,Hypertension with complications and secondary hypertension,1.0
+10014354,29600294,8,I5032,10,Chronic diastolic (congestive) heart failure,39864867,Congestive heart failure; nonhypertensive,1.0
+10014354,29600294,9,I4892,10,Unspecified atrial flutter,39864867,Cardiac dysrhythmias,1.0
+10014354,29600294,10,I4891,10,Unspecified atrial fibrillation,39864867,Cardiac dysrhythmias,1.0
+10014354,29600294,11,B3749,10,Other urogenital candidiasis,39864867,,
+10014354,29600294,12,E861,10,Hypovolemia,39864867,Fluid and electrolyte disorders,1.0
+10014354,29600294,13,E119,10,Type 2 diabetes mellitus without complications,39864867,Diabetes mellitus without complication,1.0
+10014354,29600294,14,D630,10,Anemia in neoplastic disease,39864867,,
+10014354,29600294,15,E039,10,"Hypothyroidism, unspecified",39864867,,
+10014354,29600294,16,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,39864867,Coronary atherosclerosis and other heart disease,1.0
+10014354,29600294,17,Z955,10,Presence of coronary angioplasty implant and graft,39864867,,
+10014354,29600294,18,I69398,10,Other sequelae of cerebral infarction,39864867,,
+10014354,29600294,19,E785,10,"Hyperlipidemia, unspecified",39864867,Disorders of lipid metabolism,1.0
+10014354,29600294,20,G4733,10,Obstructive sleep apnea (adult) (pediatric),39864867,,
+10014354,29600294,21,Z7901,10,Long term (current) use of anticoagulants,39864867,,
+10014354,29600294,22,G8929,10,Other chronic pain,39864867,,
+10014354,29600294,23,Z794,10,Long term (current) use of insulin,39864867,,
+10014354,29600294,24,R339,10,"Retention of urine, unspecified",39864867,,
+10014354,29600294,25,E669,10,"Obesity, unspecified",39864867,,
+10014354,29600294,26,Z6836,10,"Body mass index (BMI) 36.0-36.9, adult",39864867,,

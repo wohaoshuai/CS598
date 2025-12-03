@@ -1,0 +1,45 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10021487,27660781,1,5720,9,Abscess of liver,35065627,Other liver diseases,1.0
+10021487,27660781,2,5770,9,Acute pancreatitis,35065627,Pancreatic disorders (not diabetes),0.0
+10021487,27660781,3,5762,9,Obstruction of bile duct,35065627,Biliary tract disease,0.0
+10021487,27660781,4,56722,9,Peritoneal abscess,35065627,Peritonitis and intestinal abscess,0.0
+10021487,27660781,5,2639,9,Unspecified protein-calorie malnutrition,35065627,Nutritional deficiencies,0.0
+10021487,27660781,6,5601,9,Paralytic ileus,35065627,Intestinal obstruction without hernia,0.0
+10021487,27660781,7,5119,9,Unspecified pleural effusion,35065627,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10021487,27660781,8,7837,9,Adult failure to thrive,35065627,Other nutritional; endocrine; and metabolic disorders,0.0
+10021487,28998349,1,86803,9,"Injury to other intra-abdominal organs without mention of open wound into cavity, peritoneum",38197705,Crushing injury or internal injury,0.0
+10021487,28998349,2,9584,9,Traumatic shock,38197705,Other injuries and conditions due to external causes,0.0
+10021487,28998349,3,86401,9,"Injury to liver without mention of open wound into cavity, hematoma and contusion",38197705,Crushing injury or internal injury,0.0
+10021487,28998349,4,570,9,Acute and subacute necrosis of liver,38197705,Other liver diseases,1.0
+10021487,28998349,5,5570,9,Acute vascular insufficiency of intestine,38197705,Peripheral and visceral atherosclerosis,0.0
+10021487,28998349,6,48241,9,Methicillin susceptible pneumonia due to Staphylococcus aureus,38197705,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10021487,28998349,7,51851,9,Acute respiratory failure following trauma and surgery,38197705,Respiratory failure; insufficiency; arrest (adult),1.0
+10021487,28998349,8,5845,9,Acute kidney failure with lesion of tubular necrosis,38197705,Acute and unspecified renal failure,1.0
+10021487,28998349,9,9585,9,Traumatic anuria,38197705,Other injuries and conditions due to external causes,0.0
+10021487,28998349,10,80704,9,Closed fracture of four ribs,38197705,Other fractures,0.0
+10021487,28998349,11,8052,9,Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury,38197705,Other fractures,0.0
+10021487,28998349,12,8054,9,Closed fracture of lumbar vertebra without mention of spinal cord injury,38197705,Other fractures,0.0
+10021487,28998349,13,80506,9,Closed fracture of sixth cervical vertebra,38197705,Other fractures,0.0
+10021487,28998349,14,72888,9,Rhabdomyolysis,38197705,Other connective tissue disease,0.0
+10021487,28998349,15,2762,9,Acidosis,38197705,Fluid and electrolyte disorders,1.0
+10021487,28998349,16,9971,9,"Cardiac complications, not elsewhere classified",38197705,Complications of surgical procedures or medical care,1.0
+10021487,28998349,17,4264,9,Right bundle branch block,38197705,Conduction disorders,1.0
+10021487,28998349,18,7850,9,"Tachycardia, unspecified",38197705,Cardiac dysrhythmias,1.0
+10021487,28998349,19,45829,9,Other iatrogenic hypotension,38197705,Complications of surgical procedures or medical care,1.0
+10021487,28998349,20,8602,9,Traumatic hemothorax without mention of open wound into thorax,38197705,Crushing injury or internal injury,0.0
+10021487,28998349,21,83908,9,"Closed dislocation, multiple cervical vertebrae",38197705,Joint disorders and dislocations; trauma-related,0.0
+10021487,28998349,22,86405,9,"Injury to liver without mention of open wound into cavity laceration, unspecified",38197705,Crushing injury or internal injury,0.0
+10021487,28998349,23,5718,9,Other chronic nonalcoholic liver disease,38197705,Other liver diseases,1.0
+10021487,28998349,24,86801,9,"Injury to other intra-abdominal organs without mention of open wound into cavity, adrenal gland",38197705,Crushing injury or internal injury,0.0
+10021487,28998349,25,86100,9,Unspecified injury of heart without mention of open wound into thorax,38197705,Crushing injury or internal injury,0.0
+10021487,28998349,26,86121,9,Contusion of lung without mention of open wound into thorax,38197705,Crushing injury or internal injury,0.0
+10021487,28998349,27,86389,9,"Injury to other gastrointestinal sites, without mention of open wound into cavity",38197705,Crushing injury or internal injury,0.0
+10021487,28998349,28,2767,9,Hyperpotassemia,38197705,Fluid and electrolyte disorders,1.0
+10021487,28998349,29,60886,9,Edema of male genital organs,38197705,Other male genital disorders,0.0
+10021487,28998349,30,6926,9,Contact dermatitis and other eczema due to plants [except food],38197705,Allergic reactions,0.0
+10021487,28998349,31,E8654,9,Accidental poisoning from other specified plants,38197705,Poisoning,0.0
+10021487,28998349,32,27669,9,Other fluid overload,38197705,Fluid and electrolyte disorders,1.0
+10021487,28998349,33,30500,9,"Alcohol abuse, unspecified",38197705,Alcohol-related disorders,0.0
+10021487,28998349,34,E8150,9,Other motor vehicle traffic accident involving collision on the highway injuring driver of motor vehicle other than motorcycle,38197705,Motor vehicle traffic (MVT),0.0
+10021487,28998349,35,V140,9,Personal history of allergy to penicillin,38197705,Allergic reactions,0.0
+10021487,28998349,35,V140,9,Pedal cycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident,38197705,Allergic reactions,0.0

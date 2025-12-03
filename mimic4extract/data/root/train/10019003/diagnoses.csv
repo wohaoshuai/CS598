@@ -1,0 +1,73 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019003,29279905,1,A419,10,"Sepsis, unspecified organism",34107647,Septicemia (except in labor),1.0
+10019003,29279905,2,R6521,10,Severe sepsis with septic shock,34107647,Shock,1.0
+10019003,29279905,3,N179,10,"Acute kidney failure, unspecified",34107647,Acute and unspecified renal failure,1.0
+10019003,29279905,4,K264,10,Chronic or unspecified duodenal ulcer with hemorrhage,34107647,Gastrointestinal hemorrhage,1.0
+10019003,29279905,5,D471,10,Chronic myeloproliferative disease,34107647,,
+10019003,29279905,6,D62,10,Acute posthemorrhagic anemia,34107647,,
+10019003,29279905,7,Z6841,10,"Body mass index (BMI) 40.0-44.9, adult",34107647,,
+10019003,29279905,8,N390,10,"Urinary tract infection, site not specified",34107647,,
+10019003,29279905,9,E860,10,Dehydration,34107647,Fluid and electrolyte disorders,1.0
+10019003,29279905,10,E039,10,"Hypothyroidism, unspecified",34107647,,
+10019003,29279905,11,E780,10,Pure hypercholesterolemia,34107647,,
+10019003,29279905,12,R0902,10,Hypoxemia,34107647,,
+10019003,29279905,13,E119,10,Type 2 diabetes mellitus without complications,34107647,Diabetes mellitus without complication,1.0
+10019003,29279905,14,J449,10,"Chronic obstructive pulmonary disease, unspecified",34107647,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10019003,29279905,15,F329,10,"Major depressive disorder, single episode, unspecified",34107647,,
+10019003,29279905,16,I10,10,Essential (primary) hypertension,34107647,Essential hypertension,1.0
+10019003,29279905,17,G4733,10,Obstructive sleep apnea (adult) (pediatric),34107647,,
+10019003,29279905,18,J45909,10,"Unspecified asthma, uncomplicated",34107647,,
+10019003,29279905,19,Z87891,10,Personal history of nicotine dependence,34107647,,
+10019003,29279905,20,K7581,10,Nonalcoholic steatohepatitis (NASH),34107647,,
+10019003,29279905,21,L271,10,Localized skin eruption due to drugs and medicaments taken internally,34107647,,
+10019003,29279905,22,T504X5A,10,"Adverse effect of drugs affecting uric acid metabolism, initial encounter",34107647,,
+10019003,29279905,23,T451X5A,10,"Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter",34107647,,
+10019003,29279905,24,K259,10,"Gastric ulcer, unspecified as acute or chronic, without hemorrhage or perforation",34107647,,
+10019003,29279905,25,Z66,10,Do not resuscitate,34107647,,
+10019003,29279905,26,E6601,10,Morbid (severe) obesity due to excess calories,34107647,,
+10019003,27525946,1,K264,10,Chronic or unspecified duodenal ulcer with hemorrhage,35214014,Gastrointestinal hemorrhage,1.0
+10019003,27525946,2,A419,10,"Sepsis, unspecified organism",35214014,Septicemia (except in labor),1.0
+10019003,27525946,3,J9601,10,Acute respiratory failure with hypoxia,35214014,,
+10019003,27525946,4,R6521,10,Severe sepsis with septic shock,35214014,Shock,1.0
+10019003,27525946,5,J690,10,Pneumonitis due to inhalation of food and vomit,35214014,,
+10019003,27525946,6,E8881,10,Fall resulting in striking against other object,35214014,Fall,0.0
+10019003,27525946,6,E8881,10,Metabolic syndrome,35214014,Fall,0.0
+10019003,27525946,7,D696,10,"Thrombocytopenia, unspecified",35214014,,
+10019003,27525946,8,D62,10,Acute posthemorrhagic anemia,35214014,,
+10019003,27525946,9,C9590,10,"Leukemia, unspecified not having achieved remission",35214014,,
+10019003,27525946,10,C946,10,"Myelodysplastic disease, not classified",35214014,,
+10019003,27525946,11,Z87891,10,Personal history of nicotine dependence,35214014,,
+10019003,27525946,12,E039,10,"Hypothyroidism, unspecified",35214014,,
+10019003,27525946,13,J449,10,"Chronic obstructive pulmonary disease, unspecified",35214014,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10019003,27525946,14,I10,10,Essential (primary) hypertension,35214014,Essential hypertension,1.0
+10019003,27525946,15,E785,10,"Hyperlipidemia, unspecified",35214014,Disorders of lipid metabolism,1.0
+10019003,27525946,16,F329,10,"Major depressive disorder, single episode, unspecified",35214014,,
+10019003,27525946,17,Z66,10,Do not resuscitate,35214014,,
+10019003,27525946,18,Z781,10,Physical restraint status,35214014,,
+10019003,27525946,19,Z853,10,Personal history of malignant neoplasm of breast,35214014,,
+10019003,27525946,20,Z923,10,Personal history of irradiation,35214014,,
+10019003,27525946,21,E669,10,"Obesity, unspecified",35214014,,
+10019003,27525946,22,Z6833,10,"Body mass index (BMI) 33.0-33.9, adult",35214014,,
+10019003,27525946,23,E119,10,Type 2 diabetes mellitus without complications,35214014,Diabetes mellitus without complication,1.0
+10019003,27525946,24,Z794,10,Long term (current) use of insulin,35214014,,
+10019003,21457723,1,D61818,10,Other pancytopenia,35727289,,
+10019003,21457723,2,I5032,10,Chronic diastolic (congestive) heart failure,35727289,Congestive heart failure; nonhypertensive,1.0
+10019003,21457723,3,E872,10,Acidosis,35727289,Fluid and electrolyte disorders,1.0
+10019003,21457723,4,D689,10,"Coagulation defect, unspecified",35727289,,
+10019003,21457723,5,D599,10,"Acquired hemolytic anemia, unspecified",35727289,,
+10019003,21457723,6,D46Z,10,Other myelodysplastic syndromes,35727289,,
+10019003,21457723,7,R823,10,Hemoglobinuria,35727289,,
+10019003,21457723,8,R319,10,"Hematuria, unspecified",35727289,,
+10019003,21457723,9,Z86718,10,Personal history of other venous thrombosis and embolism,35727289,,
+10019003,21457723,10,Z853,10,Personal history of malignant neoplasm of breast,35727289,,
+10019003,21457723,11,Z87891,10,Personal history of nicotine dependence,35727289,,
+10019003,21457723,12,I110,10,Hypertensive heart disease with heart failure,35727289,Hypertension with complications and secondary hypertension,1.0
+10019003,21457723,13,J449,10,"Chronic obstructive pulmonary disease, unspecified",35727289,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10019003,21457723,14,E119,10,Type 2 diabetes mellitus without complications,35727289,Diabetes mellitus without complication,1.0
+10019003,21457723,15,E039,10,"Hypothyroidism, unspecified",35727289,,
+10019003,21457723,16,E7800,10,"Pure hypercholesterolemia, unspecified",35727289,,
+10019003,21457723,17,F329,10,"Major depressive disorder, single episode, unspecified",35727289,,
+10019003,21457723,18,K7581,10,Nonalcoholic steatohepatitis (NASH),35727289,,
+10019003,21457723,19,I2720,10,"Pulmonary hypertension, unspecified",35727289,,
+10019003,21457723,20,E790,10,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,35727289,,
+10019003,21457723,21,G893,10,Neoplasm related pain (acute) (chronic),35727289,,

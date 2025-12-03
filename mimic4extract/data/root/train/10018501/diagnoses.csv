@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10018501,28479513,1,85221,9,"Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35446858,Intracranial injury,0.0
+10018501,28479513,2,8054,9,Closed fracture of lumbar vertebra without mention of spinal cord injury,35446858,Other fractures,0.0
+10018501,28479513,3,29181,9,Alcohol withdrawal,35446858,Alcohol-related disorders,0.0
+10018501,28479513,4,E8150,9,Other motor vehicle traffic accident involving collision on the highway injuring driver of motor vehicle other than motorcycle,35446858,Motor vehicle traffic (MVT),0.0
+10018501,28479513,5,E8495,9,Street and highway accidents,35446858,Place of occurrence,0.0
+10018501,28479513,6,30391,9,"Other and unspecified alcohol dependence, continuous",35446858,Alcohol-related disorders,0.0
+10018501,28479513,7,4019,9,Unspecified essential hypertension,35446858,Essential hypertension,1.0
+10018501,28479513,8,53081,9,Esophageal reflux,35446858,Esophageal disorders,0.0
+10018501,28479513,9,2749,9,"Gout, unspecified",35446858,Gout and other crystal arthropathies,0.0
+10018501,28479513,10,V1083,9,Personal history of other malignant neoplasm of skin,35446858,Other non-epithelial cancer of skin,0.0

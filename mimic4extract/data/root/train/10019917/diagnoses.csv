@@ -1,0 +1,5 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019917,22585261,1,53240,9,"Chronic or unspecified duodenal ulcer with hemorrhage, without mention of obstruction",34324099,Gastrointestinal hemorrhage,1.0
+10019917,22585261,2,2851,9,Acute posthemorrhagic anemia,34324099,Acute posthemorrhagic anemia,0.0
+10019917,22585261,3,7200,9,Ankylosing spondylitis,34324099,Rheumatoid arthritis and related disease,0.0
+10019917,22585261,4,53560,9,"Duodenitis, without mention of hemorrhage",34324099,Gastritis and duodenitis,0.0

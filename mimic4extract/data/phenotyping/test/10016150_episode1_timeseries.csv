@@ -1,0 +1,13 @@
+Hours,Capillary refill rate,Diastolic blood pressure,Fraction inspired oxygen,Glascow coma scale eye opening,Glascow coma scale motor response,Glascow coma scale total,Glascow coma scale verbal response,Glucose,Heart Rate,Height,Mean blood pressure,Oxygen saturation,Respiratory rate,Systolic blood pressure,Temperature,Weight,pH
+0.0125,,,,,,,,,,,,,15,,,,
+0.14583333333333334,,,,,,,,,70,,,99.0,10,,,,
+0.17916666666666667,,,,Spontaneously,Obeys Commands,,Inappropriate Words,,,,,,,,,,
+0.32916666666666666,,,,,,,,,71,,,96.0,33,,36.888888888888886,,
+0.3458333333333333,,70.0,,,,,,,70,,94,97.0,18,161.0,,,
+0.6125,,,,,,,,,,,,,,,,95.7986304,
+1.3458333333333334,,,,,,,,121.0,70,,,97.0,17,,,,
+1.8458333333333334,,75.0,,,,,,,,,95,,,153.0,,,
+2.2958333333333334,,,,Spontaneously,Obeys Commands,,Confused,,,,,,,,,,
+2.345833333333333,,,,,,,,,70,,,96.0,19,,,,
+2.595833333333333,,72.0,,,,,,,,,90,,,153.0,,,
+3.345833333333333,,73.0,,Spontaneously,Localizes Pain,,Inappropriate Words,,70,,95,95.0,18,162.0,,,

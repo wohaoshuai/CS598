@@ -1,0 +1,19 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10001217,27703517,1,3240,9,Intracranial abscess,34592300,Other CNS infection and poliomyelitis,0.0
+10001217,27703517,2,3485,9,Cerebral edema,34592300,Other nervous system disorders,0.0
+10001217,27703517,3,340,9,Multiple sclerosis,34592300,Multiple sclerosis,0.0
+10001217,27703517,4,04102,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group B",34592300,Bacterial infection; unspecified site,0.0
+10001217,27703517,5,04184,9,"Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other anaerobes",34592300,Bacterial infection; unspecified site,0.0
+10001217,27703517,6,4019,9,Unspecified essential hypertension,34592300,Essential hypertension,1.0
+10001217,27703517,7,3051,9,Tobacco use disorder,34592300,Screening and history of mental health and substance abuse codes,0.0
+10001217,24597018,1,3240,9,Intracranial abscess,37067082,Other CNS infection and poliomyelitis,0.0
+10001217,24597018,2,3484,9,Compression of brain,37067082,Other nervous system disorders,0.0
+10001217,24597018,3,3485,9,Cerebral edema,37067082,Other nervous system disorders,0.0
+10001217,24597018,4,5180,9,Pulmonary collapse,37067082,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10001217,24597018,5,340,9,Multiple sclerosis,37067082,Multiple sclerosis,0.0
+10001217,24597018,6,04109,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, other streptococcus",37067082,Bacterial infection; unspecified site,0.0
+10001217,24597018,7,3051,9,Tobacco use disorder,37067082,Screening and history of mental health and substance abuse codes,0.0
+10001217,24597018,8,4019,9,Unspecified essential hypertension,37067082,Essential hypertension,1.0
+10001217,24597018,9,V168,9,Family history of other specified malignant neoplasm,37067082,Residual codes; unclassified,0.0
+10001217,24597018,10,V161,9,"Family history of malignant neoplasm of trachea, bronchus, and lung",37067082,Residual codes; unclassified,0.0
+10001217,24597018,10,V161,9,Pedal cycle passenger injured in collision with other nonmotor vehicle in nontraffic accident,37067082,Residual codes; unclassified,0.0

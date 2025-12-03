@@ -1,0 +1,4 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10008287,22168393,1,D1802,10,Hemangioma of intracranial structures,33348260,,
+10008287,22168393,2,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",33348260,,
+10008287,22168393,3,Z85850,10,Personal history of malignant neoplasm of thyroid,33348260,,

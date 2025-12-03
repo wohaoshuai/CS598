@@ -1,0 +1,3 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10002930,25696644,37049133,Medical Intensive Care Unit (MICU),2196-04-14 13:40:00,2196-04-15 16:54:44,1.1352314814814817,2196-04-14 12:25:00,2196-04-17 15:28:00,,BLACK/AFRICAN AMERICAN,F,48,2201-12-24 00:00:00,48,0,0,0
+10002930,25922998,35629889,Medical/Surgical Intensive Care Unit (MICU/SICU),2198-04-17 21:24:00,2198-04-18 13:41:43,0.6789699074074074,2198-04-17 19:38:00,2198-04-22 16:02:00,,BLACK/AFRICAN AMERICAN,F,48,2201-12-24 00:00:00,48,0,0,0

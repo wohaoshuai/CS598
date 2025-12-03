@@ -1,0 +1,10 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10012552,27089790,1,41071,9,"Subendocardial infarction, initial episode of care",33383124,Acute myocardial infarction,1.0
+10012552,27089790,2,2724,9,Other and unspecified hyperlipidemia,33383124,Disorders of lipid metabolism,1.0
+10012552,27089790,3,41401,9,Coronary atherosclerosis of native coronary artery,33383124,Coronary atherosclerosis and other heart disease,1.0
+10012552,27089790,4,4019,9,Unspecified essential hypertension,33383124,Essential hypertension,1.0
+10012552,27089790,5,53081,9,Esophageal reflux,33383124,Esophageal disorders,0.0
+10012552,27089790,6,V1005,9,Personal history of malignant neoplasm of large intestine,33383124,Cancer of colon,0.0
+10012552,27089790,7,V8741,9,Personal history of antineoplastic chemotherapy,33383124,Residual codes; unclassified,0.0
+10012552,27089790,8,V707,9,Examination of participant in clinical trial,33383124,Medical examination/evaluation,0.0
+10012552,27089790,8,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,33383124,Medical examination/evaluation,0.0

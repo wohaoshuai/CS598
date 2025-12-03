@@ -1,0 +1,18 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10038999,27189241,1,J189,10,"Pneumonia, unspecified organism",39711498,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10038999,27189241,2,R570,10,Cardiogenic shock,39711498,Shock,1.0
+10038999,27189241,3,I314,10,Cardiac tamponade,39711498,,
+10038999,27189241,4,J918,10,Pleural effusion in other conditions classified elsewhere,39711498,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10038999,27189241,5,D688,10,Other specified coagulation defects,39711498,,
+10038999,27189241,6,E46,10,Unspecified protein-calorie malnutrition,39711498,,
+10038999,27189241,7,J9691,10,"Respiratory failure, unspecified with hypoxia",39711498,,
+10038999,27189241,8,I313,10,Pericardial effusion (noninflammatory),39711498,,
+10038999,27189241,9,J9811,10,Atelectasis,39711498,,
+10038999,27189241,10,I319,10,"Disease of pericardium, unspecified",39711498,,
+10038999,27189241,11,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",39711498,,
+10038999,27189241,12,H540,10,"Blindness, both eyes",39711498,,
+10038999,27189241,13,R21,10,Rash and other nonspecific skin eruption,39711498,,
+10038999,27189241,14,I509,10,"Heart failure, unspecified",39711498,Congestive heart failure; nonhypertensive,1.0
+10038999,27189241,15,D649,10,"Anemia, unspecified",39711498,,
+10038999,27189241,16,E875,10,Hyperkalemia,39711498,Fluid and electrolyte disorders,1.0
+10038999,27189241,17,R001,10,"Bradycardia, unspecified",39711498,Cardiac dysrhythmias,1.0

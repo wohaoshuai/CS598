@@ -1,0 +1,21 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10020740,25826145,1,5770,9,Acute pancreatitis,32145159,Pancreatic disorders (not diabetes),0.0
+10020740,25826145,2,75310,9,"Cystic kidney disease, unspecified",32145159,Genitourinary congenital anomalies,0.0
+10020740,25826145,3,5723,9,Portal hypertension,32145159,Other liver diseases,1.0
+10020740,25826145,4,2875,9,"Thrombocytopenia, unspecified",32145159,Coagulation and hemorrhagic disorders,0.0
+10020740,25826145,5,V4987,9,Physical restraints status,32145159,Residual codes; unclassified,0.0
+10020740,25826145,6,45829,9,Other iatrogenic hypotension,32145159,Complications of surgical procedures or medical care,1.0
+10020740,25826145,7,57450,9,"Calculus of bile duct without mention of cholecystitis, without mention of obstruction",32145159,Biliary tract disease,0.0
+10020740,25826145,8,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32145159,Diabetes mellitus without complication,1.0
+10020740,25826145,9,29570,9,"Schizoaffective disorder, unspecified",32145159,Schizophrenia and other psychotic disorders,0.0
+10020740,25826145,10,49390,9,"Asthma, unspecified type, unspecified",32145159,Asthma,0.0
+10020740,25826145,11,32723,9,Obstructive sleep apnea (adult)(pediatric),32145159,Residual codes; unclassified,0.0
+10020740,25826145,12,5680,9,Peritoneal adhesions (postoperative) (postinfection),32145159,Other gastrointestinal disorders,0.0
+10020740,25826145,13,27652,9,Hypovolemia,32145159,Fluid and electrolyte disorders,1.0
+10020740,25826145,14,2859,9,"Anemia, unspecified",32145159,Deficiency and other anemia,0.0
+10020740,25826145,15,5531,9,Umbilical hernia without mention of obstruction or gangrene,32145159,Abdominal hernia,0.0
+10020740,25826145,16,311,9,"Depressive disorder, not elsewhere classified",32145159,Mood disorders,0.0
+10020740,25826145,17,2724,9,Other and unspecified hyperlipidemia,32145159,Disorders of lipid metabolism,1.0
+10020740,25826145,18,V5867,9,Long-term (current) use of insulin,32145159,Other aftercare,0.0
+10020740,25826145,19,V1204,9,Personal history of Methicillin resistant Staphylococcus aureus,32145159,Bacterial infection; unspecified site,0.0
+10020740,25826145,20,V4589,9,Other postprocedural status,32145159,Residual codes; unclassified,0.0

@@ -1,0 +1,33 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10019777,27738145,1,1571,9,Malignant neoplasm of body of pancreas,34578020,Cancer of pancreas,0.0
+10019777,27738145,2,51881,9,Acute respiratory failure,34578020,Respiratory failure; insufficiency; arrest (adult),1.0
+10019777,27738145,3,V4611,9,"Dependence on respirator, status",34578020,Respiratory failure; insufficiency; arrest (adult),1.0
+10019777,27738145,4,5579,9,Unspecified vascular insufficiency of intestine,34578020,Peripheral and visceral atherosclerosis,0.0
+10019777,27738145,5,44489,9,Embolism and thrombosis of other specified artery,34578020,Aortic and peripheral arterial embolism or thrombosis,0.0
+10019777,27738145,6,99731,9,Ventilator associated pneumonia,34578020,Complications of surgical procedures or medical care,1.0
+10019777,27738145,7,4589,9,"Hypotension, unspecified",34578020,Other circulatory disease,0.0
+10019777,27738145,8,1977,9,"Malignant neoplasm of liver, secondary",34578020,Secondary malignancies,0.0
+10019777,27738145,9,2851,9,Acute posthemorrhagic anemia,34578020,Acute posthemorrhagic anemia,0.0
+10019777,27738145,10,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",34578020,Gastrointestinal hemorrhage,1.0
+10019777,27738145,11,99674,9,"Other complications due to other vascular device, implant, and graft",34578020,Complication of device; implant or graft,0.0
+10019777,27738145,12,7824,9,"Jaundice, unspecified, not of newborn",34578020,Other liver diseases,1.0
+10019777,27738145,13,4568,9,Varices of other sites,34578020,Other diseases of veins and lymphatics,0.0
+10019777,27738145,14,53081,9,Esophageal reflux,34578020,Esophageal disorders,0.0
+10019777,27738145,15,311,9,"Depressive disorder, not elsewhere classified",34578020,Mood disorders,0.0
+10019777,27738145,16,30503,9,"Alcohol abuse, in remission",34578020,Alcohol-related disorders,0.0
+10019777,27738145,17,4471,9,Stricture of artery,34578020,Other circulatory disease,0.0
+10019777,27738145,18,V1271,9,Personal history of peptic ulcer disease,34578020,Gastroduodenal ulcer (except hemorrhage),0.0
+10019777,27738145,19,V1582,9,Personal history of tobacco use,34578020,Screening and history of mental health and substance abuse codes,0.0
+10019777,27738145,20,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",34578020,Adverse effects of medical care,0.0
+10019777,27738145,21,28860,9,"Leukocytosis, unspecified",34578020,Diseases of white blood cells,0.0
+10019777,27738145,22,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],34578020,Other liver diseases,1.0
+10019777,27738145,23,3383,9,Neoplasm related pain (acute) (chronic),34578020,Other nervous system disorders,0.0
+10019777,27738145,24,56409,9,Other constipation,34578020,Other gastrointestinal disorders,0.0
+10019777,27738145,25,4019,9,Unspecified essential hypertension,34578020,Essential hypertension,1.0
+10019777,27738145,26,78094,9,Early satiety,34578020,Residual codes; unclassified,0.0
+10019777,27738145,27,56889,9,Other specified disorders of peritoneum,34578020,Other gastrointestinal disorders,0.0
+10019777,27738145,28,E9358,9,Other specified analgesics and antipyretics causing adverse effects in therapeutic use,34578020,Adverse effects of medical drugs,0.0
+10019777,27738145,29,E8497,9,Accidents occurring in residential institution,34578020,Place of occurrence,0.0
+10019777,27738145,30,E8889,9,Unspecified fall,34578020,Fall,0.0
+10019777,27738145,30,E8889,9,Other specified metabolic disorders,34578020,Fall,0.0
+10019777,27738145,31,V4986,9,Do not resuscitate status,34578020,Residual codes; unclassified,0.0

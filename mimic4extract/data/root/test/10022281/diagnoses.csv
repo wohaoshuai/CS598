@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10022281,29642388,1,44102,9,"Dissection of aorta, abdominal",30585761,Aortic; peripheral; and visceral artery aneurysms,0.0
+10022281,29642388,2,4019,9,Unspecified essential hypertension,30585761,Essential hypertension,1.0
+10022281,29642388,3,71535,9,"Osteoarthrosis, localized, not specified whether primary or secondary, pelvic region and thigh",30585761,Osteoarthritis,0.0
+10022281,29642388,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",30585761,Diabetes mellitus without complication,1.0
+10022281,29642388,5,2720,9,Pure hypercholesterolemia,30585761,Disorders of lipid metabolism,1.0
+10022281,29642388,6,41401,9,Coronary atherosclerosis of native coronary artery,30585761,Coronary atherosclerosis and other heart disease,1.0
+10022281,29642388,7,V1582,9,Personal history of tobacco use,30585761,Screening and history of mental health and substance abuse codes,0.0
+10022281,29642388,8,V5867,9,Long-term (current) use of insulin,30585761,Other aftercare,0.0

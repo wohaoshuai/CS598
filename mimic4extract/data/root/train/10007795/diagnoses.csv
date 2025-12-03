@@ -1,0 +1,26 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10007795,28477357,1,5772,9,Cyst and pseudocyst of pancreas,31921355,Pancreatic disorders (not diabetes),0.0
+10007795,28477357,2,5770,9,Acute pancreatitis,31921355,Pancreatic disorders (not diabetes),0.0
+10007795,28477357,3,486,9,"Pneumonia, organism unspecified",31921355,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10007795,28477357,4,5184,9,"Acute edema of lung, unspecified",31921355,Other lower respiratory disease,1.0
+10007795,28477357,5,5180,9,Pulmonary collapse,31921355,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10007795,28477357,6,11289,9,Other candidiasis of other specified sites,31921355,Mycoses,0.0
+10007795,28477357,7,2869,9,Other and unspecified coagulation defects,31921355,Coagulation and hemorrhagic disorders,0.0
+10007795,28477357,8,5771,9,Chronic pancreatitis,31921355,Pancreatic disorders (not diabetes),0.0
+10007795,28477357,9,5711,9,Acute alcoholic hepatitis,31921355,Alcohol-related disorders,0.0
+10007795,28477357,10,30393,9,"Other and unspecified alcohol dependence, in remission",31921355,Alcohol-related disorders,0.0
+10007795,28477357,11,4019,9,Unspecified essential hypertension,31921355,Essential hypertension,1.0
+10007795,28477357,12,2720,9,Pure hypercholesterolemia,31921355,Disorders of lipid metabolism,1.0
+10007795,28477357,13,24900,9,"Secondary diabetes mellitus without mention of complication, not stated as uncontrolled, or unspecified",31921355,Diabetes mellitus without complication,1.0
+10007795,28477357,14,V5867,9,Long-term (current) use of insulin,31921355,Other aftercare,0.0
+10007795,28477357,15,311,9,"Depressive disorder, not elsewhere classified",31921355,Mood disorders,0.0
+10007795,28477357,16,28529,9,Anemia of other chronic disease,31921355,Deficiency and other anemia,0.0
+10007795,28477357,17,V103,9,Personal history of malignant neoplasm of breast,31921355,Cancer of breast,0.0
+10007795,28477357,17,V103,9,Person boarding or alighting a pedal cycle injured in collision with pedestrian or animal,31921355,Cancer of breast,0.0
+10007795,28477357,18,79311,9,Solitary pulmonary nodule,31921355,Other lower respiratory disease,1.0
+10007795,28477357,19,56210,9,Diverticulosis of colon (without mention of hemorrhage),31921355,Diverticulosis and diverticulitis,0.0
+10007795,28477357,20,V443,9,Colostomy status,31921355,Other gastrointestinal disorders,0.0
+10007795,28477357,20,V443,9,Unspecified car occupant injured in collision with heavy transport vehicle or bus in nontraffic accident,31921355,Other gastrointestinal disorders,0.0
+10007795,28477357,21,6930,9,Dermatitis due to drugs and medicines taken internally,31921355,Allergic reactions,0.0
+10007795,28477357,22,E9319,9,Other and unspecified anti-infectives causing adverse effects in therapeutic use,31921355,Adverse effects of medical drugs,0.0
+10007795,28477357,23,E8497,9,Accidents occurring in residential institution,31921355,Place of occurrence,0.0

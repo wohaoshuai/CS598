@@ -1,0 +1,24 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10027445,26275841,1,51881,9,Acute respiratory failure,34499716,Respiratory failure; insufficiency; arrest (adult),1.0
+10027445,26275841,2,42833,9,Acute on chronic diastolic heart failure,34499716,Congestive heart failure; nonhypertensive,1.0
+10027445,26275841,3,2763,9,Alkalosis,34499716,Fluid and electrolyte disorders,1.0
+10027445,26275841,4,4280,9,"Congestive heart failure, unspecified",34499716,Congestive heart failure; nonhypertensive,1.0
+10027445,26275841,5,515,9,Postinflammatory pulmonary fibrosis,34499716,Other lower respiratory disease,1.0
+10027445,26275841,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",34499716,Diabetes mellitus without complication,1.0
+10027445,26275841,7,4019,9,Unspecified essential hypertension,34499716,Essential hypertension,1.0
+10027445,26275841,8,41401,9,Coronary atherosclerosis of native coronary artery,34499716,Coronary atherosclerosis and other heart disease,1.0
+10027445,26275841,9,3004,9,Dysthymic disorder,34499716,Mood disorders,0.0
+10027445,26275841,10,4240,9,Mitral valve disorders,34499716,Heart valve disorders,0.0
+10027445,26275841,11,7245,9,"Backache, unspecified",34499716,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10027445,26275841,12,2859,9,"Anemia, unspecified",34499716,Deficiency and other anemia,0.0
+10027445,29163082,1,4240,9,Mitral valve disorders,36084484,Heart valve disorders,0.0
+10027445,29163082,2,42833,9,Acute on chronic diastolic heart failure,36084484,Congestive heart failure; nonhypertensive,1.0
+10027445,29163082,3,9982,9,"Accidental puncture or laceration during a procedure, not elsewhere classified",36084484,Complications of surgical procedures or medical care,1.0
+10027445,29163082,4,2763,9,Alkalosis,36084484,Fluid and electrolyte disorders,1.0
+10027445,29163082,5,4280,9,"Congestive heart failure, unspecified",36084484,Congestive heart failure; nonhypertensive,1.0
+10027445,29163082,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",36084484,Diabetes mellitus without complication,1.0
+10027445,29163082,7,515,9,Postinflammatory pulmonary fibrosis,36084484,Other lower respiratory disease,1.0
+10027445,29163082,8,4168,9,Other chronic pulmonary heart diseases,36084484,Pulmonary heart disease,0.0
+10027445,29163082,9,E8706,9,"Accidental cut, puncture, perforation or hemorrhage during heart catheterization",36084484,Adverse effects of medical care,0.0
+10027445,29163082,10,V5867,9,Long-term (current) use of insulin,36084484,Other aftercare,0.0
+10027445,29163082,11,311,9,"Depressive disorder, not elsewhere classified",36084484,Mood disorders,0.0

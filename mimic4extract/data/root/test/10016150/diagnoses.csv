@@ -1,0 +1,18 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10016150,29374560,1,41402,9,Coronary atherosclerosis of autologous vein bypass graft,33652203,Complication of device; implant or graft,0.0
+10016150,29374560,2,4254,9,Other primary cardiomyopathies,33652203,Peri-; endo-; and myocarditis; cardiomyopathy (except that caused by tuberculosis or sexually transmitted disease),0.0
+10016150,29374560,3,42731,9,Atrial fibrillation,33652203,Cardiac dysrhythmias,1.0
+10016150,29374560,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",33652203,Diabetes mellitus without complication,1.0
+10016150,29374560,5,7843,9,Aphasia,33652203,Other nervous system disorders,0.0
+10016150,29374560,6,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",33652203,Hypertension with complications and secondary hypertension,1.0
+10016150,29374560,7,3569,9,Unspecified hereditary and idiopathic peripheral neuropathy,33652203,Other nervous system disorders,0.0
+10016150,29374560,8,99702,9,Iatrogenic cerebrovascular infarction or hemorrhage,33652203,Complications of surgical procedures or medical care,1.0
+10016150,29374560,9,41401,9,Coronary atherosclerosis of native coronary artery,33652203,Coronary atherosclerosis and other heart disease,1.0
+10016150,29374560,10,78194,9,Facial weakness,33652203,Other connective tissue disease,0.0
+10016150,29374560,11,E8790,9,"Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",33652203,Adverse effects of medical care,0.0
+10016150,29374560,12,E8497,9,Accidents occurring in residential institution,33652203,Place of occurrence,0.0
+10016150,29374560,13,V5861,9,Long-term (current) use of anticoagulants,33652203,Other aftercare,0.0
+10016150,29374560,14,5859,9,"Chronic kidney disease, unspecified",33652203,Chronic kidney disease,1.0
+10016150,29374560,15,V5867,9,Long-term (current) use of insulin,33652203,Other aftercare,0.0
+10016150,29374560,16,V4501,9,Cardiac pacemaker in situ,33652203,Conduction disorders,1.0
+10016150,29374560,17,V1582,9,Personal history of tobacco use,33652203,Screening and history of mental health and substance abuse codes,0.0

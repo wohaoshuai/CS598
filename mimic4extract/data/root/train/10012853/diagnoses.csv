@@ -1,0 +1,31 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10012853,27882036,1,I82622,10,Acute embolism and thrombosis of deep veins of left upper extremity,31338022,,
+10012853,27882036,2,J9621,10,Acute and chronic respiratory failure with hypoxia,31338022,,
+10012853,27882036,3,I480,10,Paroxysmal atrial fibrillation,31338022,,
+10012853,27882036,4,N319,10,"Neuromuscular dysfunction of bladder, unspecified",31338022,,
+10012853,27882036,5,J449,10,"Chronic obstructive pulmonary disease, unspecified",31338022,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10012853,27882036,6,D472,10,Monoclonal gammopathy,31338022,,
+10012853,27882036,7,J9622,10,Acute and chronic respiratory failure with hypercapnia,31338022,,
+10012853,27882036,8,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",31338022,Hypertension with complications and secondary hypertension,1.0
+10012853,27882036,9,N183,10,"Chronic kidney disease, stage 3 (moderate)",31338022,Chronic kidney disease,1.0
+10012853,27882036,10,I739,10,"Peripheral vascular disease, unspecified",31338022,,
+10012853,27882036,11,E042,10,Nontoxic multinodular goiter,31338022,,
+10012853,27882036,12,E119,10,Type 2 diabetes mellitus without complications,31338022,Diabetes mellitus without complication,1.0
+10012853,27882036,13,D509,10,"Iron deficiency anemia, unspecified",31338022,,
+10012853,27882036,14,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",31338022,,
+10012853,27882036,15,I714,10,"Abdominal aortic aneurysm, without rupture",31338022,,
+10012853,27882036,16,M1000,10,"Idiopathic gout, unspecified site",31338022,,
+10012853,27882036,17,J398,10,Other specified diseases of upper respiratory tract,31338022,,
+10012853,27882036,18,K5790,10,"Diverticulosis of intestine, part unspecified, without perforation or abscess without bleeding",31338022,,
+10012853,27882036,19,E669,10,"Obesity, unspecified",31338022,,
+10012853,27882036,20,G4733,10,Obstructive sleep apnea (adult) (pediatric),31338022,,
+10012853,27882036,21,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",31338022,,
+10012853,27882036,22,K8020,10,Calculus of gallbladder without cholecystitis without obstruction,31338022,,
+10012853,27882036,23,M19072,10,"Primary osteoarthritis, left ankle and foot",31338022,,
+10012853,27882036,24,E780,10,Pure hypercholesterolemia,31338022,,
+10012853,27882036,25,M109,10,"Gout, unspecified",31338022,,
+10012853,27882036,26,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,31338022,Coronary atherosclerosis and other heart disease,1.0
+10012853,27882036,27,Z7982,10,Long term (current) use of aspirin,31338022,,
+10012853,27882036,28,Z86711,10,Personal history of pulmonary embolism,31338022,,
+10012853,27882036,29,Z7901,10,Long term (current) use of anticoagulants,31338022,,
+10012853,27882036,30,Z8673,10,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",31338022,,

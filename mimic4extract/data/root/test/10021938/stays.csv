@@ -1,0 +1,3 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10021938,23112364,39492446,Medical Intensive Care Unit (MICU),2181-10-13 02:52:00,2181-10-14 18:03:28,1.6329629629629627,2181-10-13 01:48:00,2181-10-14 17:40:00,,WHITE,M,65,2182-10-16 00:00:00,65,0,0,0
+10021938,27154822,33083787,Medical Intensive Care Unit (MICU),2181-10-25 11:35:00,2181-10-26 20:53:57,1.3881597222222224,2181-10-25 10:44:00,2181-10-27 15:30:00,,WHITE,M,65,2182-10-16 00:00:00,65,0,0,0

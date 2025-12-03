@@ -1,0 +1,29 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10027602,28166872,1,430,9,Subarachnoid hemorrhage,32391858,Acute cerebrovascular disease,1.0
+10027602,28166872,2,3485,9,Cerebral edema,32391858,Other nervous system disorders,0.0
+10027602,28166872,3,51881,9,Acute respiratory failure,32391858,Respiratory failure; insufficiency; arrest (adult),1.0
+10027602,28166872,4,48242,9,Methicillin resistant pneumonia due to Staphylococcus aureus,32391858,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10027602,28166872,5,5990,9,"Urinary tract infection, site not specified",32391858,Urinary tract infections,0.0
+10027602,28166872,6,V0481,9,Need for prophylactic vaccination and inoculation against influenza,32391858,Immunizations and screening for infectious disease,0.0
+10027602,28166872,7,V4987,9,Physical restraints status,32391858,Residual codes; unclassified,0.0
+10027602,28166872,8,78039,9,Other convulsions,32391858,Epilepsy; convulsions,0.0
+10027602,28166872,9,78722,9,"Dysphagia, oropharyngeal phase",32391858,Other gastrointestinal disorders,0.0
+10027602,28166872,10,04104,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",32391858,Bacterial infection; unspecified site,0.0
+10027602,28166872,11,79902,9,Hypoxemia,32391858,Other injuries and conditions due to external causes,0.0
+10027602,28166872,12,31401,9,Attention deficit disorder with hyperactivity,32391858,"Attention-deficit, conduct, and disruptive behavior disorders",0.0
+10027602,28166872,13,4019,9,Unspecified essential hypertension,32391858,Essential hypertension,1.0
+10027602,28166872,14,49390,9,"Asthma, unspecified type, unspecified",32391858,Asthma,0.0
+10027602,28166872,15,53081,9,Esophageal reflux,32391858,Esophageal disorders,0.0
+10027602,28166872,16,2449,9,Unspecified acquired hypothyroidism,32391858,Thyroid disorders,0.0
+10027602,28166872,17,79311,9,Solitary pulmonary nodule,32391858,Other lower respiratory disease,1.0
+10027602,21477991,1,4373,9,"Cerebral aneurysm, nonruptured",32453351,Other and ill-defined cerebrovascular disease,0.0
+10027602,21477991,2,2930,9,Delirium due to conditions classified elsewhere,32453351,"Delirium, dementia, and amnestic and other cognitive disorders",0.0
+10027602,21477991,3,51889,9,"Other diseases of lung, not elsewhere classified",32453351,Other lower respiratory disease,1.0
+10027602,21477991,4,V441,9,Gastrostomy status,32453351,Other gastrointestinal disorders,0.0
+10027602,21477991,4,V441,9,Car passenger injured in collision with heavy transport vehicle or bus in nontraffic accident,32453351,Other gastrointestinal disorders,0.0
+10027602,21477991,5,78720,9,"Dysphagia, unspecified",32453351,Other gastrointestinal disorders,0.0
+10027602,21477991,6,31401,9,Attention deficit disorder with hyperactivity,32453351,"Attention-deficit, conduct, and disruptive behavior disorders",0.0
+10027602,21477991,7,V4987,9,Physical restraints status,32453351,Residual codes; unclassified,0.0
+10027602,21477991,8,V5861,9,Long-term (current) use of anticoagulants,32453351,Other aftercare,0.0
+10027602,21477991,9,2449,9,Unspecified acquired hypothyroidism,32453351,Thyroid disorders,0.0
+10027602,21477991,10,4019,9,Unspecified essential hypertension,32453351,Essential hypertension,1.0

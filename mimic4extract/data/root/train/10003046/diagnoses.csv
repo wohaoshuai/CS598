@@ -1,0 +1,5 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10003046,26048429,1,1505,9,Malignant neoplasm of lower third of esophagus,35514836,Cancer of esophagus,0.0
+10003046,26048429,2,2762,9,Acidosis,35514836,Fluid and electrolyte disorders,1.0
+10003046,26048429,3,53085,9,Barrett's esophagus,35514836,Esophageal disorders,0.0
+10003046,26048429,4,53081,9,Esophageal reflux,35514836,Esophageal disorders,0.0

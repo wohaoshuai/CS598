@@ -1,0 +1,18 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10038992,24745425,1,I082,10,Rheumatic disorders of both aortic and tricuspid valves,37127068,,
+10038992,24745425,2,I428,10,Other cardiomyopathies,37127068,,
+10038992,24745425,3,D696,10,"Thrombocytopenia, unspecified",37127068,,
+10038992,24745425,4,I272,10,Other secondary pulmonary hypertension,37127068,,
+10038992,24745425,5,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",37127068,Hypertension with complications and secondary hypertension,1.0
+10038992,24745425,6,N183,10,"Chronic kidney disease, stage 3 (moderate)",37127068,Chronic kidney disease,1.0
+10038992,24745425,7,I5022,10,Chronic systolic (congestive) heart failure,37127068,Congestive heart failure; nonhypertensive,1.0
+10038992,24745425,8,I471,10,Supraventricular tachycardia,37127068,Cardiac dysrhythmias,1.0
+10038992,24745425,9,D62,10,Acute posthemorrhagic anemia,37127068,,
+10038992,24745425,10,J449,10,"Chronic obstructive pulmonary disease, unspecified",37127068,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10038992,24745425,11,E785,10,"Hyperlipidemia, unspecified",37127068,Disorders of lipid metabolism,1.0
+10038992,24745425,12,G4733,10,Obstructive sleep apnea (adult) (pediatric),37127068,,
+10038992,24745425,13,M109,10,"Gout, unspecified",37127068,,
+10038992,24745425,14,E039,10,"Hypothyroidism, unspecified",37127068,,
+10038992,24745425,15,E669,10,"Obesity, unspecified",37127068,,
+10038992,24745425,16,Z87891,10,Personal history of nicotine dependence,37127068,,
+10038992,24745425,17,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",37127068,,

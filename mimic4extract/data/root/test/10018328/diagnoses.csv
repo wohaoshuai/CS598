@@ -1,0 +1,17 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10018328,23786647,1,I671,10,"Cerebral aneurysm, nonruptured",31269608,,
+10018328,23786647,2,G936,10,Cerebral edema,31269608,,
+10018328,23786647,3,I5031,10,Acute diastolic (congestive) heart failure,31269608,Congestive heart failure; nonhypertensive,1.0
+10018328,23786647,4,R4701,10,Aphasia,31269608,,
+10018328,23786647,5,D62,10,Acute posthemorrhagic anemia,31269608,,
+10018328,23786647,6,I97618,10,Postprocedural hemorrhage of a circulatory system organ or structure following other circulatory system procedure,31269608,,
+10018328,23786647,7,J942,10,Hemothorax,31269608,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10018328,23786647,8,I97131,10,Postprocedural heart failure following other surgery,31269608,,
+10018328,23786647,9,I9752,10,Accidental puncture and laceration of a circulatory system organ or structure during other procedure,31269608,,
+10018328,23786647,10,I10,10,Essential (primary) hypertension,31269608,Essential hypertension,1.0
+10018328,23786647,11,Z853,10,Personal history of malignant neoplasm of breast,31269608,,
+10018328,23786647,12,E785,10,"Hyperlipidemia, unspecified",31269608,Disorders of lipid metabolism,1.0
+10018328,23786647,13,I9581,10,Postprocedural hypotension,31269608,Complications of surgical procedures or medical care,1.0
+10018328,23786647,14,R079,10,"Chest pain, unspecified",31269608,,
+10018328,23786647,15,Y834,10,"Other reconstructive surgery as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",31269608,,
+10018328,23786647,16,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,31269608,,

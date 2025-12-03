@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10023771,20044587,1,41401,9,Coronary atherosclerosis of native coronary artery,33177122,Coronary atherosclerosis and other heart disease,1.0
+10023771,20044587,2,20300,9,"Multiple myeloma, without mention of having achieved remission",33177122,Multiple myeloma,0.0
+10023771,20044587,3,99811,9,Hemorrhage complicating a procedure,33177122,Complications of surgical procedures or medical care,1.0
+10023771,20044587,4,V8741,9,Personal history of antineoplastic chemotherapy,33177122,Residual codes; unclassified,0.0
+10023771,20044587,5,2724,9,Other and unspecified hyperlipidemia,33177122,Disorders of lipid metabolism,1.0
+10023771,20044587,6,4019,9,Unspecified essential hypertension,33177122,Essential hypertension,1.0
+10023771,20044587,7,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",33177122,Adverse effects of medical care,0.0
+10023771,20044587,8,42731,9,Atrial fibrillation,33177122,Cardiac dysrhythmias,1.0

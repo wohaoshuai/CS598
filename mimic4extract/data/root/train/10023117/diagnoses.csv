@@ -1,0 +1,28 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10023117,21607814,1,I5023,10,Acute on chronic systolic (congestive) heart failure,30955999,Congestive heart failure; nonhypertensive,1.0
+10023117,21607814,2,I428,10,Other cardiomyopathies,30955999,,
+10023117,21607814,3,R570,10,Cardiogenic shock,30955999,Shock,1.0
+10023117,21607814,4,D689,10,"Coagulation defect, unspecified",30955999,,
+10023117,21607814,5,I959,10,"Hypotension, unspecified",30955999,,
+10023117,21607814,6,N179,10,"Acute kidney failure, unspecified",30955999,Acute and unspecified renal failure,1.0
+10023117,21607814,7,I248,10,Other forms of acute ischemic heart disease,30955999,Coronary atherosclerosis and other heart disease,1.0
+10023117,21607814,8,K2270,10,Barrett's esophagus without dysplasia,30955999,,
+10023117,21607814,9,I361,10,Nonrheumatic tricuspid (valve) insufficiency,30955999,,
+10023117,21607814,10,F200,10,Paranoid schizophrenia,30955999,,
+10023117,21607814,11,Z95810,10,Presence of automatic (implantable) cardiac defibrillator,30955999,Conduction disorders,1.0
+10023117,21607814,12,E785,10,"Hyperlipidemia, unspecified",30955999,Disorders of lipid metabolism,1.0
+10023117,21607814,13,K219,10,Gastro-esophageal reflux disease without esophagitis,30955999,,
+10023117,21607814,14,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",30955999,Hypertension with complications and secondary hypertension,1.0
+10023117,21607814,15,N189,10,"Chronic kidney disease, unspecified",30955999,Chronic kidney disease,1.0
+10023117,21607814,16,I340,10,Nonrheumatic mitral (valve) insufficiency,30955999,,
+10023117,21607814,17,G4700,10,"Insomnia, unspecified",30955999,,
+10023117,21607814,18,F329,10,"Major depressive disorder, single episode, unspecified",30955999,,
+10023117,21607814,19,F419,10,"Anxiety disorder, unspecified",30955999,,
+10023117,21607814,20,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,30955999,,
+10023117,21607814,21,Z85528,10,Personal history of other malignant neoplasm of kidney,30955999,,
+10023117,21607814,22,Z86718,10,Personal history of other venous thrombosis and embolism,30955999,,
+10023117,21607814,23,Z87891,10,Personal history of nicotine dependence,30955999,,
+10023117,21607814,24,E806,10,Other disorders of bilirubin metabolism,30955999,,
+10023117,21607814,25,R300,10,Dysuria,30955999,,
+10023117,21607814,26,Z515,10,Encounter for palliative care,30955999,,
+10023117,21607814,27,Z66,10,Do not resuscitate,30955999,,

@@ -1,0 +1,38 @@
+
+# ==============================
+# MedMod Pretraining Configuration
+# ==============================
+
+# Dataset
+train_file: train.jsonl
+val_file: val.jsonl
+
+# Model settings
+model:
+  name: medmod-base
+  ehr_input_size: 18           # adjust based on your EHR feature dimension
+  image_input_size: [224, 224] # default image size
+  hidden_size: 512
+  num_layers: 2
+
+# Training
+training:
+  batch_size: 8
+  num_epochs: 10
+  learning_rate: 1e-4
+  weight_decay: 0.01
+  gradient_accumulation_steps: 1
+
+# Checkpoint
+checkpoint:
+  save_dir: checkpoints/
+  save_every: 1   # save every epoch
+
+# Logging
+logging:
+  log_dir: logs/
+  log_every: 10
+
+# Misc
+seed: 42
+device: cuda

@@ -1,0 +1,19 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10001725,25563031,1,78829,9,Other specified retention of urine,31205490,Genitourinary symptoms and ill-defined conditions,0.0
+10001725,25563031,2,9950,9,Other anaphylactic reaction,31205490,Allergic reactions,0.0
+10001725,25563031,3,6185,9,Prolapse of vaginal vault after hysterectomy,31205490,Prolapse of female genital organs,0.0
+10001725,25563031,4,49390,9,"Asthma, unspecified type, unspecified",31205490,Asthma,0.0
+10001725,25563031,5,53081,9,Esophageal reflux,31205490,Esophageal disorders,0.0
+10001725,25563031,6,30000,9,"Anxiety state, unspecified",31205490,Anxiety disorders,0.0
+10001725,25563031,7,311,9,"Depressive disorder, not elsewhere classified",31205490,Mood disorders,0.0
+10001725,25563031,8,7291,9,"Myalgia and myositis, unspecified",31205490,Other connective tissue disease,0.0
+10001725,25563031,9,5641,9,Irritable bowel syndrome,31205490,Other gastrointestinal disorders,0.0
+10001725,25563031,10,6186,9,"Vaginal enterocele, congenital or acquired",31205490,Prolapse of female genital organs,0.0
+10001725,25563031,11,V1041,9,Personal history of malignant neoplasm of cervix uteri,31205490,Cancer of cervix,0.0
+10001725,25563031,12,31401,9,Attention deficit disorder with hyperactivity,31205490,"Attention-deficit, conduct, and disruptive behavior disorders",0.0
+10001725,25563031,13,V1582,9,Personal history of tobacco use,31205490,Screening and history of mental health and substance abuse codes,0.0
+10001725,25563031,14,4571,9,Other lymphedema,31205490,Other diseases of veins and lymphatics,0.0
+10001725,25563031,15,3331,9,Essential and other specified forms of tremor,31205490,Other hereditary and degenerative nervous system conditions,0.0
+10001725,25563031,16,56400,9,"Constipation, unspecified",31205490,Other gastrointestinal disorders,0.0
+10001725,25563031,17,E9352,9,Other opiates and related narcotics causing adverse effects in therapeutic use,31205490,Adverse effects of medical drugs,0.0
+10001725,25563031,18,78052,9,"Insomnia, unspecified",31205490,Residual codes; unclassified,0.0

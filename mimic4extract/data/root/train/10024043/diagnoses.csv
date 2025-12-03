@@ -1,0 +1,17 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10024043,24717014,1,33520,9,Amyotrophic lateral sclerosis,32374504,Other hereditary and degenerative nervous system conditions,0.0
+10024043,24717014,2,2536,9,Other disorders of neurohypophysis,32374504,Other endocrine disorders,0.0
+10024043,24717014,3,5859,9,"Chronic kidney disease, unspecified",32374504,Chronic kidney disease,1.0
+10024043,24717014,4,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",32374504,Hypertension with complications and secondary hypertension,1.0
+10024043,24717014,5,53081,9,Esophageal reflux,32374504,Esophageal disorders,0.0
+10024043,24717014,6,72402,9,"Spinal stenosis, lumbar region, without neurogenic claudication",32374504,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10024043,24717014,7,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32374504,Diabetes mellitus without complication,1.0
+10024043,24717014,8,34690,9,"Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus",32374504,Headache; including migraine,0.0
+10024043,24717014,9,V1083,9,Personal history of other malignant neoplasm of skin,32374504,Other non-epithelial cancer of skin,0.0
+10024043,24717014,10,V1272,9,Personal history of colonic polyps,32374504,Other and unspecified benign neoplasm,0.0
+10024043,24717014,11,V1582,9,Personal history of tobacco use,32374504,Screening and history of mental health and substance abuse codes,0.0
+10024043,24717014,12,V1202,9,Personal history of poliomyelitis,32374504,Other CNS infection and poliomyelitis,0.0
+10024043,24717014,13,V113,9,Personal history of alcoholism,32374504,Screening and history of mental health and substance abuse codes,0.0
+10024043,24717014,13,V113,9,Person boarding or alighting a pedal cycle injured in collision with other pedal cycle,32374504,Screening and history of mental health and substance abuse codes,0.0
+10024043,24717014,14,V454,9,Arthrodesis status,32374504,Other connective tissue disease,0.0
+10024043,24717014,14,V454,9,Person boarding or alighting a car injured in collision with railway train or railway vehicle,32374504,Other connective tissue disease,0.0

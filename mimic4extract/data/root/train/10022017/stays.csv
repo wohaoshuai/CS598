@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10022017,22342963,39497668,Cardiac Vascular Intensive Care Unit (CVICU),2189-09-10 10:05:24,2189-09-14 21:27:28,4.473657407407408,2189-09-10 00:00:00,2189-09-16 15:00:00,,WHITE,M,59,,59,0,0,0

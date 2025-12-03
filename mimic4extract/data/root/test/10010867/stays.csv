@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10010867,22429197,39880770,Trauma SICU (TSICU),2147-12-30 09:33:00,2148-01-08 18:14:21,9.362048611111112,2147-12-30 08:40:00,2148-01-11 17:55:00,,WHITE - BRAZILIAN,F,28,,28,0,0,0

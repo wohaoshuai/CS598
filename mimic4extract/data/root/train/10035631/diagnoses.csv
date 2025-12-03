@@ -1,0 +1,37 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10035631,29276678,1,J9601,10,Acute respiratory failure with hypoxia,30932571,,
+10035631,29276678,2,E883,10,Tumor lysis syndrome,30932571,Complications of surgical procedures or medical care,1.0
+10035631,29276678,3,R6520,10,Severe sepsis without septic shock,30932571,Septicemia (except in labor),1.0
+10035631,29276678,4,A419,10,"Sepsis, unspecified organism",30932571,Septicemia (except in labor),1.0
+10035631,29276678,5,B441,10,Other pulmonary aspergillosis,30932571,,
+10035631,29276678,6,J90,10,"Pleural effusion, not elsewhere classified",30932571,,
+10035631,29276678,7,B59,10,Pneumocystosis,30932571,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10035631,29276678,8,E872,10,Acidosis,30932571,Fluid and electrolyte disorders,1.0
+10035631,29276678,9,J159,10,Unspecified bacterial pneumonia,30932571,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10035631,29276678,10,D89813,10,"Graft-versus-host disease, unspecified",30932571,,
+10035631,29276678,11,Z9484,10,Stem cells transplant status,30932571,,
+10035631,29276678,12,C92Z0,10,Other myeloid leukemia not having achieved remission,30932571,,
+10035631,29276678,13,J9811,10,Atelectasis,30932571,,
+10035631,29276678,14,N179,10,"Acute kidney failure, unspecified",30932571,Acute and unspecified renal failure,1.0
+10035631,29276678,15,E871,10,Hypo-osmolality and hyponatremia,30932571,Fluid and electrolyte disorders,1.0
+10035631,29276678,16,I248,10,Other forms of acute ischemic heart disease,30932571,Coronary atherosclerosis and other heart disease,1.0
+10035631,29276678,17,R042,10,Hemoptysis,30932571,,
+10035631,29276678,18,D689,10,"Coagulation defect, unspecified",30932571,,
+10035631,29276678,19,D709,10,"Neutropenia, unspecified",30932571,,
+10035631,29276678,20,R5081,10,Fever presenting with conditions classified elsewhere,30932571,,
+10035631,29276678,21,E860,10,Dehydration,30932571,Fluid and electrolyte disorders,1.0
+10035631,29276678,22,E875,10,Hyperkalemia,30932571,Fluid and electrolyte disorders,1.0
+10035631,29276678,23,G893,10,Neoplasm related pain (acute) (chronic),30932571,,
+10035631,29276678,24,I4891,10,Unspecified atrial fibrillation,30932571,Cardiac dysrhythmias,1.0
+10035631,29276678,25,D6959,10,Other secondary thrombocytopenia,30932571,,
+10035631,29276678,26,D630,10,Anemia in neoplastic disease,30932571,,
+10035631,29276678,27,H1133,10,"Conjunctival hemorrhage, bilateral",30932571,,
+10035631,29276678,28,T451X5A,10,"Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter",30932571,,
+10035631,29276678,29,Z66,10,Do not resuscitate,30932571,,
+10035631,29276678,30,Z515,10,Encounter for palliative care,30932571,,
+10035631,29276678,31,Z781,10,Physical restraint status,30932571,,
+10035631,29276678,32,Z006,10,Encounter for examination for normal comparison and control in clinical research program,30932571,,
+10035631,29276678,33,Z853,10,Personal history of malignant neoplasm of breast,30932571,,
+10035631,29276678,34,Z9012,10,Acquired absence of left breast and nipple,30932571,,
+10035631,29276678,35,Z87891,10,Personal history of nicotine dependence,30932571,,
+10035631,29276678,36,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,30932571,,

@@ -1,0 +1,35 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10021666,22756440,1,85201,9,"Subarachnoid hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35475449,Intracranial injury,0.0
+10021666,22756440,2,34831,9,Metabolic encephalopathy,35475449,Other nervous system disorders,0.0
+10021666,22756440,3,2930,9,Delirium due to conditions classified elsewhere,35475449,"Delirium, dementia, and amnestic and other cognitive disorders",0.0
+10021666,22756440,4,81342,9,Other closed fractures of distal end of radius (alone),35475449,Fracture of upper limb,0.0
+10021666,22756440,5,5849,9,"Acute kidney failure, unspecified",35475449,Acute and unspecified renal failure,1.0
+10021666,22756440,6,2760,9,Hyperosmolality and/or hypernatremia,35475449,Fluid and electrolyte disorders,1.0
+10021666,22756440,7,42822,9,Chronic systolic heart failure,35475449,Congestive heart failure; nonhypertensive,1.0
+10021666,22756440,8,85221,9,"Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35475449,Intracranial injury,0.0
+10021666,22756440,9,E8889,9,Unspecified fall,35475449,Fall,0.0
+10021666,22756440,9,E8889,9,Other specified metabolic disorders,35475449,Fall,0.0
+10021666,22756440,10,4280,9,"Congestive heart failure, unspecified",35475449,Congestive heart failure; nonhypertensive,1.0
+10021666,22756440,11,41401,9,Coronary atherosclerosis of native coronary artery,35475449,Coronary atherosclerosis and other heart disease,1.0
+10021666,22756440,12,30501,9,"Alcohol abuse, continuous",35475449,Alcohol-related disorders,0.0
+10021666,22756440,13,29420,9,"Dementia, unspecified, without behavioral disturbance",35475449,"Delirium, dementia, and amnestic and other cognitive disorders",0.0
+10021666,22756440,14,3682,9,Diplopia,35475449,Blindness and vision defects,0.0
+10021666,22756440,15,2875,9,"Thrombocytopenia, unspecified",35475449,Coagulation and hemorrhagic disorders,0.0
+10021666,22756440,16,78729,9,Other dysphagia,35475449,Other gastrointestinal disorders,0.0
+10021666,22756440,17,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",35475449,Hypertension with complications and secondary hypertension,1.0
+10021666,22756440,18,5853,9,"Chronic kidney disease, Stage III (moderate)",35475449,Chronic kidney disease,1.0
+10021666,22756440,19,58389,9,"Nephritis and nephropathy, not specified as acute or chronic, with other specified pathological lesion in kidney",35475449,Nephritis; nephrosis; renal sclerosis,0.0
+10021666,22756440,20,60000,9,Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS),35475449,Hyperplasia of prostate,0.0
+10021666,22756440,21,49390,9,"Asthma, unspecified type, unspecified",35475449,Asthma,0.0
+10021666,22756440,22,2724,9,Other and unspecified hyperlipidemia,35475449,Disorders of lipid metabolism,1.0
+10021666,22756440,23,28860,9,"Leukocytosis, unspecified",35475449,Diseases of white blood cells,0.0
+10021666,22756440,24,42731,9,Atrial fibrillation,35475449,Cardiac dysrhythmias,1.0
+10021666,22756440,25,56400,9,"Constipation, unspecified",35475449,Other gastrointestinal disorders,0.0
+10021666,22756440,26,2252,9,Benign neoplasm of cerebral meninges,35475449,Other and unspecified benign neoplasm,0.0
+10021666,22756440,27,2819,9,Unspecified deficiency anemia,35475449,Deficiency and other anemia,0.0
+10021666,22756440,28,3898,9,Other specified forms of hearing loss,35475449,Other ear and sense organ disorders,0.0
+10021666,22756440,29,412,9,Old myocardial infarction,35475449,Coronary atherosclerosis and other heart disease,1.0
+10021666,22756440,30,V4502,9,Automatic implantable cardiac defibrillator in situ,35475449,Conduction disorders,1.0
+10021666,22756440,31,V4364,9,Hip joint replacement,35475449,Other connective tissue disease,0.0
+10021666,22756440,31,V4364,9,Car passenger injured in collision with van in traffic accident,35475449,Other connective tissue disease,0.0
+10021666,22756440,32,V4986,9,Do not resuscitate status,35475449,Residual codes; unclassified,0.0

@@ -1,0 +1,10 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10020187,26842957,1,I671,10,"Cerebral aneurysm, nonruptured",32554129,,
+10020187,26842957,2,Z6841,10,"Body mass index (BMI) 40.0-44.9, adult",32554129,,
+10020187,26842957,3,I10,10,Essential (primary) hypertension,32554129,Essential hypertension,1.0
+10020187,26842957,4,E785,10,"Hyperlipidemia, unspecified",32554129,Disorders of lipid metabolism,1.0
+10020187,26842957,5,E669,10,"Obesity, unspecified",32554129,,
+10020187,26842957,6,M1712,10,"Unilateral primary osteoarthritis, left knee",32554129,,
+10020187,26842957,7,Z96651,10,Presence of right artificial knee joint,32554129,,
+10020187,26842957,8,K2270,10,Barrett's esophagus without dysplasia,32554129,,
+10020187,26842957,9,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,32554129,,

@@ -1,0 +1,77 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10003400,20214994,1,1543,9,"Malignant neoplasm of anus, unspecified site",32128372,Cancer of rectum and anus,0.0
+10003400,20214994,2,2866,9,Defibrination syndrome,32128372,Coagulation and hemorrhagic disorders,0.0
+10003400,20214994,3,51881,9,Acute respiratory failure,32128372,Respiratory failure; insufficiency; arrest (adult),1.0
+10003400,20214994,4,5845,9,Acute kidney failure with lesion of tubular necrosis,32128372,Acute and unspecified renal failure,1.0
+10003400,20214994,5,99594,9,Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction,32128372,Other injuries and conditions due to external causes,0.0
+10003400,20214994,6,20300,9,"Multiple myeloma, without mention of having achieved remission",32128372,Multiple myeloma,0.0
+10003400,20214994,7,2639,9,Unspecified protein-calorie malnutrition,32128372,Nutritional deficiencies,0.0
+10003400,20214994,8,99809,9,"Postoperative shock, other",32128372,Complications of surgical procedures or medical care,1.0
+10003400,20214994,9,2930,9,Delirium due to conditions classified elsewhere,32128372,"Delirium, dementia, and amnestic and other cognitive disorders",0.0
+10003400,20214994,10,45383,9,"Acute venous embolism and thrombosis of upper extremity, unspecified",32128372,Phlebitis; thrombophlebitis and thromboembolism,0.0
+10003400,20214994,11,99832,9,Disruption of external operation (surgical) wound,32128372,Complications of surgical procedures or medical care,1.0
+10003400,20214994,12,99674,9,"Other complications due to other vascular device, implant, and graft",32128372,Complication of device; implant or graft,0.0
+10003400,20214994,13,2851,9,Acute posthemorrhagic anemia,32128372,Acute posthemorrhagic anemia,0.0
+10003400,20214994,14,99859,9,Other postoperative infection,32128372,Complications of surgical procedures or medical care,1.0
+10003400,20214994,15,56089,9,Other specified intestinal obstruction,32128372,Intestinal obstruction without hernia,0.0
+10003400,20214994,16,55320,9,"Ventral, unspecified, hernia without mention of obstruction or gangrene",32128372,Abdominal hernia,0.0
+10003400,20214994,17,42731,9,Atrial fibrillation,32128372,Cardiac dysrhythmias,1.0
+10003400,20214994,18,27800,9,"Obesity, unspecified",32128372,Other nutritional; endocrine; and metabolic disorders,0.0
+10003400,20214994,19,5853,9,"Chronic kidney disease, Stage III (moderate)",32128372,Chronic kidney disease,1.0
+10003400,20214994,20,V4987,9,Physical restraints status,32128372,Residual codes; unclassified,0.0
+10003400,20214994,21,5680,9,Peritoneal adhesions (postoperative) (postinfection),32128372,Other gastrointestinal disorders,0.0
+10003400,20214994,22,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",32128372,Residual codes; unclassified,0.0
+10003400,20214994,23,V5861,9,Long-term (current) use of anticoagulants,32128372,Other aftercare,0.0
+10003400,20214994,24,71596,9,"Osteoarthrosis, unspecified whether generalized or localized, lower leg",32128372,Osteoarthritis,0.0
+10003400,20214994,25,E8786,9,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32128372,Adverse effects of medical care,0.0
+10003400,20214994,26,E8497,9,Accidents occurring in residential institution,32128372,Place of occurrence,0.0
+10003400,20214994,27,V153,9,"Personal history of irradiation, presenting hazards to health",32128372,Residual codes; unclassified,0.0
+10003400,20214994,27,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,32128372,Residual codes; unclassified,0.0
+10003400,20214994,28,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",32128372,Adverse effects of medical care,0.0
+10003400,20214994,29,V6441,9,Laparoscopic surgical procedure converted to open procedure,32128372,Residual codes; unclassified,0.0
+10003400,20214994,30,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",32128372,Hypertension with complications and secondary hypertension,1.0
+10003400,20214994,31,4280,9,"Congestive heart failure, unspecified",32128372,Congestive heart failure; nonhypertensive,1.0
+10003400,20214994,32,V8533,9,"Body Mass Index 33.0-33.9, adult",32128372,Other nutritional; endocrine; and metabolic disorders,0.0
+10003400,20214994,33,81600,9,"Closed fracture of phalanx or phalanges of hand, unspecified",32128372,Fracture of upper limb,0.0
+10003400,20214994,34,E887,9,"Fracture, cause unspecified",32128372,Unspecified,0.0
+10003400,20214994,35,E8499,9,Accidents occurring in unspecified place,32128372,Place of occurrence,0.0
+10003400,20214994,36,0417,9,Pseudomonas infection in conditions classified elsewhere and of unspecified site,32128372,Bacterial infection; unspecified site,0.0
+10003400,23559586,1,T8131XA,10,"Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter",34577403,Complications of surgical procedures or medical care,1.0
+10003400,23559586,2,R6521,10,Severe sepsis with septic shock,34577403,Shock,1.0
+10003400,23559586,3,J9601,10,Acute respiratory failure with hypoxia,34577403,,
+10003400,23559586,4,N179,10,"Acute kidney failure, unspecified",34577403,Acute and unspecified renal failure,1.0
+10003400,23559586,5,A419,10,"Sepsis, unspecified organism",34577403,Septicemia (except in labor),1.0
+10003400,23559586,6,G9340,10,"Encephalopathy, unspecified",34577403,,
+10003400,23559586,7,C9000,10,Multiple myeloma not having achieved remission,34577403,,
+10003400,23559586,8,J910,10,Malignant pleural effusion,34577403,,
+10003400,23559586,9,K5660,10,Unspecified intestinal obstruction,34577403,,
+10003400,23559586,10,C786,10,Secondary malignant neoplasm of retroperitoneum and peritoneum,34577403,,
+10003400,23559586,11,C7889,10,Secondary malignant neoplasm of other digestive organs,34577403,,
+10003400,23559586,12,C211,10,Malignant neoplasm of anal canal,34577403,,
+10003400,23559586,13,E46,10,Unspecified protein-calorie malnutrition,34577403,,
+10003400,23559586,14,Q620,10,Congenital hydronephrosis,34577403,,
+10003400,23559586,15,T814XXA,10,"Infection following a procedure, initial encounter",34577403,Complications of surgical procedures or medical care,1.0
+10003400,23559586,16,T8359XA,10,"Infection and inflammatory reaction due to prosthetic device, implant and graft in urinary system, initial encounter",34577403,,
+10003400,23559586,17,N12,10,"Tubulo-interstitial nephritis, not specified as acute or chronic",34577403,,
+10003400,23559586,18,B3749,10,Other urogenital candidiasis,34577403,,
+10003400,23559586,19,K311,10,Adult hypertrophic pyloric stenosis,34577403,,
+10003400,23559586,20,I5032,10,Chronic diastolic (congestive) heart failure,34577403,Congestive heart failure; nonhypertensive,1.0
+10003400,23559586,21,D62,10,Acute posthemorrhagic anemia,34577403,,
+10003400,23559586,22,Z66,10,Do not resuscitate,34577403,,
+10003400,23559586,23,Z515,10,Encounter for palliative care,34577403,,
+10003400,23559586,24,E8809,10,Accidental fall on or from other stairs or steps,34577403,Fall,0.0
+10003400,23559586,24,E8809,10,"Other disorders of plasma-protein metabolism, not elsewhere classified",34577403,Fall,0.0
+10003400,23559586,25,I482,10,Chronic atrial fibrillation,34577403,,
+10003400,23559586,26,Z7901,10,Long term (current) use of anticoagulants,34577403,,
+10003400,23559586,27,M179,10,"Osteoarthritis of knee, unspecified",34577403,,
+10003400,23559586,28,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",34577403,Hypertension with complications and secondary hypertension,1.0
+10003400,23559586,29,B9562,10,Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere,34577403,,
+10003400,23559586,30,N183,10,"Chronic kidney disease, stage 3 (moderate)",34577403,Chronic kidney disease,1.0
+10003400,23559586,31,Z433,10,Encounter for attention to colostomy,34577403,,
+10003400,23559586,32,R310,10,Gross hematuria,34577403,,
+10003400,23559586,33,E669,10,"Obesity, unspecified",34577403,,
+10003400,23559586,34,Z6838,10,"Body mass index (BMI) 38.0-38.9, adult",34577403,,
+10003400,23559586,35,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",34577403,,
+10003400,23559586,36,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,34577403,,
+10003400,23559586,37,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,34577403,,
+10003400,23559586,38,D696,10,"Thrombocytopenia, unspecified",34577403,,

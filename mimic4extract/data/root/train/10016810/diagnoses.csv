@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10016810,20973395,1,5400,9,Acute appendicitis with generalized peritonitis,35436337,Appendicitis and other appendiceal conditions,0.0
+10016810,20973395,2,4589,9,"Hypotension, unspecified",35436337,Other circulatory disease,0.0
+10016810,20973395,3,2449,9,Unspecified acquired hypothyroidism,35436337,Thyroid disorders,0.0
+10016810,20973395,4,2720,9,Pure hypercholesterolemia,35436337,Disorders of lipid metabolism,1.0
+10016810,20973395,5,4019,9,Unspecified essential hypertension,35436337,Essential hypertension,1.0
+10016810,20973395,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",35436337,Diabetes mellitus without complication,1.0
+10016810,20973395,7,3051,9,Tobacco use disorder,35436337,Screening and history of mental health and substance abuse codes,0.0
+10016810,20973395,8,V5866,9,Long-term (current) use of aspirin,35436337,Other aftercare,0.0
+10016810,20973395,9,V1082,9,Personal history of malignant melanoma of skin,35436337,Melanomas of skin,0.0
+10016810,20973395,10,V4577,9,"Acquired absence of organ, genital organs",35436337,Residual codes; unclassified,0.0

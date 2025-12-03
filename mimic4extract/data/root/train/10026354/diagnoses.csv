@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10026354,24547356,1,S0262XA,10,"Fracture of subcondylar process of mandible, initial encounter for closed fracture",36091287,,
+10026354,24547356,2,S25512A,10,"Laceration of intercostal blood vessels, left side, initial encounter",36091287,,
+10026354,24547356,3,S36892A,10,"Contusion of other intra-abdominal organs, initial encounter",36091287,,
+10026354,24547356,4,D696,10,"Thrombocytopenia, unspecified",36091287,,
+10026354,24547356,5,S030XXA,10,"Dislocation of jaw, initial encounter",36091287,,
+10026354,24547356,6,D649,10,"Anemia, unspecified",36091287,,
+10026354,24547356,7,F1010,10,"Alcohol abuse, uncomplicated",36091287,,
+10026354,24547356,8,Y040XXA,10,"Assault by unarmed brawl or fight, initial encounter",36091287,,

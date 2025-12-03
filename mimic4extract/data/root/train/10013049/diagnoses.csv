@@ -1,0 +1,7 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10013049,22675517,1,2127,9,Benign neoplasm of heart,35679826,Other and unspecified benign neoplasm,0.0
+10013049,22675517,2,4556,9,Unspecified hemorrhoids without mention of complication,35679826,Hemorrhoids,0.0
+10013049,22675517,3,53550,9,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",35679826,Gastritis and duodenitis,0.0
+10013049,22675517,4,V1272,9,Personal history of colonic polyps,35679826,Other and unspecified benign neoplasm,0.0
+10013049,22675517,5,V173,9,Family history of ischemic heart disease,35679826,Residual codes; unclassified,0.0
+10013049,22675517,5,V173,9,Person boarding or alighting a pedal cycle injured in collision with fixed or stationary object,35679826,Residual codes; unclassified,0.0

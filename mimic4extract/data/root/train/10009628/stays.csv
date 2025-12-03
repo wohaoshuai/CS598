@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10009628,25926192,35258379,Cardiac Vascular Intensive Care Unit (CVICU),2153-09-19 09:54:49,2153-09-21 16:39:06,2.2807523148148148,2153-09-17 17:08:00,2153-09-25 13:20:00,,HISPANIC/LATINO - PUERTO RICAN,M,58,,58,0,0,0

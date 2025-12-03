@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10020187,26842957,32554129,Neuro Intermediate,2170-02-24 18:18:46,2170-02-25 15:15:26,0.8726851851851853,2170-02-24 00:00:00,2170-02-25 15:00:00,,HISPANIC/LATINO - SALVADORAN,F,63,,63,0,0,0

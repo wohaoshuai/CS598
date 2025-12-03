@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10009628,25926192,1,41401,9,Coronary atherosclerosis of native coronary artery,35258379,Coronary atherosclerosis and other heart disease,1.0
+10009628,25926192,2,4142,9,Chronic total occlusion of coronary artery,35258379,Coronary atherosclerosis and other heart disease,1.0
+10009628,25926192,3,42731,9,Atrial fibrillation,35258379,Cardiac dysrhythmias,1.0
+10009628,25926192,4,25050,9,"Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled",35258379,Diabetes mellitus with complications,1.0
+10009628,25926192,5,36201,9,Background diabetic retinopathy,35258379,Retinal detachments; defects; vascular occlusion; and retinopathy,0.0
+10009628,25926192,6,V5867,9,Long-term (current) use of insulin,35258379,Other aftercare,0.0
+10009628,25926192,7,2859,9,"Anemia, unspecified",35258379,Deficiency and other anemia,0.0
+10009628,25926192,8,2724,9,Other and unspecified hyperlipidemia,35258379,Disorders of lipid metabolism,1.0

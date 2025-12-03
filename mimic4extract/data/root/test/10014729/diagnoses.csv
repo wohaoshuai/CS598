@@ -1,0 +1,9 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10014729,28889419,1,9010,9,Injury to thoracic aorta,33558396,Crushing injury or internal injury,0.0
+10014729,28889419,2,9962,9,"Mechanical complication of nervous system device, implant, and graft",33558396,Complication of device; implant or graft,0.0
+10014729,28889419,3,49390,9,"Asthma, unspecified type, unspecified",33558396,Asthma,0.0
+10014729,28889419,4,V1204,9,Personal history of Methicillin resistant Staphylococcus aureus,33558396,Bacterial infection; unspecified site,0.0
+10014729,28889419,5,E8120,9,Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle,33558396,Motor vehicle traffic (MVT),0.0
+10014729,28889419,6,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",33558396,Adverse effects of medical care,0.0
+10014729,28889419,7,E8495,9,Street and highway accidents,33558396,Place of occurrence,0.0
+10014729,28889419,8,E8497,9,Accidents occurring in residential institution,33558396,Place of occurrence,0.0

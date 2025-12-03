@@ -1,0 +1,18 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10021312,28829452,1,J9601,10,Acute respiratory failure with hypoxia,37507305,,
+10021312,28829452,2,J690,10,Pneumonitis due to inhalation of food and vomit,37507305,,
+10021312,28829452,3,C3490,10,Malignant neoplasm of unspecified part of unspecified bronchus or lung,37507305,,
+10021312,28829452,4,B370,10,Candidal stomatitis,37507305,,
+10021312,28829452,5,J9809,10,"Other diseases of bronchus, not elsewhere classified",37507305,Other upper respiratory disease,1.0
+10021312,28829452,6,R1319,10,Other dysphagia,37507305,,
+10021312,28829452,7,K222,10,Esophageal obstruction,37507305,,
+10021312,28829452,8,B9562,10,Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere,37507305,,
+10021312,28829452,9,F329,10,"Major depressive disorder, single episode, unspecified",37507305,,
+10021312,28829452,10,F419,10,"Anxiety disorder, unspecified",37507305,,
+10021312,28829452,11,R079,10,"Chest pain, unspecified",37507305,,
+10021312,28829452,12,G8929,10,Other chronic pain,37507305,,
+10021312,28829452,13,M797,10,Fibromyalgia,37507305,,
+10021312,28829452,14,R000,10,"Tachycardia, unspecified",37507305,Cardiac dysrhythmias,1.0
+10021312,28829452,15,I10,10,Essential (primary) hypertension,37507305,Essential hypertension,1.0
+10021312,28829452,16,Z87891,10,Personal history of nicotine dependence,37507305,,
+10021312,28829452,17,R12,10,Heartburn,37507305,,

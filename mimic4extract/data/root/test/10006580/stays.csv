@@ -1,0 +1,2 @@
+subject_id,hadm_id,stay_id,last_careunit,intime,outtime,los,admittime,dischtime,deathtime,ethnicity,gender,anchor_age,dod,age,mortality_inunit,mortality,mortality_inhospital
+10006580,24159665,38329661,Cardiac Vascular Intensive Care Unit (CVICU),2137-08-10 16:23:10,2137-08-11 13:56:56,0.8984490740740741,2137-08-10 11:00:00,2137-08-15 13:25:00,,HISPANIC/LATINO - SALVADORAN,F,63,,63,0,0,0

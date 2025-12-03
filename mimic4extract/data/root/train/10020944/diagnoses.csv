@@ -1,0 +1,34 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10020944,29974575,1,03849,9,Other septicemia due to gram-negative organisms,30757476,Septicemia (except in labor),1.0
+10020944,29974575,2,51881,9,Acute respiratory failure,30757476,Respiratory failure; insufficiency; arrest (adult),1.0
+10020944,29974575,3,78552,9,Septic shock,30757476,Shock,1.0
+10020944,29974575,4,4820,9,Pneumonia due to Klebsiella pneumoniae,30757476,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10020944,29974575,5,34982,9,Toxic encephalopathy,30757476,Other nervous system disorders,0.0
+10020944,29974575,6,20210,9,"Mycosis fungoides, unspecified site, extranodal and solid organ sites",30757476,Non-Hodgkin`s lymphoma,0.0
+10020944,29974575,7,78039,9,Other convulsions,30757476,Epilepsy; convulsions,0.0
+10020944,29974575,8,5849,9,"Acute kidney failure, unspecified",30757476,Acute and unspecified renal failure,1.0
+10020944,29974575,9,1540,9,Malignant neoplasm of rectosigmoid junction,30757476,Cancer of rectum and anus,0.0
+10020944,29974575,10,73010,9,"Chronic osteomyelitis, site unspecified",30757476,Infective arthritis and osteomyelitis (except that caused by tuberculosis or sexually transmitted disease),0.0
+10020944,29974575,11,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",30757476,Gastrointestinal hemorrhage,1.0
+10020944,29974575,12,5180,9,Pulmonary collapse,30757476,Pleurisy; pneumothorax; pulmonary collapse,1.0
+10020944,29974575,13,2762,9,Acidosis,30757476,Fluid and electrolyte disorders,1.0
+10020944,29974575,14,5990,9,"Urinary tract infection, site not specified",30757476,Urinary tract infections,0.0
+10020944,29974575,15,496,9,"Chronic airway obstruction, not elsewhere classified",30757476,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10020944,29974575,16,3575,9,Alcoholic polyneuropathy,30757476,Alcohol-related disorders,0.0
+10020944,29974575,17,5712,9,Alcoholic cirrhosis of liver,30757476,Alcohol-related disorders,0.0
+10020944,29974575,18,5989,9,"Urethral stricture, unspecified",30757476,Other diseases of bladder and urethra,0.0
+10020944,29974575,19,51889,9,"Other diseases of lung, not elsewhere classified",30757476,Other lower respiratory disease,1.0
+10020944,29974575,20,99592,9,Severe sepsis,30757476,Septicemia (except in labor),1.0
+10020944,29974575,21,4168,9,Other chronic pulmonary heart diseases,30757476,Pulmonary heart disease,0.0
+10020944,29974575,22,2767,9,Hyperpotassemia,30757476,Fluid and electrolyte disorders,1.0
+10020944,29974575,23,2449,9,Unspecified acquired hypothyroidism,30757476,Thyroid disorders,0.0
+10020944,29974575,24,5859,9,"Chronic kidney disease, unspecified",30757476,Chronic kidney disease,1.0
+10020944,29974575,25,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",30757476,Hypertension with complications and secondary hypertension,1.0
+10020944,29974575,26,53550,9,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",30757476,Gastritis and duodenitis,0.0
+10020944,29974575,27,78791,9,Diarrhea,30757476,Other gastrointestinal disorders,0.0
+10020944,29974575,28,3489,9,Unspecified condition of brain,30757476,Other nervous system disorders,0.0
+10020944,29974575,29,7810,9,Abnormal involuntary movements,30757476,Other nervous system disorders,0.0
+10020944,29974575,30,V1255,9,Personal history of pulmonary embolism,30757476,Pulmonary heart disease,0.0
+10020944,29974575,31,V5861,9,Long-term (current) use of anticoagulants,30757476,Other aftercare,0.0
+10020944,29974575,32,V1582,9,Personal history of tobacco use,30757476,Screening and history of mental health and substance abuse codes,0.0
+10020944,29974575,33,75261,9,Hypospadias,30757476,Genitourinary congenital anomalies,0.0

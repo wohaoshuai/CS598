@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10022880,27708593,1,72403,9,"Spinal stenosis, lumbar region, with neurogenic claudication",39623478,Spondylosis; intervertebral disc disorders; other back problems,0.0
+10022880,27708593,2,73730,9,"Scoliosis [and kyphoscoliosis], idiopathic",39623478,Other bone disease and musculoskeletal deformities,0.0
+10022880,27708593,3,42731,9,Atrial fibrillation,39623478,Cardiac dysrhythmias,1.0
+10022880,27708593,4,75612,9,Spondylolisthesis,39623478,Other congenital anomalies,0.0
+10022880,27708593,5,78820,9,"Retention of urine, unspecified",39623478,Genitourinary symptoms and ill-defined conditions,0.0
+10022880,27708593,6,V4364,9,Hip joint replacement,39623478,Other connective tissue disease,0.0
+10022880,27708593,6,V4364,9,Car passenger injured in collision with van in traffic accident,39623478,Other connective tissue disease,0.0
+10022880,27708593,7,56409,9,Other constipation,39623478,Other gastrointestinal disorders,0.0
+10022880,27708593,8,V1254,9,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",39623478,Other circulatory disease,0.0
+10022880,27708593,9,V5861,9,Long-term (current) use of anticoagulants,39623478,Other aftercare,0.0

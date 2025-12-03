@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10011398,27505812,1,41401,9,Coronary atherosclerosis of native coronary artery,37648963,Coronary atherosclerosis and other heart disease,1.0
+10011398,27505812,2,4239,9,Unspecified disease of pericardium,37648963,Peri-; endo-; and myocarditis; cardiomyopathy (except that caused by tuberculosis or sexually transmitted disease),0.0
+10011398,27505812,3,4111,9,Intermediate coronary syndrome,37648963,Coronary atherosclerosis and other heart disease,1.0
+10011398,27505812,4,4019,9,Unspecified essential hypertension,37648963,Essential hypertension,1.0
+10011398,27505812,5,2724,9,Other and unspecified hyperlipidemia,37648963,Disorders of lipid metabolism,1.0
+10011398,27505812,6,5641,9,Irritable bowel syndrome,37648963,Other gastrointestinal disorders,0.0
+10011398,27505812,7,4779,9,"Allergic rhinitis, cause unspecified",37648963,Other upper respiratory disease,1.0
+10011398,27505812,8,60000,9,Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS),37648963,Hyperplasia of prostate,0.0
+10011398,27505812,9,V1301,9,Personal history of urinary calculi,37648963,Calculus of urinary tract,0.0
+10011398,27505812,10,V1272,9,Personal history of colonic polyps,37648963,Other and unspecified benign neoplasm,0.0

@@ -1,0 +1,51 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10015860,25085565,1,0380,9,Streptococcal septicemia,32496174,Septicemia (except in labor),1.0
+10015860,25085565,2,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",32496174,Diabetes mellitus with complications,1.0
+10015860,25085565,3,6827,9,"Cellulitis and abscess of foot, except toes",32496174,Skin and subcutaneous tissue infections,0.0
+10015860,25085565,4,6826,9,"Cellulitis and abscess of leg, except foot",32496174,Skin and subcutaneous tissue infections,0.0
+10015860,25085565,5,2761,9,Hyposmolality and/or hyponatremia,32496174,Fluid and electrolyte disorders,1.0
+10015860,25085565,6,70715,9,Ulcer of other part of foot,32496174,Chronic ulcer of skin,0.0
+10015860,25085565,7,25062,9,"Diabetes with neurological manifestations, type II or unspecified type, uncontrolled",32496174,Diabetes mellitus with complications,1.0
+10015860,25085565,8,99591,9,Sepsis,32496174,Septicemia (except in labor),1.0
+10015860,25085565,9,28529,9,Anemia of other chronic disease,32496174,Deficiency and other anemia,0.0
+10015860,25085565,10,3572,9,Polyneuropathy in diabetes,32496174,Other nervous system disorders,0.0
+10015860,25085565,11,311,9,"Depressive disorder, not elsewhere classified",32496174,Mood disorders,0.0
+10015860,25085565,12,4019,9,Unspecified essential hypertension,32496174,Essential hypertension,1.0
+10015860,25085565,13,2720,9,Pure hypercholesterolemia,32496174,Disorders of lipid metabolism,1.0
+10015860,25085565,14,1123,9,Candidiasis of skin and nails,32496174,Mycoses,0.0
+10015860,25085565,15,6929,9,"Contact dermatitis and other eczema, unspecified cause",32496174,Allergic reactions,0.0
+10015860,25085565,16,V707,9,Examination of participant in clinical trial,32496174,Medical examination/evaluation,0.0
+10015860,25085565,16,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,32496174,Medical examination/evaluation,0.0
+10015860,24698912,1,A419,10,"Sepsis, unspecified organism",36734659,Septicemia (except in labor),1.0
+10015860,24698912,2,N186,10,End stage renal disease,36734659,Chronic kidney disease,1.0
+10015860,24698912,3,M726,10,Necrotizing fasciitis,36734659,,
+10015860,24698912,4,E872,10,Acidosis,36734659,Fluid and electrolyte disorders,1.0
+10015860,24698912,5,I120,10,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,36734659,Hypertension with complications and secondary hypertension,1.0
+10015860,24698912,6,E1152,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene,36734659,,
+10015860,24698912,7,M86171,10,"Other acute osteomyelitis, right ankle and foot",36734659,,
+10015860,24698912,8,E871,10,Hypo-osmolality and hyponatremia,36734659,Fluid and electrolyte disorders,1.0
+10015860,24698912,9,B181,10,Chronic viral hepatitis B without delta-agent,36734659,,
+10015860,24698912,10,T8249XA,10,"Other complication of vascular dialysis catheter, initial encounter",36734659,,
+10015860,24698912,11,R6520,10,Severe sepsis without septic shock,36734659,Septicemia (except in labor),1.0
+10015860,24698912,12,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,36734659,,
+10015860,24698912,13,E1169,10,Type 2 diabetes mellitus with other specified complication,36734659,Diabetes mellitus with complications,1.0
+10015860,24698912,14,B954,10,Other streptococcus as the cause of diseases classified elsewhere,36734659,,
+10015860,24698912,15,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,36734659,,
+10015860,24698912,16,B9561,10,Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere,36734659,,
+10015860,24698912,17,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,36734659,,
+10015860,24698912,18,B966,10,Bacteroides fragilis [B. fragilis] as the cause of diseases classified elsewhere,36734659,,
+10015860,24698912,19,Y831,10,"Surgical operation with implant of artificial internal device as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36734659,,
+10015860,24698912,20,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,36734659,,
+10015860,24698912,21,E1140,10,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified",36734659,Diabetes mellitus with complications,1.0
+10015860,24698912,22,E11621,10,Type 2 diabetes mellitus with foot ulcer,36734659,,
+10015860,24698912,23,L97514,10,Non-pressure chronic ulcer of other part of right foot with necrosis of bone,36734659,,
+10015860,24698912,24,E1165,10,Type 2 diabetes mellitus with hyperglycemia,36734659,Diabetes mellitus with complications,1.0
+10015860,24698912,25,D509,10,"Iron deficiency anemia, unspecified",36734659,,
+10015860,24698912,26,D631,10,Anemia in chronic kidney disease,36734659,,
+10015860,24698912,27,E785,10,"Hyperlipidemia, unspecified",36734659,Disorders of lipid metabolism,1.0
+10015860,24698912,28,D329,10,"Benign neoplasm of meninges, unspecified",36734659,,
+10015860,24698912,29,F419,10,"Anxiety disorder, unspecified",36734659,,
+10015860,24698912,30,R488,10,Other symbolic dysfunctions,36734659,,
+10015860,24698912,31,Z794,10,Long term (current) use of insulin,36734659,,
+10015860,24698912,32,Z89421,10,Acquired absence of other right toe(s),36734659,,
+10015860,24698912,33,Z87891,10,Personal history of nicotine dependence,36734659,,

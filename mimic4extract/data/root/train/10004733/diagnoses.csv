@@ -1,0 +1,31 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10004733,27411876,1,34839,9,Other encephalopathy,39635619,Other nervous system disorders,0.0
+10004733,27411876,2,43491,9,"Cerebral artery occlusion, unspecified with cerebral infarction",39635619,Acute cerebrovascular disease,1.0
+10004733,27411876,3,5070,9,Pneumonitis due to inhalation of food or vomitus,39635619,Aspiration pneumonitis; food/vomitus,0.0
+10004733,27411876,4,48249,9,Other Staphylococcus pneumonia,39635619,Pneumonia (except that caused by tuberculosis or sexually transmitted disease),1.0
+10004733,27411876,5,5829,9,Chronic glomerulonephritis with unspecified pathological lesion in kidney,39635619,Nephritis; nephrosis; renal sclerosis,0.0
+10004733,27411876,6,78722,9,"Dysphagia, oropharyngeal phase",39635619,Other gastrointestinal disorders,0.0
+10004733,27411876,7,5849,9,"Acute kidney failure, unspecified",39635619,Acute and unspecified renal failure,1.0
+10004733,27411876,8,99731,9,Ventilator associated pneumonia,39635619,Complications of surgical procedures or medical care,1.0
+10004733,27411876,9,7907,9,Bacteremia,39635619,Septicemia (except in labor),1.0
+10004733,27411876,10,40300,9,"Hypertensive chronic kidney disease, malignant, with chronic kidney disease stage I through stage IV, or unspecified",39635619,Hypertension with complications and secondary hypertension,1.0
+10004733,27411876,11,5781,9,Blood in stool,39635619,Gastrointestinal hemorrhage,1.0
+10004733,27411876,12,2760,9,Hyperosmolality and/or hypernatremia,39635619,Fluid and electrolyte disorders,1.0
+10004733,27411876,13,34290,9,"Hemiplegia, unspecified, affecting unspecified side",39635619,Paralysis,0.0
+10004733,27411876,14,5859,9,"Chronic kidney disease, unspecified",39635619,Chronic kidney disease,1.0
+10004733,27411876,15,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],39635619,Other liver diseases,1.0
+10004733,27411876,16,0416,9,Proteus (mirabilis) (morganii) infection in conditions classified elsewhere and of unspecified site,39635619,Bacterial infection; unspecified site,0.0
+10004733,27411876,17,45829,9,Other iatrogenic hypotension,39635619,Complications of surgical procedures or medical care,1.0
+10004733,27411876,18,E9383,9,Intravenous anesthetics causing adverse effects in therapeutic use,39635619,Adverse effects of medical drugs,0.0
+10004733,27411876,19,3129,9,Unspecified disturbance of conduct,39635619,"Attention-deficit, conduct, and disruptive behavior disorders",0.0
+10004733,27411876,20,7850,9,"Tachycardia, unspecified",39635619,Cardiac dysrhythmias,1.0
+10004733,27411876,21,V4987,9,Physical restraints status,39635619,Residual codes; unclassified,0.0
+10004733,27411876,22,56210,9,Diverticulosis of colon (without mention of hemorrhage),39635619,Diverticulosis and diverticulitis,0.0
+10004733,27411876,23,78052,9,"Insomnia, unspecified",39635619,Residual codes; unclassified,0.0
+10004733,27411876,24,28529,9,Anemia of other chronic disease,39635619,Deficiency and other anemia,0.0
+10004733,27411876,25,28521,9,Anemia in chronic kidney disease,39635619,Deficiency and other anemia,0.0
+10004733,27411876,26,4739,9,Unspecified sinusitis (chronic),39635619,Other upper respiratory infections,0.0
+10004733,27411876,27,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",39635619,Adverse effects of medical care,0.0
+10004733,27411876,28,30590,9,"Other, mixed, or unspecified drug abuse, unspecified",39635619,Substance-related disorders,0.0
+10004733,27411876,29,30390,9,"Other and unspecified alcohol dependence, unspecified",39635619,Alcohol-related disorders,0.0
+10004733,27411876,30,30000,9,"Anxiety state, unspecified",39635619,Anxiety disorders,0.0

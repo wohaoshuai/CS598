@@ -1,0 +1,8 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10039831,26924951,1,1962,9,Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes,39142259,Secondary malignancies,0.0
+10039831,26924951,2,44489,9,Embolism and thrombosis of other specified artery,39142259,Aortic and peripheral arterial embolism or thrombosis,0.0
+10039831,26924951,3,9982,9,"Accidental puncture or laceration during a procedure, not elsewhere classified",39142259,Complications of surgical procedures or medical care,1.0
+10039831,26924951,4,E8700,9,"Accidental cut, puncture, perforation or hemorrhage during surgical operation",39142259,Adverse effects of medical care,0.0
+10039831,26924951,5,3051,9,Tobacco use disorder,39142259,Screening and history of mental health and substance abuse codes,0.0
+10039831,26924951,6,V1009,9,Personal history of malignant neoplasm of other gastrointestinal tract,39142259,Cancer of other GI organs; peritoneum,0.0
+10039831,26924951,7,V1042,9,Personal history of malignant neoplasm of other parts of uterus,39142259,Cancer of uterus,0.0

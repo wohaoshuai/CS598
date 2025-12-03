@@ -1,0 +1,1984 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id
+10035185,22580999,3,4139,9,Other and unspecified angina pectoris,39084876
+10035185,22580999,10,V707,9,Examination of participant in clinical trial,39084876
+10035185,22580999,10,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,39084876
+10035185,22580999,1,41401,9,Coronary atherosclerosis of native coronary artery,39084876
+10035185,22580999,9,3899,9,Unspecified hearing loss,39084876
+10035185,22580999,11,V8532,9,"Body Mass Index 32.0-32.9, adult",39084876
+10035185,22580999,2,25002,9,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",39084876
+10035185,22580999,7,71696,9,"Arthropathy, unspecified, lower leg",39084876
+10035185,22580999,8,V1083,9,Personal history of other malignant neoplasm of skin,39084876
+10035185,22580999,4,2724,9,Other and unspecified hyperlipidemia,39084876
+10035185,22580999,6,V5867,9,Long-term (current) use of insulin,39084876
+10035185,22580999,5,27800,9,"Obesity, unspecified",39084876
+10012552,27089790,8,V707,9,Examination of participant in clinical trial,33383124
+10012552,27089790,8,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,33383124
+10012552,27089790,3,41401,9,Coronary atherosclerosis of native coronary artery,33383124
+10012552,27089790,2,2724,9,Other and unspecified hyperlipidemia,33383124
+10012552,27089790,5,53081,9,Esophageal reflux,33383124
+10012552,27089790,4,4019,9,Unspecified essential hypertension,33383124
+10012552,27089790,7,V8741,9,Personal history of antineoplastic chemotherapy,33383124
+10012552,27089790,1,41071,9,"Subendocardial infarction, initial episode of care",33383124
+10012552,27089790,6,V1005,9,Personal history of malignant neoplasm of large intestine,33383124
+10005817,20626031,9,V707,9,Examination of participant in clinical trial,32604416
+10005817,20626031,9,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,32604416
+10005817,20626031,8,41401,9,Coronary atherosclerosis of native coronary artery,32604416
+10005817,20626031,21,27800,9,"Obesity, unspecified",32604416
+10005817,20626031,26,2859,9,"Anemia, unspecified",32604416
+10005817,20626031,24,4240,9,Mitral valve disorders,32604416
+10005817,20626031,14,4019,9,Unspecified essential hypertension,32604416
+10005817,20626031,20,3051,9,Tobacco use disorder,32604416
+10005817,20626031,18,V8741,9,Personal history of antineoplastic chemotherapy,32604416
+10005817,20626031,3,42731,9,Atrial fibrillation,32604416
+10005817,20626031,10,V5866,9,Long-term (current) use of aspirin,32604416
+10005817,20626031,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32604416
+10005817,20626031,5,5990,9,"Urinary tract infection, site not specified",32604416
+10005817,20626031,1,41071,9,"Subendocardial infarction, initial episode of care",32604416
+10005817,20626031,11,V4582,9,Percutaneous transluminal coronary angioplasty status,32604416
+10005817,20626031,25,71690,9,"Arthropathy, unspecified, site unspecified",32604416
+10005817,20626031,2,4280,9,"Congestive heart failure, unspecified",32604416
+10005817,20626031,16,30981,9,Posttraumatic stress disorder,32604416
+10005817,20626031,12,496,9,"Chronic airway obstruction, not elsewhere classified",32604416
+10005817,20626031,4,42732,9,Atrial flutter,32604416
+10005817,20626031,23,4400,9,Atherosclerosis of aorta,32604416
+10005817,20626031,17,V153,9,"Personal history of irradiation, presenting hazards to health",32604416
+10005817,20626031,17,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,32604416
+10005817,20626031,13,V5863,9,Long-term (current) use of antiplatelet/antithrombotic,32604416
+10005817,20626031,15,V1006,9,"Personal history of malignant neoplasm of rectum, rectosigmoid junction, and anus",32604416
+10005817,20626031,7,04110,9,"Staphylococcus infection in conditions classified elsewhere and of unspecified site, staphylococcus, unspecified",32604416
+10005817,20626031,22,V8531,9,"Body Mass Index 31.0-31.9, adult",32604416
+10005817,20626031,19,7847,9,Epistaxis,32604416
+10005348,25239799,21,V707,9,Examination of participant in clinical trial,34629895
+10005348,25239799,21,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,34629895
+10005348,25239799,9,41401,9,Coronary atherosclerosis of native coronary artery,34629895
+10005348,25239799,24,V1083,9,Personal history of other malignant neoplasm of skin,34629895
+10005348,25239799,13,2724,9,Other and unspecified hyperlipidemia,34629895
+10005348,25239799,6,2875,9,"Thrombocytopenia, unspecified",34629895
+10005348,25239799,10,4019,9,Unspecified essential hypertension,34629895
+10005348,25239799,7,5180,9,Pulmonary collapse,34629895
+10005348,25239799,5,42731,9,Atrial fibrillation,34629895
+10005348,25239799,25,V173,9,Family history of ischemic heart disease,34629895
+10005348,25239799,25,V173,9,Person boarding or alighting a pedal cycle injured in collision with fixed or stationary object,34629895
+10005348,25239799,26,V1582,9,Personal history of tobacco use,34629895
+10005348,25239799,12,311,9,"Depressive disorder, not elsewhere classified",34629895
+10005348,25239799,27,V4582,9,Percutaneous transluminal coronary angioplasty status,34629895
+10005348,25239799,1,4241,9,Aortic valve disorders,34629895
+10005348,25239799,28,V113,9,Personal history of alcoholism,34629895
+10005348,25239799,28,V113,9,Person boarding or alighting a pedal cycle injured in collision with other pedal cycle,34629895
+10005348,25239799,8,9971,9,"Cardiac complications, not elsewhere classified",34629895
+10005348,25239799,17,4400,9,Atherosclerosis of aorta,34629895
+10005348,25239799,15,4580,9,Orthostatic hypotension,34629895
+10005348,25239799,22,V1046,9,Personal history of malignant neoplasm of prostate,34629895
+10005348,25239799,2,42612,9,Mobitz (type) II atrioventricular block,34629895
+10005348,25239799,11,71594,9,"Osteoarthrosis, unspecified whether generalized or localized, hand",34629895
+10005348,25239799,16,3659,9,Unspecified glaucoma,34629895
+10005348,25239799,18,7224,9,Degeneration of cervical intervertebral disc,34629895
+10005348,25239799,19,72252,9,Degeneration of lumbar or lumbosacral intervertebral disc,34629895
+10005348,25239799,4,2662,9,Other B-complex deficiencies,34629895
+10005348,25239799,20,E8781,9,"Surgical operation with implant of artificial internal device causing abnormal patient reaction, or later complication,without mention of misadventure at time of operation",34629895
+10005348,25239799,3,5119,9,Unspecified pleural effusion,34629895
+10005348,25239799,14,2809,9,"Iron deficiency anemia, unspecified",34629895
+10005348,25239799,23,V1011,9,Personal history of malignant neoplasm of bronchus and lung,34629895
+10015860,25085565,16,V707,9,Examination of participant in clinical trial,32496174
+10015860,25085565,16,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,32496174
+10015860,25085565,12,4019,9,Unspecified essential hypertension,32496174
+10015860,25085565,13,2720,9,Pure hypercholesterolemia,32496174
+10015860,25085565,5,2761,9,Hyposmolality and/or hyponatremia,32496174
+10015860,25085565,11,311,9,"Depressive disorder, not elsewhere classified",32496174
+10015860,25085565,2,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",32496174
+10015860,25085565,10,3572,9,Polyneuropathy in diabetes,32496174
+10015860,25085565,8,99591,9,Sepsis,32496174
+10015860,25085565,6,70715,9,Ulcer of other part of foot,32496174
+10015860,25085565,7,25062,9,"Diabetes with neurological manifestations, type II or unspecified type, uncontrolled",32496174
+10015860,25085565,1,0380,9,Streptococcal septicemia,32496174
+10015860,25085565,9,28529,9,Anemia of other chronic disease,32496174
+10015860,25085565,3,6827,9,"Cellulitis and abscess of foot, except toes",32496174
+10015860,25085565,14,1123,9,Candidiasis of skin and nails,32496174
+10015860,25085565,15,6929,9,"Contact dermatitis and other eczema, unspecified cause",32496174
+10015860,25085565,4,6826,9,"Cellulitis and abscess of leg, except foot",32496174
+10023771,20044587,1,41401,9,Coronary atherosclerosis of native coronary artery,33177122
+10023771,20044587,5,2724,9,Other and unspecified hyperlipidemia,33177122
+10023771,20044587,7,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",33177122
+10023771,20044587,6,4019,9,Unspecified essential hypertension,33177122
+10023771,20044587,3,99811,9,Hemorrhage complicating a procedure,33177122
+10023771,20044587,4,V8741,9,Personal history of antineoplastic chemotherapy,33177122
+10023771,20044587,2,20300,9,"Multiple myeloma, without mention of having achieved remission",33177122
+10023771,20044587,8,42731,9,Atrial fibrillation,33177122
+10009628,25926192,1,41401,9,Coronary atherosclerosis of native coronary artery,35258379
+10009628,25926192,8,2724,9,Other and unspecified hyperlipidemia,35258379
+10009628,25926192,6,V5867,9,Long-term (current) use of insulin,35258379
+10009628,25926192,7,2859,9,"Anemia, unspecified",35258379
+10009628,25926192,3,42731,9,Atrial fibrillation,35258379
+10009628,25926192,5,36201,9,Background diabetic retinopathy,35258379
+10009628,25926192,4,25050,9,"Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled",35258379
+10009628,25926192,2,4142,9,Chronic total occlusion of coronary artery,35258379
+10018845,21101111,12,41401,9,Coronary atherosclerosis of native coronary artery,36427705
+10018845,21101111,8,2724,9,Other and unspecified hyperlipidemia,36427705
+10018845,21101111,5,E8889,9,Unspecified fall,36427705
+10018845,21101111,5,E8889,9,Other specified metabolic disorders,36427705
+10018845,21101111,3,5855,9,"Chronic kidney disease, Stage V",36427705
+10018845,21101111,1,85220,9,"Subdural hemorrhage following injury without mention of open intracranial wound, unspecified state of consciousness",36427705
+10018845,21101111,7,78451,9,Dysarthria,36427705
+10018845,21101111,11,V4365,9,Knee joint replacement,36427705
+10018845,21101111,4,7843,9,Aphasia,36427705
+10018845,21101111,9,78830,9,"Urinary incontinence, unspecified",36427705
+10018845,21101111,10,78194,9,Facial weakness,36427705
+10018845,21101111,2,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",36427705
+10018845,21101111,6,E8490,9,Home accidents,36427705
+10020640,27984218,14,41401,9,Coronary atherosclerosis of native coronary artery,30849778
+10020640,27984218,20,25002,9,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",30849778
+10020640,27984218,21,2768,9,Hypopotassemia,30849778
+10020640,27984218,19,79092,9,Abnormal coagulation profile,30849778
+10020640,27984218,13,4019,9,Unspecified essential hypertension,30849778
+10020640,27984218,2,34831,9,Metabolic encephalopathy,30849778
+10020640,27984218,7,3310,9,Alzheimer's disease,30849778
+10020640,27984218,5,29411,9,Dementia in conditions classified elsewhere with behavioral disturbance,30849778
+10020640,27984218,12,71590,9,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified",30849778
+10020640,27984218,18,79902,9,Hypoxemia,30849778
+10020640,27984218,4,2639,9,Unspecified protein-calorie malnutrition,30849778
+10020640,27984218,9,43820,9,"Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",30849778
+10020640,27984218,3,2760,9,Hyperosmolality and/or hypernatremia,30849778
+10020640,27984218,1,486,9,"Pneumonia, organism unspecified",30849778
+10020640,27984218,15,4439,9,"Peripheral vascular disease, unspecified",30849778
+10020640,27984218,17,311,9,"Depressive disorder, not elsewhere classified",30849778
+10020640,27984218,16,78321,9,Loss of weight,30849778
+10020640,27984218,8,2810,9,Pernicious anemia,30849778
+10020640,27984218,10,5990,9,"Urinary tract infection, site not specified",30849778
+10020640,27984218,6,2762,9,Acidosis,30849778
+10020640,27984218,11,V643,9,Procedure not carried out for other reasons,30849778
+10020640,27984218,11,V643,9,Unspecified occupant of heavy transport vehicle injured in collision with heavy transport vehicle or bus in nontraffic accident,30849778
+10016150,29374560,9,41401,9,Coronary atherosclerosis of native coronary artery,33652203
+10016150,29374560,15,V5867,9,Long-term (current) use of insulin,33652203
+10016150,29374560,12,E8497,9,Accidents occurring in residential institution,33652203
+10016150,29374560,3,42731,9,Atrial fibrillation,33652203
+10016150,29374560,5,7843,9,Aphasia,33652203
+10016150,29374560,10,78194,9,Facial weakness,33652203
+10016150,29374560,17,V1582,9,Personal history of tobacco use,33652203
+10016150,29374560,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",33652203
+10016150,29374560,2,4254,9,Other primary cardiomyopathies,33652203
+10016150,29374560,14,5859,9,"Chronic kidney disease, unspecified",33652203
+10016150,29374560,7,3569,9,Unspecified hereditary and idiopathic peripheral neuropathy,33652203
+10016150,29374560,11,E8790,9,"Cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",33652203
+10016150,29374560,6,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",33652203
+10016150,29374560,1,41402,9,Coronary atherosclerosis of autologous vein bypass graft,33652203
+10016150,29374560,13,V5861,9,Long-term (current) use of anticoagulants,33652203
+10016150,29374560,8,99702,9,Iatrogenic cerebrovascular infarction or hemorrhage,33652203
+10016150,29374560,16,V4501,9,Cardiac pacemaker in situ,33652203
+10022281,29642388,6,41401,9,Coronary atherosclerosis of native coronary artery,30585761
+10022281,29642388,8,V5867,9,Long-term (current) use of insulin,30585761
+10022281,29642388,2,4019,9,Unspecified essential hypertension,30585761
+10022281,29642388,7,V1582,9,Personal history of tobacco use,30585761
+10022281,29642388,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",30585761
+10022281,29642388,5,2720,9,Pure hypercholesterolemia,30585761
+10022281,29642388,3,71535,9,"Osteoarthrosis, localized, not specified whether primary or secondary, pelvic region and thigh",30585761
+10022281,29642388,1,44102,9,"Dissection of aorta, abdominal",30585761
+10011398,27505812,1,41401,9,Coronary atherosclerosis of native coronary artery,37648963
+10011398,27505812,5,2724,9,Other and unspecified hyperlipidemia,37648963
+10011398,27505812,4,4019,9,Unspecified essential hypertension,37648963
+10011398,27505812,10,V1272,9,Personal history of colonic polyps,37648963
+10011398,27505812,6,5641,9,Irritable bowel syndrome,37648963
+10011398,27505812,8,60000,9,Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS),37648963
+10011398,27505812,9,V1301,9,Personal history of urinary calculi,37648963
+10011398,27505812,7,4779,9,"Allergic rhinitis, cause unspecified",37648963
+10011398,27505812,2,4239,9,Unspecified disease of pericardium,37648963
+10011398,27505812,3,4111,9,Intermediate coronary syndrome,37648963
+10004422,21255400,1,41401,9,Coronary atherosclerosis of native coronary artery,32155744
+10004422,21255400,7,2724,9,Other and unspecified hyperlipidemia,32155744
+10004422,21255400,10,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32155744
+10004422,21255400,13,E8497,9,Accidents occurring in residential institution,32155744
+10004422,21255400,8,4019,9,Unspecified essential hypertension,32155744
+10004422,21255400,3,99811,9,Hemorrhage complicating a procedure,32155744
+10004422,21255400,14,42731,9,Atrial fibrillation,32155744
+10004422,21255400,15,30390,9,"Other and unspecified alcohol dependence, unspecified",32155744
+10004422,21255400,9,V1582,9,Personal history of tobacco use,32155744
+10004422,21255400,5,2910,9,Alcohol withdrawal delirium,32155744
+10004422,21255400,6,V4582,9,Percutaneous transluminal coronary angioplasty status,32155744
+10004422,21255400,2,4111,9,Intermediate coronary syndrome,32155744
+10004422,21255400,4,9971,9,"Cardiac complications, not elsewhere classified",32155744
+10004422,21255400,12,E8844,9,Accidental fall from bed,32155744
+10004422,21255400,11,71941,9,"Pain in joint, shoulder region",32155744
+10004422,21255400,16,45182,9,Phlebitis and thrombophlebitis of superficial veins of upper extremities,32155744
+10018081,21027282,25,41401,9,Coronary atherosclerosis of native coronary artery,37293400
+10018081,21027282,26,2724,9,Other and unspecified hyperlipidemia,37293400
+10018081,21027282,27,99592,9,Severe sepsis,37293400
+10018081,21027282,23,2768,9,Hypopotassemia,37293400
+10018081,21027282,21,2875,9,"Thrombocytopenia, unspecified",37293400
+10018081,21027282,22,79092,9,Abnormal coagulation profile,37293400
+10018081,21027282,19,78820,9,"Retention of urine, unspecified",37293400
+10018081,21027282,17,4019,9,Unspecified essential hypertension,37293400
+10018081,21027282,16,42731,9,Atrial fibrillation,37293400
+10018081,21027282,18,2720,9,Pure hypercholesterolemia,37293400
+10018081,21027282,6,34830,9,"Encephalopathy, unspecified",37293400
+10018081,21027282,14,2761,9,Hyposmolality and/or hyponatremia,37293400
+10018081,21027282,10,1120,9,Candidiasis of mouth,37293400
+10018081,21027282,11,2639,9,Unspecified protein-calorie malnutrition,37293400
+10018081,21027282,9,2760,9,Hyperosmolality and/or hypernatremia,37293400
+10018081,21027282,13,5990,9,"Urinary tract infection, site not specified",37293400
+10018081,21027282,12,2762,9,Acidosis,37293400
+10018081,21027282,24,V5861,9,Long-term (current) use of anticoagulants,37293400
+10018081,21027282,4,5845,9,Acute kidney failure with lesion of tubular necrosis,37293400
+10018081,21027282,8,78959,9,Other ascites,37293400
+10018081,21027282,1,0389,9,Unspecified septicemia,37293400
+10018081,21027282,5,4271,9,Paroxysmal ventricular tachycardia,37293400
+10018081,21027282,15,4280,9,"Congestive heart failure, unspecified",37293400
+10018081,21027282,29,V4572,9,Acquired absence of intestine (large) (small),37293400
+10018081,21027282,28,55329,9,Other ventral hernia without mention of obstruction or gangrene,37293400
+10018081,21027282,2,5570,9,Acute vascular insufficiency of intestine,37293400
+10018081,21027282,7,514,9,Pulmonary congestion and hypostasis,37293400
+10018081,21027282,20,78838,9,Overflow incontinence,37293400
+10018081,21027282,3,78552,9,Septic shock,37293400
+10021666,22756440,11,41401,9,Coronary atherosclerosis of native coronary artery,35475449
+10021666,22756440,22,2724,9,Other and unspecified hyperlipidemia,35475449
+10021666,22756440,15,2875,9,"Thrombocytopenia, unspecified",35475449
+10021666,22756440,5,5849,9,"Acute kidney failure, unspecified",35475449
+10021666,22756440,8,85221,9,"Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35475449
+10021666,22756440,24,42731,9,Atrial fibrillation,35475449
+10021666,22756440,9,E8889,9,Unspecified fall,35475449
+10021666,22756440,9,E8889,9,Other specified metabolic disorders,35475449
+10021666,22756440,21,49390,9,"Asthma, unspecified type, unspecified",35475449
+10021666,22756440,2,34831,9,Metabolic encephalopathy,35475449
+10021666,22756440,6,2760,9,Hyperosmolality and/or hypernatremia,35475449
+10021666,22756440,17,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",35475449
+10021666,22756440,20,60000,9,Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS),35475449
+10021666,22756440,25,56400,9,"Constipation, unspecified",35475449
+10021666,22756440,23,28860,9,"Leukocytosis, unspecified",35475449
+10021666,22756440,32,V4986,9,Do not resuscitate status,35475449
+10021666,22756440,31,V4364,9,Hip joint replacement,35475449
+10021666,22756440,31,V4364,9,Car passenger injured in collision with van in traffic accident,35475449
+10021666,22756440,26,2252,9,Benign neoplasm of cerebral meninges,35475449
+10021666,22756440,19,58389,9,"Nephritis and nephropathy, not specified as acute or chronic, with other specified pathological lesion in kidney",35475449
+10021666,22756440,10,4280,9,"Congestive heart failure, unspecified",35475449
+10021666,22756440,3,2930,9,Delirium due to conditions classified elsewhere,35475449
+10021666,22756440,13,29420,9,"Dementia, unspecified, without behavioral disturbance",35475449
+10021666,22756440,28,3898,9,Other specified forms of hearing loss,35475449
+10021666,22756440,1,85201,9,"Subarachnoid hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35475449
+10021666,22756440,29,412,9,Old myocardial infarction,35475449
+10021666,22756440,4,81342,9,Other closed fractures of distal end of radius (alone),35475449
+10021666,22756440,18,5853,9,"Chronic kidney disease, Stage III (moderate)",35475449
+10021666,22756440,27,2819,9,Unspecified deficiency anemia,35475449
+10021666,22756440,30,V4502,9,Automatic implantable cardiac defibrillator in situ,35475449
+10021666,22756440,12,30501,9,"Alcohol abuse, continuous",35475449
+10021666,22756440,14,3682,9,Diplopia,35475449
+10021666,22756440,7,42822,9,Chronic systolic heart failure,35475449
+10021666,22756440,16,78729,9,Other dysphagia,35475449
+10027445,26275841,8,41401,9,Coronary atherosclerosis of native coronary artery,34499716
+10027445,26275841,12,2859,9,"Anemia, unspecified",34499716
+10027445,26275841,10,4240,9,Mitral valve disorders,34499716
+10027445,26275841,7,4019,9,Unspecified essential hypertension,34499716
+10027445,26275841,11,7245,9,"Backache, unspecified",34499716
+10027445,26275841,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",34499716
+10027445,26275841,1,51881,9,Acute respiratory failure,34499716
+10027445,26275841,4,4280,9,"Congestive heart failure, unspecified",34499716
+10027445,26275841,2,42833,9,Acute on chronic diastolic heart failure,34499716
+10027445,26275841,3,2763,9,Alkalosis,34499716
+10027445,26275841,9,3004,9,Dysthymic disorder,34499716
+10027445,26275841,5,515,9,Postinflammatory pulmonary fibrosis,34499716
+10037975,27617929,12,41401,9,Coronary atherosclerosis of native coronary artery,39061571
+10037975,27617929,10,99592,9,Severe sepsis,39061571
+10037975,27617929,22,2859,9,"Anemia, unspecified",39061571
+10037975,27617929,15,3051,9,Tobacco use disorder,39061571
+10037975,27617929,14,42731,9,Atrial fibrillation,39061571
+10037975,27617929,7,2760,9,Hyperosmolality and/or hypernatremia,39061571
+10037975,27617929,8,2762,9,Acidosis,39061571
+10037975,27617929,13,5859,9,"Chronic kidney disease, unspecified",39061571
+10037975,27617929,20,3569,9,Unspecified hereditary and idiopathic peripheral neuropathy,39061571
+10037975,27617929,3,5845,9,Acute kidney failure with lesion of tubular necrosis,39061571
+10037975,27617929,2,51881,9,Acute respiratory failure,39061571
+10037975,27617929,18,V4986,9,Do not resuscitate status,39061571
+10037975,27617929,16,V1254,9,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",39061571
+10037975,27617929,6,28749,9,Other secondary thrombocytopenia,39061571
+10037975,27617929,11,496,9,"Chronic airway obstruction, not elsewhere classified",39061571
+10037975,27617929,4,78552,9,Septic shock,39061571
+10037975,27617929,17,V667,9,Encounter for palliative care,39061571
+10037975,27617929,17,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,39061571
+10037975,27617929,1,03849,9,Other septicemia due to gram-negative organisms,39061571
+10037975,27617929,5,4820,9,Pneumonia due to Klebsiella pneumoniae,39061571
+10037975,27617929,19,7823,9,Edema,39061571
+10037975,27617929,21,V090,9,Infection with microorganisms resistant to penicillins,39061571
+10037975,27617929,21,V090,9,Pedestrian injured in nontraffic accident involving other and unspecified motor vehicles,39061571
+10037975,27617929,9,5559,9,Regional enteritis of unspecified site,39061571
+10004457,23251352,2,41401,9,Coronary atherosclerosis of native coronary artery,31494479
+10004457,23251352,7,2724,9,Other and unspecified hyperlipidemia,31494479
+10004457,23251352,8,V8741,9,Personal history of antineoplastic chemotherapy,31494479
+10004457,23251352,4,4142,9,Chronic total occlusion of coronary artery,31494479
+10004457,23251352,10,V1582,9,Personal history of tobacco use,31494479
+10004457,23251352,11,49390,9,"Asthma, unspecified type, unspecified",31494479
+10004457,23251352,3,V4582,9,Percutaneous transluminal coronary angioplasty status,31494479
+10004457,23251352,9,V153,9,"Personal history of irradiation, presenting hazards to health",31494479
+10004457,23251352,9,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,31494479
+10004457,23251352,5,V1046,9,Personal history of malignant neoplasm of prostate,31494479
+10004457,23251352,6,V1079,9,Personal history of other lymphatic and hematopoietic neoplasms,31494479
+10004457,23251352,1,3968,9,Multiple involvement of mitral and aortic valves,31494479
+10039997,24294180,9,V8532,9,"Body Mass Index 32.0-32.9, adult",36893762
+10039997,24294180,3,2724,9,Other and unspecified hyperlipidemia,36893762
+10039997,24294180,6,27800,9,"Obesity, unspecified",36893762
+10039997,24294180,8,4019,9,Unspecified essential hypertension,36893762
+10039997,24294180,4,3051,9,Tobacco use disorder,36893762
+10039997,24294180,1,4373,9,"Cerebral aneurysm, nonruptured",36893762
+10039997,24294180,5,32723,9,Obstructive sleep apnea (adult)(pediatric),36893762
+10039997,24294180,7,72989,9,Other musculoskeletal symptoms referable to limbs,36893762
+10039997,24294180,2,43889,9,Other late effects of cerebrovascular disease,36893762
+10038081,20755971,24,25002,9,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",38430513
+10038081,20755971,23,2724,9,Other and unspecified hyperlipidemia,38430513
+10038081,20755971,17,5601,9,Paralytic ileus,38430513
+10038081,20755971,22,2859,9,"Anemia, unspecified",38430513
+10038081,20755971,5,5849,9,"Acute kidney failure, unspecified",38430513
+10038081,20755971,32,49390,9,"Asthma, unspecified type, unspecified",38430513
+10038081,20755971,9,4589,9,"Hypotension, unspecified",38430513
+10038081,20755971,15,2761,9,Hyposmolality and/or hyponatremia,38430513
+10038081,20755971,29,5859,9,"Chronic kidney disease, unspecified",38430513
+10038081,20755971,30,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",38430513
+10038081,20755971,14,78959,9,Other ascites,38430513
+10038081,20755971,2,51881,9,Acute respiratory failure,38430513
+10038081,20755971,37,V4986,9,Do not resuscitate status,38430513
+10038081,20755971,3,4271,9,Paroxysmal ventricular tachycardia,38430513
+10038081,20755971,28,78097,9,Altered mental status,38430513
+10038081,20755971,21,2767,9,Hyperpotassemia,38430513
+10038081,20755971,8,5579,9,Unspecified vascular insufficiency of intestine,38430513
+10038081,20755971,13,514,9,Pulmonary congestion and hypostasis,38430513
+10038081,20755971,33,7847,9,Epistaxis,38430513
+10038081,20755971,12,5187,9,Transfusion related acute lung injury (TRALI),38430513
+10038081,20755971,18,5723,9,Portal hypertension,38430513
+10038081,20755971,35,V1001,9,Personal history of malignant neoplasm of tongue,38430513
+10038081,20755971,4,7885,9,Oliguria and anuria,38430513
+10038081,20755971,19,25541,9,Glucocorticoid deficiency,38430513
+10038081,20755971,26,27669,9,Other fluid overload,38430513
+10038081,20755971,16,7824,9,"Jaundice, unspecified, not of newborn",38430513
+10038081,20755971,11,4561,9,Esophageal varices without mention of bleeding,38430513
+10038081,20755971,31,53789,9,Other specified disorders of stomach and duodenum,38430513
+10038081,20755971,38,E9347,9,Natural blood and blood products causing adverse effects in therapeutic use,38430513
+10038081,20755971,7,7994,9,Cachexia,38430513
+10038081,20755971,27,78606,9,Tachypnea,38430513
+10038081,20755971,1,56723,9,Spontaneous bacterial peritonitis,38430513
+10038081,20755971,10,5370,9,Acquired hypertrophic pyloric stenosis,38430513
+10038081,20755971,34,V7283,9,Other specified pre-operative examination,38430513
+10038081,20755971,6,2869,9,Other and unspecified coagulation defects,38430513
+10038081,20755971,36,V667,9,Encounter for palliative care,38430513
+10038081,20755971,36,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,38430513
+10038081,20755971,25,72889,9,"Other disorders of muscle, ligament, and fascia",38430513
+10038081,20755971,20,5715,9,Cirrhosis of liver without mention of alcohol,38430513
+10018501,28479513,10,V1083,9,Personal history of other malignant neoplasm of skin,35446858
+10018501,28479513,3,29181,9,Alcohol withdrawal,35446858
+10018501,28479513,1,85221,9,"Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness",35446858
+10018501,28479513,8,53081,9,Esophageal reflux,35446858
+10018501,28479513,4,E8150,9,Other motor vehicle traffic accident involving collision on the highway injuring driver of motor vehicle other than motorcycle,35446858
+10018501,28479513,9,2749,9,"Gout, unspecified",35446858
+10018501,28479513,7,4019,9,Unspecified essential hypertension,35446858
+10018501,28479513,6,30391,9,"Other and unspecified alcohol dependence, continuous",35446858
+10018501,28479513,5,E8495,9,Street and highway accidents,35446858
+10018501,28479513,2,8054,9,Closed fracture of lumbar vertebra without mention of spinal cord injury,35446858
+10024043,24717014,9,V1083,9,Personal history of other malignant neoplasm of skin,32374504
+10024043,24717014,5,53081,9,Esophageal reflux,32374504
+10024043,24717014,10,V1272,9,Personal history of colonic polyps,32374504
+10024043,24717014,11,V1582,9,Personal history of tobacco use,32374504
+10024043,24717014,7,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32374504
+10024043,24717014,3,5859,9,"Chronic kidney disease, unspecified",32374504
+10024043,24717014,4,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",32374504
+10024043,24717014,13,V113,9,Personal history of alcoholism,32374504
+10024043,24717014,13,V113,9,Person boarding or alighting a pedal cycle injured in collision with other pedal cycle,32374504
+10024043,24717014,6,72402,9,"Spinal stenosis, lumbar region, without neurogenic claudication",32374504
+10024043,24717014,12,V1202,9,Personal history of poliomyelitis,32374504
+10024043,24717014,14,V454,9,Arthrodesis status,32374504
+10024043,24717014,14,V454,9,Person boarding or alighting a car injured in collision with railway train or railway vehicle,32374504
+10024043,24717014,1,33520,9,Amyotrophic lateral sclerosis,32374504
+10024043,24717014,8,34690,9,"Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus",32374504
+10024043,24717014,2,2536,9,Other disorders of neurohypophysis,32374504
+10022041,28909879,5,2724,9,Other and unspecified hyperlipidemia,30913302
+10022041,28909879,1,29181,9,Alcohol withdrawal,30913302
+10022041,28909879,4,4019,9,Unspecified essential hypertension,30913302
+10022041,28909879,8,7245,9,"Backache, unspecified",30913302
+10022041,28909879,6,E8889,9,Unspecified fall,30913302
+10022041,28909879,6,E8889,9,Other specified metabolic disorders,30913302
+10022041,28909879,7,6961,9,Other psoriasis,30913302
+10022041,28909879,9,30390,9,"Other and unspecified alcohol dependence, unspecified",30913302
+10022041,28909879,3,81201,9,Closed fracture of surgical neck of humerus,30913302
+10022041,28909879,2,3453,9,Grand mal status,30913302
+10029484,20764029,9,2724,9,Other and unspecified hyperlipidemia,35396193
+10029484,20764029,3,5849,9,"Acute kidney failure, unspecified",35396193
+10029484,20764029,8,4019,9,Unspecified essential hypertension,35396193
+10029484,20764029,10,7245,9,"Backache, unspecified",35396193
+10029484,20764029,6,41400,9,"Coronary atherosclerosis of unspecified type of vessel, native or graft",35396193
+10029484,20764029,4,27651,9,Dehydration,35396193
+10029484,20764029,5,7802,9,Syncope and collapse,35396193
+10029484,20764029,7,V4582,9,Percutaneous transluminal coronary angioplasty status,35396193
+10029484,20764029,1,0088,9,"Intestinal infection due to other organism, not elsewhere classified",35396193
+10029484,20764029,2,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",35396193
+10025463,24470193,6,2724,9,Other and unspecified hyperlipidemia,38275267
+10025463,24470193,5,4019,9,Unspecified essential hypertension,38275267
+10025463,24470193,3,42731,9,Atrial fibrillation,38275267
+10025463,24470193,9,V1582,9,Personal history of tobacco use,38275267
+10025463,24470193,7,V5861,9,Long-term (current) use of anticoagulants,38275267
+10025463,24470193,10,4558,9,Unspecified hemorrhoids with other complication,38275267
+10025463,24470193,1,431,9,Intracerebral hemorrhage,38275267
+10025463,24470193,2,3314,9,Obstructive hydrocephalus,38275267
+10025463,24470193,4,V4987,9,Physical restraints status,38275267
+10025463,24470193,8,V4986,9,Do not resuscitate status,38275267
+10006580,24159665,5,2724,9,Other and unspecified hyperlipidemia,38329661
+10006580,24159665,10,V5867,9,Long-term (current) use of insulin,38329661
+10006580,24159665,9,2749,9,"Gout, unspecified",38329661
+10006580,24159665,3,4019,9,Unspecified essential hypertension,38329661
+10006580,24159665,8,V5866,9,Long-term (current) use of aspirin,38329661
+10006580,24159665,2,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38329661
+10006580,24159665,4,311,9,"Depressive disorder, not elsewhere classified",38329661
+10006580,24159665,7,71690,9,"Arthropathy, unspecified, site unspecified",38329661
+10006580,24159665,6,V4586,9,Bariatric surgery status,38329661
+10006580,24159665,1,2397,9,Neoplasm of unspecified nature of endocrine glands and other parts of nervous system,38329661
+10036156,28019404,5,2724,9,Other and unspecified hyperlipidemia,38587181
+10036156,28019404,11,79092,9,Abnormal coagulation profile,38587181
+10036156,28019404,9,V4589,9,Other postprocedural status,38587181
+10036156,28019404,10,4019,9,Unspecified essential hypertension,38587181
+10036156,28019404,4,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38587181
+10036156,28019404,8,V4501,9,Cardiac pacemaker in situ,38587181
+10036156,28019404,6,28860,9,"Leukocytosis, unspecified",38587181
+10036156,28019404,1,53140,9,"Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction",38587181
+10036156,28019404,3,4588,9,Other specified hypotension,38587181
+10036156,28019404,2,4260,9,"Atrioventricular block, complete",38587181
+10036156,28019404,7,78097,9,Altered mental status,38587181
+10014078,25809882,5,2724,9,Other and unspecified hyperlipidemia,38907302
+10014078,25809882,7,4019,9,Unspecified essential hypertension,38907302
+10014078,25809882,1,3453,9,Grand mal status,38907302
+10014078,25809882,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",38907302
+10014078,25809882,2,34830,9,"Encephalopathy, unspecified",38907302
+10014078,25809882,3,1369,9,Unspecified infectious and parasitic diseases,38907302
+10014078,25809882,4,2252,9,Benign neoplasm of cerebral meninges,38907302
+10018081,28861356,18,2724,9,Other and unspecified hyperlipidemia,38333427
+10018081,28861356,11,E8782,9,"Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",38333427
+10018081,28861356,12,E8497,9,Accidents occurring in residential institution,38333427
+10018081,28861356,10,4019,9,Unspecified essential hypertension,38333427
+10018081,28861356,5,5180,9,Pulmonary collapse,38333427
+10018081,28861356,15,V5866,9,Long-term (current) use of aspirin,38333427
+10018081,28861356,9,V5861,9,Long-term (current) use of anticoagulants,38333427
+10018081,28861356,4,4280,9,"Congestive heart failure, unspecified",38333427
+10018081,28861356,3,2930,9,Delirium due to conditions classified elsewhere,38333427
+10018081,28861356,8,V4572,9,Acquired absence of intestine (large) (small),38333427
+10018081,28861356,2,99830,9,"Disruption of wound, unspecified",38333427
+10018081,28861356,6,53012,9,Acute esophagitis,38333427
+10018081,28861356,1,V552,9,Attention to ileostomy,38333427
+10018081,28861356,1,V552,9,Person on outside of pick-up truck or van injured in collision with railway train or railway vehicle in nontraffic accident,38333427
+10018081,28861356,17,V5832,9,Encounter for removal of sutures,38333427
+10018081,28861356,14,2800,9,Iron deficiency anemia secondary to blood loss (chronic),38333427
+10018081,28861356,7,53290,9,"Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation, without mention of obstruction",38333427
+10018081,28861356,16,7850,9,"Tachycardia, unspecified",38333427
+10018081,28861356,13,53190,9,"Gastric ulcer, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction",38333427
+10021938,27154822,11,2724,9,Other and unspecified hyperlipidemia,33083787
+10021938,27154822,3,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",33083787
+10021938,27154822,5,4280,9,"Congestive heart failure, unspecified",33083787
+10021938,27154822,1,2767,9,Hyperpotassemia,33083787
+10021938,27154822,4,42822,9,Chronic systolic heart failure,33083787
+10021938,27154822,10,78900,9,"Abdominal pain, unspecified site",33083787
+10021938,27154822,7,587,9,"Renal sclerosis, unspecified",33083787
+10021938,27154822,9,V4512,9,Noncompliance with renal dialysis,33083787
+10021938,27154822,12,30393,9,"Other and unspecified alcohol dependence, in remission",33083787
+10021938,27154822,8,V4511,9,Renal dialysis status,33083787
+10021938,27154822,6,5781,9,Blood in stool,33083787
+10021938,27154822,13,28521,9,Anemia in chronic kidney disease,33083787
+10021938,27154822,2,5856,9,End stage renal disease,33083787
+10021938,23112364,6,2724,9,Other and unspecified hyperlipidemia,39492446
+10021938,23112364,3,40391,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease",39492446
+10021938,23112364,8,V1582,9,Personal history of tobacco use,39492446
+10021938,23112364,7,30500,9,"Alcohol abuse, unspecified",39492446
+10021938,23112364,4,2767,9,Hyperpotassemia,39492446
+10021938,23112364,2,5856,9,End stage renal disease,39492446
+10021938,23112364,5,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",39492446
+10021938,23112364,9,79319,9,Other nonspecific abnormal finding of lung field,39492446
+10021938,23112364,1,34839,9,Other encephalopathy,39492446
+10023239,29295881,7,2724,9,Other and unspecified hyperlipidemia,33846653
+10023239,29295881,11,V5867,9,Long-term (current) use of insulin,33846653
+10023239,29295881,12,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",33846653
+10023239,29295881,5,2720,9,Pure hypercholesterolemia,33846653
+10023239,29295881,4,2449,9,Unspecified acquired hypothyroidism,33846653
+10023239,29295881,2,486,9,"Pneumonia, organism unspecified",33846653
+10023239,29295881,10,0088,9,"Intestinal infection due to other organism, not elsewhere classified",33846653
+10023239,29295881,6,30000,9,"Anxiety state, unspecified",33846653
+10023239,29295881,8,28860,9,"Leukocytosis, unspecified",33846653
+10023239,29295881,9,34590,9,"Epilepsy, unspecified, without mention of intractable epilepsy",33846653
+10023239,29295881,1,99657,9,Mechanical complication due to insulin pump,33846653
+10023239,29295881,3,7916,9,Acetonuria,33846653
+10020740,25826145,17,2724,9,Other and unspecified hyperlipidemia,32145159
+10020740,25826145,18,V5867,9,Long-term (current) use of insulin,32145159
+10020740,25826145,4,2875,9,"Thrombocytopenia, unspecified",32145159
+10020740,25826145,14,2859,9,"Anemia, unspecified",32145159
+10020740,25826145,20,V4589,9,Other postprocedural status,32145159
+10020740,25826145,19,V1204,9,Personal history of Methicillin resistant Staphylococcus aureus,32145159
+10020740,25826145,10,49390,9,"Asthma, unspecified type, unspecified",32145159
+10020740,25826145,8,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32145159
+10020740,25826145,16,311,9,"Depressive disorder, not elsewhere classified",32145159
+10020740,25826145,5,V4987,9,Physical restraints status,32145159
+10020740,25826145,3,5723,9,Portal hypertension,32145159
+10020740,25826145,15,5531,9,Umbilical hernia without mention of obstruction or gangrene,32145159
+10020740,25826145,12,5680,9,Peritoneal adhesions (postoperative) (postinfection),32145159
+10020740,25826145,6,45829,9,Other iatrogenic hypotension,32145159
+10020740,25826145,1,5770,9,Acute pancreatitis,32145159
+10020740,25826145,11,32723,9,Obstructive sleep apnea (adult)(pediatric),32145159
+10020740,25826145,7,57450,9,"Calculus of bile duct without mention of cholecystitis, without mention of obstruction",32145159
+10020740,25826145,9,29570,9,"Schizoaffective disorder, unspecified",32145159
+10020740,25826145,13,27652,9,Hypovolemia,32145159
+10020740,25826145,2,75310,9,"Cystic kidney disease, unspecified",32145159
+10037928,24656677,10,2724,9,Other and unspecified hyperlipidemia,39804682
+10037928,24656677,4,V5867,9,Long-term (current) use of insulin,39804682
+10037928,24656677,3,5849,9,"Acute kidney failure, unspecified",39804682
+10037928,24656677,13,53081,9,Esophageal reflux,39804682
+10037928,24656677,9,4019,9,Unspecified essential hypertension,39804682
+10037928,24656677,11,311,9,"Depressive disorder, not elsewhere classified",39804682
+10037928,24656677,2,5990,9,"Urinary tract infection, site not specified",39804682
+10037928,24656677,1,25012,9,"Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",39804682
+10037928,24656677,17,78052,9,"Insomnia, unspecified",39804682
+10037928,24656677,12,30000,9,"Anxiety state, unspecified",39804682
+10037928,24656677,5,04149,9,Other and unspecified Escherichia coli [E. coli],39804682
+10037928,24656677,16,V1001,9,Personal history of malignant neoplasm of tongue,39804682
+10037928,24656677,14,2809,9,"Iron deficiency anemia, unspecified",39804682
+10037928,24656677,8,78701,9,Nausea with vomiting,39804682
+10037928,24656677,18,V1271,9,Personal history of peptic ulcer disease,39804682
+10037928,24656677,15,2989,9,Unspecified psychosis,39804682
+10037928,24656677,6,7813,9,Lack of coordination,39804682
+10037928,24656677,19,7260,9,Adhesive capsulitis of shoulder,39804682
+10037928,24656677,7,V1588,9,History of fall,39804682
+10037928,22490490,7,2724,9,Other and unspecified hyperlipidemia,31552399
+10037928,22490490,6,V5867,9,Long-term (current) use of insulin,31552399
+10037928,22490490,2,5849,9,"Acute kidney failure, unspecified",31552399
+10037928,22490490,14,311,9,"Depressive disorder, not elsewhere classified",31552399
+10037928,22490490,3,5990,9,"Urinary tract infection, site not specified",31552399
+10037928,22490490,4,2762,9,Acidosis,31552399
+10037928,22490490,11,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",31552399
+10037928,22490490,16,04149,9,Other and unspecified Escherichia coli [E. coli],31552399
+10037928,22490490,15,5853,9,"Chronic kidney disease, Stage III (moderate)",31552399
+10037928,22490490,8,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",31552399
+10037928,22490490,5,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",31552399
+10037928,22490490,10,2809,9,"Iron deficiency anemia, unspecified",31552399
+10037928,22490490,9,27652,9,Hypovolemia,31552399
+10037928,22490490,13,6273,9,Postmenopausal atrophic vaginitis,31552399
+10037928,22490490,1,25022,9,"Diabetes with hyperosmolarity, type II or unspecified type, uncontrolled",31552399
+10037928,22490490,12,61650,9,"Ulceration of vulva, unspecified",31552399
+10037928,22490490,17,1419,9,"Malignant neoplasm of tongue, unspecified",31552399
+10027445,29163082,10,V5867,9,Long-term (current) use of insulin,36084484
+10027445,29163082,1,4240,9,Mitral valve disorders,36084484
+10027445,29163082,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",36084484
+10027445,29163082,11,311,9,"Depressive disorder, not elsewhere classified",36084484
+10027445,29163082,3,9982,9,"Accidental puncture or laceration during a procedure, not elsewhere classified",36084484
+10027445,29163082,5,4280,9,"Congestive heart failure, unspecified",36084484
+10027445,29163082,2,42833,9,Acute on chronic diastolic heart failure,36084484
+10027445,29163082,8,4168,9,Other chronic pulmonary heart diseases,36084484
+10027445,29163082,4,2763,9,Alkalosis,36084484
+10027445,29163082,7,515,9,Postinflammatory pulmonary fibrosis,36084484
+10027445,29163082,9,E8706,9,"Accidental cut, puncture, perforation or hemorrhage during heart catheterization",36084484
+10007795,28477357,14,V5867,9,Long-term (current) use of insulin,31921355
+10007795,28477357,23,E8497,9,Accidents occurring in residential institution,31921355
+10007795,28477357,11,4019,9,Unspecified essential hypertension,31921355
+10007795,28477357,5,5180,9,Pulmonary collapse,31921355
+10007795,28477357,19,56210,9,Diverticulosis of colon (without mention of hemorrhage),31921355
+10007795,28477357,12,2720,9,Pure hypercholesterolemia,31921355
+10007795,28477357,3,486,9,"Pneumonia, organism unspecified",31921355
+10007795,28477357,15,311,9,"Depressive disorder, not elsewhere classified",31921355
+10007795,28477357,9,5711,9,Acute alcoholic hepatitis,31921355
+10007795,28477357,17,V103,9,Personal history of malignant neoplasm of breast,31921355
+10007795,28477357,17,V103,9,Person boarding or alighting a pedal cycle injured in collision with pedestrian or animal,31921355
+10007795,28477357,4,5184,9,"Acute edema of lung, unspecified",31921355
+10007795,28477357,10,30393,9,"Other and unspecified alcohol dependence, in remission",31921355
+10007795,28477357,7,2869,9,Other and unspecified coagulation defects,31921355
+10007795,28477357,18,79311,9,Solitary pulmonary nodule,31921355
+10007795,28477357,2,5770,9,Acute pancreatitis,31921355
+10007795,28477357,16,28529,9,Anemia of other chronic disease,31921355
+10007795,28477357,1,5772,9,Cyst and pseudocyst of pancreas,31921355
+10007795,28477357,22,E9319,9,Other and unspecified anti-infectives causing adverse effects in therapeutic use,31921355
+10007795,28477357,6,11289,9,Other candidiasis of other specified sites,31921355
+10007795,28477357,13,24900,9,"Secondary diabetes mellitus without mention of complication, not stated as uncontrolled, or unspecified",31921355
+10007795,28477357,20,V443,9,Colostomy status,31921355
+10007795,28477357,20,V443,9,Unspecified car occupant injured in collision with heavy transport vehicle or bus in nontraffic accident,31921355
+10007795,28477357,21,6930,9,Dermatitis due to drugs and medicines taken internally,31921355
+10007795,28477357,8,5771,9,Chronic pancreatitis,31921355
+10008454,20291550,10,27800,9,"Obesity, unspecified",31959184
+10008454,20291550,8,E8495,9,Street and highway accidents,31959184
+10008454,20291550,9,3051,9,Tobacco use disorder,31959184
+10008454,20291550,2,9010,9,Injury to thoracic aorta,31959184
+10008454,20291550,6,E8120,9,Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle,31959184
+10008454,20291550,5,5990,9,"Urinary tract infection, site not specified",31959184
+10008454,20291550,11,V5861,9,Long-term (current) use of anticoagulants,31959184
+10008454,20291550,4,80704,9,Closed fracture of four ribs,31959184
+10008454,20291550,3,5184,9,"Acute edema of lung, unspecified",31959184
+10008454,20291550,1,82111,9,Open fracture of shaft of femur,31959184
+10008454,20291550,7,04104,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",31959184
+10003400,20214994,18,27800,9,"Obesity, unspecified",32128372
+10003400,20214994,11,99832,9,Disruption of external operation (surgical) wound,32128372
+10003400,20214994,14,99859,9,Other postoperative infection,32128372
+10003400,20214994,26,E8497,9,Accidents occurring in residential institution,32128372
+10003400,20214994,6,20300,9,"Multiple myeloma, without mention of having achieved remission",32128372
+10003400,20214994,17,42731,9,Atrial fibrillation,32128372
+10003400,20214994,28,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",32128372
+10003400,20214994,7,2639,9,Unspecified protein-calorie malnutrition,32128372
+10003400,20214994,30,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",32128372
+10003400,20214994,23,V5861,9,Long-term (current) use of anticoagulants,32128372
+10003400,20214994,4,5845,9,Acute kidney failure with lesion of tubular necrosis,32128372
+10003400,20214994,2,2866,9,Defibrination syndrome,32128372
+10003400,20214994,35,E8499,9,Accidents occurring in unspecified place,32128372
+10003400,20214994,3,51881,9,Acute respiratory failure,32128372
+10003400,20214994,13,2851,9,Acute posthemorrhagic anemia,32128372
+10003400,20214994,20,V4987,9,Physical restraints status,32128372
+10003400,20214994,25,E8786,9,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32128372
+10003400,20214994,31,4280,9,"Congestive heart failure, unspecified",32128372
+10003400,20214994,9,2930,9,Delirium due to conditions classified elsewhere,32128372
+10003400,20214994,19,5853,9,"Chronic kidney disease, Stage III (moderate)",32128372
+10003400,20214994,22,V1581,9,"Personal history of noncompliance with medical treatment, presenting hazards to health",32128372
+10003400,20214994,27,V153,9,"Personal history of irradiation, presenting hazards to health",32128372
+10003400,20214994,27,V153,9,Person boarding or alighting a pedal cycle injured in collision with railway train or railway vehicle,32128372
+10003400,20214994,36,0417,9,Pseudomonas infection in conditions classified elsewhere and of unspecified site,32128372
+10003400,20214994,21,5680,9,Peritoneal adhesions (postoperative) (postinfection),32128372
+10003400,20214994,12,99674,9,"Other complications due to other vascular device, implant, and graft",32128372
+10003400,20214994,1,1543,9,"Malignant neoplasm of anus, unspecified site",32128372
+10003400,20214994,24,71596,9,"Osteoarthrosis, unspecified whether generalized or localized, lower leg",32128372
+10003400,20214994,33,81600,9,"Closed fracture of phalanx or phalanges of hand, unspecified",32128372
+10003400,20214994,29,V6441,9,Laparoscopic surgical procedure converted to open procedure,32128372
+10003400,20214994,34,E887,9,"Fracture, cause unspecified",32128372
+10003400,20214994,8,99809,9,"Postoperative shock, other",32128372
+10003400,20214994,32,V8533,9,"Body Mass Index 33.0-33.9, adult",32128372
+10003400,20214994,5,99594,9,Systemic inflammatory response syndrome due to noninfectious process with acute organ dysfunction,32128372
+10003400,20214994,15,56089,9,Other specified intestinal obstruction,32128372
+10003400,20214994,10,45383,9,"Acute venous embolism and thrombosis of upper extremity, unspecified",32128372
+10003400,20214994,16,55320,9,"Ventral, unspecified, hernia without mention of obstruction or gangrene",32128372
+10009049,22995465,2,4829,9,"Bacterial pneumonia, unspecified",35636875
+10009049,22995465,7,99592,9,Severe sepsis,35636875
+10009049,22995465,13,2768,9,Hypopotassemia,35636875
+10009049,22995465,1,0388,9,Other specified septicemias,35636875
+10009049,22995465,11,78791,9,Diarrhea,35636875
+10009049,22995465,4,5601,9,Paralytic ileus,35636875
+10009049,22995465,5,2875,9,"Thrombocytopenia, unspecified",35636875
+10009049,22995465,9,60001,9,Hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS),35636875
+10009049,22995465,12,79092,9,Abnormal coagulation profile,35636875
+10009049,22995465,6,5110,9,Pleurisy without mention of effusion or current tuberculosis,35636875
+10009049,22995465,8,2859,9,"Anemia, unspecified",35636875
+10009049,22995465,3,5849,9,"Acute kidney failure, unspecified",35636875
+10009049,22995465,10,78820,9,"Retention of urine, unspecified",35636875
+10007928,20338077,6,99592,9,Severe sepsis,35128235
+10007928,20338077,19,3051,9,Tobacco use disorder,35128235
+10007928,20338077,18,30500,9,"Alcohol abuse, unspecified",35128235
+10007928,20338077,8,2761,9,Hyposmolality and/or hyponatremia,35128235
+10007928,20338077,3,5070,9,Pneumonitis due to inhalation of food or vomitus,35128235
+10007928,20338077,12,79902,9,Hypoxemia,35128235
+10007928,20338077,7,5990,9,"Urinary tract infection, site not specified",35128235
+10007928,20338077,2,0088,9,"Intestinal infection due to other organism, not elsewhere classified",35128235
+10007928,20338077,10,53240,9,"Chronic or unspecified duodenal ulcer with hemorrhage, without mention of obstruction",35128235
+10007928,20338077,11,53010,9,"Esophagitis, unspecified",35128235
+10007928,20338077,16,2769,9,Electrolyte and fluid disorders not elsewhere classified,35128235
+10007928,20338077,15,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],35128235
+10007928,20338077,9,2764,9,Mixed acid-base balance disorder,35128235
+10007928,20338077,14,5533,9,Diaphragmatic hernia without mention of obstruction or gangrene,35128235
+10007928,20338077,20,E9353,9,Salicylates causing adverse effects in therapeutic use,35128235
+10007928,20338077,13,04149,9,Other and unspecified Escherichia coli [E. coli],35128235
+10007928,20338077,17,28860,9,"Leukocytosis, unspecified",35128235
+10007928,20338077,4,51881,9,Acute respiratory failure,35128235
+10007928,20338077,5,0389,9,Unspecified septicemia,35128235
+10007928,20338077,1,53140,9,"Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction",35128235
+10020944,29974575,20,99592,9,Severe sepsis,30757476
+10020944,29974575,27,78791,9,Diarrhea,30757476
+10020944,29974575,8,5849,9,"Acute kidney failure, unspecified",30757476
+10020944,29974575,12,5180,9,Pulmonary collapse,30757476
+10020944,29974575,26,53550,9,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",30757476
+10020944,29974575,32,V1582,9,Personal history of tobacco use,30757476
+10020944,29974575,23,2449,9,Unspecified acquired hypothyroidism,30757476
+10020944,29974575,14,5990,9,"Urinary tract infection, site not specified",30757476
+10020944,29974575,13,2762,9,Acidosis,30757476
+10020944,29974575,24,5859,9,"Chronic kidney disease, unspecified",30757476
+10020944,29974575,25,40390,9,"Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified",30757476
+10020944,29974575,31,V5861,9,Long-term (current) use of anticoagulants,30757476
+10020944,29974575,17,5712,9,Alcoholic cirrhosis of liver,30757476
+10020944,29974575,7,78039,9,Other convulsions,30757476
+10020944,29974575,2,51881,9,Acute respiratory failure,30757476
+10020944,29974575,15,496,9,"Chronic airway obstruction, not elsewhere classified",30757476
+10020944,29974575,22,2767,9,Hyperpotassemia,30757476
+10020944,29974575,3,78552,9,Septic shock,30757476
+10020944,29974575,16,3575,9,Alcoholic polyneuropathy,30757476
+10020944,29974575,18,5989,9,"Urethral stricture, unspecified",30757476
+10020944,29974575,1,03849,9,Other septicemia due to gram-negative organisms,30757476
+10020944,29974575,19,51889,9,"Other diseases of lung, not elsewhere classified",30757476
+10020944,29974575,28,3489,9,Unspecified condition of brain,30757476
+10020944,29974575,29,7810,9,Abnormal involuntary movements,30757476
+10020944,29974575,21,4168,9,Other chronic pulmonary heart diseases,30757476
+10020944,29974575,33,75261,9,Hypospadias,30757476
+10020944,29974575,5,34982,9,Toxic encephalopathy,30757476
+10020944,29974575,6,20210,9,"Mycosis fungoides, unspecified site, extranodal and solid organ sites",30757476
+10020944,29974575,9,1540,9,Malignant neoplasm of rectosigmoid junction,30757476
+10020944,29974575,10,73010,9,"Chronic osteomyelitis, site unspecified",30757476
+10020944,29974575,4,4820,9,Pneumonia due to Klebsiella pneumoniae,30757476
+10020944,29974575,11,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",30757476
+10020944,29974575,30,V1255,9,Personal history of pulmonary embolism,30757476
+10021487,27660781,6,5601,9,Paralytic ileus,35065627
+10021487,27660781,5,2639,9,Unspecified protein-calorie malnutrition,35065627
+10021487,27660781,4,56722,9,Peritoneal abscess,35065627
+10021487,27660781,7,5119,9,Unspecified pleural effusion,35065627
+10021487,27660781,1,5720,9,Abscess of liver,35065627
+10021487,27660781,2,5770,9,Acute pancreatitis,35065627
+10021487,27660781,8,7837,9,Adult failure to thrive,35065627
+10021487,27660781,3,5762,9,Obstruction of bile duct,35065627
+10002428,20321825,11,2859,9,"Anemia, unspecified",34807493
+10002428,20321825,15,4240,9,Mitral valve disorders,34807493
+10002428,20321825,13,4019,9,Unspecified essential hypertension,34807493
+10002428,20321825,14,2449,9,Unspecified acquired hypothyroidism,34807493
+10002428,20321825,2,2764,9,Mixed acid-base balance disorder,34807493
+10002428,20321825,1,51881,9,Acute respiratory failure,34807493
+10002428,20321825,7,5781,9,Blood in stool,34807493
+10002428,20321825,8,27669,9,Other fluid overload,34807493
+10002428,20321825,5,5119,9,Unspecified pleural effusion,34807493
+10002428,20321825,3,00845,9,Intestinal infection due to Clostridium difficile,34807493
+10002428,20321825,12,73300,9,"Osteoporosis, unspecified",34807493
+10002428,20321825,6,1122,9,Candidiasis of other urogenital sites,34807493
+10002428,20321825,4,29281,9,Drug-induced delirium,34807493
+10002428,20321825,9,7102,9,Sicca syndrome,34807493
+10002428,20321825,10,E9393,9,"Other antipsychotics, neuroleptics, and major tranquilizers causing adverse effects in therapeutic use",34807493
+10004733,27411876,7,5849,9,"Acute kidney failure, unspecified",39635619
+10004733,27411876,29,30390,9,"Other and unspecified alcohol dependence, unspecified",39635619
+10004733,27411876,22,56210,9,Diverticulosis of colon (without mention of hemorrhage),39635619
+10004733,27411876,27,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",39635619
+10004733,27411876,3,5070,9,Pneumonitis due to inhalation of food or vomitus,39635619
+10004733,27411876,12,2760,9,Hyperosmolality and/or hypernatremia,39635619
+10004733,27411876,14,5859,9,"Chronic kidney disease, unspecified",39635619
+10004733,27411876,23,78052,9,"Insomnia, unspecified",39635619
+10004733,27411876,30,30000,9,"Anxiety state, unspecified",39635619
+10004733,27411876,15,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],39635619
+10004733,27411876,21,V4987,9,Physical restraints status,39635619
+10004733,27411876,20,7850,9,"Tachycardia, unspecified",39635619
+10004733,27411876,11,5781,9,Blood in stool,39635619
+10004733,27411876,25,28521,9,Anemia in chronic kidney disease,39635619
+10004733,27411876,1,34839,9,Other encephalopathy,39635619
+10004733,27411876,6,78722,9,"Dysphagia, oropharyngeal phase",39635619
+10004733,27411876,17,45829,9,Other iatrogenic hypotension,39635619
+10004733,27411876,24,28529,9,Anemia of other chronic disease,39635619
+10004733,27411876,9,7907,9,Bacteremia,39635619
+10004733,27411876,8,99731,9,Ventilator associated pneumonia,39635619
+10004733,27411876,2,43491,9,"Cerebral artery occlusion, unspecified with cerebral infarction",39635619
+10004733,27411876,28,30590,9,"Other, mixed, or unspecified drug abuse, unspecified",39635619
+10004733,27411876,26,4739,9,Unspecified sinusitis (chronic),39635619
+10004733,27411876,4,48249,9,Other Staphylococcus pneumonia,39635619
+10004733,27411876,5,5829,9,Chronic glomerulonephritis with unspecified pathological lesion in kidney,39635619
+10004733,27411876,18,E9383,9,Intravenous anesthetics causing adverse effects in therapeutic use,39635619
+10004733,27411876,13,34290,9,"Hemiplegia, unspecified, affecting unspecified side",39635619
+10004733,27411876,10,40300,9,"Hypertensive chronic kidney disease, malignant, with chronic kidney disease stage I through stage IV, or unspecified",39635619
+10004733,27411876,16,0416,9,Proteus (mirabilis) (morganii) infection in conditions classified elsewhere and of unspecified site,39635619
+10004733,27411876,19,3129,9,Unspecified disturbance of conduct,39635619
+10038933,25129047,12,78820,9,"Retention of urine, unspecified",32166508
+10038933,25129047,11,4019,9,Unspecified essential hypertension,32166508
+10038933,25129047,9,30390,9,"Other and unspecified alcohol dependence, unspecified",32166508
+10038933,25129047,7,E8809,9,Accidental fall on or from other stairs or steps,32166508
+10038933,25129047,7,E8809,9,"Other disorders of plasma-protein metabolism, not elsewhere classified",32166508
+10038933,25129047,10,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",32166508
+10038933,25129047,3,34830,9,"Encephalopathy, unspecified",32166508
+10038933,25129047,5,2761,9,Hyposmolality and/or hyponatremia,32166508
+10038933,25129047,1,85186,9,"Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with loss of consciousness of unspecified duration",32166508
+10038933,25129047,2,5070,9,Pneumonitis due to inhalation of food or vomitus,32166508
+10038933,25129047,4,2910,9,Alcohol withdrawal delirium,32166508
+10038933,25129047,6,1120,9,Candidiasis of mouth,32166508
+10038933,25129047,8,78720,9,"Dysphagia, unspecified",32166508
+10022880,27708593,5,78820,9,"Retention of urine, unspecified",39623478
+10022880,27708593,3,42731,9,Atrial fibrillation,39623478
+10022880,27708593,9,V5861,9,Long-term (current) use of anticoagulants,39623478
+10022880,27708593,6,V4364,9,Hip joint replacement,39623478
+10022880,27708593,6,V4364,9,Car passenger injured in collision with van in traffic accident,39623478
+10022880,27708593,7,56409,9,Other constipation,39623478
+10022880,27708593,8,V1254,9,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",39623478
+10022880,27708593,2,73730,9,"Scoliosis [and kyphoscoliosis], idiopathic",39623478
+10022880,27708593,4,75612,9,Spondylolisthesis,39623478
+10022880,27708593,1,72403,9,"Spinal stenosis, lumbar region, with neurogenic claudication",39623478
+10009035,28324362,1,4240,9,Mitral valve disorders,38507547
+10009035,28324362,4,V4589,9,Other postprocedural status,38507547
+10009035,28324362,2,5121,9,Iatrogenic pneumothorax,38507547
+10009035,28324362,3,7873,9,"Flatulence, eructation, and gas pain",38507547
+10014729,28889419,4,V1204,9,Personal history of Methicillin resistant Staphylococcus aureus,33558396
+10014729,28889419,8,E8497,9,Accidents occurring in residential institution,33558396
+10014729,28889419,7,E8495,9,Street and highway accidents,33558396
+10014729,28889419,3,49390,9,"Asthma, unspecified type, unspecified",33558396
+10014729,28889419,6,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",33558396
+10014729,28889419,2,9962,9,"Mechanical complication of nervous system device, implant, and graft",33558396
+10014729,28889419,1,9010,9,Injury to thoracic aorta,33558396
+10014729,28889419,5,E8120,9,Other motor vehicle traffic accident involving collision with motor vehicle injuring driver of motor vehicle other than motorcycle,33558396
+10025612,23403708,6,E8497,9,Accidents occurring in residential institution,32587226
+10025612,23403708,3,51189,9,"Other specified forms of effusion, except tuberculous",32587226
+10025612,23403708,2,99811,9,Hemorrhage complicating a procedure,32587226
+10025612,23403708,11,V8741,9,Personal history of antineoplastic chemotherapy,32587226
+10025612,23403708,8,V1582,9,Personal history of tobacco use,32587226
+10025612,23403708,9,2449,9,Unspecified acquired hypothyroidism,32587226
+10025612,23403708,4,2851,9,Acute posthemorrhagic anemia,32587226
+10025612,23403708,1,1622,9,Malignant neoplasm of main bronchus,32587226
+10025612,23403708,15,V1642,9,Family history of malignant neoplasm of prostate,32587226
+10025612,23403708,14,V163,9,Family history of malignant neoplasm of breast,32587226
+10025612,23403708,14,V163,9,Person boarding or alighting a pedal cycle injured in collision with other nonmotor vehicle in nontraffic accident,32587226
+10025612,23403708,12,V4561,9,Cataract extraction status,32587226
+10025612,23403708,16,33818,9,Other acute postoperative pain,32587226
+10025612,23403708,13,V431,9,Lens replaced by other means,32587226
+10025612,23403708,13,V431,9,"Car passenger injured in collision with car, pick-up truck or van in nontraffic accident",32587226
+10025612,23403708,10,36250,9,"Macular degeneration (senile), unspecified",32587226
+10025612,23403708,7,V103,9,Personal history of malignant neoplasm of breast,32587226
+10025612,23403708,7,V103,9,Person boarding or alighting a pedal cycle injured in collision with pedestrian or animal,32587226
+10025612,23403708,5,E8786,9,"Removal of other organ (partial) (total) causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation",32587226
+10019777,27738145,29,E8497,9,Accidents occurring in residential institution,34578020
+10019777,27738145,14,53081,9,Esophageal reflux,34578020
+10019777,27738145,25,4019,9,Unspecified essential hypertension,34578020
+10019777,27738145,30,E8889,9,Unspecified fall,34578020
+10019777,27738145,30,E8889,9,Other specified metabolic disorders,34578020
+10019777,27738145,19,V1582,9,Personal history of tobacco use,34578020
+10019777,27738145,20,E8798,9,"Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",34578020
+10019777,27738145,7,4589,9,"Hypotension, unspecified",34578020
+10019777,27738145,15,311,9,"Depressive disorder, not elsewhere classified",34578020
+10019777,27738145,5,44489,9,Embolism and thrombosis of other specified artery,34578020
+10019777,27738145,22,7904,9,Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH],34578020
+10019777,27738145,21,28860,9,"Leukocytosis, unspecified",34578020
+10019777,27738145,2,51881,9,Acute respiratory failure,34578020
+10019777,27738145,9,2851,9,Acute posthemorrhagic anemia,34578020
+10019777,27738145,31,V4986,9,Do not resuscitate status,34578020
+10019777,27738145,24,56409,9,Other constipation,34578020
+10019777,27738145,4,5579,9,Unspecified vascular insufficiency of intestine,34578020
+10019777,27738145,12,7824,9,"Jaundice, unspecified, not of newborn",34578020
+10019777,27738145,10,5789,9,"Hemorrhage of gastrointestinal tract, unspecified",34578020
+10019777,27738145,23,3383,9,Neoplasm related pain (acute) (chronic),34578020
+10019777,27738145,16,30503,9,"Alcohol abuse, in remission",34578020
+10019777,27738145,18,V1271,9,Personal history of peptic ulcer disease,34578020
+10019777,27738145,11,99674,9,"Other complications due to other vascular device, implant, and graft",34578020
+10019777,27738145,1,1571,9,Malignant neoplasm of body of pancreas,34578020
+10019777,27738145,27,56889,9,Other specified disorders of peritoneum,34578020
+10019777,27738145,13,4568,9,Varices of other sites,34578020
+10019777,27738145,26,78094,9,Early satiety,34578020
+10019777,27738145,17,4471,9,Stricture of artery,34578020
+10019777,27738145,8,1977,9,"Malignant neoplasm of liver, secondary",34578020
+10019777,27738145,6,99731,9,Ventilator associated pneumonia,34578020
+10019777,27738145,3,V4611,9,"Dependence on respirator, status",34578020
+10019777,27738145,28,E9358,9,Other specified analgesics and antipyretics causing adverse effects in therapeutic use,34578020
+10026406,25260176,1,29181,9,Alcohol withdrawal,30864406
+10026406,25260176,7,53081,9,Esophageal reflux,30864406
+10026406,25260176,8,3051,9,Tobacco use disorder,30864406
+10026406,25260176,3,30301,9,"Acute alcoholic intoxication in alcoholism, continuous",30864406
+10026406,25260176,6,E8499,9,Accidents occurring in unspecified place,30864406
+10026406,25260176,4,8020,9,Closed fracture of nasal bones,30864406
+10026406,25260176,2,78039,9,Other convulsions,30864406
+10026406,25260176,5,E9600,9,Unarmed fight or brawl,30864406
+10001725,25563031,5,53081,9,Esophageal reflux,31205490
+10001725,25563031,13,V1582,9,Personal history of tobacco use,31205490
+10001725,25563031,4,49390,9,"Asthma, unspecified type, unspecified",31205490
+10001725,25563031,7,311,9,"Depressive disorder, not elsewhere classified",31205490
+10001725,25563031,9,5641,9,Irritable bowel syndrome,31205490
+10001725,25563031,8,7291,9,"Myalgia and myositis, unspecified",31205490
+10001725,25563031,3,6185,9,Prolapse of vaginal vault after hysterectomy,31205490
+10001725,25563031,16,56400,9,"Constipation, unspecified",31205490
+10001725,25563031,17,E9352,9,Other opiates and related narcotics causing adverse effects in therapeutic use,31205490
+10001725,25563031,10,6186,9,"Vaginal enterocele, congenital or acquired",31205490
+10001725,25563031,12,31401,9,Attention deficit disorder with hyperactivity,31205490
+10001725,25563031,18,78052,9,"Insomnia, unspecified",31205490
+10001725,25563031,1,78829,9,Other specified retention of urine,31205490
+10001725,25563031,2,9950,9,Other anaphylactic reaction,31205490
+10001725,25563031,11,V1041,9,Personal history of malignant neoplasm of cervix uteri,31205490
+10001725,25563031,15,3331,9,Essential and other specified forms of tremor,31205490
+10001725,25563031,6,30000,9,"Anxiety state, unspecified",31205490
+10001725,25563031,14,4571,9,Other lymphedema,31205490
+10003046,26048429,4,53081,9,Esophageal reflux,35514836
+10003046,26048429,2,2762,9,Acidosis,35514836
+10003046,26048429,1,1505,9,Malignant neoplasm of lower third of esophagus,35514836
+10003046,26048429,3,53085,9,Barrett's esophagus,35514836
+10027602,28166872,15,53081,9,Esophageal reflux,32391858
+10027602,28166872,13,4019,9,Unspecified essential hypertension,32391858
+10027602,28166872,2,3485,9,Cerebral edema,32391858
+10027602,28166872,14,49390,9,"Asthma, unspecified type, unspecified",32391858
+10027602,28166872,16,2449,9,Unspecified acquired hypothyroidism,32391858
+10027602,28166872,11,79902,9,Hypoxemia,32391858
+10027602,28166872,5,5990,9,"Urinary tract infection, site not specified",32391858
+10027602,28166872,8,78039,9,Other convulsions,32391858
+10027602,28166872,12,31401,9,Attention deficit disorder with hyperactivity,32391858
+10027602,28166872,3,51881,9,Acute respiratory failure,32391858
+10027602,28166872,7,V4987,9,Physical restraints status,32391858
+10027602,28166872,10,04104,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group D [Enterococcus]",32391858
+10027602,28166872,17,79311,9,Solitary pulmonary nodule,32391858
+10027602,28166872,9,78722,9,"Dysphagia, oropharyngeal phase",32391858
+10027602,28166872,4,48242,9,Methicillin resistant pneumonia due to Staphylococcus aureus,32391858
+10027602,28166872,6,V0481,9,Need for prophylactic vaccination and inoculation against influenza,32391858
+10027602,28166872,1,430,9,Subarachnoid hemorrhage,32391858
+10021487,28998349,34,E8150,9,Other motor vehicle traffic accident involving collision on the highway injuring driver of motor vehicle other than motorcycle,38197705
+10021487,28998349,12,8054,9,Closed fracture of lumbar vertebra without mention of spinal cord injury,38197705
+10021487,28998349,33,30500,9,"Alcohol abuse, unspecified",38197705
+10021487,28998349,15,2762,9,Acidosis,38197705
+10021487,28998349,8,5845,9,Acute kidney failure with lesion of tubular necrosis,38197705
+10021487,28998349,10,80704,9,Closed fracture of four ribs,38197705
+10021487,28998349,16,9971,9,"Cardiac complications, not elsewhere classified",38197705
+10021487,28998349,4,570,9,Acute and subacute necrosis of liver,38197705
+10021487,28998349,28,2767,9,Hyperpotassemia,38197705
+10021487,28998349,18,7850,9,"Tachycardia, unspecified",38197705
+10021487,28998349,5,5570,9,Acute vascular insufficiency of intestine,38197705
+10021487,28998349,32,27669,9,Other fluid overload,38197705
+10021487,28998349,27,86389,9,"Injury to other gastrointestinal sites, without mention of open wound into cavity",38197705
+10021487,28998349,31,E8654,9,Accidental poisoning from other specified plants,38197705
+10021487,28998349,35,V140,9,Personal history of allergy to penicillin,38197705
+10021487,28998349,35,V140,9,Pedal cycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident,38197705
+10021487,28998349,17,4264,9,Right bundle branch block,38197705
+10021487,28998349,22,86405,9,"Injury to liver without mention of open wound into cavity laceration, unspecified",38197705
+10021487,28998349,3,86401,9,"Injury to liver without mention of open wound into cavity, hematoma and contusion",38197705
+10021487,28998349,24,86801,9,"Injury to other intra-abdominal organs without mention of open wound into cavity, adrenal gland",38197705
+10021487,28998349,14,72888,9,Rhabdomyolysis,38197705
+10021487,28998349,13,80506,9,Closed fracture of sixth cervical vertebra,38197705
+10021487,28998349,11,8052,9,Closed fracture of dorsal [thoracic] vertebra without mention of spinal cord injury,38197705
+10021487,28998349,19,45829,9,Other iatrogenic hypotension,38197705
+10021487,28998349,25,86100,9,Unspecified injury of heart without mention of open wound into thorax,38197705
+10021487,28998349,21,83908,9,"Closed dislocation, multiple cervical vertebrae",38197705
+10021487,28998349,20,8602,9,Traumatic hemothorax without mention of open wound into thorax,38197705
+10021487,28998349,30,6926,9,Contact dermatitis and other eczema due to plants [except food],38197705
+10021487,28998349,29,60886,9,Edema of male genital organs,38197705
+10021487,28998349,6,48241,9,Methicillin susceptible pneumonia due to Staphylococcus aureus,38197705
+10021487,28998349,23,5718,9,Other chronic nonalcoholic liver disease,38197705
+10021487,28998349,9,9585,9,Traumatic anuria,38197705
+10021487,28998349,26,86121,9,Contusion of lung without mention of open wound into thorax,38197705
+10021487,28998349,1,86803,9,"Injury to other intra-abdominal organs without mention of open wound into cavity, peritoneum",38197705
+10021487,28998349,2,9584,9,Traumatic shock,38197705
+10021487,28998349,7,51851,9,Acute respiratory failure following trauma and surgery,38197705
+10001217,24597018,8,4019,9,Unspecified essential hypertension,37067082
+10001217,24597018,9,V168,9,Family history of other specified malignant neoplasm,37067082
+10001217,24597018,10,V161,9,"Family history of malignant neoplasm of trachea, bronchus, and lung",37067082
+10001217,24597018,10,V161,9,Pedal cycle passenger injured in collision with other nonmotor vehicle in nontraffic accident,37067082
+10001217,24597018,6,04109,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, other streptococcus",37067082
+10001217,24597018,3,3485,9,Cerebral edema,37067082
+10001217,24597018,2,3484,9,Compression of brain,37067082
+10001217,24597018,1,3240,9,Intracranial abscess,37067082
+10001217,24597018,5,340,9,Multiple sclerosis,37067082
+10001217,24597018,4,5180,9,Pulmonary collapse,37067082
+10001217,24597018,7,3051,9,Tobacco use disorder,37067082
+10019568,28710730,6,4019,9,Unspecified essential hypertension,30876334
+10019568,28710730,4,E8490,9,Home accidents,30876334
+10019568,28710730,1,80707,9,Closed fracture of seven ribs,30876334
+10019568,28710730,3,E8809,9,Accidental fall on or from other stairs or steps,30876334
+10019568,28710730,3,E8809,9,"Other disorders of plasma-protein metabolism, not elsewhere classified",30876334
+10019568,28710730,5,30500,9,"Alcohol abuse, unspecified",30876334
+10019568,28710730,2,8600,9,Traumatic pneumothorax without mention of open wound into thorax,30876334
+10016810,20973395,5,4019,9,Unspecified essential hypertension,35436337
+10016810,20973395,7,3051,9,Tobacco use disorder,35436337
+10016810,20973395,2,4589,9,"Hypotension, unspecified",35436337
+10016810,20973395,8,V5866,9,Long-term (current) use of aspirin,35436337
+10016810,20973395,1,5400,9,Acute appendicitis with generalized peritonitis,35436337
+10016810,20973395,6,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",35436337
+10016810,20973395,4,2720,9,Pure hypercholesterolemia,35436337
+10016810,20973395,10,V4577,9,"Acquired absence of organ, genital organs",35436337
+10016810,20973395,9,V1082,9,Personal history of malignant melanoma of skin,35436337
+10016810,20973395,3,2449,9,Unspecified acquired hypothyroidism,35436337
+10019172,24997044,3,4019,9,Unspecified essential hypertension,32283063
+10019172,24997044,6,3051,9,Tobacco use disorder,32283063
+10019172,24997044,4,42731,9,Atrial fibrillation,32283063
+10019172,24997044,5,71590,9,"Osteoarthrosis, unspecified whether generalized or localized, site unspecified",32283063
+10019172,24997044,1,4241,9,Aortic valve disorders,32283063
+10019172,24997044,2,4271,9,Paroxysmal ventricular tachycardia,32283063
+10001217,27703517,6,4019,9,Unspecified essential hypertension,34592300
+10001217,27703517,2,3485,9,Cerebral edema,34592300
+10001217,27703517,1,3240,9,Intracranial abscess,34592300
+10001217,27703517,3,340,9,Multiple sclerosis,34592300
+10001217,27703517,7,3051,9,Tobacco use disorder,34592300
+10001217,27703517,4,04102,9,"Streptococcus infection in conditions classified elsewhere and of unspecified site, streptococcus, group B",34592300
+10001217,27703517,5,04184,9,"Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other anaerobes",34592300
+10027602,21477991,10,4019,9,Unspecified essential hypertension,32453351
+10027602,21477991,9,2449,9,Unspecified acquired hypothyroidism,32453351
+10027602,21477991,5,78720,9,"Dysphagia, unspecified",32453351
+10027602,21477991,8,V5861,9,Long-term (current) use of anticoagulants,32453351
+10027602,21477991,6,31401,9,Attention deficit disorder with hyperactivity,32453351
+10027602,21477991,7,V4987,9,Physical restraints status,32453351
+10027602,21477991,2,2930,9,Delirium due to conditions classified elsewhere,32453351
+10027602,21477991,3,51889,9,"Other diseases of lung, not elsewhere classified",32453351
+10027602,21477991,4,V441,9,Gastrostomy status,32453351
+10027602,21477991,4,V441,9,Car passenger injured in collision with heavy transport vehicle or bus in nontraffic accident,32453351
+10027602,21477991,1,4373,9,"Cerebral aneurysm, nonruptured",32453351
+10032725,20611640,12,4019,9,Unspecified essential hypertension,30101877
+10032725,20611640,3,3485,9,Cerebral edema,30101877
+10032725,20611640,10,25000,9,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",30101877
+10032725,20611640,11,2720,9,Pure hypercholesterolemia,30101877
+10032725,20611640,4,43820,9,"Late effects of cerebrovascular disease, hemiplegia affecting unspecified side",30101877
+10032725,20611640,14,V1042,9,Personal history of malignant neoplasm of other parts of uterus,30101877
+10032725,20611640,2,431,9,Intracerebral hemorrhage,30101877
+10032725,20611640,13,V667,9,Encounter for palliative care,30101877
+10032725,20611640,13,V667,9,Person on outside of heavy transport vehicle injured in collision with other nonmotor vehicle in traffic accident,30101877
+10032725,20611640,5,1970,9,Secondary malignant neoplasm of lung,30101877
+10032725,20611640,6,1987,9,Secondary malignant neoplasm of adrenal gland,30101877
+10032725,20611640,7,1968,9,Secondary and unspecified malignant neoplasm of lymph nodes of multiple sites,30101877
+10032725,20611640,8,70703,9,"Pressure ulcer, lower back",30101877
+10032725,20611640,9,70722,9,"Pressure ulcer, stage II",30101877
+10032725,20611640,1,1983,9,Secondary malignant neoplasm of brain and spinal cord,30101877
+10039831,26924951,5,3051,9,Tobacco use disorder,39142259
+10039831,26924951,2,44489,9,Embolism and thrombosis of other specified artery,39142259
+10039831,26924951,3,9982,9,"Accidental puncture or laceration during a procedure, not elsewhere classified",39142259
+10039831,26924951,4,E8700,9,"Accidental cut, puncture, perforation or hemorrhage during surgical operation",39142259
+10039831,26924951,6,V1009,9,Personal history of malignant neoplasm of other gastrointestinal tract,39142259
+10039831,26924951,1,1962,9,Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes,39142259
+10039831,26924951,7,V1042,9,Personal history of malignant neoplasm of other parts of uterus,39142259
+10000032,29079034,7,3051,9,Tobacco use disorder,39553978
+10000032,29079034,4,2761,9,Hyposmolality and/or hyponatremia,39553978
+10000032,29079034,5,78959,9,Other ascites,39553978
+10000032,29079034,9,V4986,9,Do not resuscitate status,39553978
+10000032,29079034,11,496,9,"Chronic airway obstruction, not elsewhere classified",39553978
+10000032,29079034,6,2767,9,Hyperpotassemia,39553978
+10000032,29079034,3,7994,9,Cachexia,39553978
+10000032,29079034,13,5715,9,Cirrhosis of liver without mention of alcohol,39553978
+10000032,29079034,1,45829,9,Other iatrogenic hypotension,39553978
+10000032,29079034,8,V08,9,Asymptomatic human immunodeficiency virus [HIV] infection status,39553978
+10000032,29079034,12,29680,9,"Bipolar disorder, unspecified",39553978
+10000032,29079034,10,V462,9,"Other dependence on machines, supplemental oxygen",39553978
+10000032,29079034,10,V462,9,Person on outside of car injured in collision with other nonmotor vehicle in nontraffic accident,39553978
+10000032,29079034,2,07044,9,Chronic hepatitis C with hepatic coma,39553978
+10026354,24547356,4,D696,10,"Thrombocytopenia, unspecified",36091287
+10026354,24547356,5,S030XXA,10,"Dislocation of jaw, initial encounter",36091287
+10026354,24547356,2,S25512A,10,"Laceration of intercostal blood vessels, left side, initial encounter",36091287
+10026354,24547356,6,D649,10,"Anemia, unspecified",36091287
+10026354,24547356,7,F1010,10,"Alcohol abuse, uncomplicated",36091287
+10026354,24547356,1,S0262XA,10,"Fracture of subcondylar process of mandible, initial encounter for closed fracture",36091287
+10026354,24547356,8,Y040XXA,10,"Assault by unarmed brawl or fight, initial encounter",36091287
+10026354,24547356,3,S36892A,10,"Contusion of other intra-abdominal organs, initial encounter",36091287
+10039708,28258130,20,D696,10,"Thrombocytopenia, unspecified",33281088
+10039708,28258130,1,D649,10,"Anemia, unspecified",33281088
+10039708,28258130,38,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,33281088
+10039708,28258130,25,I10,10,Essential (primary) hypertension,33281088
+10039708,28258130,35,J45909,10,"Unspecified asthma, uncomplicated",33281088
+10039708,28258130,4,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,33281088
+10039708,28258130,24,E039,10,"Hypothyroidism, unspecified",33281088
+10039708,28258130,23,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",33281088
+10039708,28258130,37,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",33281088
+10039708,28258130,9,E43,10,Unspecified severe protein-calorie malnutrition,33281088
+10039708,28258130,8,J95851,10,Ventilator associated pneumonia,33281088
+10039708,28258130,11,E872,10,Acidosis,33281088
+10039708,28258130,33,E876,10,Hypokalemia,33281088
+10039708,28258130,2,N170,10,Acute kidney failure with tubular necrosis,33281088
+10039708,28258130,17,E870,10,Hyperosmolality and hypernatremia,33281088
+10039708,28258130,26,I340,10,Nonrheumatic mitral (valve) insufficiency,33281088
+10039708,28258130,34,R197,10,"Diarrhea, unspecified",33281088
+10039708,28258130,36,Z9884,10,Bariatric surgery status,33281088
+10039708,28258130,22,F1020,10,"Alcohol dependence, uncomplicated",33281088
+10039708,28258130,28,K7010,10,Alcoholic hepatitis without ascites,33281088
+10039708,28258130,12,E5112,10,Wet beriberi,33281088
+10039708,28258130,10,R64,10,Cachexia,33281088
+10039708,28258130,29,E59,10,Dietary selenium deficiency,33281088
+10039708,28258130,13,I82401,10,Acute embolism and thrombosis of unspecified deep veins of right lower extremity,33281088
+10039708,28258130,7,I5021,10,Acute systolic (congestive) heart failure,33281088
+10039708,28258130,18,R34,10,Anuria and oliguria,33281088
+10039708,28258130,31,D124,10,Benign neoplasm of descending colon,33281088
+10039708,28258130,19,D61818,10,Other pancytopenia,33281088
+10039708,28258130,27,K7030,10,Alcoholic cirrhosis of liver without ascites,33281088
+10039708,28258130,5,J690,10,Pneumonitis due to inhalation of food and vomit,33281088
+10039708,28258130,3,J9691,10,"Respiratory failure, unspecified with hypoxia",33281088
+10039708,28258130,14,Z681,10,"Body mass index (BMI) 19.9 or less, adult",33281088
+10039708,28258130,32,K5730,10,Diverticulosis of large intestine without perforation or abscess without bleeding,33281088
+10039708,28258130,15,E873,10,Alkalosis,33281088
+10039708,28258130,6,G9340,10,"Encephalopathy, unspecified",33281088
+10039708,28258130,16,I5181,10,Takotsubo syndrome,33281088
+10039708,28258130,21,R680,10,"Hypothermia, not associated with low environmental temperature",33281088
+10039708,28258130,30,E60,10,Dietary zinc deficiency,33281088
+10015931,24420677,5,D696,10,"Thrombocytopenia, unspecified",38137964
+10015931,24420677,12,I4891,10,Unspecified atrial fibrillation,38137964
+10015931,24420677,16,E785,10,"Hyperlipidemia, unspecified",38137964
+10015931,24420677,27,R0902,10,Hypoxemia,38137964
+10015931,24420677,20,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,38137964
+10015931,24420677,23,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,38137964
+10015931,24420677,4,J90,10,"Pleural effusion, not elsewhere classified",38137964
+10015931,24420677,7,I272,10,Other secondary pulmonary hypertension,38137964
+10015931,24420677,15,J449,10,"Chronic obstructive pulmonary disease, unspecified",38137964
+10015931,24420677,2,R571,10,Hypovolemic shock,38137964
+10015931,24420677,11,N390,10,"Urinary tract infection, site not specified",38137964
+10015931,24420677,14,Z794,10,Long term (current) use of insulin,38137964
+10015931,24420677,13,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",38137964
+10015931,24420677,26,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,38137964
+10015931,24420677,19,T45515A,10,"Adverse effect of anticoagulants, initial encounter",38137964
+10015931,24420677,6,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,38137964
+10015931,24420677,1,I5023,10,Acute on chronic systolic (congestive) heart failure,38137964
+10015931,24420677,18,M7981,10,Nontraumatic hematoma of soft tissue,38137964
+10015931,24420677,25,F1021,10,"Alcohol dependence, in remission",38137964
+10015931,24420677,8,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,38137964
+10015931,24420677,3,N184,10,"Chronic kidney disease, stage 4 (severe)",38137964
+10015931,24420677,17,N400,10,Benign prostatic hyperplasia without lower urinary tract symptoms,38137964
+10015931,24420677,22,R5381,10,Other malaise,38137964
+10015931,24420677,10,L03116,10,Cellulitis of left lower limb,38137964
+10015931,24420677,21,H3530,10,Unspecified macular degeneration,38137964
+10015931,24420677,9,Q6432,10,Congenital stricture of urethra,38137964
+10015931,24420677,24,F4329,10,Adjustment disorder with other symptoms,38137964
+10015931,22130791,8,D696,10,"Thrombocytopenia, unspecified",37093652
+10015931,22130791,14,I4891,10,Unspecified atrial fibrillation,37093652
+10015931,22130791,10,D62,10,Acute posthemorrhagic anemia,37093652
+10015931,22130791,16,Z7901,10,Long term (current) use of anticoagulants,37093652
+10015931,22130791,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,37093652
+10015931,22130791,21,J449,10,"Chronic obstructive pulmonary disease, unspecified",37093652
+10015931,22130791,18,Z66,10,Do not resuscitate,37093652
+10015931,22130791,5,R571,10,Hypovolemic shock,37093652
+10015931,22130791,9,E872,10,Acidosis,37093652
+10015931,22130791,3,N170,10,Acute kidney failure with tubular necrosis,37093652
+10015931,22130791,4,J9601,10,Acute respiratory failure with hypoxia,37093652
+10015931,22130791,15,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,37093652
+10015931,22130791,12,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",37093652
+10015931,22130791,19,E875,10,Hyperkalemia,37093652
+10015931,22130791,20,E8339,10,Fall on stairs or ladders in water transport injuring unspecified person,37093652
+10015931,22130791,20,E8339,10,Other disorders of phosphorus metabolism,37093652
+10015931,22130791,7,G9340,10,"Encephalopathy, unspecified",37093652
+10015931,22130791,1,K921,10,Melena,37093652
+10015931,22130791,6,N184,10,"Chronic kidney disease, stage 4 (severe)",37093652
+10015931,22130791,17,N400,10,Benign prostatic hyperplasia without lower urinary tract symptoms,37093652
+10015931,22130791,13,Q6432,10,Congenital stricture of urethra,37093652
+10015931,22130791,23,Z953,10,Presence of xenogenic heart valve,37093652
+10015931,22130791,22,Z87442,10,Personal history of urinary calculi,37093652
+10015931,22130791,11,I5042,10,Chronic combined systolic (congestive) and diastolic (congestive) heart failure,37093652
+10019003,27525946,7,D696,10,"Thrombocytopenia, unspecified",35214014
+10019003,27525946,23,E119,10,Type 2 diabetes mellitus without complications,35214014
+10019003,27525946,15,E785,10,"Hyperlipidemia, unspecified",35214014
+10019003,27525946,8,D62,10,Acute posthemorrhagic anemia,35214014
+10019003,27525946,21,E669,10,"Obesity, unspecified",35214014
+10019003,27525946,14,I10,10,Essential (primary) hypertension,35214014
+10019003,27525946,11,Z87891,10,Personal history of nicotine dependence,35214014
+10019003,27525946,13,J449,10,"Chronic obstructive pulmonary disease, unspecified",35214014
+10019003,27525946,4,R6521,10,Severe sepsis with septic shock,35214014
+10019003,27525946,12,E039,10,"Hypothyroidism, unspecified",35214014
+10019003,27525946,17,Z66,10,Do not resuscitate,35214014
+10019003,27525946,2,A419,10,"Sepsis, unspecified organism",35214014
+10019003,27525946,24,Z794,10,Long term (current) use of insulin,35214014
+10019003,27525946,6,E8881,10,Fall resulting in striking against other object,35214014
+10019003,27525946,6,E8881,10,Metabolic syndrome,35214014
+10019003,27525946,19,Z853,10,Personal history of malignant neoplasm of breast,35214014
+10019003,27525946,3,J9601,10,Acute respiratory failure with hypoxia,35214014
+10019003,27525946,16,F329,10,"Major depressive disorder, single episode, unspecified",35214014
+10019003,27525946,5,J690,10,Pneumonitis due to inhalation of food and vomit,35214014
+10019003,27525946,18,Z781,10,Physical restraint status,35214014
+10019003,27525946,20,Z923,10,Personal history of irradiation,35214014
+10019003,27525946,10,C946,10,"Myelodysplastic disease, not classified",35214014
+10019003,27525946,9,C9590,10,"Leukemia, unspecified not having achieved remission",35214014
+10019003,27525946,1,K264,10,Chronic or unspecified duodenal ulcer with hemorrhage,35214014
+10019003,27525946,22,Z6833,10,"Body mass index (BMI) 33.0-33.9, adult",35214014
+10003400,23559586,38,D696,10,"Thrombocytopenia, unspecified",34577403
+10003400,23559586,21,D62,10,Acute posthemorrhagic anemia,34577403
+10003400,23559586,24,E8809,10,Accidental fall on or from other stairs or steps,34577403
+10003400,23559586,24,E8809,10,"Other disorders of plasma-protein metabolism, not elsewhere classified",34577403
+10003400,23559586,33,E669,10,"Obesity, unspecified",34577403
+10003400,23559586,4,N179,10,"Acute kidney failure, unspecified",34577403
+10003400,23559586,34,Z6838,10,"Body mass index (BMI) 38.0-38.9, adult",34577403
+10003400,23559586,26,Z7901,10,Long term (current) use of anticoagulants,34577403
+10003400,23559586,7,C9000,10,Multiple myeloma not having achieved remission,34577403
+10003400,23559586,2,R6521,10,Severe sepsis with septic shock,34577403
+10003400,23559586,22,Z66,10,Do not resuscitate,34577403
+10003400,23559586,5,A419,10,"Sepsis, unspecified organism",34577403
+10003400,23559586,35,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",34577403
+10003400,23559586,28,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",34577403
+10003400,23559586,30,N183,10,"Chronic kidney disease, stage 3 (moderate)",34577403
+10003400,23559586,23,Z515,10,Encounter for palliative care,34577403
+10003400,23559586,8,J910,10,Malignant pleural effusion,34577403
+10003400,23559586,32,R310,10,Gross hematuria,34577403
+10003400,23559586,36,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,34577403
+10003400,23559586,3,J9601,10,Acute respiratory failure with hypoxia,34577403
+10003400,23559586,37,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,34577403
+10003400,23559586,15,T814XXA,10,"Infection following a procedure, initial encounter",34577403
+10003400,23559586,20,I5032,10,Chronic diastolic (congestive) heart failure,34577403
+10003400,23559586,18,B3749,10,Other urogenital candidiasis,34577403
+10003400,23559586,13,E46,10,Unspecified protein-calorie malnutrition,34577403
+10003400,23559586,6,G9340,10,"Encephalopathy, unspecified",34577403
+10003400,23559586,25,I482,10,Chronic atrial fibrillation,34577403
+10003400,23559586,29,B9562,10,Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere,34577403
+10003400,23559586,12,C211,10,Malignant neoplasm of anal canal,34577403
+10003400,23559586,27,M179,10,"Osteoarthritis of knee, unspecified",34577403
+10003400,23559586,19,K311,10,Adult hypertrophic pyloric stenosis,34577403
+10003400,23559586,16,T8359XA,10,"Infection and inflammatory reaction due to prosthetic device, implant and graft in urinary system, initial encounter",34577403
+10003400,23559586,11,C7889,10,Secondary malignant neoplasm of other digestive organs,34577403
+10003400,23559586,31,Z433,10,Encounter for attention to colostomy,34577403
+10003400,23559586,10,C786,10,Secondary malignant neoplasm of retroperitoneum and peritoneum,34577403
+10003400,23559586,14,Q620,10,Congenital hydronephrosis,34577403
+10003400,23559586,9,K5660,10,Unspecified intestinal obstruction,34577403
+10003400,23559586,17,N12,10,"Tubulo-interstitial nephritis, not specified as acute or chronic",34577403
+10003400,23559586,1,T8131XA,10,"Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter",34577403
+10038992,24745425,3,D696,10,"Thrombocytopenia, unspecified",37127068
+10038992,24745425,11,E785,10,"Hyperlipidemia, unspecified",37127068
+10038992,24745425,9,D62,10,Acute posthemorrhagic anemia,37127068
+10038992,24745425,15,E669,10,"Obesity, unspecified",37127068
+10038992,24745425,16,Z87891,10,Personal history of nicotine dependence,37127068
+10038992,24745425,4,I272,10,Other secondary pulmonary hypertension,37127068
+10038992,24745425,7,I5022,10,Chronic systolic (congestive) heart failure,37127068
+10038992,24745425,10,J449,10,"Chronic obstructive pulmonary disease, unspecified",37127068
+10038992,24745425,14,E039,10,"Hypothyroidism, unspecified",37127068
+10038992,24745425,6,N183,10,"Chronic kidney disease, stage 3 (moderate)",37127068
+10038992,24745425,5,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",37127068
+10038992,24745425,8,I471,10,Supraventricular tachycardia,37127068
+10038992,24745425,12,G4733,10,Obstructive sleep apnea (adult) (pediatric),37127068
+10038992,24745425,13,M109,10,"Gout, unspecified",37127068
+10038992,24745425,17,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",37127068
+10038992,24745425,2,I428,10,Other cardiomyopathies,37127068
+10038992,24745425,1,I082,10,Rheumatic disorders of both aortic and tricuspid valves,37127068
+10039708,23819016,18,D649,10,"Anemia, unspecified",38559363
+10039708,23819016,4,N179,10,"Acute kidney failure, unspecified",38559363
+10039708,23819016,16,J45909,10,"Unspecified asthma, uncomplicated",38559363
+10039708,23819016,3,R6521,10,Severe sepsis with septic shock,38559363
+10039708,23819016,12,E039,10,"Hypothyroidism, unspecified",38559363
+10039708,23819016,13,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",38559363
+10039708,23819016,7,E872,10,Acidosis,38559363
+10039708,23819016,19,R410,10,"Disorientation, unspecified",38559363
+10039708,23819016,14,N189,10,"Chronic kidney disease, unspecified",38559363
+10039708,23819016,20,Z86718,10,Personal history of other venous thrombosis and embolism,38559363
+10039708,23819016,15,Z720,10,Tobacco use,38559363
+10039708,23819016,21,Z9884,10,Bariatric surgery status,38559363
+10039708,23819016,17,M109,10,"Gout, unspecified",38559363
+10039708,23819016,9,G629,10,"Polyneuropathy, unspecified",38559363
+10039708,23819016,10,F1020,10,"Alcohol dependence, uncomplicated",38559363
+10039708,23819016,1,A4189,10,Other specified sepsis,38559363
+10039708,23819016,6,E46,10,Unspecified protein-calorie malnutrition,38559363
+10039708,23819016,2,K859,10,"Acute pancreatitis, unspecified",38559363
+10039708,23819016,11,K7010,10,Alcoholic hepatitis without ascites,38559363
+10039708,23819016,8,E5112,10,Wet beriberi,38559363
+10039708,23819016,5,R64,10,Cachexia,38559363
+10020306,23052851,21,D649,10,"Anemia, unspecified",38540883
+10020306,23052851,20,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,38540883
+10020306,23052851,24,K219,10,Gastro-esophageal reflux disease without esophagitis,38540883
+10020306,23052851,23,E039,10,"Hypothyroidism, unspecified",38540883
+10020306,23052851,1,E43,10,Unspecified severe protein-calorie malnutrition,38540883
+10020306,23052851,26,Z853,10,Personal history of malignant neoplasm of breast,38540883
+10020306,23052851,3,N170,10,Acute kidney failure with tubular necrosis,38540883
+10020306,23052851,2,R570,10,Cardiogenic shock,38540883
+10020306,23052851,12,E870,10,Hyperosmolality and hypernatremia,38540883
+10020306,23052851,25,Z6824,10,"Body mass index (BMI) 24.0-24.9, adult",38540883
+10020306,23052851,28,E8339,10,Fall on stairs or ladders in water transport injuring unspecified person,38540883
+10020306,23052851,28,E8339,10,Other disorders of phosphorus metabolism,38540883
+10020306,23052851,13,I110,10,Hypertensive heart disease with heart failure,38540883
+10020306,23052851,22,G4733,10,Obstructive sleep apnea (adult) (pediatric),38540883
+10020306,23052851,18,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,38540883
+10020306,23052851,7,I481,10,Persistent atrial fibrillation,38540883
+10020306,23052851,11,R64,10,Cachexia,38540883
+10020306,23052851,8,D689,10,"Coagulation defect, unspecified",38540883
+10020306,23052851,27,Z781,10,Physical restraint status,38540883
+10020306,23052851,17,I951,10,Orthostatic hypotension,38540883
+10020306,23052851,16,R1310,10,"Dysphagia, unspecified",38540883
+10020306,23052851,10,E874,10,Mixed disorder of acid-base balance,38540883
+10020306,23052851,19,L0591,10,Pilonidal cyst without abscess,38540883
+10020306,23052851,6,I69351,10,Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side,38540883
+10020306,23052851,14,I69322,10,Dysarthria following cerebral infarction,38540883
+10020306,23052851,4,G92,10,Toxic encephalopathy,38540883
+10020306,23052851,15,I69391,10,Dysphagia following cerebral infarction,38540883
+10020306,23052851,5,I5043,10,Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,38540883
+10020306,23052851,9,A0472,10,"Enterocolitis due to Clostridium difficile, not specified as recurrent",38540883
+10038999,27189241,15,D649,10,"Anemia, unspecified",39711498
+10038999,27189241,11,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",39711498
+10038999,27189241,9,J9811,10,Atelectasis,39711498
+10038999,27189241,1,J189,10,"Pneumonia, unspecified organism",39711498
+10038999,27189241,14,I509,10,"Heart failure, unspecified",39711498
+10038999,27189241,2,R570,10,Cardiogenic shock,39711498
+10038999,27189241,5,D688,10,Other specified coagulation defects,39711498
+10038999,27189241,16,E875,10,Hyperkalemia,39711498
+10038999,27189241,10,I319,10,"Disease of pericardium, unspecified",39711498
+10038999,27189241,17,R001,10,"Bradycardia, unspecified",39711498
+10038999,27189241,3,I314,10,Cardiac tamponade,39711498
+10038999,27189241,8,I313,10,Pericardial effusion (noninflammatory),39711498
+10038999,27189241,6,E46,10,Unspecified protein-calorie malnutrition,39711498
+10038999,27189241,7,J9691,10,"Respiratory failure, unspecified with hypoxia",39711498
+10038999,27189241,13,R21,10,Rash and other nonspecific skin eruption,39711498
+10038999,27189241,4,J918,10,Pleural effusion in other conditions classified elsewhere,39711498
+10038999,27189241,12,H540,10,"Blindness, both eyes",39711498
+10016742,27568122,11,D649,10,"Anemia, unspecified",30425410
+10016742,27568122,9,E119,10,Type 2 diabetes mellitus without complications,30425410
+10016742,27568122,8,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",30425410
+10016742,27568122,10,Z794,10,Long term (current) use of insulin,30425410
+10016742,27568122,1,J9621,10,Acute and chronic respiratory failure with hypoxia,30425410
+10016742,27568122,3,Z9911,10,Dependence on respirator [ventilator] status,30425410
+10016742,27568122,5,I319,10,"Disease of pericardium, unspecified",30425410
+10016742,27568122,6,J9809,10,"Other diseases of bronchus, not elsewhere classified",30425410
+10016742,27568122,2,G1221,10,Amyotrophic lateral sclerosis,30425410
+10016742,27568122,4,Z930,10,Tracheostomy status,30425410
+10016742,27568122,7,Z434,10,Encounter for attention to other artificial openings of digestive tract,30425410
+10039708,24928679,20,F1010,10,"Alcohol abuse, uncomplicated",37323533
+10039708,24928679,6,D62,10,Acute posthemorrhagic anemia,37323533
+10039708,24928679,13,E039,10,"Hypothyroidism, unspecified",37323533
+10039708,24928679,21,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",37323533
+10039708,24928679,3,K767,10,Hepatorenal syndrome,37323533
+10039708,24928679,8,E872,10,Acidosis,37323533
+10039708,24928679,23,Z86718,10,Personal history of other venous thrombosis and embolism,37323533
+10039708,24928679,4,N186,10,End stage renal disease,37323533
+10039708,24928679,22,Z992,10,Dependence on renal dialysis,37323533
+10039708,24928679,1,K7031,10,Alcoholic cirrhosis of liver with ascites,37323533
+10039708,24928679,12,D6959,10,Other secondary thrombocytopenia,37323533
+10039708,24928679,18,R2232,10,"Localized swelling, mass and lump, left upper limb",37323533
+10039708,24928679,17,E875,10,Hyperkalemia,37323533
+10039708,24928679,24,Z9884,10,Bariatric surgery status,37323533
+10039708,24928679,14,M109,10,"Gout, unspecified",37323533
+10039708,24928679,16,R7989,10,Other specified abnormal findings of blood chemistry,37323533
+10039708,24928679,10,R600,10,Localized edema,37323533
+10039708,24928679,9,K7040,10,Alcoholic hepatic failure without coma,37323533
+10039708,24928679,11,D539,10,"Nutritional anemia, unspecified",37323533
+10039708,24928679,25,Z980,10,Intestinal bypass and anastomosis status,37323533
+10039708,24928679,5,K284,10,Chronic or unspecified gastrojejunal ulcer with hemorrhage,37323533
+10039708,24928679,15,R300,10,Dysuria,37323533
+10039708,24928679,7,K861,10,Other chronic pancreatitis,37323533
+10039708,24928679,2,I8511,10,Secondary esophageal varices with bleeding,37323533
+10039708,24928679,19,N281,10,"Cyst of kidney, acquired",37323533
+10022017,22342963,5,I4891,10,Unspecified atrial fibrillation,39497668
+10022017,22342963,3,I959,10,"Hypotension, unspecified",39497668
+10022017,22342963,14,Y832,10,"Surgical operation with anastomosis, bypass or graft as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",39497668
+10022017,22342963,4,K5190,10,"Ulcerative colitis, unspecified, without complications",39497668
+10022017,22342963,11,E119,10,Type 2 diabetes mellitus without complications,39497668
+10022017,22342963,12,E785,10,"Hyperlipidemia, unspecified",39497668
+10022017,22342963,2,J810,10,Acute pulmonary edema,39497668
+10022017,22342963,8,I255,10,Ischemic cardiomyopathy,39497668
+10022017,22342963,10,R0902,10,Hypoxemia,39497668
+10022017,22342963,13,G4700,10,"Insomnia, unspecified",39497668
+10022017,22342963,6,D62,10,Acute posthemorrhagic anemia,39497668
+10022017,22342963,1,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,39497668
+10022017,22342963,9,Z933,10,Colostomy status,39497668
+10022017,22342963,15,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,39497668
+10022017,22342963,7,I9789,10,"Other postprocedural complications and disorders of the circulatory system, not elsewhere classified",39497668
+10020786,23488445,4,I4891,10,Unspecified atrial fibrillation,33683112
+10020786,23488445,6,E119,10,Type 2 diabetes mellitus without complications,33683112
+10020786,23488445,8,E785,10,"Hyperlipidemia, unspecified",33683112
+10020786,23488445,12,I10,10,Essential (primary) hypertension,33683112
+10020786,23488445,11,Z87891,10,Personal history of nicotine dependence,33683112
+10020786,23488445,7,Z7901,10,Long term (current) use of anticoagulants,33683112
+10020786,23488445,5,J449,10,"Chronic obstructive pulmonary disease, unspecified",33683112
+10020786,23488445,2,R6521,10,Severe sepsis with septic shock,33683112
+10020786,23488445,9,E039,10,"Hypothyroidism, unspecified",33683112
+10020786,23488445,3,J189,10,"Pneumonia, unspecified organism",33683112
+10020786,23488445,13,K649,10,Unspecified hemorrhoids,33683112
+10020786,23488445,10,Z66,10,Do not resuscitate,33683112
+10020786,23488445,1,A419,10,"Sepsis, unspecified organism",33683112
+10007818,22987108,36,I4891,10,Unspecified atrial fibrillation,32359580
+10007818,22987108,33,E119,10,Type 2 diabetes mellitus without complications,32359580
+10007818,22987108,18,D62,10,Acute posthemorrhagic anemia,32359580
+10007818,22987108,25,J9811,10,Atelectasis,32359580
+10007818,22987108,5,N179,10,"Acute kidney failure, unspecified",32359580
+10007818,22987108,21,E871,10,Hypo-osmolality and hyponatremia,32359580
+10007818,22987108,32,Z955,10,Presence of coronary angioplasty implant and graft,32359580
+10007818,22987108,8,R6521,10,Severe sepsis with septic shock,32359580
+10007818,22987108,35,R627,10,Adult failure to thrive,32359580
+10007818,22987108,38,B9561,10,Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere,32359580
+10007818,22987108,4,A4151,10,Sepsis due to Escherichia coli [E. coli],32359580
+10007818,22987108,6,K661,10,Hemoperitoneum,32359580
+10007818,22987108,12,K7201,10,Acute and subacute hepatic failure with coma,32359580
+10007818,22987108,39,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",32359580
+10007818,22987108,26,I97610,10,Postprocedural hemorrhage of a circulatory system organ or structure following a cardiac catheterization,32359580
+10007818,22987108,28,K7581,10,Nonalcoholic steatohepatitis (NASH),32359580
+10007818,22987108,7,R571,10,Hypovolemic shock,32359580
+10007818,22987108,3,J9600,10,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",32359580
+10007818,22987108,27,T80219A,10,"Unspecified infection due to central venous catheter, initial encounter",32359580
+10007818,22987108,17,R188,10,Other ascites,32359580
+10007818,22987108,19,I4892,10,Unspecified atrial flutter,32359580
+10007818,22987108,30,D638,10,Anemia in other chronic diseases classified elsewhere,32359580
+10007818,22987108,14,K7200,10,Acute and subacute hepatic failure without coma,32359580
+10007818,22987108,11,E43,10,Unspecified severe protein-calorie malnutrition,32359580
+10007818,22987108,9,K659,10,"Peritonitis, unspecified",32359580
+10007818,22987108,22,N390,10,"Urinary tract infection, site not specified",32359580
+10007818,22987108,2,K767,10,Hepatorenal syndrome,32359580
+10007818,22987108,31,I25118,10,Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,32359580
+10007818,22987108,34,Z794,10,Long term (current) use of insulin,32359580
+10007818,22987108,29,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",32359580
+10007818,22987108,1,K7469,10,Other cirrhosis of liver,32359580
+10007818,22987108,15,D684,10,Acquired coagulation factor deficiency,32359580
+10007818,22987108,16,J95851,10,Ventilator associated pneumonia,32359580
+10007818,22987108,24,E872,10,Acidosis,32359580
+10007818,22987108,20,K766,10,Portal hypertension,32359580
+10007818,22987108,13,T8119XA,10,"Other postprocedural shock, initial encounter",32359580
+10007818,22987108,23,K567,10,"Ileus, unspecified",32359580
+10007818,22987108,37,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,32359580
+10007818,22987108,10,N183,10,"Chronic kidney disease, stage 3 (moderate)",32359580
+10037861,24540843,19,I4891,10,Unspecified atrial fibrillation,34531557
+10037861,24540843,21,E785,10,"Hyperlipidemia, unspecified",34531557
+10037861,24540843,27,I255,10,Ischemic cardiomyopathy,34531557
+10037861,24540843,24,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,34531557
+10037861,24540843,36,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,34531557
+10037861,24540843,10,N179,10,"Acute kidney failure, unspecified",34531557
+10037861,24540843,29,Z87891,10,Personal history of nicotine dependence,34531557
+10037861,24540843,20,Z7901,10,Long term (current) use of anticoagulants,34531557
+10037861,24540843,25,Z955,10,Presence of coronary angioplasty implant and graft,34531557
+10037861,24540843,4,R6521,10,Severe sepsis with septic shock,34531557
+10037861,24540843,16,Z66,10,Do not resuscitate,34531557
+10037861,24540843,5,A419,10,"Sepsis, unspecified organism",34531557
+10037861,24540843,35,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",34531557
+10037861,24540843,3,J9600,10,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",34531557
+10037861,24540843,8,N390,10,"Urinary tract infection, site not specified",34531557
+10037861,24540843,11,J95851,10,Ventilator associated pneumonia,34531557
+10037861,24540843,34,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,34531557
+10037861,24540843,23,N183,10,"Chronic kidney disease, stage 3 (moderate)",34531557
+10037861,24540843,32,I9581,10,Postprocedural hypotension,34531557
+10037861,24540843,17,Z515,10,Encounter for palliative care,34531557
+10037861,24540843,26,I252,10,Old myocardial infarction,34531557
+10037861,24540843,9,Z9911,10,Dependence on respirator [ventilator] status,34531557
+10037861,24540843,22,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,34531557
+10037861,24540843,2,G935,10,Compression of brain,34531557
+10037861,24540843,28,Z9282,10,Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility,34531557
+10037861,24540843,7,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",34531557
+10037861,24540843,14,W19XXXA,10,"Unspecified fall, initial encounter",34531557
+10037861,24540843,33,R4020,10,Unspecified coma,34531557
+10037861,24540843,12,E870,10,Hyperosmolality and hypernatremia,34531557
+10037861,24540843,31,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,34531557
+10037861,24540843,39,I714,10,"Abdominal aortic aneurysm, without rupture",34531557
+10037861,24540843,18,Z95810,10,Presence of automatic (implantable) cardiac defibrillator,34531557
+10037861,24540843,37,S06357A,10,"Traumatic hemorrhage of left cerebrum with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness, initial encounter",34531557
+10037861,24540843,30,G40901,10,"Epilepsy, unspecified, not intractable, with status epilepticus",34531557
+10037861,24540843,13,I82612,10,Acute embolism and thrombosis of superficial veins of left upper extremity,34531557
+10037861,24540843,38,N200,10,Calculus of kidney,34531557
+10037861,24540843,15,Y92009,10,Unspecified place in unspecified non-institutional (private) residence as the place of occurrence of the external cause,34531557
+10037861,24540843,6,I5023,10,Acute on chronic systolic (congestive) heart failure,34531557
+10037861,24540843,1,S065X7A,10,"Traumatic subdural hemorrhage with loss of consciousness of any duration with death due to brain injury before regaining consciousness, initial encounter",34531557
+10014354,29600294,10,I4891,10,Unspecified atrial fibrillation,39864867
+10014354,29600294,13,E119,10,Type 2 diabetes mellitus without complications,39864867
+10014354,29600294,19,E785,10,"Hyperlipidemia, unspecified",39864867
+10014354,29600294,16,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,39864867
+10014354,29600294,25,E669,10,"Obesity, unspecified",39864867
+10014354,29600294,3,N179,10,"Acute kidney failure, unspecified",39864867
+10014354,29600294,21,Z7901,10,Long term (current) use of anticoagulants,39864867
+10014354,29600294,17,Z955,10,Presence of coronary angioplasty implant and graft,39864867
+10014354,29600294,15,E039,10,"Hypothyroidism, unspecified",39864867
+10014354,29600294,9,I4892,10,Unspecified atrial flutter,39864867
+10014354,29600294,23,Z794,10,Long term (current) use of insulin,39864867
+10014354,29600294,5,I480,10,Paroxysmal atrial fibrillation,39864867
+10014354,29600294,22,G8929,10,Other chronic pain,39864867
+10014354,29600294,24,R339,10,"Retention of urine, unspecified",39864867
+10014354,29600294,2,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,39864867
+10014354,29600294,7,I110,10,Hypertensive heart disease with heart failure,39864867
+10014354,29600294,20,G4733,10,Obstructive sleep apnea (adult) (pediatric),39864867
+10014354,29600294,6,F259,10,"Schizoaffective disorder, unspecified",39864867
+10014354,29600294,8,I5032,10,Chronic diastolic (congestive) heart failure,39864867
+10014354,29600294,26,Z6836,10,"Body mass index (BMI) 36.0-36.9, adult",39864867
+10014354,29600294,12,E861,10,Hypovolemia,39864867
+10014354,29600294,1,J208,10,Acute bronchitis due to other specified organisms,39864867
+10014354,29600294,4,E222,10,Syndrome of inappropriate secretion of antidiuretic hormone,39864867
+10014354,29600294,18,I69398,10,Other sequelae of cerebral infarction,39864867
+10014354,29600294,11,B3749,10,Other urogenital candidiasis,39864867
+10014354,29600294,14,D630,10,Anemia in neoplastic disease,39864867
+10035631,29276678,24,I4891,10,Unspecified atrial fibrillation,30932571
+10035631,29276678,36,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,30932571
+10035631,29276678,21,E860,10,Dehydration,30932571
+10035631,29276678,13,J9811,10,Atelectasis,30932571
+10035631,29276678,14,N179,10,"Acute kidney failure, unspecified",30932571
+10035631,29276678,15,E871,10,Hypo-osmolality and hyponatremia,30932571
+10035631,29276678,35,Z87891,10,Personal history of nicotine dependence,30932571
+10035631,29276678,6,J90,10,"Pleural effusion, not elsewhere classified",30932571
+10035631,29276678,29,Z66,10,Do not resuscitate,30932571
+10035631,29276678,4,A419,10,"Sepsis, unspecified organism",30932571
+10035631,29276678,8,E872,10,Acidosis,30932571
+10035631,29276678,33,Z853,10,Personal history of malignant neoplasm of breast,30932571
+10035631,29276678,30,Z515,10,Encounter for palliative care,30932571
+10035631,29276678,2,E883,10,Tumor lysis syndrome,30932571
+10035631,29276678,32,Z006,10,Encounter for examination for normal comparison and control in clinical research program,30932571
+10035631,29276678,1,J9601,10,Acute respiratory failure with hypoxia,30932571
+10035631,29276678,16,I248,10,Other forms of acute ischemic heart disease,30932571
+10035631,29276678,25,D6959,10,Other secondary thrombocytopenia,30932571
+10035631,29276678,3,R6520,10,Severe sepsis without septic shock,30932571
+10035631,29276678,22,E875,10,Hyperkalemia,30932571
+10035631,29276678,26,D630,10,Anemia in neoplastic disease,30932571
+10035631,29276678,28,T451X5A,10,"Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter",30932571
+10035631,29276678,18,D689,10,"Coagulation defect, unspecified",30932571
+10035631,29276678,10,D89813,10,"Graft-versus-host disease, unspecified",30932571
+10035631,29276678,7,B59,10,Pneumocystosis,30932571
+10035631,29276678,27,H1133,10,"Conjunctival hemorrhage, bilateral",30932571
+10035631,29276678,20,R5081,10,Fever presenting with conditions classified elsewhere,30932571
+10035631,29276678,11,Z9484,10,Stem cells transplant status,30932571
+10035631,29276678,17,R042,10,Hemoptysis,30932571
+10035631,29276678,31,Z781,10,Physical restraint status,30932571
+10035631,29276678,19,D709,10,"Neutropenia, unspecified",30932571
+10035631,29276678,9,J159,10,Unspecified bacterial pneumonia,30932571
+10035631,29276678,34,Z9012,10,Acquired absence of left breast and nipple,30932571
+10035631,29276678,23,G893,10,Neoplasm related pain (acute) (chronic),30932571
+10035631,29276678,5,B441,10,Other pulmonary aspergillosis,30932571
+10035631,29276678,12,C92Z0,10,Other myeloid leukemia not having achieved remission,30932571
+10040025,27996267,28,I4891,10,Unspecified atrial fibrillation,36107367
+10040025,27996267,11,Y832,10,"Surgical operation with anastomosis, bypass or graft as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36107367
+10040025,27996267,24,E785,10,"Hyperlipidemia, unspecified",36107367
+10040025,27996267,5,D62,10,Acute posthemorrhagic anemia,36107367
+10040025,27996267,26,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,36107367
+10040025,27996267,39,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,36107367
+10040025,27996267,3,N179,10,"Acute kidney failure, unspecified",36107367
+10040025,27996267,31,K219,10,Gastro-esophageal reflux disease without esophagitis,36107367
+10040025,27996267,30,J449,10,"Chronic obstructive pulmonary disease, unspecified",36107367
+10040025,27996267,25,E039,10,"Hypothyroidism, unspecified",36107367
+10040025,27996267,14,Z66,10,Do not resuscitate,36107367
+10040025,27996267,8,T8119XA,10,"Other postprocedural shock, initial encounter",36107367
+10040025,27996267,20,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,36107367
+10040025,27996267,15,Z515,10,Encounter for palliative care,36107367
+10040025,27996267,13,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,36107367
+10040025,27996267,10,I130,10,"Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",36107367
+10040025,27996267,2,I5033,10,Acute on chronic diastolic (congestive) heart failure,36107367
+10040025,27996267,1,T814XXA,10,"Infection following a procedure, initial encounter",36107367
+10040025,27996267,22,B954,10,Other streptococcus as the cause of diseases classified elsewhere,36107367
+10040025,27996267,32,E11621,10,Type 2 diabetes mellitus with foot ulcer,36107367
+10040025,27996267,6,E1152,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene,36107367
+10040025,27996267,35,R197,10,"Diarrhea, unspecified",36107367
+10040025,27996267,29,F329,10,"Major depressive disorder, single episode, unspecified",36107367
+10040025,27996267,27,M109,10,"Gout, unspecified",36107367
+10040025,27996267,12,Y929,10,Unspecified place or not applicable,36107367
+10040025,27996267,36,R748,10,Abnormal levels of other serum enzymes,36107367
+10040025,27996267,7,F05,10,Delirium due to known physiological condition,36107367
+10040025,27996267,38,T402X5A,10,"Adverse effect of other opioids, initial encounter",36107367
+10040025,27996267,17,R791,10,Abnormal coagulation profile,36107367
+10040025,27996267,4,N184,10,"Chronic kidney disease, stage 4 (severe)",36107367
+10040025,27996267,16,Z781,10,Physical restraint status,36107367
+10040025,27996267,9,T8131XA,10,"Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter",36107367
+10040025,27996267,23,L89899,10,"Pressure ulcer of other site, unspecified stage",36107367
+10040025,27996267,33,L97529,10,Non-pressure chronic ulcer of other part of left foot with unspecified severity,36107367
+10040025,27996267,34,R159,10,Full incontinence of feces,36107367
+10040025,27996267,21,Z1623,10,Resistance to quinolones and fluoroquinolones,36107367
+10040025,27996267,19,Z1621,10,Resistance to vancomycin,36107367
+10040025,27996267,37,K5903,10,Drug induced constipation,36107367
+10040025,27996267,18,B952,10,Enterococcus as the cause of diseases classified elsewhere,36107367
+10010471,29842315,7,I959,10,"Hypotension, unspecified",32119961
+10010471,29842315,15,E785,10,"Hyperlipidemia, unspecified",32119961
+10010471,29842315,16,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,32119961
+10010471,29842315,19,Z87891,10,Personal history of nicotine dependence,32119961
+10010471,29842315,20,K219,10,Gastro-esophageal reflux disease without esophagitis,32119961
+10010471,29842315,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32119961
+10010471,29842315,12,J449,10,"Chronic obstructive pulmonary disease, unspecified",32119961
+10010471,29842315,17,E039,10,"Hypothyroidism, unspecified",32119961
+10010471,29842315,24,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",32119961
+10010471,29842315,11,Z9981,10,Dependence on supplemental oxygen,32119961
+10010471,29842315,27,Z515,10,Encounter for palliative care,32119961
+10010471,29842315,30,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,32119961
+10010471,29842315,29,T45515A,10,"Adverse effect of anticoagulants, initial encounter",32119961
+10010471,29842315,10,I480,10,Paroxysmal atrial fibrillation,32119961
+10010471,29842315,2,N186,10,End stage renal disease,32119961
+10010471,29842315,22,D631,10,Anemia in chronic kidney disease,32119961
+10010471,29842315,23,Z992,10,Dependence on renal dialysis,32119961
+10010471,29842315,18,M5489,10,Other dorsalgia,32119961
+10010471,29842315,8,R7881,10,Bacteremia,32119961
+10010471,29842315,26,R740,10,Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH],32119961
+10010471,29842315,14,I447,10,"Left bundle-branch block, unspecified",32119961
+10010471,29842315,21,Z45018,10,Encounter for adjustment and management of other part of cardiac pacemaker,32119961
+10010471,29842315,6,S2243XA,10,"Multiple fractures of ribs, bilateral, initial encounter for closed fracture",32119961
+10010471,29842315,5,I5033,10,Acute on chronic diastolic (congestive) heart failure,32119961
+10010471,29842315,3,I462,10,Cardiac arrest due to underlying cardiac condition,32119961
+10010471,29842315,4,J9690,10,"Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia",32119961
+10010471,29842315,28,M7981,10,Nontraumatic hematoma of soft tissue,32119961
+10010471,29842315,13,I080,10,Rheumatic disorders of both mitral and aortic valves,32119961
+10010471,29842315,25,Y9289,10,Other specified places as the place of occurrence of the external cause,32119961
+10010471,29842315,9,I132,10,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",32119961
+10023117,21607814,5,I959,10,"Hypotension, unspecified",30955999
+10023117,21607814,12,E785,10,"Hyperlipidemia, unspecified",30955999
+10023117,21607814,17,G4700,10,"Insomnia, unspecified",30955999
+10023117,21607814,8,K2270,10,Barrett's esophagus without dysplasia,30955999
+10023117,21607814,6,N179,10,"Acute kidney failure, unspecified",30955999
+10023117,21607814,23,Z87891,10,Personal history of nicotine dependence,30955999
+10023117,21607814,20,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,30955999
+10023117,21607814,13,K219,10,Gastro-esophageal reflux disease without esophagitis,30955999
+10023117,21607814,19,F419,10,"Anxiety disorder, unspecified",30955999
+10023117,21607814,27,Z66,10,Do not resuscitate,30955999
+10023117,21607814,14,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",30955999
+10023117,21607814,26,Z515,10,Encounter for palliative care,30955999
+10023117,21607814,15,N189,10,"Chronic kidney disease, unspecified",30955999
+10023117,21607814,22,Z86718,10,Personal history of other venous thrombosis and embolism,30955999
+10023117,21607814,3,R570,10,Cardiogenic shock,30955999
+10023117,21607814,11,Z95810,10,Presence of automatic (implantable) cardiac defibrillator,30955999
+10023117,21607814,1,I5023,10,Acute on chronic systolic (congestive) heart failure,30955999
+10023117,21607814,16,I340,10,Nonrheumatic mitral (valve) insufficiency,30955999
+10023117,21607814,7,I248,10,Other forms of acute ischemic heart disease,30955999
+10023117,21607814,18,F329,10,"Major depressive disorder, single episode, unspecified",30955999
+10023117,21607814,25,R300,10,Dysuria,30955999
+10023117,21607814,4,D689,10,"Coagulation defect, unspecified",30955999
+10023117,21607814,21,Z85528,10,Personal history of other malignant neoplasm of kidney,30955999
+10023117,21607814,10,F200,10,Paranoid schizophrenia,30955999
+10023117,21607814,24,E806,10,Other disorders of bilirubin metabolism,30955999
+10023117,21607814,9,I361,10,Nonrheumatic tricuspid (valve) insufficiency,30955999
+10023117,21607814,2,I428,10,Other cardiomyopathies,30955999
+10016742,28506150,7,I959,10,"Hypotension, unspecified",32314488
+10016742,28506150,10,E119,10,Type 2 diabetes mellitus without complications,32314488
+10016742,28506150,18,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,32314488
+10016742,28506150,14,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,32314488
+10016742,28506150,16,I10,10,Essential (primary) hypertension,32314488
+10016742,28506150,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32314488
+10016742,28506150,9,N390,10,"Urinary tract infection, site not specified",32314488
+10016742,28506150,15,Z794,10,Long term (current) use of insulin,32314488
+10016742,28506150,5,J95851,10,Ventilator associated pneumonia,32314488
+10016742,28506150,4,Z9911,10,Dependence on respirator [ventilator] status,32314488
+10016742,28506150,13,T17990A,10,"Other foreign object in respiratory tract, part unspecified in causing asphyxiation, initial encounter",32314488
+10016742,28506150,12,F259,10,"Schizoaffective disorder, unspecified",32314488
+10016742,28506150,8,I319,10,"Disease of pericardium, unspecified",32314488
+10016742,28506150,17,R569,10,Unspecified convulsions,32314488
+10016742,28506150,3,G1221,10,Amyotrophic lateral sclerosis,32314488
+10016742,28506150,6,Z930,10,Tracheostomy status,32314488
+10016742,28506150,1,R4182,10,"Altered mental status, unspecified",32314488
+10016742,28506150,11,G3109,10,Other frontotemporal dementia,32314488
+10012853,27882036,12,E119,10,Type 2 diabetes mellitus without complications,31338022
+10012853,27882036,26,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,31338022
+10012853,27882036,19,E669,10,"Obesity, unspecified",31338022
+10012853,27882036,24,E780,10,Pure hypercholesterolemia,31338022
+10012853,27882036,29,Z7901,10,Long term (current) use of anticoagulants,31338022
+10012853,27882036,6,D472,10,Monoclonal gammopathy,31338022
+10012853,27882036,27,Z7982,10,Long term (current) use of aspirin,31338022
+10012853,27882036,5,J449,10,"Chronic obstructive pulmonary disease, unspecified",31338022
+10012853,27882036,21,F17210,10,"Nicotine dependence, cigarettes, uncomplicated",31338022
+10012853,27882036,8,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",31338022
+10012853,27882036,9,N183,10,"Chronic kidney disease, stage 3 (moderate)",31338022
+10012853,27882036,2,J9621,10,Acute and chronic respiratory failure with hypoxia,31338022
+10012853,27882036,3,I480,10,Paroxysmal atrial fibrillation,31338022
+10012853,27882036,15,I714,10,"Abdominal aortic aneurysm, without rupture",31338022
+10012853,27882036,13,D509,10,"Iron deficiency anemia, unspecified",31338022
+10012853,27882036,30,Z8673,10,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",31338022
+10012853,27882036,20,G4733,10,Obstructive sleep apnea (adult) (pediatric),31338022
+10012853,27882036,25,M109,10,"Gout, unspecified",31338022
+10012853,27882036,10,I739,10,"Peripheral vascular disease, unspecified",31338022
+10012853,27882036,4,N319,10,"Neuromuscular dysfunction of bladder, unspecified",31338022
+10012853,27882036,28,Z86711,10,Personal history of pulmonary embolism,31338022
+10012853,27882036,17,J398,10,Other specified diseases of upper respiratory tract,31338022
+10012853,27882036,1,I82622,10,Acute embolism and thrombosis of deep veins of left upper extremity,31338022
+10012853,27882036,7,J9622,10,Acute and chronic respiratory failure with hypercapnia,31338022
+10012853,27882036,18,K5790,10,"Diverticulosis of intestine, part unspecified, without perforation or abscess without bleeding",31338022
+10012853,27882036,23,M19072,10,"Primary osteoarthritis, left ankle and foot",31338022
+10012853,27882036,22,K8020,10,Calculus of gallbladder without cholecystitis without obstruction,31338022
+10012853,27882036,11,E042,10,Nontoxic multinodular goiter,31338022
+10012853,27882036,16,M1000,10,"Idiopathic gout, unspecified site",31338022
+10012853,27882036,14,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",31338022
+10019003,21457723,14,E119,10,Type 2 diabetes mellitus without complications,35727289
+10019003,21457723,11,Z87891,10,Personal history of nicotine dependence,35727289
+10019003,21457723,13,J449,10,"Chronic obstructive pulmonary disease, unspecified",35727289
+10019003,21457723,15,E039,10,"Hypothyroidism, unspecified",35727289
+10019003,21457723,18,K7581,10,Nonalcoholic steatohepatitis (NASH),35727289
+10019003,21457723,3,E872,10,Acidosis,35727289
+10019003,21457723,10,Z853,10,Personal history of malignant neoplasm of breast,35727289
+10019003,21457723,9,Z86718,10,Personal history of other venous thrombosis and embolism,35727289
+10019003,21457723,16,E7800,10,"Pure hypercholesterolemia, unspecified",35727289
+10019003,21457723,17,F329,10,"Major depressive disorder, single episode, unspecified",35727289
+10019003,21457723,12,I110,10,Hypertensive heart disease with heart failure,35727289
+10019003,21457723,2,I5032,10,Chronic diastolic (congestive) heart failure,35727289
+10019003,21457723,8,R319,10,"Hematuria, unspecified",35727289
+10019003,21457723,1,D61818,10,Other pancytopenia,35727289
+10019003,21457723,4,D689,10,"Coagulation defect, unspecified",35727289
+10019003,21457723,21,G893,10,Neoplasm related pain (acute) (chronic),35727289
+10019003,21457723,7,R823,10,Hemoglobinuria,35727289
+10019003,21457723,5,D599,10,"Acquired hemolytic anemia, unspecified",35727289
+10019003,21457723,6,D46Z,10,Other myelodysplastic syndromes,35727289
+10019003,21457723,20,E790,10,Hyperuricemia without signs of inflammatory arthritis and tophaceous disease,35727289
+10019003,21457723,19,I2720,10,"Pulmonary hypertension, unspecified",35727289
+10019003,29279905,13,E119,10,Type 2 diabetes mellitus without complications,34107647
+10019003,29279905,12,R0902,10,Hypoxemia,34107647
+10019003,29279905,6,D62,10,Acute posthemorrhagic anemia,34107647
+10019003,29279905,7,Z6841,10,"Body mass index (BMI) 40.0-44.9, adult",34107647
+10019003,29279905,16,I10,10,Essential (primary) hypertension,34107647
+10019003,29279905,9,E860,10,Dehydration,34107647
+10019003,29279905,3,N179,10,"Acute kidney failure, unspecified",34107647
+10019003,29279905,19,Z87891,10,Personal history of nicotine dependence,34107647
+10019003,29279905,11,E780,10,Pure hypercholesterolemia,34107647
+10019003,29279905,18,J45909,10,"Unspecified asthma, uncomplicated",34107647
+10019003,29279905,14,J449,10,"Chronic obstructive pulmonary disease, unspecified",34107647
+10019003,29279905,2,R6521,10,Severe sepsis with septic shock,34107647
+10019003,29279905,10,E039,10,"Hypothyroidism, unspecified",34107647
+10019003,29279905,25,Z66,10,Do not resuscitate,34107647
+10019003,29279905,1,A419,10,"Sepsis, unspecified organism",34107647
+10019003,29279905,20,K7581,10,Nonalcoholic steatohepatitis (NASH),34107647
+10019003,29279905,8,N390,10,"Urinary tract infection, site not specified",34107647
+10019003,29279905,15,F329,10,"Major depressive disorder, single episode, unspecified",34107647
+10019003,29279905,17,G4733,10,Obstructive sleep apnea (adult) (pediatric),34107647
+10019003,29279905,23,T451X5A,10,"Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter",34107647
+10019003,29279905,26,E6601,10,Morbid (severe) obesity due to excess calories,34107647
+10019003,29279905,4,K264,10,Chronic or unspecified duodenal ulcer with hemorrhage,34107647
+10019003,29279905,24,K259,10,"Gastric ulcer, unspecified as acute or chronic, without hemorrhage or perforation",34107647
+10019003,29279905,22,T504X5A,10,"Adverse effect of drugs affecting uric acid metabolism, initial encounter",34107647
+10019003,29279905,5,D471,10,Chronic myeloproliferative disease,34107647
+10019003,29279905,21,L271,10,Localized skin eruption due to drugs and medicaments taken internally,34107647
+10016742,29281842,16,E119,10,Type 2 diabetes mellitus without complications,37057036
+10016742,29281842,21,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,37057036
+10016742,29281842,25,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",37057036
+10016742,29281842,5,N179,10,"Acute kidney failure, unspecified",37057036
+10016742,29281842,18,Z7982,10,Long term (current) use of aspirin,37057036
+10016742,29281842,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,37057036
+10016742,29281842,11,N390,10,"Urinary tract infection, site not specified",37057036
+10016742,29281842,1,J95851,10,Ventilator associated pneumonia,37057036
+10016742,29281842,10,Z9911,10,Dependence on respirator [ventilator] status,37057036
+10016742,29281842,12,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,37057036
+10016742,29281842,22,F259,10,"Schizoaffective disorder, unspecified",37057036
+10016742,29281842,19,N141,10,"Nephropathy induced by other drugs, medicaments and biological substances",37057036
+10016742,29281842,7,E873,10,Alkalosis,37057036
+10016742,29281842,3,G9340,10,"Encephalopathy, unspecified",37057036
+10016742,29281842,24,Z781,10,Physical restraint status,37057036
+10016742,29281842,23,Z6829,10,"Body mass index (BMI) 29.0-29.9, adult",37057036
+10016742,29281842,4,G1221,10,Amyotrophic lateral sclerosis,37057036
+10016742,29281842,8,D721,10,Eosinophilia,37057036
+10016742,29281842,6,N10,10,Acute pyelonephritis,37057036
+10016742,29281842,17,B9620,10,Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere,37057036
+10016742,29281842,9,J9610,10,"Chronic respiratory failure, unspecified whether with hypoxia or hypercapnia",37057036
+10016742,29281842,15,Z931,10,Gastrostomy status,37057036
+10016742,29281842,20,T360X5A,10,"Adverse effect of penicillins, initial encounter",37057036
+10016742,29281842,13,Z430,10,Encounter for attention to tracheostomy,37057036
+10016742,29281842,14,Z4689,10,Encounter for fitting and adjustment of other specified devices,37057036
+10020187,26842957,4,E785,10,"Hyperlipidemia, unspecified",32554129
+10020187,26842957,7,Z96651,10,Presence of right artificial knee joint,32554129
+10020187,26842957,2,Z6841,10,"Body mass index (BMI) 40.0-44.9, adult",32554129
+10020187,26842957,1,I671,10,"Cerebral aneurysm, nonruptured",32554129
+10020187,26842957,6,M1712,10,"Unilateral primary osteoarthritis, left knee",32554129
+10020187,26842957,8,K2270,10,Barrett's esophagus without dysplasia,32554129
+10020187,26842957,5,E669,10,"Obesity, unspecified",32554129
+10020187,26842957,3,I10,10,Essential (primary) hypertension,32554129
+10020187,26842957,9,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,32554129
+10031404,21606243,10,E785,10,"Hyperlipidemia, unspecified",35544374
+10031404,21606243,9,I10,10,Essential (primary) hypertension,35544374
+10031404,21606243,5,E860,10,Dehydration,35544374
+10031404,21606243,7,J9811,10,Atelectasis,35544374
+10031404,21606243,3,N179,10,"Acute kidney failure, unspecified",35544374
+10031404,21606243,12,L930,10,Discoid lupus erythematosus,35544374
+10031404,21606243,13,R002,10,Palpitations,35544374
+10031404,21606243,11,Z8781,10,Personal history of (healed) traumatic fracture,35544374
+10031404,21606243,6,I9589,10,Other hypotension,35544374
+10031404,21606243,8,R000,10,"Tachycardia, unspecified",35544374
+10031404,21606243,4,E871,10,Hypo-osmolality and hyponatremia,35544374
+10031404,21606243,15,Z87891,10,Personal history of nicotine dependence,35544374
+10031404,21606243,1,I308,10,Other forms of acute pericarditis,35544374
+10031404,21606243,2,J90,10,"Pleural effusion, not elsewhere classified",35544374
+10031404,21606243,14,Z8639,10,"Personal history of other endocrine, nutritional and metabolic disease",35544374
+10019385,20297618,3,E785,10,"Hyperlipidemia, unspecified",39268883
+10019385,20297618,2,E669,10,"Obesity, unspecified",39268883
+10019385,20297618,8,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,39268883
+10019385,20297618,9,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,39268883
+10019385,20297618,1,I25110,10,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,39268883
+10019385,20297618,5,F17200,10,"Nicotine dependence, unspecified, uncomplicated",39268883
+10019385,20297618,4,Z955,10,Presence of coronary angioplasty implant and graft,39268883
+10019385,20297618,7,F419,10,"Anxiety disorder, unspecified",39268883
+10019385,20297618,6,Z6832,10,"Body mass index (BMI) 32.0-32.9, adult",39268883
+10018328,23786647,12,E785,10,"Hyperlipidemia, unspecified",31269608
+10018328,23786647,5,D62,10,Acute posthemorrhagic anemia,31269608
+10018328,23786647,16,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,31269608
+10018328,23786647,1,I671,10,"Cerebral aneurysm, nonruptured",31269608
+10018328,23786647,10,I10,10,Essential (primary) hypertension,31269608
+10018328,23786647,8,I97131,10,Postprocedural heart failure following other surgery,31269608
+10018328,23786647,9,I9752,10,Accidental puncture and laceration of a circulatory system organ or structure during other procedure,31269608
+10018328,23786647,7,J942,10,Hemothorax,31269608
+10018328,23786647,3,I5031,10,Acute diastolic (congestive) heart failure,31269608
+10018328,23786647,11,Z853,10,Personal history of malignant neoplasm of breast,31269608
+10018328,23786647,2,G936,10,Cerebral edema,31269608
+10018328,23786647,6,I97618,10,Postprocedural hemorrhage of a circulatory system organ or structure following other circulatory system procedure,31269608
+10018328,23786647,4,R4701,10,Aphasia,31269608
+10018328,23786647,14,R079,10,"Chest pain, unspecified",31269608
+10018328,23786647,13,I9581,10,Postprocedural hypotension,31269608
+10018328,23786647,15,Y834,10,"Other reconstructive surgery as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",31269608
+10002495,24982426,13,E785,10,"Hyperlipidemia, unspecified",36753294
+10002495,24982426,8,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,36753294
+10002495,24982426,12,I10,10,Essential (primary) hypertension,36753294
+10002495,24982426,18,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,36753294
+10002495,24982426,6,N179,10,"Acute kidney failure, unspecified",36753294
+10002495,24982426,23,Z87891,10,Personal history of nicotine dependence,36753294
+10002495,24982426,26,K219,10,Gastro-esophageal reflux disease without esophagitis,36753294
+10002495,24982426,16,Z7901,10,Long term (current) use of anticoagulants,36753294
+10002495,24982426,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,36753294
+10002495,24982426,20,Z23,10,Encounter for immunization,36753294
+10002495,24982426,25,R410,10,"Disorientation, unspecified",36753294
+10002495,24982426,17,R310,10,Gross hematuria,36753294
+10002495,24982426,15,Z86718,10,Personal history of other venous thrombosis and embolism,36753294
+10002495,24982426,5,A047,10,Enterocolitis due to Clostridium difficile,36753294
+10002495,24982426,10,X58XXXA,10,"Exposure to other specified factors, initial encounter",36753294
+10002495,24982426,11,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,36753294
+10002495,24982426,3,I509,10,"Heart failure, unspecified",36753294
+10002495,24982426,2,R570,10,Cardiogenic shock,36753294
+10002495,24982426,9,E118,10,Type 2 diabetes mellitus with unspecified complications,36753294
+10002495,24982426,7,S3730XA,10,"Unspecified injury of urethra, initial encounter",36753294
+10002495,24982426,14,T45515A,10,"Adverse effect of anticoagulants, initial encounter",36753294
+10002495,24982426,19,I480,10,Paroxysmal atrial fibrillation,36753294
+10002495,24982426,24,I252,10,Old myocardial infarction,36753294
+10002495,24982426,21,K2960,10,Other gastritis without bleeding,36753294
+10002495,24982426,22,B9681,10,Helicobacter pylori [H. pylori] as the cause of diseases classified elsewhere,36753294
+10002495,24982426,4,R578,10,Other shock,36753294
+10015860,24698912,27,E785,10,"Hyperlipidemia, unspecified",36734659
+10015860,24698912,20,Y92230,10,Patient room in hospital as the place of occurrence of the external cause,36734659
+10015860,24698912,8,E871,10,Hypo-osmolality and hyponatremia,36734659
+10015860,24698912,33,Z87891,10,Personal history of nicotine dependence,36734659
+10015860,24698912,29,F419,10,"Anxiety disorder, unspecified",36734659
+10015860,24698912,1,A419,10,"Sepsis, unspecified organism",36734659
+10015860,24698912,16,B9561,10,Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere,36734659
+10015860,24698912,31,Z794,10,Long term (current) use of insulin,36734659
+10015860,24698912,4,E872,10,Acidosis,36734659
+10015860,24698912,15,B9689,10,Other specified bacterial agents as the cause of diseases classified elsewhere,36734659
+10015860,24698912,24,E1165,10,Type 2 diabetes mellitus with hyperglycemia,36734659
+10015860,24698912,12,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,36734659
+10015860,24698912,17,B965,10,Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere,36734659
+10015860,24698912,2,N186,10,End stage renal disease,36734659
+10015860,24698912,26,D631,10,Anemia in chronic kidney disease,36734659
+10015860,24698912,28,D329,10,"Benign neoplasm of meninges, unspecified",36734659
+10015860,24698912,11,R6520,10,Severe sepsis without septic shock,36734659
+10015860,24698912,23,L97514,10,Non-pressure chronic ulcer of other part of right foot with necrosis of bone,36734659
+10015860,24698912,9,B181,10,Chronic viral hepatitis B without delta-agent,36734659
+10015860,24698912,21,E1140,10,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified",36734659
+10015860,24698912,30,R488,10,Other symbolic dysfunctions,36734659
+10015860,24698912,14,B954,10,Other streptococcus as the cause of diseases classified elsewhere,36734659
+10015860,24698912,18,B966,10,Bacteroides fragilis [B. fragilis] as the cause of diseases classified elsewhere,36734659
+10015860,24698912,19,Y831,10,"Surgical operation with implant of artificial internal device as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36734659
+10015860,24698912,7,M86171,10,"Other acute osteomyelitis, right ankle and foot",36734659
+10015860,24698912,25,D509,10,"Iron deficiency anemia, unspecified",36734659
+10015860,24698912,32,Z89421,10,Acquired absence of other right toe(s),36734659
+10015860,24698912,13,E1169,10,Type 2 diabetes mellitus with other specified complication,36734659
+10015860,24698912,3,M726,10,Necrotizing fasciitis,36734659
+10015860,24698912,22,E11621,10,Type 2 diabetes mellitus with foot ulcer,36734659
+10015860,24698912,10,T8249XA,10,"Other complication of vascular dialysis catheter, initial encounter",36734659
+10015860,24698912,6,E1152,10,Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene,36734659
+10015860,24698912,5,I120,10,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease,36734659
+10014354,22741225,5,E785,10,"Hyperlipidemia, unspecified",37200209
+10014354,22741225,6,I10,10,Essential (primary) hypertension,37200209
+10014354,22741225,9,J449,10,"Chronic obstructive pulmonary disease, unspecified",37200209
+10014354,22741225,12,E039,10,"Hypothyroidism, unspecified",37200209
+10014354,22741225,4,Z9282,10,Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility,37200209
+10014354,22741225,7,M25512,10,Pain in left shoulder,37200209
+10014354,22741225,11,F329,10,"Major depressive disorder, single episode, unspecified",37200209
+10014354,22741225,15,H409,10,Unspecified glaucoma,37200209
+10014354,22741225,13,Z950,10,Presence of cardiac pacemaker,37200209
+10014354,22741225,2,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,37200209
+10014354,22741225,14,Z9884,10,Bariatric surgery status,37200209
+10014354,22741225,10,E6601,10,Morbid (severe) obesity due to excess calories,37200209
+10014354,22741225,1,I69354,10,Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side,37200209
+10014354,22741225,16,G629,10,"Polyneuropathy, unspecified",37200209
+10014354,22741225,8,E0865,10,Diabetes mellitus due to underlying condition with hyperglycemia,37200209
+10014354,22741225,3,G8194,10,"Hemiplegia, unspecified affecting left nondominant side",37200209
+10014354,27487226,21,E785,10,"Hyperlipidemia, unspecified",34600477
+10014354,27487226,14,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,34600477
+10014354,27487226,5,N179,10,"Acute kidney failure, unspecified",34600477
+10014354,27487226,9,E871,10,Hypo-osmolality and hyponatremia,34600477
+10014354,27487226,15,Z955,10,Presence of coronary angioplasty implant and graft,34600477
+10014354,27487226,22,E039,10,"Hypothyroidism, unspecified",34600477
+10014354,27487226,1,J189,10,"Pneumonia, unspecified organism",34600477
+10014354,27487226,8,I4892,10,Unspecified atrial flutter,34600477
+10014354,27487226,2,R570,10,Cardiogenic shock,34600477
+10014354,27487226,6,I480,10,Paroxysmal atrial fibrillation,34600477
+10014354,27487226,23,R740,10,Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH],34600477
+10014354,27487226,4,I5033,10,Acute on chronic diastolic (congestive) heart failure,34600477
+10014354,27487226,12,E1142,10,Type 2 diabetes mellitus with diabetic polyneuropathy,34600477
+10014354,27487226,19,Z8673,10,"Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits",34600477
+10014354,27487226,17,Z950,10,Presence of cardiac pacemaker,34600477
+10014354,27487226,7,C9110,10,Chronic lymphocytic leukemia of B-cell type not having achieved remission,34600477
+10014354,27487226,20,Z9884,10,Bariatric surgery status,34600477
+10014354,27487226,13,G4733,10,Obstructive sleep apnea (adult) (pediatric),34600477
+10014354,27487226,16,F259,10,"Schizoaffective disorder, unspecified",34600477
+10014354,27487226,18,Z8547,10,Personal history of malignant neoplasm of testis,34600477
+10014354,27487226,11,E11649,10,Type 2 diabetes mellitus with hypoglycemia without coma,34600477
+10014354,27487226,3,I314,10,Cardiac tamponade,34600477
+10014354,27487226,10,I313,10,Pericardial effusion (noninflammatory),34600477
+10014354,27487226,24,M940,10,Chondrocostal junction syndrome [Tietze],34600477
+10015931,28157142,15,E785,10,"Hyperlipidemia, unspecified",39544395
+10015931,28157142,4,N179,10,"Acute kidney failure, unspecified",39544395
+10015931,28157142,7,E871,10,Hypo-osmolality and hyponatremia,39544395
+10015931,28157142,19,I272,10,Other secondary pulmonary hypertension,39544395
+10015931,28157142,10,Z7901,10,Long term (current) use of anticoagulants,39544395
+10015931,28157142,14,J449,10,"Chronic obstructive pulmonary disease, unspecified",39544395
+10015931,28157142,6,N390,10,"Urinary tract infection, site not specified",39544395
+10015931,28157142,20,Z794,10,Long term (current) use of insulin,39544395
+10015931,28157142,17,I129,10,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",39544395
+10015931,28157142,5,E872,10,Acidosis,39544395
+10015931,28157142,18,N183,10,"Chronic kidney disease, stage 3 (moderate)",39544395
+10015931,28157142,12,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,39544395
+10015931,28157142,22,Z006,10,Encounter for examination for normal comparison and control in clinical research program,39544395
+10015931,28157142,16,E1122,10,Type 2 diabetes mellitus with diabetic chronic kidney disease,39544395
+10015931,28157142,2,I5023,10,Acute on chronic systolic (congestive) heart failure,39544395
+10015931,28157142,1,I350,10,Nonrheumatic aortic (valve) stenosis,39544395
+10015931,28157142,30,R339,10,"Retention of urine, unspecified",39544395
+10015931,28157142,11,Y831,10,"Surgical operation with implant of artificial internal device as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",39544395
+10015931,28157142,21,E875,10,Hyperkalemia,39544395
+10015931,28157142,24,M109,10,"Gout, unspecified",39544395
+10015931,28157142,3,R34,10,Anuria and oliguria,39544395
+10015931,28157142,8,T81718A,10,"Complication of other artery following a procedure, not elsewhere classified, initial encounter",39544395
+10015931,28157142,28,N401,10,Benign prostatic hyperplasia with lower urinary tract symptoms,39544395
+10015931,28157142,9,I482,10,Chronic atrial fibrillation,39544395
+10015931,28157142,27,T370X5A,10,"Adverse effect of sulfonamides, initial encounter",39544395
+10015931,28157142,13,I724,10,Aneurysm of artery of lower extremity,39544395
+10015931,28157142,26,D702,10,Other drug-induced agranulocytosis,39544395
+10015931,28157142,25,L723,10,Sebaceous cyst,39544395
+10015931,28157142,23,B964,10,Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere,39544395
+10015931,28157142,29,R3911,10,Hesitancy of micturition,39544395
+10021118,24490144,8,G4700,10,"Insomnia, unspecified",36558922
+10021118,24490144,3,D62,10,Acute posthemorrhagic anemia,36558922
+10021118,24490144,1,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,36558922
+10021118,24490144,6,E669,10,"Obesity, unspecified",36558922
+10021118,24490144,4,I10,10,Essential (primary) hypertension,36558922
+10021118,24490144,9,Z87891,10,Personal history of nicotine dependence,36558922
+10021118,24490144,10,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,36558922
+10021118,24490144,11,Z7982,10,Long term (current) use of aspirin,36558922
+10021118,24490144,7,F419,10,"Anxiety disorder, unspecified",36558922
+10021118,24490144,5,J45909,10,"Unspecified asthma, uncomplicated",36558922
+10021118,24490144,2,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,36558922
+10021118,24490144,12,Z6835,10,"Body mass index (BMI) 35.0-35.9, adult",36558922
+10018423,29366372,3,D62,10,Acute posthemorrhagic anemia,30665396
+10018423,29366372,7,E669,10,"Obesity, unspecified",30665396
+10018423,29366372,4,I10,10,Essential (primary) hypertension,30665396
+10018423,29366372,9,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,30665396
+10018423,29366372,5,E780,10,Pure hypercholesterolemia,30665396
+10018423,29366372,1,I25110,10,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,30665396
+10018423,29366372,8,Z6838,10,"Body mass index (BMI) 38.0-38.9, adult",30665396
+10018423,29366372,6,K219,10,Gastro-esophageal reflux disease without esophagitis,30665396
+10018423,29366372,2,I2582,10,Chronic total occlusion of coronary artery,30665396
+10010867,22429197,12,D62,10,Acute posthemorrhagic anemia,39880770
+10010867,22429197,11,Z6841,10,"Body mass index (BMI) 40.0-44.9, adult",39880770
+10010867,22429197,17,E669,10,"Obesity, unspecified",39880770
+10010867,22429197,26,F419,10,"Anxiety disorder, unspecified",39880770
+10010867,22429197,23,Z23,10,Encounter for immunization,39880770
+10010867,22429197,24,Y848,10,"Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",39880770
+10010867,22429197,4,J9600,10,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",39880770
+10010867,22429197,13,J95851,10,Ventilator associated pneumonia,39880770
+10010867,22429197,25,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,39880770
+10010867,22429197,14,R339,10,"Retention of urine, unspecified",39880770
+10010867,22429197,18,F329,10,"Major depressive disorder, single episode, unspecified",39880770
+10010867,22429197,21,Y929,10,Unspecified place or not applicable,39880770
+10010867,22429197,6,F05,10,Delirium due to known physiological condition,39880770
+10010867,22429197,22,S8012XA,10,"Contusion of left lower leg, initial encounter",39880770
+10010867,22429197,19,Z781,10,Physical restraint status,39880770
+10010867,22429197,15,F10129,10,"Alcohol abuse with intoxication, unspecified",39880770
+10010867,22429197,9,S22069A,10,"Unspecified fracture of T7-T8 vertebra, initial encounter for closed fracture",39880770
+10010867,22429197,8,S22059A,10,"Unspecified fracture of T5-T6 vertebra, initial encounter for closed fracture",39880770
+10010867,22429197,7,S22049A,10,"Unspecified fracture of fourth thoracic vertebra, initial encounter for closed fracture",39880770
+10010867,22429197,20,V270XXA,10,"Motorcycle driver injured in collision with fixed or stationary object in nontraffic accident, initial encounter",39880770
+10010867,22429197,2,S271XXA,10,"Traumatic hemothorax, initial encounter",39880770
+10010867,22429197,16,F1290,10,"Cannabis use, unspecified, uncomplicated",39880770
+10010867,22429197,3,S066X0A,10,"Traumatic subarachnoid hemorrhage without loss of consciousness, initial encounter",39880770
+10010867,22429197,1,S12600A,10,"Unspecified displaced fracture of seventh cervical vertebra, initial encounter for closed fracture",39880770
+10010867,22429197,5,S240XXA,10,"Concussion and edema of thoracic spinal cord, initial encounter",39880770
+10010867,22429197,10,S32029A,10,"Unspecified fracture of second lumbar vertebra, initial encounter for closed fracture",39880770
+10013049,22675517,5,V173,9,Family history of ischemic heart disease,35679826
+10013049,22675517,5,V173,9,Person boarding or alighting a pedal cycle injured in collision with fixed or stationary object,35679826
+10013049,22675517,3,53550,9,"Unspecified gastritis and gastroduodenitis, without mention of hemorrhage",35679826
+10013049,22675517,1,2127,9,Benign neoplasm of heart,35679826
+10013049,22675517,4,V1272,9,Personal history of colonic polyps,35679826
+10013049,22675517,2,4556,9,Unspecified hemorrhoids without mention of complication,35679826
+10008287,22168393,2,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",33348260
+10008287,22168393,3,Z85850,10,Personal history of malignant neoplasm of thyroid,33348260
+10008287,22168393,1,D1802,10,Hemangioma of intracranial structures,33348260
+10023239,21759936,7,G40909,10,"Epilepsy, unspecified, not intractable, without status epilepticus",35024147
+10023239,21759936,5,N179,10,"Acute kidney failure, unspecified",35024147
+10023239,21759936,14,R000,10,"Tachycardia, unspecified",35024147
+10023239,21759936,10,F419,10,"Anxiety disorder, unspecified",35024147
+10023239,21759936,8,E039,10,"Hypothyroidism, unspecified",35024147
+10023239,21759936,15,F39,10,Unspecified mood [affective] disorder,35024147
+10023239,21759936,6,Z794,10,Long term (current) use of insulin,35024147
+10023239,21759936,9,E7800,10,"Pure hypercholesterolemia, unspecified",35024147
+10023239,21759936,13,D869,10,"Sarcoidosis, unspecified",35024147
+10023239,21759936,1,T85694A,10,"Other mechanical complication of insulin pump, initial encounter",35024147
+10023239,21759936,4,J15211,10,Pneumonia due to Methicillin susceptible Staphylococcus aureus,35024147
+10023239,21759936,11,Z006,10,Encounter for examination for normal comparison and control in clinical research program,35024147
+10023239,21759936,3,J9601,10,Acute respiratory failure with hypoxia,35024147
+10023239,21759936,12,T383X6A,10,"Underdosing of insulin and oral hypoglycemic [antidiabetic] drugs, initial encounter",35024147
+10023239,21759936,2,E1010,10,Type 1 diabetes mellitus with ketoacidosis without coma,35024147
+10002930,25696644,9,30500,9,"Alcohol abuse, unspecified",37049133
+10002930,25696644,7,311,9,"Depressive disorder, not elsewhere classified",37049133
+10002930,25696644,3,2762,9,Acidosis,37049133
+10002930,25696644,11,07054,9,Chronic hepatitis C without mention of hepatic coma,37049133
+10002930,25696644,4,V08,9,Asymptomatic human immunodeficiency virus [HIV] infection status,37049133
+10002930,25696644,5,33829,9,Other chronic pain,37049133
+10002930,25696644,6,V1552,9,Personal history of traumatic brain injury,37049133
+10002930,25696644,2,V6284,9,Suicidal ideation,37049133
+10002930,25696644,10,V600,9,Lack of housing,37049133
+10002930,25696644,10,V600,9,Driver of heavy transport vehicle injured in collision with pedestrian or animal in nontraffic accident,37049133
+10002930,25696644,8,30590,9,"Other, mixed, or unspecified drug abuse, unspecified",37049133
+10002930,25696644,12,37950,9,"Nystagmus, unspecified",37049133
+10002930,25696644,1,2511,9,Other specified hypoglycemia,37049133
+10021312,28829452,15,I10,10,Essential (primary) hypertension,37507305
+10021312,28829452,14,R000,10,"Tachycardia, unspecified",37507305
+10021312,28829452,16,Z87891,10,Personal history of nicotine dependence,37507305
+10021312,28829452,10,F419,10,"Anxiety disorder, unspecified",37507305
+10021312,28829452,11,R079,10,"Chest pain, unspecified",37507305
+10021312,28829452,1,J9601,10,Acute respiratory failure with hypoxia,37507305
+10021312,28829452,12,G8929,10,Other chronic pain,37507305
+10021312,28829452,9,F329,10,"Major depressive disorder, single episode, unspecified",37507305
+10021312,28829452,2,J690,10,Pneumonitis due to inhalation of food and vomit,37507305
+10021312,28829452,17,R12,10,Heartburn,37507305
+10021312,28829452,5,J9809,10,"Other diseases of bronchus, not elsewhere classified",37507305
+10021312,28829452,6,R1319,10,Other dysphagia,37507305
+10021312,28829452,3,C3490,10,Malignant neoplasm of unspecified part of unspecified bronchus or lung,37507305
+10021312,28829452,4,B370,10,Candidal stomatitis,37507305
+10021312,28829452,13,M797,10,Fibromyalgia,37507305
+10021312,28829452,8,B9562,10,Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere,37507305
+10021312,28829452,7,K222,10,Esophageal obstruction,37507305
+10007058,22954658,5,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,32506122
+10007058,22954658,3,K219,10,Gastro-esophageal reflux disease without esophagitis,32506122
+10007058,22954658,6,Z7982,10,Long term (current) use of aspirin,32506122
+10007058,22954658,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,32506122
+10007058,22954658,4,Z23,10,Encounter for immunization,32506122
+10007058,22954658,2,I7102,10,Dissection of abdominal aorta,32506122
+10019917,22585261,1,53240,9,"Chronic or unspecified duodenal ulcer with hemorrhage, without mention of obstruction",34324099
+10019917,22585261,2,2851,9,Acute posthemorrhagic anemia,34324099
+10019917,22585261,4,53560,9,"Duodenitis, without mention of hemorrhage",34324099
+10019917,22585261,3,7200,9,Ankylosing spondylitis,34324099
+10002930,25922998,6,Z23,10,Encounter for immunization,35629889
+10002930,25922998,1,F10239,10,"Alcohol dependence with withdrawal, unspecified",35629889
+10002930,25922998,7,Z590,10,Homelessness,35629889
+10002930,25922998,5,B1920,10,Unspecified viral hepatitis C without hepatic coma,35629889
+10002930,25922998,9,R509,10,"Fever, unspecified",35629889
+10002930,25922998,13,D72819,10,"Decreased white blood cell count, unspecified",35629889
+10002930,25922998,3,R45851,10,Suicidal ideations,35629889
+10002930,25922998,12,Z9114,10,Patient's other noncompliance with medication regimen,35629889
+10002930,25922998,4,Z87820,10,Personal history of traumatic brain injury,35629889
+10002930,25922998,10,F29,10,Unspecified psychosis not due to a substance or known physiological condition,35629889
+10002930,25922998,11,Z21,10,Asymptomatic human immunodeficiency virus [HIV] infection status,35629889
+10002930,25922998,2,F1110,10,"Opioid abuse, uncomplicated",35629889
+10002930,25922998,8,F1410,10,"Cocaine abuse, uncomplicated",35629889
+10005909,20199380,3,I9751,10,Accidental puncture and laceration of a circulatory system organ or structure during a circulatory system procedure,36496303
+10005909,20199380,2,I871,10,Compression of vein,36496303
+10005909,20199380,4,Y838,10,"Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",36496303
+10005909,20199380,5,Y92234,10,Operating room of hospital as the place of occurrence of the external cause,36496303
+10005909,20199380,1,I82422,10,Acute embolism and thrombosis of left iliac vein,36496303

@@ -1,0 +1,15 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10000032,29079034,1,45829,9,Other iatrogenic hypotension,39553978,Complications of surgical procedures or medical care,1.0
+10000032,29079034,2,07044,9,Chronic hepatitis C with hepatic coma,39553978,Hepatitis,0.0
+10000032,29079034,3,7994,9,Cachexia,39553978,Nutritional deficiencies,0.0
+10000032,29079034,4,2761,9,Hyposmolality and/or hyponatremia,39553978,Fluid and electrolyte disorders,1.0
+10000032,29079034,5,78959,9,Other ascites,39553978,Other liver diseases,1.0
+10000032,29079034,6,2767,9,Hyperpotassemia,39553978,Fluid and electrolyte disorders,1.0
+10000032,29079034,7,3051,9,Tobacco use disorder,39553978,Screening and history of mental health and substance abuse codes,0.0
+10000032,29079034,8,V08,9,Asymptomatic human immunodeficiency virus [HIV] infection status,39553978,HIV infection,0.0
+10000032,29079034,9,V4986,9,Do not resuscitate status,39553978,Residual codes; unclassified,0.0
+10000032,29079034,10,V462,9,"Other dependence on machines, supplemental oxygen",39553978,Respiratory failure; insufficiency; arrest (adult),1.0
+10000032,29079034,10,V462,9,Person on outside of car injured in collision with other nonmotor vehicle in nontraffic accident,39553978,Respiratory failure; insufficiency; arrest (adult),1.0
+10000032,29079034,11,496,9,"Chronic airway obstruction, not elsewhere classified",39553978,Chronic obstructive pulmonary disease and bronchiectasis,1.0
+10000032,29079034,12,29680,9,"Bipolar disorder, unspecified",39553978,Mood disorders,0.0
+10000032,29079034,13,5715,9,Cirrhosis of liver without mention of alcohol,39553978,Other liver diseases,1.0

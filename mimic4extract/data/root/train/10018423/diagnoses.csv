@@ -1,0 +1,10 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10018423,29366372,1,I25110,10,Atherosclerotic heart disease of native coronary artery with unstable angina pectoris,30665396,,
+10018423,29366372,2,I2582,10,Chronic total occlusion of coronary artery,30665396,Coronary atherosclerosis and other heart disease,1.0
+10018423,29366372,3,D62,10,Acute posthemorrhagic anemia,30665396,,
+10018423,29366372,4,I10,10,Essential (primary) hypertension,30665396,Essential hypertension,1.0
+10018423,29366372,5,E780,10,Pure hypercholesterolemia,30665396,,
+10018423,29366372,6,K219,10,Gastro-esophageal reflux disease without esophagitis,30665396,,
+10018423,29366372,7,E669,10,"Obesity, unspecified",30665396,,
+10018423,29366372,8,Z6838,10,"Body mass index (BMI) 38.0-38.9, adult",30665396,,
+10018423,29366372,9,Z8249,10,Family history of ischemic heart disease and other diseases of the circulatory system,30665396,,

@@ -1,0 +1,13 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10035185,22580999,1,41401,9,Coronary atherosclerosis of native coronary artery,39084876,Coronary atherosclerosis and other heart disease,1.0
+10035185,22580999,2,25002,9,"Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",39084876,Diabetes mellitus with complications,1.0
+10035185,22580999,3,4139,9,Other and unspecified angina pectoris,39084876,Coronary atherosclerosis and other heart disease,1.0
+10035185,22580999,4,2724,9,Other and unspecified hyperlipidemia,39084876,Disorders of lipid metabolism,1.0
+10035185,22580999,5,27800,9,"Obesity, unspecified",39084876,Other nutritional; endocrine; and metabolic disorders,0.0
+10035185,22580999,6,V5867,9,Long-term (current) use of insulin,39084876,Other aftercare,0.0
+10035185,22580999,7,71696,9,"Arthropathy, unspecified, lower leg",39084876,Other non-traumatic joint disorders,0.0
+10035185,22580999,8,V1083,9,Personal history of other malignant neoplasm of skin,39084876,Other non-epithelial cancer of skin,0.0
+10035185,22580999,9,3899,9,Unspecified hearing loss,39084876,Other ear and sense organ disorders,0.0
+10035185,22580999,10,V707,9,Examination of participant in clinical trial,39084876,Medical examination/evaluation,0.0
+10035185,22580999,10,V707,9,Person on outside of bus injured in collision with pedestrian or animal in traffic accident,39084876,Medical examination/evaluation,0.0
+10035185,22580999,11,V8532,9,"Body Mass Index 32.0-32.9, adult",39084876,Other nutritional; endocrine; and metabolic disorders,0.0

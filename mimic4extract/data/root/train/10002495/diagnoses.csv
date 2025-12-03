@@ -1,0 +1,27 @@
+subject_id,hadm_id,seq_num,icd_code,icd_version,long_title,stay_id,HCUP_CCS_2015,USE_IN_BENCHMARK
+10002495,24982426,1,I214,10,Non-ST elevation (NSTEMI) myocardial infarction,36753294,Acute myocardial infarction,1.0
+10002495,24982426,2,R570,10,Cardiogenic shock,36753294,Shock,1.0
+10002495,24982426,3,I509,10,"Heart failure, unspecified",36753294,Congestive heart failure; nonhypertensive,1.0
+10002495,24982426,4,R578,10,Other shock,36753294,Shock,1.0
+10002495,24982426,5,A047,10,Enterocolitis due to Clostridium difficile,36753294,,
+10002495,24982426,6,N179,10,"Acute kidney failure, unspecified",36753294,Acute and unspecified renal failure,1.0
+10002495,24982426,7,S3730XA,10,"Unspecified injury of urethra, initial encounter",36753294,,
+10002495,24982426,8,I2510,10,Atherosclerotic heart disease of native coronary artery without angina pectoris,36753294,Coronary atherosclerosis and other heart disease,1.0
+10002495,24982426,9,E118,10,Type 2 diabetes mellitus with unspecified complications,36753294,Diabetes mellitus with complications,1.0
+10002495,24982426,10,X58XXXA,10,"Exposure to other specified factors, initial encounter",36753294,,
+10002495,24982426,11,Y92239,10,Unspecified place in hospital as the place of occurrence of the external cause,36753294,,
+10002495,24982426,12,I10,10,Essential (primary) hypertension,36753294,Essential hypertension,1.0
+10002495,24982426,13,E785,10,"Hyperlipidemia, unspecified",36753294,Disorders of lipid metabolism,1.0
+10002495,24982426,14,T45515A,10,"Adverse effect of anticoagulants, initial encounter",36753294,,
+10002495,24982426,15,Z86718,10,Personal history of other venous thrombosis and embolism,36753294,,
+10002495,24982426,16,Z7901,10,Long term (current) use of anticoagulants,36753294,,
+10002495,24982426,17,R310,10,Gross hematuria,36753294,,
+10002495,24982426,18,Z7902,10,Long term (current) use of antithrombotics/antiplatelets,36753294,,
+10002495,24982426,19,I480,10,Paroxysmal atrial fibrillation,36753294,,
+10002495,24982426,20,Z23,10,Encounter for immunization,36753294,,
+10002495,24982426,21,K2960,10,Other gastritis without bleeding,36753294,,
+10002495,24982426,22,B9681,10,Helicobacter pylori [H. pylori] as the cause of diseases classified elsewhere,36753294,,
+10002495,24982426,23,Z87891,10,Personal history of nicotine dependence,36753294,,
+10002495,24982426,24,I252,10,Old myocardial infarction,36753294,Coronary atherosclerosis and other heart disease,1.0
+10002495,24982426,25,R410,10,"Disorientation, unspecified",36753294,,
+10002495,24982426,26,K219,10,Gastro-esophageal reflux disease without esophagitis,36753294,,
