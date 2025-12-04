@@ -277,7 +277,7 @@ def ehr_funcs(args):
     discretizer = Discretizer(timestep=float(args.timestep),
                               store_masks=True,
                               impute_strategy='previous',
-                              start_time='zero',
+                              start_time='relative',
                               config_path=f'src/data/resources/discretizer_config.json')
 
     discretizer_header = discretizer.transform(read_timeseries(args))[1].split(',')
