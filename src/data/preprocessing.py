@@ -287,14 +287,14 @@ def ehr_funcs(args):
     normalizer_state = args.normalizer_state
     if normalizer_state is None:
         if args.task == 'mortality':
-            normalizer_state = 'ihm_ts{}.input_str:previous.start_time:zero.normalizer'.format(args.timestep)
+            normalizer_state = 'ihm_ts{}.normalizer'.format(args.timestep)
         elif args.task == 'decompensation':
-            normalizer_state = 'decomp_ts{}.input_str:previous.n1e5.start_time:zero.normalizer'.format(args.timestep)
+            normalizer_state = 'decomp_ts{}.normalizer'.format(args.timestep)
         elif args.task == 'length-of-stay':
-            normalizer_state = 'los_ts{}.input_str:previous.start_time:zero.n5e4.normalizer'.format(args.timestep)
+            normalizer_state = 'los_ts{}.normalizer'.format(args.timestep)
         else:
-            normalizer_state = 'ph_ts{}.input_str:previous.start_time:zero.normalizer'.format(args.timestep)
-        normalizer_state = os.path.join('MedMod/src/data/resources', normalizer_state)
+            normalizer_state = 'ph_ts{}.normalizer'.format(args.timestep)
+        normalizer_state = os.path.join('./resources', normalizer_state)
     normalizer.load_params(normalizer_state)
 
     return discretizer, normalizer
