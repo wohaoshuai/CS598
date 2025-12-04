@@ -36,7 +36,7 @@ def initiate_parsing():
 
     # CXR setup
     parser.add_argument('--load_state_cxr', type=str, default=None, help='state dir path for uni cxr model')
-    parser.add_argument('--cxr_data_root', type=str, help='Path to the cxr data', default='/data/physionet.org/files/mimic-cxr-jpg/2.0.0')
+    parser.add_argument('--cxr_data_root', type=str, help='Path to the cxr data', default='/data/mimic-cxr-jpg/files')
     parser.add_argument('--vision-backbone', default='densenet121', type=str, help='[densenet121, densenet169, densenet201, resnet34]')
     parser.add_argument('--pretrained', dest='pretrained', action='store_true',  help='load imagenet pretrained model for cxr')
     parser.add_argument('--layer_after', default=4, type=int, help='apply mmtm/daft module after fourth layer[-1, 0,1,2,3,4] -1 indicates mmtm after every layer')
