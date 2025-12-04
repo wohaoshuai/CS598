@@ -29,7 +29,7 @@ def initiate_parsing():
     parser.add_argument('--rec_dropout', type=float, default=0.0, help="dropout rate for recurrent connections")
     parser.add_argument('--timestep', type=float, default=1.0, help="fixed timestep used in the dataset")
     parser.add_argument('--imputation', type=str, default='previous')
-    parser.add_argument('--ehr_data_root', type=str, help='Path to the ehr data', default='/mimic-iv-extracted/data')
+    parser.add_argument('--ehr_data_root', type=str, help='Path to the ehr data', default='/mimic4extract/data')
     parser.add_argument('--layers', default=1, type=int, help='number of lstm stacked layers')
     parser.add_argument('--dim', type=int, default=256,
                         help='number of hidden units for uni ehr lstm model')
