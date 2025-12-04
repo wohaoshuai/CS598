@@ -99,6 +99,8 @@ class Discretizer:
             if t > max_hours + eps:
                 continue
             bin_id = int(t / self._timestep - eps)
+            print(f"DEBUG: t={t}, timestep={self._timestep}, bin_id={bin_id}, N_bins={N_bins}, max_hours={max_hours}")
+            print(f"DEBUG: Calculation: t/timestep={t/self._timestep}, minus eps={t/self._timestep - eps}")
             assert 0 <= bin_id < N_bins
 
             for j in range(1, len(row)):
