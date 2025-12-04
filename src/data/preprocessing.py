@@ -294,7 +294,7 @@ def ehr_funcs(args):
             normalizer_state = 'los_ts{}.normalizer'.format(args.timestep)
         else:
             normalizer_state = 'ph_ts{}.normalizer'.format(args.timestep)
-        normalizer_state = os.path.join('./resources', normalizer_state)
+        normalizer_state = os.path.join('./src/data/rsources', normalizer_state)
     normalizer.load_params(normalizer_state)
 
     return discretizer, normalizer
