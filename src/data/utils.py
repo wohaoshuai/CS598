@@ -370,7 +370,13 @@ def get_final_meta(args):
     while still getting labels and metadata from the original sources
     """
     # Step 1: Load the medmod_pairs.csv to know what's actually available
-    medmod_pairs = pd.read_csv("./medmod_pairs.csv")
+    medmod_pairs = pd.read_csv(args.medmod_pairs_path)
+    
+    print("\n=== Medmod Pairs Debug ===")
+    print(f"Columns in medmod_pairs: {list(medmod_pairs.columns)}")
+    print(f"Shape: {medmod_pairs.shape}")
+    print(f"First few rows:")
+    print(medmod_pairs.head())
     
     # Extract dicom_id from image_path
     medmod_pairs['dicom_id'] = medmod_pairs['image_path'].apply(
@@ -378,13 +384,19 @@ def get_final_meta(args):
     )
     
     # Extract episode filename from episode_file path
-    # e.g., 'mimic4extract/data/root/train/10015931/episode1_timeseries.csv' -> 'train/10015931/episode1_timeseries.csv'
     medmod_pairs['stay'] = medmod_pairs['episode_file'].apply(
-        lambda x: '/'.join(x.split('/')[-3:])  # Get last 3 parts: split/subject_id/filename
+        lambda x: '/'.join(x.split('/')[-3:])
     )
+    
+    # Convert time_diff_minutes to time_diff (in hours)
+    medmod_pairs['time_diff'] = medmod_pairs['time_diff_minutes'] / 60.0
     
     # Step 2: Load cxr and ehr groups (original metadata with all columns)
     cxr_merged_icustays = load_task_meta[args.task](args)
+    
+    print("\n=== CXR Merged ICU Stays Debug ===")
+    print(f"Columns in cxr_merged_icustays: {list(cxr_merged_icustays.columns)}")
+    print(f"Shape: {cxr_merged_icustays.shape}")
     
     # Step 3: Add the labels from listfiles
     splits_labels_train = pd.read_csv(f'{args.ehr_data_root}/{args.task}/train_listfile.csv')
@@ -406,8 +418,7 @@ def get_final_meta(args):
     test_meta_with_labels = test_meta_with_labels.merge(metadata_with_labels[['dicom_id']], how='inner', on='dicom_id')
     
     # Step 5: CRITICAL - Filter by what's actually available in medmod_pairs.csv
-    # Only keep pairs that exist in medmod_pairs
-    print(f"Before filtering with medmod_pairs:")
+    print(f"\nBefore filtering with medmod_pairs:")
     print(f"  Train: {len(train_meta_with_labels)}")
     print(f"  Val: {len(val_meta_with_labels)}")
     print(f"  Test: {len(test_meta_with_labels)}")
@@ -417,25 +428,22 @@ def get_final_meta(args):
     
     # Filter train/val/test to only include available pairs
     def filter_available_pairs(meta_df, available_pairs):
-        # Create pair column for matching
         meta_df['pair_key'] = list(zip(meta_df['dicom_id'], meta_df['stay']))
-        # Filter to only available pairs
         filtered_df = meta_df[meta_df['pair_key'].isin(available_pairs)].copy()
-        # Drop the temporary column
         filtered_df = filtered_df.drop(columns=['pair_key'])
         return filtered_df
     
     train_meta_with_labels = filter_available_pairs(train_meta_with_labels, available_pairs)
     val_meta_with_labels = filter_available_pairs(val_meta_with_labels, available_pairs)
-    test_meta_with_labels = filter_available_pairs(test_meta_with_labels, available_pairs)
+    test_meta_with_labels = test_meta_with_labels.merge(metadata_with_labels[['dicom_id']], how='inner', on='dicom_id')
     
     print(f"After filtering with medmod_pairs:")
     print(f"  Train: {len(train_meta_with_labels)}")
     print(f"  Val: {len(val_meta_with_labels)}")
     print(f"  Test: {len(test_meta_with_labels)}")
     
-    # Step 6: Add image_path from medmod_pairs for direct image loading
-    medmod_pairs_subset = medmod_pairs[['dicom_id', 'stay', 'image_path', 'time_diff_minutes']].drop_duplicates()
+    # Step 6: Add columns from medmod_pairs (image_path, time_diff_minutes, time_diff, etc.)
+    medmod_pairs_subset = medmod_pairs[['dicom_id', 'stay', 'image_path', 'time_diff_minutes', 'time_diff']].drop_duplicates()
     
     train_meta_with_labels = train_meta_with_labels.merge(
         medmod_pairs_subset, 
@@ -453,9 +461,27 @@ def get_final_meta(args):
         on=['dicom_id', 'stay']
     )
     
+    # Step 7: Ensure required columns exist
+    # Add 'lower' and 'upper' if they don't exist
+    for df in [train_meta_with_labels, val_meta_with_labels, test_meta_with_labels]:
+        if 'lower' not in df.columns:
+            df['lower'] = 0.0
+        if 'upper' not in df.columns:
+            # Use existing period_length or calculate from time_diff
+            if 'period_length' in df.columns:
+                df['upper'] = df['period_length']
+            else:
+                # Use absolute value of time_diff (in hours)
+                df['upper'] = df['time_diff'].abs()
+        if 'period_length' not in df.columns:
+            df['period_length'] = df['upper']
+    
+    print(f"\n=== Final columns ===")
+    print(f"Train columns: {list(train_meta_with_labels.columns)}")
+    print(f"Sample of time_diff values (hours): {train_meta_with_labels['time_diff'].head()}")
+    print(f"Sample of time_diff_minutes values: {train_meta_with_labels['time_diff_minutes'].head()}")
+    
     return train_meta_with_labels, val_meta_with_labels, test_meta_with_labels
-
-
 
 def load_cxr_ehr(args, 
                  ehr_train_ds, 
