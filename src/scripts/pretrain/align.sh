@@ -14,4 +14,6 @@ python src/models/selfsupervised/trainers/align_trainer.py \
     --fusion_type None \
     --pairs_csv MedMod/medmod_pairs.csv \
     --tag align_train_phenotyping \
-    --save_dir MedMod/src/checkpoints/pretrain/models
+    --save_dir MedMod/src/checkpoints/pretrain/models \
+    --tmp_dir /home/user/fork/CS598
+

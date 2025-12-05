@@ -13,4 +13,5 @@ python src/models/selfsupervised/trainers/align_trainer.py \
     --mode train \
     --fusion_type None \
     --tag align_train_phenotyping \
-    --save_dir MedMod/src/checkpoints/pretrain/models
+    --save_dir MedMod/src/checkpoints/pretrain/models \
+    --tmp_dir /home/user/fork/CS598/data/mimic-cxr-jpg
