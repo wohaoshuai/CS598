@@ -13,6 +13,7 @@ python src/models/selfsupervised/trainers/align_trainer.py \
     --mode train \
     --fusion_type None \
     --pairs_csv MedMod/medmod_pairs.csv \
+    --medmod_pairs_path medmod_pairs.csv \
     --tag align_train_phenotyping \
     --save_dir MedMod/src/checkpoints/pretrain/models \
     --tmp_dir /home/user/fork/CS598
