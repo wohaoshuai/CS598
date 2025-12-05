@@ -122,7 +122,7 @@ def get_cxr_datasets(args):
     Modified to use image paths from medmod_pairs
     """
     # Load medmod_pairs to get actual image paths
-    medmod_pairs = pd.read_csv(args.medmod_pairs_path)
+    medmod_pairs = pd.read_csv("./medmod_pairs.csv")
     medmod_pairs['dicom_id'] = medmod_pairs['image_path'].apply(
         lambda x: x.split('/')[-1].replace('.jpg', '')
     )
@@ -370,7 +370,7 @@ def get_final_meta(args):
     while still getting labels and metadata from the original sources
     """
     # Step 1: Load the medmod_pairs.csv to know what's actually available
-    medmod_pairs = pd.read_csv(args.medmod_pairs_path)
+    medmod_pairs = pd.read_csv("./medmod_pairs.csv")
     
     # Extract dicom_id from image_path
     medmod_pairs['dicom_id'] = medmod_pairs['image_path'].apply(
