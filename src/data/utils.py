@@ -112,6 +112,7 @@ def get_transforms_simclr(args):
 
 
 def get_cxr_datasets(args):
+    print("------------------get_cxr_datasets--------------------")
     if args.transforms_cxr=='simclrv2':
         train_transforms, test_transforms = get_transforms_simclr(args)
     else:
@@ -125,6 +126,7 @@ def get_cxr_datasets(args):
         print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
         paths = glob.glob(f'{args.tmp_dir}/resized/*.jpg', recursive = True)
         np.save(filepath, paths)
+    print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
     dataset_train = MIMICCXR(paths, args, split='train', transform=transforms.Compose(train_transforms))
     dataset_validate = MIMICCXR(paths, args, split='validate', transform=transforms.Compose(test_transforms),)
     dataset_test = MIMICCXR(paths, args, split='test', transform=transforms.Compose(test_transforms),)
