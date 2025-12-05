@@ -119,13 +119,8 @@ def get_cxr_datasets(args):
         train_transforms, test_transforms = get_transforms(args)
 
     data_dir = args.cxr_data_root
-    filepath = f'{data_dir}/new_paths.npy'
-    if os.path.exists(filepath):
-        paths = np.load(filepath)
-    else:
-        print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
-        paths = glob.glob(f'{args.tmp_dir}/resized/*.jpg', recursive = True)
-        np.save(filepath, paths)
+    print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
+    paths = glob.glob(f'{args.tmp_dir}/resized/*.jpg', recursive = True)
     print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
     dataset_train = MIMICCXR(paths, args, split='train', transform=transforms.Compose(train_transforms))
     dataset_validate = MIMICCXR(paths, args, split='validate', transform=transforms.Compose(test_transforms),)
