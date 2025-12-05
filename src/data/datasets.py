@@ -41,7 +41,6 @@ class MIMICCXR(Dataset):
         self.args = args
         self.CLASSES  = R_CLASSES
         self.filenames_to_path = {path.split('/')[-1].split('.')[0]: path for path in paths}
-        print('paths', self.filenames_to_path)
 
         metadata = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-metadata.csv')
         labels = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-chexpert.csv')
@@ -62,7 +61,6 @@ class MIMICCXR(Dataset):
     def __getitem__(self, index):
         # why was this commented out? 
         if isinstance(index, str):
-            print('filenames_to_path', self.filenames_to_path, index)
             img = Image.open(self.filenames_to_path[index]).convert('RGB')
             labels = torch.tensor(self.filesnames_to_labels[index]).float()
             if self.transform is not None:
