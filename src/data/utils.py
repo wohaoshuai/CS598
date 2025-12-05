@@ -118,21 +118,42 @@ def get_transforms_simclr(args):
 
 
 def get_cxr_datasets(args):
-    print("------------------get_cxr_datasets--------------------")
-    if args.transforms_cxr=='simclrv2':
-        train_transforms, test_transforms = get_transforms_simclr(args)
-    else:
-        train_transforms, test_transforms = get_transforms(args)
-
-    data_dir = args.cxr_data_root
-    print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
-    paths = glob.glob(f'{args.tmp_dir}/resized/*.jpg', recursive = True)
-    print('tempdir', f'{args.tmp_dir}/resized/*.jpg')
-    dataset_train = MIMICCXR(paths, args, split='train', transform=transforms.Compose(train_transforms))
-    dataset_validate = MIMICCXR(paths, args, split='validate', transform=transforms.Compose(test_transforms),)
-    dataset_test = MIMICCXR(paths, args, split='test', transform=transforms.Compose(test_transforms),)
-
-    return dataset_train, dataset_validate, dataset_test
+    """
+    Modified to use image paths from medmod_pairs
+    """
+    # Load medmod_pairs to get actual image paths
+    medmod_pairs = pd.read_csv(args.medmod_pairs_path)
+    medmod_pairs['dicom_id'] = medmod_pairs['image_path'].apply(
+        lambda x: x.split('/')[-1].replace('.jpg', '')
+    )
+    
+    # Create image_path_map: dicom_id -> image_path
+    image_path_map = dict(zip(medmod_pairs['dicom_id'], medmod_pairs['image_path']))
+    
+    # Get all unique image paths
+    all_paths = medmod_pairs['image_path'].unique().tolist()
+    
+    # Determine split from episode_file
+    def get_split_from_episode(episode_file):
+        if '/train/' in episode_file:
+            return 'train'
+        elif '/val/' in episode_file:
+            return 'val'
+        elif '/test/' in episode_file:
+            return 'test'
+        return None
+    
+    medmod_pairs['split'] = medmod_pairs['episode_file'].apply(get_split_from_episode)
+    
+    # Get transforms
+    train_transform, test_transform = get_transforms(args)
+    
+    # Create datasets with image_path_map
+    cxr_train_ds = MIMICCXR(all_paths, args, transform=train_transform, split='train', image_path_map=image_path_map)
+    cxr_val_ds = MIMICCXR(all_paths, args, transform=test_transform, split='val', image_path_map=image_path_map)
+    cxr_test_ds = MIMICCXR(all_paths, args, transform=test_transform, split='test', image_path_map=image_path_map)
+    
+    return cxr_train_ds, cxr_val_ds, cxr_test_ds
 
 
 
@@ -344,28 +365,94 @@ def count_labels(dataset):
 
 
 def get_final_meta(args):
-
-        # Load cxr and ehr groups
-    cxr_merged_icustays = load_task_meta[args.task](args) 
-
-    # Add the labels 
+    """
+    Modified version that uses medmod_pairs.csv to filter available pairs,
+    while still getting labels and metadata from the original sources
+    """
+    # Step 1: Load the medmod_pairs.csv to know what's actually available
+    medmod_pairs = pd.read_csv(args.medmod_pairs_path)
+    
+    # Extract dicom_id from image_path
+    medmod_pairs['dicom_id'] = medmod_pairs['image_path'].apply(
+        lambda x: x.split('/')[-1].replace('.jpg', '')
+    )
+    
+    # Extract episode filename from episode_file path
+    # e.g., 'mimic4extract/data/root/train/10015931/episode1_timeseries.csv' -> 'train/10015931/episode1_timeseries.csv'
+    medmod_pairs['stay'] = medmod_pairs['episode_file'].apply(
+        lambda x: '/'.join(x.split('/')[-3:])  # Get last 3 parts: split/subject_id/filename
+    )
+    
+    # Step 2: Load cxr and ehr groups (original metadata with all columns)
+    cxr_merged_icustays = load_task_meta[args.task](args)
+    
+    # Step 3: Add the labels from listfiles
     splits_labels_train = pd.read_csv(f'{args.ehr_data_root}/{args.task}/train_listfile.csv')
     splits_labels_val = pd.read_csv(f'{args.ehr_data_root}/{args.task}/val_listfile.csv')
     splits_labels_test = pd.read_csv(f'{args.ehr_data_root}/{args.task}/test_listfile.csv')
-
-    #TODO: investigate why total size of cxr_merged_icustays drops after the three steps below
-    train_meta_with_labels = cxr_merged_icustays.merge(splits_labels_train, how='inner', on='stay_id')#change dataset size here
+    
+    # Merge to get labels
+    train_meta_with_labels = cxr_merged_icustays.merge(splits_labels_train, how='inner', on='stay_id')
     val_meta_with_labels = cxr_merged_icustays.merge(splits_labels_val, how='inner', on='stay_id')
     test_meta_with_labels = cxr_merged_icustays.merge(splits_labels_test, how='inner', on='stay_id')
-
-    # Get rid of chest X-rays that don't have radiology reports
+    
+    # Step 4: Get rid of chest X-rays that don't have radiology reports
     metadata = pd.read_csv(f'{args.cxr_data_root}/mimic-cxr-2.0.0-metadata.csv')
     labels = pd.read_csv(f'{args.cxr_data_root}/mimic-cxr-2.0.0-chexpert.csv')
     metadata_with_labels = metadata.merge(labels[['study_id']], how='inner', on='study_id').drop_duplicates(subset=['dicom_id'])
+    
     train_meta_with_labels = train_meta_with_labels.merge(metadata_with_labels[['dicom_id']], how='inner', on='dicom_id')
     val_meta_with_labels = val_meta_with_labels.merge(metadata_with_labels[['dicom_id']], how='inner', on='dicom_id')
     test_meta_with_labels = test_meta_with_labels.merge(metadata_with_labels[['dicom_id']], how='inner', on='dicom_id')
-
+    
+    # Step 5: CRITICAL - Filter by what's actually available in medmod_pairs.csv
+    # Only keep pairs that exist in medmod_pairs
+    print(f"Before filtering with medmod_pairs:")
+    print(f"  Train: {len(train_meta_with_labels)}")
+    print(f"  Val: {len(val_meta_with_labels)}")
+    print(f"  Test: {len(test_meta_with_labels)}")
+    
+    # Create a set of available (dicom_id, stay) pairs from medmod_pairs
+    available_pairs = set(zip(medmod_pairs['dicom_id'], medmod_pairs['stay']))
+    
+    # Filter train/val/test to only include available pairs
+    def filter_available_pairs(meta_df, available_pairs):
+        # Create pair column for matching
+        meta_df['pair_key'] = list(zip(meta_df['dicom_id'], meta_df['stay']))
+        # Filter to only available pairs
+        filtered_df = meta_df[meta_df['pair_key'].isin(available_pairs)].copy()
+        # Drop the temporary column
+        filtered_df = filtered_df.drop(columns=['pair_key'])
+        return filtered_df
+    
+    train_meta_with_labels = filter_available_pairs(train_meta_with_labels, available_pairs)
+    val_meta_with_labels = filter_available_pairs(val_meta_with_labels, available_pairs)
+    test_meta_with_labels = filter_available_pairs(test_meta_with_labels, available_pairs)
+    
+    print(f"After filtering with medmod_pairs:")
+    print(f"  Train: {len(train_meta_with_labels)}")
+    print(f"  Val: {len(val_meta_with_labels)}")
+    print(f"  Test: {len(test_meta_with_labels)}")
+    
+    # Step 6: Add image_path from medmod_pairs for direct image loading
+    medmod_pairs_subset = medmod_pairs[['dicom_id', 'stay', 'image_path', 'time_diff_minutes']].drop_duplicates()
+    
+    train_meta_with_labels = train_meta_with_labels.merge(
+        medmod_pairs_subset, 
+        how='inner', 
+        on=['dicom_id', 'stay']
+    )
+    val_meta_with_labels = val_meta_with_labels.merge(
+        medmod_pairs_subset, 
+        how='inner', 
+        on=['dicom_id', 'stay']
+    )
+    test_meta_with_labels = test_meta_with_labels.merge(
+        medmod_pairs_subset, 
+        how='inner', 
+        on=['dicom_id', 'stay']
+    )
+    
     return train_meta_with_labels, val_meta_with_labels, test_meta_with_labels
 
 

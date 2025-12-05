@@ -37,11 +37,20 @@ CLASSES = [
 # CXR datset
 # CXR dataset with resizing
 class MIMICCXR(Dataset):
-    def __init__(self, paths, args, transform=None, split='train'):
+    def __init__(self, paths, args, transform=None, split='train', image_path_map=None):
+        """
+        Args:
+            paths: List of image paths or filenames
+            args: Arguments
+            transform: Image transforms
+            split: 'train', 'val', or 'test'
+            image_path_map: Optional dict mapping dicom_id -> image_path
+        """
         self.data_dir = args.cxr_data_root
         self.args = args
         self.CLASSES = R_CLASSES
         self.basewidth = 512  # Target width for resizing
+        self.image_path_map = image_path_map  # New: for direct path lookup
         
         # Handle both full paths and filenames
         self.filenames_to_path = {}
@@ -69,45 +78,36 @@ class MIMICCXR(Dataset):
                                 if filename in self.filesnames_to_labels]
 
     def resize_image(self, img):
-        """
-        Resize image maintaining aspect ratio with basewidth=512
-        """
+        """Resize image maintaining aspect ratio with basewidth=512"""
         wpercent = (self.basewidth / float(img.size[0]))
         hsize = int((float(img.size[1]) * float(wpercent)))
         img_resized = img.resize((self.basewidth, hsize), Image.LANCZOS)
         return img_resized
 
     def load_and_resize_image(self, img_path):
-        """
-        Load image from path and resize it
-        """
+        """Load image from path and resize it"""
         # Handle relative vs absolute paths
         if not os.path.isabs(img_path):
-            # Check if it's already a relative path from root (starts with 'data/')
             if img_path.startswith('data/'):
-                # Use as-is if it's a full relative path
                 full_path = img_path
             else:
-                # Otherwise join with data_dir
                 full_path = os.path.join(self.data_dir, img_path)
         else:
             full_path = img_path
         
-        # Open and convert to RGB
         img = Image.open(full_path).convert('RGB')
-        
-        # Resize the image
         img = self.resize_image(img)
-        
         return img
 
     def __getitem__(self, index):
         if isinstance(index, str):
-            # Handle case where index is a filename/dicom_id
-            if index in self.filenames_to_path:
+            # Try image_path_map first (from medmod_pairs)
+            if self.image_path_map and index in self.image_path_map:
+                img_path = self.image_path_map[index]
+            elif index in self.filenames_to_path:
                 img_path = self.filenames_to_path[index]
             else:
-                raise ValueError(f"Filename {index} not found in filenames_to_path")
+                raise ValueError(f"Filename {index} not found")
             
             img = self.load_and_resize_image(img_path)
             labels = torch.tensor(self.filesnames_to_labels[index]).float()
@@ -116,9 +116,13 @@ class MIMICCXR(Dataset):
                 img = self.transform(img)
             return img, labels
           
-        # Handle integer index
         filename = self.filenames_loaded[index]
-        img_path = self.filenames_to_path[filename]
+        
+        # Try image_path_map first (from medmod_pairs)
+        if self.image_path_map and filename in self.image_path_map:
+            img_path = self.image_path_map[filename]
+        else:
+            img_path = self.filenames_to_path[filename]
         
         img = self.load_and_resize_image(img_path)
         labels = torch.tensor(self.filesnames_to_labels[filename]).float()
