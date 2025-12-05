@@ -310,7 +310,7 @@ def test(model, args, test_loader, **kwargs):
     if 'logger' not in kwargs:
         trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir))
     else:
-        trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir), logger=logger)
+        trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir), logger=None)
     
     trainer.test(model, test_loader)
     
