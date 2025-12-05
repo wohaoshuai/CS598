@@ -39,8 +39,16 @@ class MIMICCXR(Dataset):
     def __init__(self, paths, args, transform=None, split='train'):
         self.data_dir = args.cxr_data_root
         self.args = args
-        self.CLASSES  = R_CLASSES
-        self.filenames_to_path = {path.split('/')[-1].split('.')[0]: path for path in paths}
+        self.CLASSES = R_CLASSES
+        
+        # Handle both full paths and filenames
+        self.filenames_to_path = {}
+        for path in paths:
+            if '/' in path:  # Full path
+                filename = path.split('/')[-1].split('.')[0]
+                self.filenames_to_path[filename] = path
+            else:  # Just filename
+                self.filenames_to_path[path.split('.')[0]] = path
 
         metadata = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-metadata.csv')
         labels = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-chexpert.csv')
@@ -49,27 +57,40 @@ class MIMICCXR(Dataset):
         
         splits = pd.read_csv(f'{self.data_dir}/mimic-cxr-ehr-split.csv')
 
-
-        metadata_with_labels = metadata.merge(labels[self.CLASSES+['study_id'] ], how='inner', on='study_id')
-
+        metadata_with_labels = metadata.merge(labels[self.CLASSES+['study_id']], how='inner', on='study_id')
 
         self.filesnames_to_labels = dict(zip(metadata_with_labels['dicom_id'].values, metadata_with_labels[self.CLASSES].values))
         self.filenames_loaded = splits.loc[splits.split==split]['dicom_id'].values
         self.transform = transform
-        self.filenames_loaded = [filename  for filename in self.filenames_loaded if filename in self.filesnames_to_labels]
+        self.filenames_loaded = [filename for filename in self.filenames_loaded if filename in self.filesnames_to_labels]
 
     def __getitem__(self, index):
-        # why was this commented out? 
         if isinstance(index, str):
-            img = Image.open(self.filenames_to_path[index]).convert('RGB')
+            # Handle case where full path might be stored
+            if index in self.filenames_to_path:
+                img_path = self.filenames_to_path[index]
+            else:
+                # Fallback to constructing path
+                img_path = os.path.join(self.data_dir, self.filenames_to_path.get(index, ''))
+            
+            # Handle relative vs absolute paths
+            if not os.path.isabs(img_path) and not img_path.startswith('data/'):
+                img_path = os.path.join(self.data_dir, img_path)
+                
+            img = Image.open(img_path).convert('RGB')
             labels = torch.tensor(self.filesnames_to_labels[index]).float()
             if self.transform is not None:
                 img = self.transform(img)
             return img, labels
           
-        
         filename = self.filenames_loaded[index]
-        img = Image.open(self.filenames_to_path[filename]).convert('RGB')
+        img_path = self.filenames_to_path[filename]
+        
+        # Handle relative vs absolute paths
+        if not os.path.isabs(img_path) and not img_path.startswith('data/'):
+            img_path = os.path.join(self.data_dir, img_path)
+            
+        img = Image.open(img_path).convert('RGB')
         labels = torch.tensor(self.filesnames_to_labels[filename]).float()
 
         if self.transform is not None:

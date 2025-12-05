@@ -9,6 +9,12 @@ from random import choice
 from torch.utils.data import DataLoader
 from .datasets import MIMICCXR, EHRdataset, MIMIC_CXR_EHR
 
+
+R_CLASSES  = ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Edema',
+       'Enlarged Cardiomediastinum', 'Fracture', 'Lung Lesion',
+       'Lung Opacity', 'No Finding', 'Pleural Effusion', 'Pleural Other',
+       'Pneumonia', 'Pneumothorax', 'Support Devices']
+
 # chunk-wise reading
 def read_chunk(reader, chunk_size):
     data = {}
@@ -372,17 +378,13 @@ def load_cxr_ehr(args,
                  ehr_test_ds, 
                  cxr_test_ds):
 
-    train_meta_with_labels, val_meta_with_labels, test_meta_with_labels = get_final_meta(args) 
+    # Load the medmod_pairs.csv instead of get_final_meta
+    train_meta_with_labels, val_meta_with_labels, test_meta_with_labels = load_medmod_pairs(args)
 
     # Multimodal class
     train_ds = MIMIC_CXR_EHR(args, train_meta_with_labels, ehr_train_ds, cxr_train_ds)
-    # total_labels_count = count_labels(train_ds) # this does nothing
-
     val_ds = MIMIC_CXR_EHR(args, val_meta_with_labels, ehr_val_ds, cxr_val_ds, split='val')
-    # total_labels_count = count_labels(val_ds) # this does nothing
-
     test_ds = MIMIC_CXR_EHR(args, test_meta_with_labels, ehr_test_ds, cxr_test_ds, split='test')
-    # total_labels_count = count_labels(test_ds) # this does nothing
 
     collate = my_collate_fusion
     train_dl = DataLoader(train_ds, args.batch_size, shuffle=True, collate_fn=collate, drop_last=True) 
@@ -390,6 +392,68 @@ def load_cxr_ehr(args,
     test_dl = DataLoader(test_ds, args.batch_size, shuffle=False, collate_fn=collate, drop_last=False)
     return train_dl, val_dl, test_dl
 
+def load_medmod_pairs(args):
+    """
+    Load medmod_pairs.csv and split into train/val/test based on episode files
+    """
+    import pandas as pd
+    
+    # Load the pairs CSV
+    pairs_df = pd.read_csv(args.medmod_pairs_path)  # You'll need to add this path to args
+    
+    # Extract dicom_id from image_path (last part before .jpg)
+    pairs_df['dicom_id'] = pairs_df['image_path'].apply(
+        lambda x: x.split('/')[-1].replace('.jpg', '')
+    )
+    
+    # Determine split based on episode_file path (contains 'train', 'val', or 'test')
+    def get_split(episode_file):
+        if '/train/' in episode_file:
+            return 'train'
+        elif '/val/' in episode_file:
+            return 'val'
+        elif '/test/' in episode_file:
+            return 'test'
+        else:
+            # Fallback: check if episode file exists in known splits
+            return None
+    
+    pairs_df['split'] = pairs_df['episode_file'].apply(get_split)
+    
+    # Load CXR labels from metadata
+    cxr_data_dir = args.cxr_data_root
+    labels = pd.read_csv(f'{cxr_data_dir}/mimic-cxr-2.0.0-chexpert.csv')
+    labels[R_CLASSES] = labels[R_CLASSES].fillna(0)
+    labels = labels.replace(-1.0, 0.0)
+    
+    # Merge with CXR labels
+    pairs_with_labels = pairs_df.merge(
+        labels[R_CLASSES + ['study_id']], 
+        how='inner', 
+        on='study_id'
+    )
+    
+    # Add columns needed for MIMIC_CXR_EHR dataset
+    # Extract stay filename from episode_file
+    pairs_with_labels['stay'] = pairs_with_labels['episode_file']
+    
+    # Calculate time boundaries for EHR data extraction
+    # Convert time_diff from minutes to hours
+    pairs_with_labels['time_diff_hours'] = pairs_with_labels['time_diff_minutes'] / 60.0
+    
+    # For paired data, we need to determine the time window
+    # Assuming the CXR was taken at a specific time relative to admission
+    # You may need to adjust this logic based on your specific requirements
+    pairs_with_labels['period_length'] = pairs_with_labels['time_diff_hours'].abs()
+    pairs_with_labels['upper'] = pairs_with_labels['period_length']
+    pairs_with_labels['lower'] = 0.0  # Start from admission
+    
+    # Split into train/val/test
+    train_meta = pairs_with_labels[pairs_with_labels['split'] == 'train'].reset_index(drop=True)
+    val_meta = pairs_with_labels[pairs_with_labels['split'] == 'val'].reset_index(drop=True)
+    test_meta = pairs_with_labels[pairs_with_labels['split'] == 'test'].reset_index(drop=True)
+    
+    return train_meta, val_meta, test_meta
 
 
 
