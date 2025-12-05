@@ -61,6 +61,7 @@ class MIMICCXR(Dataset):
     def __getitem__(self, index):
         # why was this commented out? 
         if isinstance(index, str):
+            print('filenames_to_path', self.filenames_to_path, index)
             img = Image.open(self.filenames_to_path[index]).convert('RGB')
             labels = torch.tensor(self.filesnames_to_labels[index]).float()
             if self.transform is not None:
