@@ -40,8 +40,8 @@ class MIMICCXR(Dataset):
         self.data_dir = args.cxr_data_root
         self.args = args
         self.CLASSES  = R_CLASSES
-        print('paths', paths)
         self.filenames_to_path = {path.split('/')[-1].split('.')[0]: path for path in paths}
+        print('paths', self.filenames_to_path)
 
         metadata = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-metadata.csv')
         labels = pd.read_csv(f'{self.data_dir}/mimic-cxr-2.0.0-chexpert.csv')
