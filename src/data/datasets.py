@@ -35,11 +35,13 @@ CLASSES = [
        'Shock']
 
 # CXR datset
+# CXR dataset with resizing
 class MIMICCXR(Dataset):
     def __init__(self, paths, args, transform=None, split='train'):
         self.data_dir = args.cxr_data_root
         self.args = args
         self.CLASSES = R_CLASSES
+        self.basewidth = 512  # Target width for resizing
         
         # Handle both full paths and filenames
         self.filenames_to_path = {}
@@ -59,38 +61,66 @@ class MIMICCXR(Dataset):
 
         metadata_with_labels = metadata.merge(labels[self.CLASSES+['study_id']], how='inner', on='study_id')
 
-        self.filesnames_to_labels = dict(zip(metadata_with_labels['dicom_id'].values, metadata_with_labels[self.CLASSES].values))
+        self.filesnames_to_labels = dict(zip(metadata_with_labels['dicom_id'].values, 
+                                             metadata_with_labels[self.CLASSES].values))
         self.filenames_loaded = splits.loc[splits.split==split]['dicom_id'].values
         self.transform = transform
-        self.filenames_loaded = [filename for filename in self.filenames_loaded if filename in self.filesnames_to_labels]
+        self.filenames_loaded = [filename for filename in self.filenames_loaded 
+                                if filename in self.filesnames_to_labels]
+
+    def resize_image(self, img):
+        """
+        Resize image maintaining aspect ratio with basewidth=512
+        """
+        wpercent = (self.basewidth / float(img.size[0]))
+        hsize = int((float(img.size[1]) * float(wpercent)))
+        img_resized = img.resize((self.basewidth, hsize), Image.LANCZOS)
+        return img_resized
+
+    def load_and_resize_image(self, img_path):
+        """
+        Load image from path and resize it
+        """
+        # Handle relative vs absolute paths
+        if not os.path.isabs(img_path):
+            # Check if it's already a relative path from root (starts with 'data/')
+            if img_path.startswith('data/'):
+                # Use as-is if it's a full relative path
+                full_path = img_path
+            else:
+                # Otherwise join with data_dir
+                full_path = os.path.join(self.data_dir, img_path)
+        else:
+            full_path = img_path
+        
+        # Open and convert to RGB
+        img = Image.open(full_path).convert('RGB')
+        
+        # Resize the image
+        img = self.resize_image(img)
+        
+        return img
 
     def __getitem__(self, index):
         if isinstance(index, str):
-            # Handle case where full path might be stored
+            # Handle case where index is a filename/dicom_id
             if index in self.filenames_to_path:
                 img_path = self.filenames_to_path[index]
             else:
-                # Fallback to constructing path
-                img_path = os.path.join(self.data_dir, self.filenames_to_path.get(index, ''))
+                raise ValueError(f"Filename {index} not found in filenames_to_path")
             
-            # Handle relative vs absolute paths
-            if not os.path.isabs(img_path) and not img_path.startswith('data/'):
-                img_path = os.path.join(self.data_dir, img_path)
-                
-            img = Image.open(img_path).convert('RGB')
+            img = self.load_and_resize_image(img_path)
             labels = torch.tensor(self.filesnames_to_labels[index]).float()
+            
             if self.transform is not None:
                 img = self.transform(img)
             return img, labels
           
+        # Handle integer index
         filename = self.filenames_loaded[index]
         img_path = self.filenames_to_path[filename]
         
-        # Handle relative vs absolute paths
-        if not os.path.isabs(img_path) and not img_path.startswith('data/'):
-            img_path = os.path.join(self.data_dir, img_path)
-            
-        img = Image.open(img_path).convert('RGB')
+        img = self.load_and_resize_image(img_path)
         labels = torch.tensor(self.filesnames_to_labels[filename]).float()
 
         if self.transform is not None:
@@ -99,8 +129,6 @@ class MIMICCXR(Dataset):
 
     def __len__(self):
         return len(self.filenames_loaded)
-
-
 ############################################################################
 # EHR dataset
 class EHRdataset(Dataset):
