@@ -399,7 +399,7 @@ def load_medmod_pairs(args):
     import pandas as pd
     
     # Load the pairs CSV
-    pairs_df = pd.read_csv(args.medmod_pairs_path)  # You'll need to add this path to args
+    pairs_df = pd.read_csv(args.pairs_csv)  # You'll need to add this path to args
     
     # Extract dicom_id from image_path (last part before .jpg)
     pairs_df['dicom_id'] = pairs_df['image_path'].apply(
