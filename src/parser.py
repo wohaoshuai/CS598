@@ -98,5 +98,6 @@ def initiate_parsing():
 
     #For dataloader changes
     parser.add_argument('--tmp_dir', type=str, default=None, help='temporary directory to store data for current node')
+    parser.add_argument('--pairs_csv', type=str, default=None, help='for manually paired data')
    
     return parser
