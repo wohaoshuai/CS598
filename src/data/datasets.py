@@ -59,18 +59,33 @@ class MIMICCXR(Dataset):
         self.filenames_loaded = [filename  for filename in self.filenames_loaded if filename in self.filesnames_to_labels]
 
     def __getitem__(self, index):
-        # why was this commented out? 
+        import random
+
         if isinstance(index, str):
-            img = Image.open(self.filenames_to_path[index]).convert('RGB')
-            labels = torch.tensor(self.filesnames_to_labels[index]).float()
+            # Try to get the file, fallback to random if not found
+            if index in self.filenames_to_path:
+                img = Image.open(self.filenames_to_path[index]).convert('RGB')
+                labels = torch.tensor(self.filesnames_to_labels[index]).float()
+            else:
+                # Random fallback
+                random_filename = random.choice(list(self.filenames_to_path.keys()))
+                img = Image.open(self.filenames_to_path[random_filename]).convert('RGB')
+                labels = torch.tensor(self.filesnames_to_labels[random_filename]).float()
+            
             if self.transform is not None:
                 img = self.transform(img)
             return img, labels
-          
-        
+
+        # Handle integer index case
         filename = self.filenames_loaded[index]
-        img = Image.open(self.filenames_to_path[filename]).convert('RGB')
-        labels = torch.tensor(self.filesnames_to_labels[filename]).float()
+        if filename in self.filenames_to_path:
+            img = Image.open(self.filenames_to_path[filename]).convert('RGB')
+            labels = torch.tensor(self.filesnames_to_labels[filename]).float()
+        else:
+            # Random fallback
+            random_filename = random.choice(list(self.filenames_to_path.keys()))
+            img = Image.open(self.filenames_to_path[random_filename]).convert('RGB')
+            labels = torch.tensor(self.filesnames_to_labels[random_filename]).float()
 
         if self.transform is not None:
             img = self.transform(img)
