@@ -10,7 +10,7 @@ python src/models/selfsupervised/trainers/align_trainer.py \
     --lr 0.00006026 \
     --num_gpu 1 \
     --pretrain_type simclr \
-    --mode test \
+    --mode eval \
     --fusion_type None \
     --tag align_train_phenotyping \
     --save_dir MedMod/src/checkpoints/pretrain/models \
