@@ -1,4 +1,4 @@
-python src/models/selfsupervised/trainers/vicreg_trainer.py \
+python src/models/selfsupervised/trainers/simclr_trainer.py \
     --device 0 \
     --vision-backbone resnet34 \
     --job_number 123456 \
@@ -13,5 +13,4 @@ python src/models/selfsupervised/trainers/vicreg_trainer.py \
     --pretrain_type simclr \
     --mode train \
     --fusion_type None \
-    --pairs_csv MedMod/medmod_pairs.csv \
     --save_dir MedMod/src/checkpoints/pretrain/models

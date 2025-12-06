@@ -6,7 +6,7 @@ python src/models/selfsupervised/trainers/align_trainer.py \
     --epochs 300 \
     --transforms_cxr simclrv2 \
     --temperature 0.01 \
-    --batch_size 256 \
+    --batch_size 5 \
     --lr 0.00006026 \
     --num_gpu 1 \
     --pretrain_type simclr \
