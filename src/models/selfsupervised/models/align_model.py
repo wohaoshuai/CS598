@@ -317,8 +317,8 @@ def train(model, args, train_loader, **kwargs):
 def test(model, args, test_loader, trainer=None, **kwargs):
     if trainer:
         trainer.test(model, test_loader)
-    
-    return trainer 
+        return trainer 
+
     if 'logger' not in kwargs:
         trainer = pl.Trainer(default_root_dir=os.path.join(args.save_dir))
     else:
