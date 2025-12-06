@@ -172,6 +172,11 @@ class ALIGNTrainer(pl.LightningModule):
     def test_step(self, batch, batch_idx):
         ehr, cxr, _, _, seq_lengths, _ = batch
         
+        # Convert to tensors (similar to what _swap does)
+        ehr = torch.tensor(ehr, dtype=torch.float32)
+        cxr = torch.tensor(cxr, dtype=torch.float32)
+        seq_lengths = torch.tensor(seq_lengths, dtype=torch.float32)
+        
         embeddings = self.model(cxr.cuda(), ehr.cuda(), seq_lengths.to('cpu'))
         
         loss = self.criterion(embeddings['cxr'], embeddings['ehr'])
