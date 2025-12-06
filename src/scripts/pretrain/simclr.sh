@@ -17,5 +17,4 @@ python src/models/selfsupervised/trainers/vicreg_trainer.py \
     --pretrain_type simclr \
     --mode train \
     --fusion_type None \
-    --pairs_csv MedMod/medmod_pairs.csv \
     --save_dir MedMod/src/checkpoints/pretrain/models
