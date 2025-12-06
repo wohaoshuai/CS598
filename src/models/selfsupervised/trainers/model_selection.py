@@ -211,7 +211,7 @@ if __name__ == '__main__':
         # [1] Train LR model and store best checkpoint of the LR model based on validation AUROC 
         print('==> training')        
         print(len(train_dl))
-        trainer = train(model, args, train_dl_pr, val_dl_pr, logger=neptune_logger, load_state_prefix=args.load_state_simclr)
+        trainer = train(model, args, train_dl_pr, val_dl_pr, logger=None, load_state_prefix=args.load_state_simclr)
         
         print("Best model score = ", trainer.checkpoint_callback.best_model_score)
         print("Best model path = ", trainer.checkpoint_callback.best_model_path)
