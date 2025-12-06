@@ -168,8 +168,16 @@ class ALIGNTrainer(pl.LightningModule):
         self.log("train_loss", loss, on_epoch= True,on_step=True)
         
         return loss
-
-
+    
+    def test_step(self, batch, batch_idx):
+        ehr, cxr, _, _, seq_lengths, _ = batch
+        
+        embeddings = self.model(cxr.cuda(), ehr.cuda(), seq_lengths.to('cpu'))
+        
+        loss = self.criterion(embeddings['cxr'], embeddings['ehr'])
+        self.log("test_loss", loss, on_epoch=True, on_step=False)
+        
+        return loss
 
     def configure_optimizers(self):
 
