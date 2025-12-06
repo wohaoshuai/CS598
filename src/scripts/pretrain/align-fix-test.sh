@@ -1,0 +1,17 @@
+python src/models/selfsupervised/trainers/align_trainer.py \
+    --device 0 \
+    --vision-backbone resnet34 \
+    --job_number 123456 \
+    --file_name ALIGN-123456 \
+    --epochs 300 \
+    --transforms_cxr simclrv2 \
+    --temperature 0.01 \
+    --batch_size 5 \
+    --lr 0.00006026 \
+    --num_gpu 1 \
+    --pretrain_type simclr \
+    --mode test \
+    --fusion_type None \
+    --tag align_train_phenotyping \
+    --save_dir MedMod/src/checkpoints/pretrain/models \
+    --tmp_dir /home/user/fork/CS598/data/mimic-cxr-jpg
