@@ -98,10 +98,10 @@ if __name__ == '__main__':
 
     if args.mode == 'train':
         print('==> training')        
-        train(model, args, train_dl, val_dl,
+        trainer = train(model, args, train_dl, val_dl,
             logger=neptune_logger,
             load_state_prefix=args.load_state_simclr)
-        test(model, args, test_dl, logger=neptune_logger)
+        test(model, args, test_dl, logger=neptune_logger, trainer=trainer)
         
     elif args.mode == 'eval':
         if args.eval_set=='val':

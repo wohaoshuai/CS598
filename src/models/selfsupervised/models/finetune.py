@@ -438,6 +438,7 @@ def train(model, args, train_loader, val_loader, **kwargs):
     model_parameters = count_parameters(model)
     print("Model parameters: ", model_parameters)
     trainer.fit(model, train_loader, val_loader)
+    trainer.test(model, test_loader)
         
     return trainer
 
