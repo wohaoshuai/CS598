@@ -170,23 +170,30 @@ class ALIGNTrainer(pl.LightningModule):
         return loss
     
     def test_step(self, batch, batch_idx):
+        mode = 'test'
+        
         ehr, cxr, _, _, seq_lengths, _ = batch
         
-        ehr = torch.tensor(ehr, dtype=torch.float32, device=self.device)
-        cxr = torch.tensor(cxr, dtype=torch.float32, device=self.device)
-        seq_lengths = torch.tensor(seq_lengths, dtype=torch.float32)
+        # Convert to tensors and move to device (following the pattern from examples)
+        ehr = torch.from_numpy(ehr).float()
+        ehr = ehr.to(self.device)
+        cxr = cxr.to(self.device)  # Assuming cxr is already a tensor from dataloader
         
-        embeddings = self.model(cxr, ehr, seq_lengths.to('cpu'))
+        # Forward pass
+        embeddings = self.model(cxr, ehr, seq_lengths)
         
+        # Compute contrastive loss
         loss = self.criterion(embeddings['cxr'], embeddings['ehr'])
         
-        # Ensure loss is a scalar tensor
-        if loss.dim() > 0:
-            loss = loss.mean()
+        # Log loss
+        self.log(mode + '_loss', loss, on_step=False, on_epoch=True)
         
-        self.log("test_loss", loss, on_epoch=True, on_step=False)
-        
-        return {"test_loss": loss}  # Return as dict
+        # Return dict with loss and embeddings (detached for memory efficiency)
+        return {
+            'loss': loss,
+            'cxr_embeddings': embeddings['cxr'].detach().cpu(),
+            'ehr_embeddings': embeddings['ehr'].detach().cpu()
+        }
 
     def configure_optimizers(self):
 
