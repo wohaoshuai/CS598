@@ -172,12 +172,17 @@ class ALIGNTrainer(pl.LightningModule):
     def test_step(self, batch, batch_idx):
         ehr, cxr, _, _, seq_lengths, _ = batch
         
-        # Convert to tensors (similar to what _swap does)
+        # Convert to tensors
         ehr = torch.tensor(ehr, dtype=torch.float32)
         cxr = torch.tensor(cxr, dtype=torch.float32)
         seq_lengths = torch.tensor(seq_lengths, dtype=torch.float32)
         
-        embeddings = self.model(cxr.cuda(), ehr.cuda(), seq_lengths.to('cpu'))
+        # Move to the same device as the model
+        cxr = cxr.to(self.device)
+        ehr = ehr.to(self.device)
+        seq_lengths = seq_lengths.to('cpu')  # Keep on CPU as required by pack_padded_sequence
+        
+        embeddings = self.model(cxr, ehr, seq_lengths)
         
         loss = self.criterion(embeddings['cxr'], embeddings['ehr'])
         self.log("test_loss", loss, on_epoch=True, on_step=False)
