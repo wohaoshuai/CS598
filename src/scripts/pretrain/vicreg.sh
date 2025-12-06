@@ -13,4 +13,5 @@ python src/models/selfsupervised/trainers/simclr_trainer.py \
     --pretrain_type simclr \
     --mode train \
     --fusion_type None \
-    --save_dir MedMod/src/checkpoints/pretrain/models
+    --save_dir MedMod/src/checkpoints/pretrain/models \
+    --tmp_dir /home/user/fork/CS598/data/mimic-cxr-jpg
