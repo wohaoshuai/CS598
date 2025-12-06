@@ -102,7 +102,7 @@ if __name__ == '__main__':
         train(model, args, train_dl, val_dl,
             logger=neptune_logger,
             load_state_prefix=args.load_state_simclr)
-        test(model, args, test_dl, logger=neptune_logger)
+        test(model, args, test_dl, logger=None)
         
     elif args.mode == 'eval':
         if args.eval_set=='val':
@@ -113,7 +113,7 @@ if __name__ == '__main__':
             test_dl=train_dl
         else:
             print('==> evaluating on the test set')
-        test(model, args, test_dl, logger=neptune_logger)
+        test(model, args, test_dl, logger=None)
                 
     else:
         raise ValueError("Incorrect value for args.mode") 
