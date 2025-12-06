@@ -186,7 +186,7 @@ class ALIGNTrainer(pl.LightningModule):
         loss = self.criterion(embeddings['cxr'], embeddings['ehr'])
         
         # Log loss
-        self.log(mode + '_loss', loss, on_step=False, on_epoch=True)
+        # self.log(mode + '_loss', loss, on_step=False, on_epoch=True)
         
         # Return dict with loss and embeddings (detached for memory efficiency)
         return {
